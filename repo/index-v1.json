@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1504273070342,
+    "timestamp": 1478208530748,
     "version": 18,
     "maxage": 60,
     "name": "Guardian Project Official Releases",
@@ -815,7 +815,7 @@
       "name": "Orbot",
       "sourceCode": "https://gitweb.torproject.org/orbot.git",
       "added": 1374465600000,
-      "icon": "org.torproject.android.15420001.png",
+      "icon": "org.torproject.android.15510002.png",
       "packageName": "org.torproject.android",
       "lastUpdated": 1499453770291,
       "localized": {
@@ -2062,10 +2062,11 @@
     ],
     "org.torproject.android": [
       {
-        "added": 1499453767075,
-        "apkName": "Orbot-v15.4.1-RC-1-MULTI.apk",
-        "hash": "b38683345188f6fbfdfd4d5db03f0a2d8cf510c320d056e63c4aff8824d267f3",
+        "added": 1478208508131,
+        "apkName": "Orbot-15.5.1-RC-2-multi-SDK16.apk",
+        "hash": "b09aa9435e0ba193dfa8a631d1216d81bae7c5caf61db4aef8be5a7533e89807",
         "hashType": "sha256",
+        "maxSdkVersion": "23",
         "minSdkVersion": "16",
         "nativecode": [
           "armeabi",
@@ -2073,7 +2074,42 @@
         ],
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
-        "size": 13277498,
+        "size": 13163024,
+        "targetSdkVersion": "23",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ]
+        ],
+        "versionCode": 15510001,
+        "versionName": "15.5.1-RC-2-multi-SDK16"
+      },
+      {
+        "added": 1478208509779,
+        "apkName": "Orbot-15.5.1-RC-2-multi-SDK23.apk",
+        "hash": "392448d46c63781f8122c41fa6020e7c9324dee737a8bf0d8758781eeaed2254",
+        "hashType": "sha256",
+        "minSdkVersion": "23",
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "size": 13118935,
         "targetSdkVersion": "25",
         "uses-permission": [
           [
@@ -2109,8 +2145,8 @@
             null
           ]
         ],
-        "versionCode": 15410000,
-        "versionName": "15.4.1-RC-1-multi"
+        "versionCode": 15510002,
+        "versionName": "15.5.1-RC-2-multi-SDK23"
       },
       {
         "added": 1499453768713,
@@ -2162,42 +2198,6 @@
         ],
         "versionCode": 15420001,
         "versionName": "15.4.2-RC-1-multi-SDK23"
-      },
-      {
-        "added": 1499453770291,
-        "apkName": "Orbot-v15.4.2-RC-1-multi-minimalperm-SDK16.apk",
-        "hash": "1394e73683cb3933233306946aa503443b5628680a9906a4528832aba56afc37",
-        "hashType": "sha256",
-        "maxSdkVersion": "23",
-        "minSdkVersion": "16",
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "org.torproject.android",
-        "sig": "8bd7e51b479aeba908ff46ada3305a29",
-        "size": 13278405,
-        "targetSdkVersion": "23",
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ]
-        ],
-        "versionCode": 15420000,
-        "versionName": "15.4.2-RC-1-multi-SDK16"
       }
     ],
     "info.guardianproject.orfox": [
