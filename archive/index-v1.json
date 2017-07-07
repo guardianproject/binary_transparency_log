@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1494036846808,
+    "timestamp": 1499454034521,
     "version": 18,
     "maxage": 60,
     "name": "Guardian Project Archive",
@@ -11,8 +11,8 @@
       "http://bdf2wcxujkg6qqff.onion/fdroid/archive",
       "https://guardianproject.info/fdroid/archive",
       "https://s3.amazonaws.com/guardianproject/fdroid/archive",
-      "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/",
-      "https://gitlab.com/guardianproject/fdroid-repo/raw/master/fdroid/"
+      "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/archive",
+      "https://guardianproject.gitlab.io/fdroid-repo/fdroid/archive"
     ]
   },
   "requests": {
@@ -22,46 +22,6 @@
     "uninstall": []
   },
   "apps": [
-    {
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
-      "categories": [
-        "Multimedia",
-        "Security",
-        "GuardianProject"
-      ],
-      "suggestedVersionCode": "999999999",
-      "description": "<p>Plugin for <a href=\"fdroid.app:info.guardianproject.otr.app.im\">ChatSecure</a> to support for core emoji input and display.  Based on \"Phantom Open Emoji\" project.</p>",
-      "issueTracker": "https://dev.guardianproject.info/projects/chatsecure/issues",
-      "license": "SIL Open Font License, MIT License and the CC 3.0 License [CC-By with attribution requirement waived]",
-      "sourceCode": "https://github.com/guardianproject/ChatSecureVoicePlugin",
-      "summary": "ChatSecure Open Emoji Plugin",
-      "added": 1385960400000,
-      "icon": "info.guardianproject.chatsecure.emoji.core.1.png",
-      "packageName": "info.guardianproject.chatsecure.emoji.core",
-      "lastUpdated": 1385960400000
-    },
-    {
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
-      "categories": [
-        "Security",
-        "GuardianProject"
-      ],
-      "suggestedVersionCode": "999999999",
-      "description": "<p>Android 4+ allows you to disable certificates from the system Settings and root isn't required, so try that first if you want to manually mess with the certificates. The app won't work with Android 4+ anyway.</p><p>An app to manage security certificates on your phone also containing a version of the Android CACert keystore derived from Mozilla. If a certificate has recently become untrusted you can either install an update to this app or you can backup and remove certificates by yourself.</p><p>Requires root: Yes, it writes to the system partition. You will need a device that has the \u2018grep\u2019 command on it (via busybox: present on most custom ROMs). If the \u2018save\u2019 doesn\u2019t work, then you will need to make your /system partition read-write by using a file explorer like <a href=\"fdroid.app:com.ghostsq.commander\">Ghost Commander</a> or via a command in <a href=\"fdroid.app:jackpal.androidterm\">Terminal Emulator</a>.</p>",
-      "issueTracker": "https://github.com/guardianproject/cacert/issues",
-      "license": "GPLv3",
-      "name": "CACertMan",
-      "sourceCode": "https://github.com/guardianproject/cacert",
-      "summary": "Disable untrusted certificates",
-      "added": 1376884800000,
-      "icon": "info.guardianproject.cacert.4.png",
-      "packageName": "info.guardianproject.cacert",
-      "lastUpdated": 1383192000000
-    },
     {
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
@@ -360,27 +320,6 @@
       "authorName": "Guardian Project",
       "authorWebSite": " https://guardianproject.info",
       "categories": [
-        "Multimedia",
-        "Security",
-        "GuardianProject"
-      ],
-      "suggestedVersionCode": "999999999",
-      "description": "<p>This is a plugin for <a href=\"fdroid.app:info.guardianproject.otr.app.im\">ChatSecure</a>. It does not have any function on its own.  For Your Ears Only... completely private, end-to-end encryption voice message recording, sending, receiving and playback.</p><p> * For use with <a href=\"fdroid.app:info.guardianproject.otr.app.im\">ChatSecure</a>'s encrypted \"Off-the-record\" data stream  * Works over Tor - the ONLY Onion-routed voice messaging system, for total anonymity</p>",
-      "issueTracker": "https://dev.guardianproject.info/projects/chatsecure/issues",
-      "license": "SIL Open Font License, MIT License and the CC 3.0 License [CC-By with attribution requirement waived]",
-      "name": "ChatSecureVoicePlugin",
-      "sourceCode": "https://github.com/guardianproject/ChatSecureVoicePlugin",
-      "summary": "ChatSecure Voice Messaging",
-      "added": 1386910800000,
-      "icon": "info.guardianproject.soundrecorder.2.png",
-      "packageName": "info.guardianproject.soundrecorder",
-      "lastUpdated": 1386910800000
-    },
-    {
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
-      "categories": [
         "Development",
         "GuardianProject"
       ],
@@ -422,26 +361,6 @@
       "authorName": "Guardian Project",
       "authorWebSite": " https://guardianproject.info",
       "categories": [
-        "Office",
-        "GuardianProject"
-      ],
-      "suggestedVersionCode": "999999999",
-      "description": "<p>Simple app for taking notes that encrypts everything behind a password.</p><p>Status: Beta.</p>",
-      "issueTracker": "https://github.com/guardianproject/notecipher/issues",
-      "license": "Apache2",
-      "name": "NoteCipher",
-      "sourceCode": "https://github.com/guardianproject/notecipher",
-      "summary": "Notepad with lock",
-      "added": 1358312400000,
-      "icon": "info.guardianproject.notepadbot.12.png",
-      "packageName": "info.guardianproject.notepadbot",
-      "lastUpdated": 1394424000000
-    },
-    {
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
-      "categories": [
         "Security",
         "Internet",
         "GuardianProject"
@@ -455,9 +374,9 @@
       "name": "Orbot",
       "sourceCode": "https://gitweb.torproject.org/orbot.git",
       "added": 1374465600000,
-      "icon": "org.torproject.android.15208000.png",
+      "icon": "org.torproject.android.15420001.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1480654800000,
+      "lastUpdated": 1499453770291,
       "localized": {
         "af": {
           "summary": "Verbeter jou privaatheid, breek deur middel van firewalls en meer veilig te komm"
@@ -597,159 +516,6 @@
           "summary": "OrbotProxy qua Tor\n",
           "description": "Orbot\nProxy qua Tor\nOrbot l\u00e0 m\u1ed9t \u1ee9ng d\u1ee5ng proxy mi\u1ec5n ph\u00ed n\u00f3 trao quy\u1ec1n cho c\u00e1c \u1ee9ng d\u1ee5ng kh\u00e1c \u0111\u1ec3 s\u1eed d\u1ee5ng Internet an to\u00e0n h\u01a1n. Orbot s\u1eed d\u1ee5ng Tor \u0111\u1ec3 m\u00e3 h\u00f3a l\u01b0u l\u01b0\u1ee3ng truy c\u1eadp Internet c\u1ee7a b\u1ea1n v\u00e0 sau \u0111\u00f3 gi\u1ea5u n\u00f3 b\u1eb1ng c\u00e1ch chuy\u1ec3n qua m\u1ed9t lo\u1ea1t c\u00e1c m\u00e1y t\u00ednh tr\u00ean to\u00e0n th\u1ebf gi\u1edbi. Tor l\u00e0 ph\u1ea7n m\u1ec1m mi\u1ec5n ph\u00ed v\u00e0 m\u1ed9t m\u1ea1ng m\u1edf gi\u00fap b\u1ea1n b\u1ea3o v\u1ec7 ch\u1ed1ng l\u1ea1i m\u1ed9t h\u00ecnh th\u1ee9c gi\u00e1m s\u00e1t m\u1ea1ng \u0111e d\u1ecda t\u1ef1 do c\u00e1 nh\u00e2n v\u00e0 ri\u00eang t\u01b0, ho\u1ea1t \u0111\u1ed9ng b\u00ed m\u1eadt kinh doanh v\u00e0 c\u00e1c m\u1ed1i quan h\u1ec7, v\u00e0 an ninh qu\u1ed1c gia \u0111\u01b0\u1ee3c g\u1ecdi l\u00e0 ph\u00e2n t\u00edch l\u01b0u l\u01b0\u1ee3ng truy c\u1eadp.\n\nOrbot l\u00e0 \u1ee9ng d\u1ee5ng duy nh\u1ea5t t\u1ea1o ra m\u1ed9t k\u1ebft n\u1ed1i internet th\u1ef1c s\u1ef1. Nh\u01b0 t\u1edd New York Times vi\u1ebft, \"khi m\u1ed9t th\u00f4ng tin li\u00ean l\u1ea1c \u0111\u1ebfn t\u1eeb Tor, b\u1ea1n c\u00f3 th\u1ec3 kh\u00f4ng bao gi\u1edd bi\u1ebft \u1edf \u0111\u00e2u ho\u1eb7c ai \u0111\u00f3 t\u1eeb \u0111\u00e2u.\" Tor gi\u00e0nh Electronic Frontier 2012 Foundation (EFF) gi\u1ea3i Ti\u00ean phong.\n\nCH\u1ea4P NH\u1eacN KH\u00d4NG THAY TH\u1ebe: Orbot l\u00e0 c\u00e1ch an to\u00e0n nh\u1ea5t \u0111\u1ec3 s\u1eed d\u1ee5ng Internet tr\u00ean Android. Giai \u0111o\u1ea1n. Orbot b\u1ecb tr\u1ea3 l\u1ea1i m\u00e3 h\u00f3a giao th\u00f4ng c\u1ee7a b\u1ea1n nhi\u1ec1u l\u1ea7n th\u00f4ng qua c\u00e1c m\u00e1y t\u00ednh tr\u00ean to\u00e0n th\u1ebf gi\u1edbi, thay v\u00ec k\u1ebft n\u1ed1i b\u1ea1n tr\u1ef1c ti\u1ebfp nh\u01b0 VPN v\u00e0 proxy. Qu\u00e1 tr\u00ecnh n\u00e0y m\u1ea5t l\u00e2u h\u01a1n m\u1ed9t ch\u00fat, nh\u01b0ng s\u1ef1 ri\u00eang t\u01b0 m\u1ea1nh m\u1ebd v\u00e0 b\u1ea3o v\u1ec7 danh t\u00ednh c\u00f3 s\u1eb5n l\u00e0 \u0111\u00e1ng \u0111\u1ec3 ch\u1edd \u0111\u1ee3i.\nC\u00c1 NH\u00c2N L\u01af\u1edaT WEB: S\u1eed d\u1ee5ng v\u1edbi Orweb, c\u00e1ch v\u00f4 danh nh\u1ea5t \u0111\u1ec3 truy c\u1eadp b\u1ea5t k\u1ef3 trang web, ngay c\u1ea3 khi n\u00f3 th\u01b0\u1eddng b\u1ecb ch\u1eb7n, theo d\u00f5i, ho\u1eb7c tr\u00ean c\u00e1c trang web \u1ea9n. V\u00e0o Orweb: https://goo.gl/s3mLa\nth\u00f4ng b\u00e1o chat c\u00e1 nh\u00e2n: S\u1eed d\u1ee5ng Gibberbot v\u1edbi Orbot \u0111\u1ec3 tr\u00f2 chuy\u1ec7n b\u00ed m\u1eadt v\u1edbi b\u1ea5t c\u1ee9 ai, b\u1ea5t c\u1ee9 n\u01a1i n\u00e0o mi\u1ec5n ph\u00ed. v\u00e0o Gibberbot: https://goo.gl/O3FfS\nB\u1ea2O M\u1eacT cho c\u00e1c \u1ee9ng d\u1ee5ng: B\u1ea5t k\u1ef3 \u1ee9ng d\u1ee5ng \u0111\u01b0\u1ee3c c\u00e0i \u0111\u1eb7t c\u00f3 th\u1ec3 s\u1eed d\u1ee5ng Tor n\u1ebfu n\u00f3 c\u00f3 m\u1ed9t t\u00ednh n\u0103ng proxy, s\u1eed d\u1ee5ng c\u00e1c thi\u1ebft l\u1eadp t\u00ecm th\u1ea5y \u1edf \u0111\u00e2y: https://goo.gl/2OA1y S\u1eed d\u1ee5ng Orbot v\u1edbi Twitter, ho\u1eb7c c\u1ed1 g\u1eafng web tin t\u00ecm ki\u1ebfm v\u1edbi DuckDuckGo:  https://goo.gl/lgh1p\nB\u1ea2O M\u1eacT CHO M\u1eccI NG\u01af\u1edcI: Tor c\u00f3 th\u1ec3 gi\u00fap b\u1ea1n b\u1ea3o m\u1eadt nghi\u00ean c\u1ee9u \u0111\u1ed1i th\u1ee7 c\u1ea1nh tranh, c\u00f3 \u0111\u01b0\u1ee3c xung quanh kh\u1ed1i Facebook t\u1ea1i tr\u01b0\u1eddng h\u1ecdc, ho\u1eb7c ph\u00e1 v\u1ee1 m\u1ed9t b\u1ee9c t\u01b0\u1eddng l\u1eeda \u0111\u1ec3 xem th\u1ec3 thao t\u1ea1i n\u01a1i l\u00e0m vi\u1ec7c.\nB\u1ea2O M\u1eacT MADE EASY: Ki\u1ec3m tra ni\u1ec1m vui c\u1ee7a ch\u00fang t\u00f4i, th\u00f4ng qua: https://guardianproject.info/howto/browsefreely\n\u0110\u00f3 l\u00e0 ch\u00ednh th\u1ee9c: \u0110\u00e2y l\u00e0 phi\u00ean b\u1ea3n ch\u00ednh th\u1ee9c c\u1ee7a d\u1ecbch v\u1ee5 \u0111\u1ecbnh tuy\u1ebfn h\u00e0nh Tor cho Android.\n\n***Mode Root chuy\u00ean s\u00e2u***\nPH\u01af\u01a0NG TH\u1ee8C UNIVERSAL: Orbot c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c c\u1ea5u h\u00ecnh \u0111\u1ec3 minh b\u1ea1ch t\u1ea5t c\u1ea3 c\u00e1c proxy c\u1ee7a l\u01b0u l\u01b0\u1ee3ng truy c\u1eadp Internet c\u1ee7a b\u1ea1n th\u00f4ng qua Tor. B\u1ea1n c\u0169ng c\u00f3 th\u1ec3 ch\u1ecdn c\u00e1c \u1ee9ng d\u1ee5ng c\u1ee5 th\u1ec3 m\u00e0 b\u1ea1n mu\u1ed1n s\u1eed d\u1ee5ng th\u00f4ng qua Tor.\n\n***Ch\u00fang t\u00f4i \u0111\u00f3n nh\u1eadn c\u00e1c ph\u1ea3n h\u1ed3i***\nCH\u00daNG T\u00d4I L\u00c0 AI?: Guardian Project l\u00e0 m\u1ed9t nh\u00f3m c\u00e1c nh\u00e0 ph\u00e1t tri\u1ec3n ph\u1ea7n m\u1ec1m, mu\u1ed1n t\u1ea1o d\u1ef1ng n\u00ean c\u00e1c \u1ee9ng d\u1ee5ng m\u00e3 ngu\u1ed3n m\u1edf, mi\u1ec5n ph\u00ed, kh\u00f4ng v\u1ee5 l\u1ee3i, nh\u1eb1m \u0111\u01b0a \u0111\u1ebfn v\u00e0 cung c\u1ea5p cho ng\u01b0\u1eddi d\u00f9ng c\u00e1c \u1ee9ng d\u1ee5ng di \u0111\u1ed9ng v\u1edbi m\u1ee5c ti\u00eau an to\u00e0n, ch\u1ed1ng l\u1ea1i s\u1ef1 ki\u1ec3m duy\u1ec7t g\u1eaft gao do b\u1ea5t k\u1ef3 t\u1ed5 ch\u1ee9c ch\u00ednh tr\u1ecb n\u00e0o mu\u1ed1n n\u1eafm gi\u1eef vi\u1ec7c \u0111\u1ed9c quy\u1ec1n th\u00f4ng tin, hay th\u1eadm ch\u00ed l\u00e0 mu\u1ed1n t\u01b0\u1edbc b\u1ecf \u0111i s\u1ef1 ri\u00eang t\u01b0 v\u1ed1n c\u00f3 m\u00e0 ng\u01b0\u1eddi d\u00f9ng mong \u0111\u1ee3i khi lu\u00f4n lu\u00f4n mu\u1ed1n ng\u0103n ch\u1eb7n v\u00e0 \u0111\u00e1nh c\u1eafp \u0111\u1ed3ng th\u1eddi gi\u00e1m s\u00e1t s\u1ef1 ri\u00eang t\u01b0 t\u1eeb ph\u00eda ng\u01b0\u1eddi d\u00f9ng. Ch\u00fang t\u00f4i, r\u1ea5t c\u1ea7n \u0111\u1ebfn s\u1ef1 gi\u00fap \u0111\u1ee1 ch\u00e2n th\u00e0nh t\u1eeb ph\u00eda c\u00e1c b\u1ea1n. H\u00e3y tham gia c\u1ed9ng \u0111\u1ed3ng Orweb \u0111\u1ec3 c\u00f9ng nhau ph\u00e1t tri\u1ec3n h\u01a1n n\u1eefa s\u1ea3n ph\u1ea9m n\u00e0y, v\u00e0 d\u0129 nhi\u00ean, c\u0169ng l\u00e0 t\u0103ng quy\u1ec1n l\u1ee3i cho ch\u00ednh c\u00e1c b\u1ea1n trong m\u1ed9t th\u1ebf gi\u1edbi t\u1ef1 do.\nWEBSITE: https://GuardianProject.info\nTWITTER: https://twitter.com/guardianproject\nM\u1edf m\u00e3 ngu\u1ed3n: Orbot l\u00e0 ph\u1ea7n m\u1ec1m mi\u1ec5n ph\u00ed. H\u00e3y xem m\u00e3 ngu\u1ed3n c\u1ee7a ch\u00fang t\u00f4i, ho\u1eb7c tham gia v\u00e0o c\u1ed9ng \u0111\u1ed3ng \u0111\u1ec3 l\u00e0m cho n\u00f3 t\u1ed1t h\u01a1n: https://gitweb.torproject.org/orbot.git\nV\u1ec0 D\u1ef0 \u00c1N TOR: https://TorProject.org\nTH\u00d4NG \u0110I\u1ec6P : C\u00f3 ph\u1ea3i ch\u00fang ta thi\u1ebfu t\u00ednh n\u0103ng y\u00eau th\u00edch c\u1ee7a b\u1ea1n? T\u00ecm th\u1ea5y m\u1ed9t l\u1ed7i g\u00e2y phi\u1ec1n nhi\u1ec5u? Ch\u00fang t\u00f4i mu\u1ed1n nghe t\u1eeb b\u1ea1n! G\u1eedi email cho ch\u00fang t\u00f4i: root@guardianproject.info\nTr\u1ee3 gi\u00fap c\u1ee7a ch\u00fang t\u00f4i MANG ORBOT qu\u1ed1c gia c\u1ee7a b\u1ea1n: Ch\u00fang t\u00f4i \u0111ang c\u1ed1 g\u1eafng \u0111\u1ec3 c\u00f3 \u0111\u01b0\u1ee3c Orbot th\u00e0nh nhi\u1ec1u ng\u00f4n ng\u1eef c\u00e0ng t\u1ed1t. Ngay b\u00e2y gi\u1edd n\u00f3 trong\nN\u1ebfu Orbot kh\u00f4ng c\u00f3 trong ng\u00f4n ng\u1eef c\u1ee7a b\u1ea1n nh\u01b0ng, ch\u00fang t\u00f4i r\u1ea5t mu\u1ed1n c\u00f3 b\u1ea1n tham gia \u0111\u1ed9i ng\u0169 d\u1ecbch thu\u1eadt c\u1ee7a ch\u00fang t\u00f4i: https://goo.gl/6hni4",
           "name": "OrbotProxy qua Tor\n"
-        }
-      }
-    },
-    {
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
-      "categories": [
-        "Internet",
-        "Security",
-        "GuardianProject"
-      ],
-      "suggestedVersionCode": "999999999",
-      "description": "<p>Orfox is the most privacy-enhancing web browser on Android, for visiting any website, even if it\u2019s normally censored, monitored, or on the hidden web. It is a port of the desktop Tor Browser to the Android version of Firefox.</p><p>Orfox is a companion browser to <a href=\"fdroid.app:org.torproject.android\">Orbot</a>, the port of Tor to Android.  Orbot anonymizes internet traffic by routing it through many different stages and you must have that enabled first, though root isn't needed.  Orfox disables certain other browser features that could be used to identify you.</p><p>Orfox replaces <a href=\"fdroid.app:info.guardianproject.browser\">Orweb</a> as your private browser.</p>",
-      "issueTracker": "https://dev.guardianproject.info/projects/orfox/issues?set_filter=1",
-      "license": "MPL",
-      "name": "Orfox",
-      "sourceCode": "https://github.com/guardianproject/orfox",
-      "added": 1474689600000,
-      "icon": "info.guardianproject.orfox.4.png",
-      "packageName": "info.guardianproject.orfox",
-      "lastUpdated": 1480654800000,
-      "localized": {
-        "af": {
-          "summary": "A-privaatheid gefokus webblaaier vir gebruik met Orbot, gebaseer op Tor Browser"
-        },
-        "am": {
-          "summary": "\u12e8\u1276\u122d \u121b\u1230\u123b \u120b\u12ed \u12e8\u1270\u1218\u1220\u1228\u1270 Orbot \u130b\u122d \u1208\u1218\u1320\u1240\u121d \u12e8\u130d\u120b\u12ca\u1290\u1275-\u1270\u12ae\u122d \u12e8\u12f5\u122d \u12a0\u1233\u123d,"
-        },
-        "ar": {
-          "summary": "\u0645\u062a\u0635\u0641\u062d \u0648\u064a\u0628 \u0627\u0644\u062a\u064a \u062a\u0631\u0643\u0632 \u0639\u0644\u0649 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0644\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0645\u0639 Orbot\u060c \u0639\u0644\u0649 \u0623\u0633\u0627\u0633 \u0645\u062a\u0635\u0641\u062d \u062a\u0648\u0631"
-        },
-        "bg": {
-          "summary": "A \u043d\u0435\u043f\u0440\u0438\u043a\u043e\u0441\u043d\u043e\u0432\u0435\u043d\u043e\u0441\u0442\u0442\u0430 \u043d\u0430 \u043b\u0438\u0447\u043d\u0438\u044f \u0436\u0438\u0432\u043e\u0442, \u043d\u0430\u0441\u043e\u0447\u0435\u043d\u0430 \u043a\u044a\u043c \u0443\u0435\u0431 \u0431\u0440\u0430\u0443\u0437\u044a\u0440 \u0437\u0430 \u0438\u0437\u043f\u043e\u043b\u0437\u0432\u0430\u043d\u0435 \u0441 O"
-        },
-        "ca": {
-          "summary": "Un navegador web privacitat centrada per al seu \u00fas amb Orbot, basat en Tor Brows"
-        },
-        "cs": {
-          "summary": "Ochranu osobn\u00edch \u00fadaj\u016f zam\u011b\u0159en\u00e9 webov\u00fd prohl\u00ed\u017ee\u010d pro pou\u017eit\u00ed s \u200b\u200bOrbot, na z\u00e1kla"
-        },
-        "da": {
-          "summary": "En privatliv-fokuserede webbrowser til brug med Orbot, baseret p\u00e5 Tor Browser"
-        },
-        "de": {
-          "summary": "A Privatsph\u00e4re orientierte Web-Browser f\u00fcr die Verwendung mit Orbot, bezogen auf"
-        },
-        "el": {
-          "summary": "\u039c\u03b9\u03b1 \u03b9\u03b4\u03b9\u03c9\u03c4\u03b9\u03ba\u03ae \u03b6\u03c9\u03ae \u03b5\u03c3\u03c4\u03b9\u03b1\u03c3\u03bc\u03ad\u03bd\u03b7 \u03c0\u03c1\u03cc\u03b3\u03c1\u03b1\u03bc\u03bc\u03b1 \u03c0\u03b5\u03c1\u03b9\u03ae\u03b3\u03b7\u03c3\u03b7\u03c2 \u03c3\u03c4\u03bf Web \u03b3\u03b9\u03b1 \u03c7\u03c1\u03ae\u03c3\u03b7 \u03bc\u03b5 Orbot, \u03bc\u03b5 "
-        },
-        "en-US": {
-          "summary": "A privacy-focused web browser for use with Orbot, based on Tor Browser",
-          "description": "Orfox is built from the same source code as Tor Browser (which is built upon Firefox), but with a few minor modifications to the privacy enhancing features to make them compatible with Firefox for Android and the Android operating system.\n\nOrfox REQUIRES Orbot app for Android to connect to the Tor network.\n\nIn as many ways as possible, we adhere to the design goals of Tor Browser (https://www.torproject.org/projects/torbrowser/design/), by supporting as much of their actual code as possible, and extending their work into the additional Android components of Firefox for Android.\n\n** Also, includes NoScript and HTTPSEverywhere add-ons built in!\n\nThe Tor software protects you by bouncing your communications around a distributed network of relays run by volunteers all around the world: it prevents somebody watching your Internet connection from learning what sites you visit, it prevents the sites you visit from learning your physical location, and it lets you access sites which are blocked.\n\nLearn more at:\nhttps://guardianproject.info/apps/orfox\n\n* * How is Orfox different than Tor Browser for desktop?\n\n* The Orfox code repository is at https://github.com/guardianproject/tor-browser and the Tor Browser repository is here:https://gitweb.torproject.org/tor-browser.git/. The Orfox repository is a fork of the Tor Browser repository with the necessary modification and Android-specific code as patches on top of the Tor Browser work. We will keep our repository in sync with updates and release of Tor Browser.\n\n* Orfox is built from the Tor Browser repo based on ESR38 (https://dev.guardianproject.info/issues/5146https://dev.guardianproject.info/news/221) and has only two modified patches that were not relevant or necessary for Android\n\n* Orfox does not currently include the mobile versions of the Tor Browser * Button, but this we will be added shortly, now that we have discovered how to properly support automatic installation of extensions on Android (https://dev.guardianproject.info/issues/5360)\n\n* Orfox currently allows for users to bookmark sites, and may have additional data written to disk beyond what the core gecko browser component does. We are still auditing all disk write code, and determining how to appropriately disable or harden it. (https://dev.guardianproject.info/issues/5437)\n\n* * How is Orfox different than Orweb?\n\nOrweb is our current default browser for Orbot/Tor mobile users (https://guardianproject.info/apps/orweb) that has been downloaded over 2 million times. It is VERY VERY SIMPLE, as it only has one tab, no bookmark capability, and an extremely minimal user experience.\n\nOrweb is built upon the bundled WebView (Webkit) browser component inside of the Android operating system. \nThis has proven to be problematic because we cannot control the version of that component, and cannot upgrade it directly when bugs are found. In addition, Google has made it very difficult to effectively control the network proxy settings of all aspects of this component, making it difficult to guarantee that traffic will not leak on all devices and OS versions.\n\nOrweb also only provides a very limited amount of capability of Tor Browser, primarily related to reducing browser fingerprinting, minimizing disk writes, and cookie and history management. It trys to mimic some of the settings of Tor Browser, but doesn\u2019t actually use any of the actual code written for Tor Browser security hardening.",
-          "featureGraphic": "featureGraphic.png",
-          "icon": "icon.png",
-          "phoneScreenshots": [
-            "GmcXF5s_JTgBvUTaz6xtJBL9aYAnOuaSHETq6NH_SHtK6YbBoewoouyJv6Uh-kzR_byF.png",
-            "Ov_R4SUWSadcELtbUzm_tRmMNfLjmNlciD-vNVdQMIwCVi308e0frSAAphZkQihIJ90.png",
-            "ar6eMjwoXk9QAejQzoIBV3roSwQvwMR0hQcEQ2pFwsNEiRLg_XA9WHNpWLs2G_52924.png"
-          ]
-        },
-        "es": {
-          "summary": "Un navegador web privacidad centrada para su uso con Orbot, basado en Tor Browse"
-        },
-        "es-ES": {
-          "summary": "Un navegador web privacidad centrada para su uso con Orbot, basado en Tor Browse"
-        },
-        "es-US": {
-          "summary": "Un navegador web privacidad centrada para su uso con Orbot, basado en Tor Browse"
-        },
-        "et": {
-          "summary": "Eraelu puutumatuse keskendunud veebilehitseja kasutamiseks Orbot, mis p\u00f5hineb To"
-        },
-        "fi": {
-          "summary": "Yksityisyyden keskittynyt web-selaimen kanssa k\u00e4ytett\u00e4v\u00e4t Orbot, joka perustuu T"
-        },
-        "fr": {
-          "summary": "Un navigateur Web ax\u00e9 sur la vie priv\u00e9e pour une utilisation avec Orbot, sur la "
-        },
-        "fr-CA": {
-          "summary": "Un navigateur Web ax\u00e9 sur la vie priv\u00e9e pour une utilisation avec Orbot, sur la "
-        },
-        "fr-FR": {
-          "summary": "Un navigateur Web ax\u00e9 sur la vie priv\u00e9e pour une utilisation avec Orbot, sur la "
-        },
-        "hi": {
-          "summary": "\u091f\u094b \u092c\u094d\u0930\u093e\u0909\u091c\u093c\u0930 \u092a\u0930 \u0906\u0927\u093e\u0930\u093f\u0924 Orbot \u0938\u093e\u0925 \u092a\u094d\u0930\u092f\u094b\u0917 \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 \u0917\u094b\u092a\u0928\u0940\u092f\u0924\u093e \u0915\u0947\u0902\u0926\u094d\u0930\u093f\u0924 \u0935\u0947\u092c \u092c\u094d\u0930\u093e\u0909\u091c\u093c\u0930,"
-        },
-        "hr": {
-          "summary": "Privatnost usmjerena web preglednik za kori\u0161tenje s Orbot, na temelju Tor Browse"
-        },
-        "hu": {
-          "summary": "A mag\u00e1n\u00e9let-k\u00f6zpont\u00fa webb\u00f6ng\u00e9sz\u0151 haszn\u00e1lhat\u00f3 Orbot alapj\u00e1n Tor b\u00f6ng\u00e9sz\u0151"
-        },
-        "id": {
-          "summary": "Sebuah privasi berfokus browser web untuk digunakan dengan Orbot, berdasarkan To"
-        },
-        "ja": {
-          "summary": "Tor\u306e\u30d6\u30e9\u30a6\u30b6\u306b\u57fa\u3065\u3044\u3066Orbot\u3067\u4f7f\u7528\u3059\u308b\u305f\u3081\u306b\u3001\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u91cd\u8996\u306eWeb\u30d6\u30e9\u30a6\u30b6\u3001"
-        },
-        "ko": {
-          "summary": "\ud1a0\ub974 \ube0c\ub77c\uc6b0\uc800\ub97c \uae30\ubc18\uc73c\ub85c Orbot\uc640 \ud568\uaed8 \uc0ac\uc6a9\ud558\uae30\uc704\ud55c \uac1c\uc778 \uc815\ubcf4 \ubcf4\ud638\uc5d0 \ucd08\uc810\uc744 \ub9de\ucd98 \uc6f9 \ube0c\ub77c\uc6b0\uc800,"
-        },
-        "lt": {
-          "summary": "Privatumui orientuota interneto nar\u0161ykl\u0117, skirta naudoti su Orbot, remiantis Tor"
-        },
-        "lv": {
-          "summary": "Par priv\u0101tumu v\u0113rstu interneta p\u0101rl\u016bka lieto\u0161anai ar Orbot, pamatojoties uz Tor "
-        },
-        "nl": {
-          "summary": "A-privacy gerichte webbrowser voor gebruik met Orbot, gebaseerd op Tor Browser"
-        },
-        "no": {
-          "summary": "En personvern-fokusert nettleser for bruk med Orbot, basert p\u00e5 Tor Browser"
-        },
-        "pl": {
-          "summary": "Zaciszu koncentruje przegl\u0105darka do u\u017cytku z Orbot, oparty na Tor Browser"
-        },
-        "pt-BR": {
-          "summary": "Um navegador web com foco em privacidade para uso com Orbot, com base em Tor Nav"
-        },
-        "pt-PT": {
-          "summary": "Um navegador web com foco em privacidade para uso com Orbot, com base em Tor Nav"
-        },
-        "ro": {
-          "summary": "Un browser web-concentrat de confiden\u021bialitate pentru utilizarea cu Orbot, bazat"
-        },
-        "ru": {
-          "summary": "\u041f\u0440\u0438\u0432\u0430\u0442\u043d\u043e\u0441\u0442\u044c \u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u0432\u0435\u0431-\u0431\u0440\u0430\u0443\u0437\u0435\u0440 \u0434\u043b\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0441 Orbot, \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u043d\u0430"
-        },
-        "sk": {
-          "summary": "Ochranu osobn\u00fdch \u00fadajov zameran\u00e9 webov\u00fd prehliada\u010d pre pou\u017eitie s Orbot, na z\u00e1kl"
-        },
-        "sl": {
-          "summary": "A-zasebnosti osredoto\u010den spletni brskalnik za uporabo z Orbot, ki temelji na Tor"
-        },
-        "sv": {
-          "summary": "En privatliv fokuserad webbl\u00e4sare f\u00f6r anv\u00e4ndning med Orbot, baserat p\u00e5 Tor Brows"
-        },
-        "sw": {
-          "summary": "Faragha-umakini kivinjari ajili ya matumizi na Orbot, kulingana na Tor Browser"
-        },
-        "th": {
-          "summary": "\u0e40\u0e27\u0e47\u0e1a\u0e40\u0e1a\u0e23\u0e32\u0e40\u0e0b\u0e2d\u0e23\u0e4c\u0e17\u0e35\u0e48\u0e40\u0e19\u0e49\u0e19\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e47\u0e19\u0e2a\u0e48\u0e27\u0e19\u0e15\u0e31\u0e27\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e43\u0e0a\u0e49\u0e01\u0e31\u0e1a Orbot \u0e02\u0e36\u0e49\u0e19\u0e2d\u0e22\u0e39\u0e48\u0e01\u0e31\u0e1a\u0e17\u0e2d\u0e23\u0e4c\u0e40\u0e1a\u0e23\u0e32\u0e27\u0e4c\u0e40\u0e0b\u0e2d\u0e23\u0e4c"
-        },
-        "tr": {
-          "summary": "Tor Taray\u0131c\u0131 dayal\u0131 Orbot kullan\u0131lmak \u00fczere bir gizlilik odakl\u0131 web taray\u0131c\u0131s\u0131,"
-        },
-        "uk": {
-          "summary": "\u041f\u0440\u0438\u0432\u0430\u0442\u043d\u0456\u0441\u0442\u044c \u043e\u0440\u0456\u0454\u043d\u0442\u043e\u0432\u0430\u043d\u0438\u0445 \u0432\u0435\u0431-\u0431\u0440\u0430\u0443\u0437\u0435\u0440 \u0434\u043b\u044f \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f \u0437 Orbot, \u0437\u0430\u0441\u043d\u043e\u0432\u0430\u043d\u0438\u0439 \u043d\u0430 Tor"
-        },
-        "vi": {
-          "summary": "M\u1ed9t tr\u00ecnh duy\u1ec7t web ri\u00eang t\u01b0 t\u1eadp trung \u0111\u1ec3 s\u1eed d\u1ee5ng v\u1edbi Orbot, d\u1ef1a tr\u00ean tr\u00ecnh duy\u1ec7"
         }
       }
     },
@@ -962,34 +728,6 @@
     }
   ],
   "packages": {
-    "info.guardianproject.cacert": [
-      {
-        "added": 1383192000000,
-        "apkName": "CACertMan-0.0.2-20110906.apk",
-        "hash": "c217c49abe5134007ceb2623a6189a73fa02af9d2b2bbcc5cbc4cb5da7b36a5d",
-        "hashType": "sha256",
-        "minSdkVersion": "8",
-        "packageName": "info.guardianproject.cacert",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 170305,
-        "targetSdkVersion": "8",
-        "versionCode": 3,
-        "versionName": "0.0.2-20110906"
-      },
-      {
-        "added": 1376884800000,
-        "apkName": "CACertMan-0.0.2-alpha-20111011.apk",
-        "hash": "251ebd40ce4a281a2292692707fb1e9c91428994cbad80a416a297db51069eb8",
-        "hashType": "sha256",
-        "minSdkVersion": "7",
-        "packageName": "info.guardianproject.cacert",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 172263,
-        "targetSdkVersion": "7",
-        "versionCode": 4,
-        "versionName": "0.0.2.20111012"
-      }
-    ],
     "org.witness.informacam.app": [
       {
         "added": 1438056000000,
@@ -4132,267 +3870,6 @@
         "versionName": "14.2.0"
       },
       {
-        "added": 1440388800000,
-        "apkName": "ChatSecure-v14.2.1.apk",
-        "hash": "f82a3a7a823f5540b335743eb1399d0fd1f61bc68958750b5ef6aa0d95ad9a54",
-        "hashType": "sha256",
-        "minSdkVersion": "9",
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "info.guardianproject.otr.app.im",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 10463010,
-        "targetSdkVersion": "21",
-        "uses-permission": [
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.WRITE_ONLY",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.im.permission.IM_SERVICE",
-            null
-          ],
-          [
-            "android.permission.UPDATE_APP_OPS_STATS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ]
-        ],
-        "versionCode": 1421001,
-        "versionName": "14.2.1"
-      },
-      {
-        "added": 1480654800000,
-        "apkName": "ChatSecure-v14.2.2.apk",
-        "hash": "9d4620fec0c7837ddffccde7918d7a7db0976fbcd361b96659abd93b5cc0d9e3",
-        "hashType": "sha256",
-        "minSdkVersion": "9",
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "info.guardianproject.otr.app.im",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 10502135,
-        "targetSdkVersion": "21",
-        "uses-permission": [
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.WRITE_ONLY",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.im.permission.IM_SERVICE",
-            null
-          ],
-          [
-            "android.permission.UPDATE_APP_OPS_STATS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ]
-        ],
-        "versionCode": 1422001,
-        "versionName": "14.2.2"
-      },
-      {
-        "added": 1454475600000,
-        "apkName": "ChatSecure-v14.2.3a.apk",
-        "hash": "36d7d71c8a2115bdd2bd63bb639af286ee3242cce11cdb5c53378d1a7f35528e",
-        "hashType": "sha256",
-        "minSdkVersion": "9",
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "info.guardianproject.otr.app.im",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 10502397,
-        "targetSdkVersion": "21",
-        "uses-permission": [
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.WRITE_ONLY",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.im.permission.IM_SERVICE",
-            null
-          ],
-          [
-            "android.permission.UPDATE_APP_OPS_STATS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ]
-        ],
-        "versionCode": 1423001,
-        "versionName": "14.2.3"
-      },
-      {
         "added": 1480654800000,
         "apkName": "Gibberbot-0.0.11-RC4-bugfix.apk",
         "hash": "69cc6f4e4a43ca352d9370f3ccd6a84b2fa61152ea09287274349e139e590773",
@@ -5177,58 +4654,6 @@
         "versionName": "0.0.10-RC2"
       }
     ],
-    "info.guardianproject.chatsecure.emoji.core": [
-      {
-        "added": 1385960400000,
-        "apkName": "ChatSecurePluginOpenEmoji-release-v1.apk",
-        "hash": "131c1ebaf795c3f053701285699f0b7e517de1c7fdba56e247b1ec31766b2808",
-        "hashType": "sha256",
-        "minSdkVersion": "8",
-        "packageName": "info.guardianproject.chatsecure.emoji.core",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 1814271,
-        "targetSdkVersion": "17",
-        "versionCode": 1,
-        "versionName": "1.0"
-      }
-    ],
-    "info.guardianproject.soundrecorder": [
-      {
-        "added": 1386910800000,
-        "apkName": "ChatSecureVoiceMessaging-0.2.apk",
-        "hash": "abae18cc9cfa62fca5dce072c4c50d41b4fece506967ce9a3e2711cd1031dbee",
-        "hashType": "sha256",
-        "minSdkVersion": "10",
-        "packageName": "info.guardianproject.soundrecorder",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 394212,
-        "targetSdkVersion": "10",
-        "uses-permission": [
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 2,
-        "versionName": "0.2"
-      }
-    ],
     "info.guardianproject.gpg": [
       {
         "added": 1367985600000,
@@ -5271,80 +4696,6 @@
         ],
         "versionCode": 1,
         "versionName": "0.0"
-      },
-      {
-        "added": 1379304000000,
-        "apkName": "GnuPrivacyGuard-release-0.2.1.apk",
-        "hash": "04ab4e5d93ff3412b0678e0b2edc036f8c405dd307db60e0146f8adc1a67a81c",
-        "hashType": "sha256",
-        "minSdkVersion": "8",
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.gpg",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 9063339,
-        "targetSdkVersion": "17",
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.SYSTEM_ALERT_WINDOW",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.AUTHENTICATE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.READ_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.WRITE_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.APPEND_TO_PATH",
-            null
-          ]
-        ],
-        "versionCode": 3,
-        "versionName": "0.2.1"
       },
       {
         "added": 1374811200000,
@@ -5419,154 +4770,6 @@
         ],
         "versionCode": 2,
         "versionName": "0.2"
-      },
-      {
-        "added": 1396843200000,
-        "apkName": "GnuPrivacyGuard-release-0.3.1.apk",
-        "hash": "53119c4b237563487e134c66403e77d9f93dcad9c05962751d00f7cc7257cc13",
-        "hashType": "sha256",
-        "minSdkVersion": "14",
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "info.guardianproject.gpg",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 10248614,
-        "targetSdkVersion": "19",
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.SYSTEM_ALERT_WINDOW",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.AUTHENTICATE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.READ_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.WRITE_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.APPEND_TO_PATH",
-            null
-          ]
-        ],
-        "versionCode": 5,
-        "versionName": "0.3.1"
-      },
-      {
-        "added": 1394596800000,
-        "apkName": "GnuPrivacyGuard-release-0.3.apk",
-        "hash": "3590e087b9003bd5be7cee95763ad5079b0ab5a40571a1edc0536602f7e8c050",
-        "hashType": "sha256",
-        "minSdkVersion": "14",
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "info.guardianproject.gpg",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 10245957,
-        "targetSdkVersion": "19",
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.SYSTEM_ALERT_WINDOW",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.AUTHENTICATE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.READ_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.WRITE_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.APPEND_TO_PATH",
-            null
-          ]
-        ],
-        "versionCode": 4,
-        "versionName": "0.3"
       }
     ],
     "info.guardianproject.lildebi": [
@@ -5659,148 +4862,6 @@
         ],
         "versionCode": 5100,
         "versionName": "0.5.1"
-      },
-      {
-        "added": 1413950400000,
-        "apkName": "LilDebi-0.5.2-release.apk",
-        "hash": "07fa3dfb690e44eb540942ba2a51718c72351c91a253a56a0c90649f6d8903dd",
-        "hashType": "sha256",
-        "minSdkVersion": "8",
-        "packageName": "info.guardianproject.lildebi",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 1861790,
-        "targetSdkVersion": "19",
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.RUN_SCRIPT",
-            null
-          ]
-        ],
-        "versionCode": 5200,
-        "versionName": "0.5.2"
-      },
-      {
-        "added": 1422248400000,
-        "apkName": "LilDebi-0.5.3-release.apk",
-        "hash": "01c5a8e1fd778c141e70633d14f1b69228d6f492961098616e0446c116cf9e44",
-        "hashType": "sha256",
-        "minSdkVersion": "8",
-        "packageName": "info.guardianproject.lildebi",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 1879560,
-        "targetSdkVersion": "19",
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.RUN_SCRIPT",
-            null
-          ]
-        ],
-        "versionCode": 5300,
-        "versionName": "0.5.3"
-      },
-      {
-        "added": 1422248400000,
-        "apkName": "LilDebi-0.5.4-release.apk",
-        "hash": "2c490376d8853fae04e79541f5d61e66a42ed0e890208945a11036c4a7b111da",
-        "hashType": "sha256",
-        "maxSdkVersion": "20",
-        "minSdkVersion": "8",
-        "packageName": "info.guardianproject.lildebi",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 1876705,
-        "targetSdkVersion": "20",
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.RUN_SCRIPT",
-            null
-          ]
-        ],
-        "versionCode": 5400,
-        "versionName": "0.5.4"
       },
       {
         "added": 1360126800000,
@@ -6113,91 +5174,6 @@
         ],
         "versionCode": 12,
         "versionName": "0.4.7"
-      }
-    ],
-    "info.guardianproject.notepadbot": [
-      {
-        "added": 1383192000000,
-        "apkName": "NoteCipher-0.0.7.1.apk",
-        "hash": "da518f13206d2218234bfcc83205b7b2b81ec67a4cc448f818c617332235e700",
-        "hashType": "sha256",
-        "minSdkVersion": "11",
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.notepadbot",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 3729342,
-        "targetSdkVersion": "17",
-        "uses-permission": [
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 11,
-        "versionName": "0.0.7.1"
-      },
-      {
-        "added": 1358312400000,
-        "apkName": "NoteCipher-0.0.7.apk",
-        "hash": "8fa7536a87634c6b3441053c4f16315e4fd5aa6ef672a0026a594c107308d7bf",
-        "hashType": "sha256",
-        "minSdkVersion": "7",
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.notepadbot",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 3731119,
-        "targetSdkVersion": "17",
-        "uses-permission": [
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 10,
-        "versionName": "0.0.7"
-      },
-      {
-        "added": 1394424000000,
-        "apkName": "NoteCipher-beta-0.1.apk",
-        "hash": "b560a3d6364c32990ea7505f53b019f64fde597d67513f41a50e7d034af48caa",
-        "hashType": "sha256",
-        "minSdkVersion": "10",
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "info.guardianproject.notepadbot",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 7321123,
-        "targetSdkVersion": "19",
-        "uses-permission": [
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 12,
-        "versionName": "0.1"
       }
     ],
     "org.torproject.android": [
@@ -8261,6 +7237,165 @@
         ],
         "versionCode": 15200020,
         "versionName": "15.2.0-beta-2"
+      },
+      {
+        "added": 1499453765511,
+        "apkName": "Orbot-v15.4.0-BETA-1-ARM-ONLY.apk",
+        "hash": "c8f53c7a3b8d2001209b52f5d9a81f1ec26630ef29a80680a3fbc0a4bfa4d6c8",
+        "hashType": "sha256",
+        "minSdkVersion": "16",
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "size": 8186660,
+        "targetSdkVersion": "25",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ]
+        ],
+        "versionCode": 15401000,
+        "versionName": "15.4.0-beta-1-multi"
+      },
+      {
+        "added": 1478494800000,
+        "apkName": "Orbot-v15.2.0-RC-8-multi.apk",
+        "hash": "3758e1b6e6b9a3b7848b253d08d6c0b1b1b3223184da4bd2ba1aaff8cf676357",
+        "hashType": "sha256",
+        "minSdkVersion": "16",
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "size": 12296544,
+        "targetSdkVersion": "23",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ]
+        ],
+        "versionCode": 15208000,
+        "versionName": "15.2.0-RC-8-multi"
+      },
+      {
+        "added": 1478232000000,
+        "apkName": "Orbot-v15.2.0-RC-7-multi.apk",
+        "hash": "8dc3edf0a9799eb23b5e478e15547e38831b28cc3e88b049aa5f41b7b72e7bf9",
+        "hashType": "sha256",
+        "minSdkVersion": "16",
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "size": 12457510,
+        "targetSdkVersion": "23",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ]
+        ],
+        "versionCode": 15207000,
+        "versionName": "15.2.0-RC-7-multi"
+      },
+      {
+        "added": 1478145600000,
+        "apkName": "Orbot-v15.2.0-RC-5-arm.apk",
+        "hash": "51c7e2b6a6de542e0d44f82d89ddf1d3216ec7a28297381ef15b12da2f3246f7",
+        "hashType": "sha256",
+        "minSdkVersion": "16",
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "size": 7600548,
+        "targetSdkVersion": "23",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ]
+        ],
+        "versionCode": 15205000,
+        "versionName": "15.2.0-RC-5"
       }
     ],
     "info.guardianproject.browser": [
@@ -8723,324 +7858,6 @@
         ],
         "versionCode": 96,
         "versionName": "0.0.8-build96"
-      },
-      {
-        "added": 1401940800000,
-        "apkName": "StoryMaker-release-0.0.9-build115.apk",
-        "hash": "5530bfe85fc89d0a6abdb46c015206d7f039d71cbafe923c3daa33d514f21111",
-        "hashType": "sha256",
-        "minSdkVersion": "10",
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.mrapp",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 26948336,
-        "targetSdkVersion": "19",
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_STORAGE",
-            null
-          ],
-          [
-            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH.youtube",
-            null
-          ]
-        ],
-        "versionCode": 115,
-        "versionName": "0.0.9-build115"
-      },
-      {
-        "added": 1402027200000,
-        "apkName": "StoryMaker-release-0.0.9-build116.apk",
-        "hash": "50a9d48a3881e281b3af677e0ba9b979f9e3fbdf0ca16139017eb8c72bb237c4",
-        "hashType": "sha256",
-        "minSdkVersion": "10",
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.mrapp",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 26949222,
-        "targetSdkVersion": "19",
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_STORAGE",
-            null
-          ],
-          [
-            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH.youtube",
-            null
-          ]
-        ],
-        "versionCode": 116,
-        "versionName": "0.0.9-build116"
-      },
-      {
-        "added": 1405742400000,
-        "apkName": "StoryMaker-v0.0.10-b118-BETA.apk",
-        "hash": "b90d1d2816fd959d315b0d0c9e896aeacd30d770d77cc3929848f6d68b4d9da7",
-        "hashType": "sha256",
-        "minSdkVersion": "10",
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.mrapp",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "size": 27045191,
-        "targetSdkVersion": "19",
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_STORAGE",
-            null
-          ],
-          [
-            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH.youtube",
-            null
-          ]
-        ],
-        "versionCode": 118,
-        "versionName": "0.0.10-build118"
-      }
-    ],
-    "info.guardianproject.orfox": [
-      {
-        "added": 1480654800000,
-        "apkName": "fennec-38.0.en-US.android-arm.apk",
-        "hash": "2aa221192d4fb50c30fc2ff479e61fa0e627e7647f3b736c3049a3d8e91d16fd",
-        "hashType": "sha256",
-        "minSdkVersion": "9",
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "info.guardianproject.orfox",
-        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
-        "size": 30555657,
-        "targetSdkVersion": "22",
-        "uses-permission": [
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "info.guardianproject.orfox.permission.PER_ANDROID_PACKAGE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "com.android.launcher.permission.INSTALL_SHORTCUT",
-            null
-          ],
-          [
-            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
-            null
-          ],
-          [
-            "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "info.guardianproject.orfox.permissions.PASSWORD_PROVIDER",
-            null
-          ],
-          [
-            "info.guardianproject.orfox.permissions.BROWSER_PROVIDER",
-            null
-          ],
-          [
-            "info.guardianproject.orfox.permissions.FORMHISTORY_PROVIDER",
-            null
-          ],
-          [
-            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 1,
-        "versionName": "Fennec-38.1.0esr/TorBrowser-5.0/Orfox-1.0beta1"
       }
     ]
   }
