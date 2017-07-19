@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1499478564240,
+    "timestamp": 1500484145289,
     "version": 18,
     "maxage": 60,
     "name": "Guardian Project Archive",
@@ -12,6 +12,7 @@
       "https://guardianproject.info/fdroid/archive",
       "https://s3.amazonaws.com/guardianproject/fdroid/archive",
       "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/archive",
+      "https://gitlab.com/guardianproject/fdroid-repo/raw/master/fdroid/archive",
       "https://guardianproject.gitlab.io/fdroid-repo/fdroid/archive"
     ]
   },
@@ -52,7 +53,7 @@
         "GuardianProject"
       ],
       "suggestedVersionCode": "999999999",
-      "description": "<p>Android 4+ allows you to disable certificates from the system Settings and root isn't required, so try that first if you want to manually mess with the certificates. The app won't work with Android 4+ anyway.</p><p>An app to manage security certificates on your phone also containing a version of the Android CACert keystore derived from Mozilla. If a certificate has recently become untrusted you can either install an update to this app or you can backup and remove certificates by yourself.</p><p>Requires root: Yes, it writes to the system partition. You will need a device that has the \u2018grep\u2019 command on it (via busybox: present on most custom ROMs). If the \u2018save\u2019 doesn\u2019t work, then you will need to make your /system partition read-write by using a file explorer like <a href=\"fdroid.app:com.ghostsq.commander\">Ghost Commander</a> or via a command in <a href=\"fdroid.app:jackpal.androidterm\">Terminal Emulator</a>.</p>",
+      "description": "<p>Android 4+ allows you to disable certificates from the system Settings and root isn't required, so try that first if you want to manually mess with the certificates. The app won't work with Android 4+ anyway.</p><p>An app to manage security certificates on your phone also containing a version of the Android CACert keystore derived from Mozilla. If a certificate has recently become untrusted you can either install an update to this app or you can backup and remove certificates by yourself.</p><p>Requires root: Yes, it writes to the system partition. You will need a device that has the \u2018grep\u2019 command on it (via busybox: present on most custom ROMs). If the \u2018save\u2019 doesn\u2019t work, then you will need to make your /system partition read-write by using a file explorer like com.ghostsq.commander or via a command in <a href=\"fdroid.app:jackpal.androidterm\">Terminal Emulator</a>.</p>",
       "issueTracker": "https://github.com/guardianproject/cacert/issues",
       "license": "GPLv3",
       "name": "CACertMan",
