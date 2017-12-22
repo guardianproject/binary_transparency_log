@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1513980033000,
+    "timestamp": 1513980388000,
     "version": 19,
     "maxage": 60,
     "name": "Guardian Project Official Releases",
@@ -489,6 +489,24 @@
           "summary": "\u0110\u1ecdc to\u00e0n c\u1ea7u. Chia s\u1ebb t\u1ea1i \u0111\u1ecba ph\u01b0\u01a1ng.M\u1ed9t Tin t\u1ee9c B\u1ea3o m\u1eadt Reader v\u1edbi h\u1ed7 tr\u1ee3 Orbot"
         }
       }
+    },
+    {
+      "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
+      "categories": [
+        "Security"
+      ],
+      "suggestedVersionCode": "102",
+      "description": "<p>Haven is for people who need a way to protect their personal spaces and possessions without compromising their own privacy. It is an Android application that leverages on-device sensors to provide monitoring and protection of physical spaces. Haven turns any Android phone into a motion, sound, vibration and light detector, watching for unexpected guests and unwanted intruders. We designed Haven for investigative journalists, human rights defenders, and people at risk of forced disappearance to create a new kind of herd immunity. By combining the array of sensors found in any smartphone, with the world\u2019s most secure communications technologies, like Signal and Tor, Haven prevents the worst kind of people from silencing citizens without getting caught in the act.</p><p>Project Team</p><p>Haven was developed through a collaboration between Freedom of the Press Foundation and Guardian Project. Prototype funding was generously provided by FoPF, and donations to support continuing work can be contributed through their site: https://freedom.press/donate-support-haven-open-source-project</p><p>Safety through Sensors</p><p>Haven only saves images and sound when triggered by motion or volume, and stores everything locally on the device. You can position the device\u2019s camera to capture visible motion, or set your phone somewhere discreet to just listen for noises. Get secure notifications of intrusion events instantly and access the logs remotely or anytime later.</p><p>The follow sensors are monitored for a measurable change, and then recorded to an event log on the device:</p><ul><li> Accelerometer: phone\u2019s motion and vibration</li><li> Camera: motion in the phone\u2019s visible surroundings from front or back camera</li><li> Microphone: noises in the enviroment</li><li> Light: change in light from ambient light sensor</li><li> Power: detect device being unplugged or power loss</li></ul>",
+      "issueTracker": "https://github.com/guardianproject/haven/issues",
+      "license": "GPL-3.0+",
+      "name": "Haven",
+      "sourceCode": "https://github.com/guardianproject/haven",
+      "summary": "Protect personal spaces and possessions without compromising privacy",
+      "webSite": "https://guardianproject.github.io/haven",
+      "added": 1513980010000,
+      "icon": "org.havenapp.main.102.png",
+      "packageName": "org.havenapp.main",
+      "lastUpdated": 1513980010000
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -2479,6 +2497,67 @@
         ],
         "versionCode": 15,
         "versionName": "0.0.15"
+      }
+    ],
+    "org.havenapp.main": [
+      {
+        "added": 1513980010000,
+        "apkName": "Haven-0.1.0-beta-3-release.apk",
+        "hash": "6c79473bbe3fffcd7327f0ef770a31d19552b967f30f4622e8b7facbad449ab6",
+        "hashType": "sha256",
+        "minSdkVersion": "16",
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "org.havenapp.main",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 9395119,
+        "targetSdkVersion": "25",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.SEND_SMS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 102,
+        "versionName": "0.1.0-beta-3"
       }
     ],
     "org.torproject.android": [
