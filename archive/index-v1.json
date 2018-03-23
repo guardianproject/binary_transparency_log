@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1515447524000,
+    "timestamp": 1521764361000,
     "version": 19,
     "maxage": 60,
     "name": "Guardian Project Archive",
@@ -12,8 +12,8 @@
       "https://guardianproject.info/fdroid/archive",
       "https://s3.amazonaws.com/guardianproject/fdroid/archive",
       "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/archive",
-      "https://gitlab.com/guardianproject/fdroid-repo/raw/master/fdroid/archive",
-      "https://guardianproject.gitlab.io/fdroid-repo/fdroid/archive"
+      "https://guardianproject.gitlab.io/fdroid-repo/fdroid/archive",
+      "https://gitlab.com/guardianproject/fdroid-repo/raw/master/fdroid/archive"
     ]
   },
   "requests": {
@@ -761,15 +761,15 @@
         "Security",
         "GuardianProject"
       ],
-      "suggestedVersionCode": "10",
+      "suggestedVersionCode": "12",
       "issueTracker": "https://dev.guardianproject.info/projects/orfox/issues?set_filter=1",
       "license": "MPL",
       "name": "Orfox",
       "sourceCode": "https://github.com/guardianproject/orfox",
       "added": 1474675200000,
-      "icon": "info.guardianproject.orfox.10.png",
+      "icon": "info.guardianproject.orfox.12.png",
       "packageName": "info.guardianproject.orfox",
-      "lastUpdated": 1501977600000,
+      "lastUpdated": 1521764329000,
       "localized": {
         "af": {
           "summary": "A-privaatheid gefokus webblaaier vir gebruik met Orbot, gebaseer op Tor Browser"
@@ -2785,6 +2785,93 @@
       }
     ],
     "info.guardianproject.orfox": [
+      {
+        "added": 1480636800000,
+        "apkName": "Orfox-1.2.1-TorBrowser-6.5-Fennec45.5.1-build2.apk",
+        "hash": "d43032e79c7c31cabb194b8c1c4b14fbf73dd2cfda958ba415879ddf2f38ace2",
+        "hashType": "sha256",
+        "minSdkVersion": "9",
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "info.guardianproject.orfox",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 35273126,
+        "targetSdkVersion": "22",
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "info.guardianproject.orfox.permissions.PASSWORD_PROVIDER",
+            null
+          ],
+          [
+            "info.guardianproject.orfox.permissions.BROWSER_PROVIDER",
+            null
+          ],
+          [
+            "info.guardianproject.orfox.permissions.FORMHISTORY_PROVIDER",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 4,
+        "versionName": "Fennec-45.5.1esr/TorBrowser-6.5-1/Orfox-1.2.1"
+      },
       {
         "added": 1474675200000,
         "apkName": "Orfox-1.2-TorBrowser-6.5-Fennec45.4.0.apk",

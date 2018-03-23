@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1515447522000,
+    "timestamp": 1521764358000,
     "version": 19,
     "maxage": 60,
     "name": "Guardian Project Official Releases",
@@ -12,8 +12,8 @@
       "https://guardianproject.info/fdroid/repo",
       "https://s3.amazonaws.com/guardianproject/fdroid/repo",
       "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/repo",
-      "https://gitlab.com/guardianproject/fdroid-repo/raw/master/fdroid/repo",
-      "https://guardianproject.gitlab.io/fdroid-repo/fdroid/repo"
+      "https://guardianproject.gitlab.io/fdroid-repo/fdroid/repo",
+      "https://gitlab.com/guardianproject/fdroid-repo/raw/master/fdroid/repo"
     ]
   },
   "requests": {
@@ -816,6 +816,24 @@
       }
     },
     {
+      "categories": [
+        "Multimedia"
+      ],
+      "suggestedVersionName": "0.0.17-alpha-1",
+      "suggestedVersionCode": "17",
+      "description": "<p>Add metadata and Creative Commons licensing to your audiovisual media and then send it to the Internet Archive via Tor. It offers more agency over your media, while protecting civil liberties and increasing interoperability for those interested in finding it and reusing it in the future.</p>",
+      "issueTracker": "https://github.com/OpenArchive/openarchive/issues",
+      "license": "GPL-3.0",
+      "name": "OpenArchive",
+      "sourceCode": "https://github.com/OpenArchive/openarchive",
+      "summary": "Organize and share media",
+      "webSite": "https://open-archive.net",
+      "added": 1472083200000,
+      "icon": "net.opendasharchive.openarchive.release.17.png",
+      "packageName": "net.opendasharchive.openarchive.release",
+      "lastUpdated": 1511913600000
+    },
+    {
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
       "authorWebSite": " https://guardianproject.info",
@@ -988,15 +1006,15 @@
         "Security",
         "GuardianProject"
       ],
-      "suggestedVersionCode": "10",
+      "suggestedVersionCode": "12",
       "issueTracker": "https://dev.guardianproject.info/projects/orfox/issues?set_filter=1",
       "license": "MPL",
       "name": "Orfox",
       "sourceCode": "https://github.com/guardianproject/orfox",
       "added": 1474675200000,
-      "icon": "info.guardianproject.orfox.10.png",
+      "icon": "info.guardianproject.orfox.12.png",
       "packageName": "info.guardianproject.orfox",
-      "lastUpdated": 1501977600000,
+      "lastUpdated": 1521764329000,
       "localized": {
         "af": {
           "summary": "A-privaatheid gefokus webblaaier vir gebruik met Orbot, gebaseer op Tor Browser"
@@ -1950,6 +1968,69 @@
     ],
     "info.guardianproject.orfox": [
       {
+        "added": 1521764329000,
+        "apkName": "Orfox-v1.5.1-RC1-Fennec-52.7.2esr-TorBrowser-7.5-1.apk",
+        "hash": "d74f264040570cf7eef41b2e487d004e13acbdd9150d90031b4e48da9c568e71",
+        "hashType": "sha256",
+        "minSdkVersion": "15",
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "info.guardianproject.orfox",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 28737327,
+        "targetSdkVersion": "23",
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ]
+        ],
+        "versionCode": 12,
+        "versionName": "Fennec-52.7.2esr/TorBrowser-7.5.2/Orfox-1.5.1-RC-1"
+      },
+      {
         "added": 1501977600000,
         "apkName": "Orfox-v1.4-RC-3.apk",
         "hash": "35a0b1f60ac9df27c1442f92d8c6ea28b35039f08930e6c2c092ad27565db469",
@@ -2074,93 +2155,6 @@
         ],
         "versionCode": 9,
         "versionName": "Fennec-52.2.0esr/TorBrowser-7.0-1/Orfox-1.4-RC-2"
-      },
-      {
-        "added": 1480636800000,
-        "apkName": "Orfox-1.2.1-TorBrowser-6.5-Fennec45.5.1-build2.apk",
-        "hash": "d43032e79c7c31cabb194b8c1c4b14fbf73dd2cfda958ba415879ddf2f38ace2",
-        "hashType": "sha256",
-        "minSdkVersion": "9",
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "info.guardianproject.orfox",
-        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
-        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
-        "size": 35273126,
-        "targetSdkVersion": "22",
-        "uses-permission": [
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "com.android.launcher.permission.INSTALL_SHORTCUT",
-            null
-          ],
-          [
-            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
-            null
-          ],
-          [
-            "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "info.guardianproject.orfox.permissions.PASSWORD_PROVIDER",
-            null
-          ],
-          [
-            "info.guardianproject.orfox.permissions.BROWSER_PROVIDER",
-            null
-          ],
-          [
-            "info.guardianproject.orfox.permissions.FORMHISTORY_PROVIDER",
-            null
-          ],
-          [
-            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 4,
-        "versionName": "Fennec-45.5.1esr/TorBrowser-6.5-1/Orfox-1.2.1"
       }
     ],
     "info.guardianproject.pixelknot": [
@@ -2306,6 +2300,180 @@
         "targetSdkVersion": "23",
         "versionCode": 1,
         "versionName": "0.0"
+      }
+    ],
+    "net.opendasharchive.openarchive.release": [
+      {
+        "added": 1511913600000,
+        "apkName": "openarchive-0.0.17-alpha-1.apk",
+        "hash": "a20de1d42ccd0487b2af68d36a44bb8cb115eaad44aca6bac94aa1850083f03f",
+        "hashType": "sha256",
+        "minSdkVersion": "16",
+        "packageName": "net.opendasharchive.openarchive.release",
+        "sig": "3118fb92e54c3b053903f0334596fd9e",
+        "signer": "e08e63ca87fdb93247dbab38f2e7f4104896bb487af5980838ace64c93c15a3c",
+        "size": 3890238,
+        "targetSdkVersion": "23",
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MANAGE_DOCUMENTS",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 17,
+        "versionName": "0.0.17-alpha-1"
+      },
+      {
+        "added": 1473897600000,
+        "apkName": "openarchive-0.0.16-release.apk",
+        "hash": "9a76a5d7362cd1466a78ea851745e4c4886b23a34c78eb5116908be5168b778d",
+        "hashType": "sha256",
+        "minSdkVersion": "10",
+        "packageName": "net.opendasharchive.openarchive.release",
+        "sig": "3118fb92e54c3b053903f0334596fd9e",
+        "signer": "e08e63ca87fdb93247dbab38f2e7f4104896bb487af5980838ace64c93c15a3c",
+        "size": 3287635,
+        "targetSdkVersion": "16",
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.MANAGE_DOCUMENTS",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 16,
+        "versionName": "0.0.16"
+      },
+      {
+        "added": 1472083200000,
+        "apkName": "openarchive-0.0.15-release.apk",
+        "hash": "10e8789b01b07c1a576f436b9ec014c90418dc23d3cee6aa8a1444be80936603",
+        "hashType": "sha256",
+        "minSdkVersion": "10",
+        "packageName": "net.opendasharchive.openarchive.release",
+        "sig": "3118fb92e54c3b053903f0334596fd9e",
+        "signer": "e08e63ca87fdb93247dbab38f2e7f4104896bb487af5980838ace64c93c15a3c",
+        "size": 3254992,
+        "targetSdkVersion": "16",
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.MANAGE_DOCUMENTS",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ]
+        ],
+        "versionCode": 15,
+        "versionName": "0.0.15"
       }
     ],
     "org.havenapp.main": [
