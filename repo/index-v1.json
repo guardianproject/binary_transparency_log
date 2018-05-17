@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1523012472000,
+    "timestamp": 1526558120000,
     "version": 19,
     "maxage": 60,
     "name": "Guardian Project Official Releases",
@@ -842,7 +842,7 @@
         "Internet",
         "GuardianProject"
       ],
-      "suggestedVersionCode": "16000011",
+      "suggestedVersionCode": "16020041",
       "description": "<p>Tor is both software and an open network that helps you defend against network surveillance that threatens personal freedom and privacy, confidential business activities and relationships.</p><p>Orbot allows access to Tor by accessing a local SOCKS or HTTP proxy. On a rooted device, the proxying can be completely transparent i.e. the app that accesses the network need not be aware of the proxy's existence; you can choose which apps go via the proxy in the settings.</p><p>If you don't have root access, there are some apps that are designed to work closely with tor or allow proxied connections: <a href=\"fdroid.app:info.guardianproject.otr.app.im\">ChatSecure</a>, <a href=\"fdroid.app:info.guardianproject.browser\">Orweb</a> and https://f-droid.org/packages/org.mariotaku.twidere. There is also a proxy configurator addon for Firefox called <a href=\"https://github.com/guardianproject/ProxyMob/downloads\">ProxyMob</a> (not yet available from the Mozilla addon site).</p><p>Requires root: No, but you will need to use apps that allow proxies if root is not granted.</p>",
       "donate": "https://www.torproject.org/donate/donate.html.en",
       "flattrID": "5649",
@@ -852,9 +852,9 @@
       "sourceCode": "https://gitweb.torproject.org/orbot.git",
       "webSite": "http://www.torproject.org/docs/android.html",
       "added": 1374451200000,
-      "icon": "org.torproject.android.16000011.png",
+      "icon": "org.torproject.android.16020041.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1515369600000,
+      "lastUpdated": 1526558088000,
       "localized": {
         "af": {
           "summary": "Verbeter jou privaatheid, breek deur middel van firewalls en meer veilig te komm"
@@ -2542,20 +2542,19 @@
     ],
     "org.torproject.android": [
       {
-        "added": 1515369600000,
-        "apkName": "Orbot-16.0.0-RC-2-multi-SDK23-Android6andUp.apk",
-        "hash": "47d805fa86d9682f213256b23f150f113d2b3fc050affc714400089f74bb7597",
+        "added": 1526558084000,
+        "apkName": "Orbot-16.0.2-RC-1-fullperm-armeabi-release.apk",
+        "hash": "88c21a49d9db69917d27d9c4daf664267d78c3295308c61485e9ceb445726cde",
         "hashType": "sha256",
-        "minSdkVersion": "23",
+        "minSdkVersion": "16",
         "nativecode": [
-          "armeabi",
-          "x86"
+          "armeabi"
         ],
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 14542664,
-        "targetSdkVersion": "26",
+        "size": 9512683,
+        "targetSdkVersion": "27",
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2580,31 +2579,27 @@
           [
             "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
             null
-          ],
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
           ]
         ],
-        "versionCode": 16000011,
-        "versionName": "16.0.0-RC-2-multi-SDK23"
+        "versionCode": 16020041,
+        "versionName": "16.0.2-RC-1"
       },
       {
-        "added": 1515369600000,
-        "apkName": "Orbot-16.0.0-RC-2-multi-SDK16-Android4.1andUp.apk",
-        "hash": "577decb04f548ad749d993a4e4a15f316261b63df7085a2dcb7a9945637ee550",
+        "added": 1526558087000,
+        "apkName": "Orbot-16.0.2-RC-1-fullperm-universal-release.apk",
+        "hash": "ceaf11111c90e9fcb32bdfaed4d656bd23f812734d8237c0ae140594c1c283c5",
         "hashType": "sha256",
-        "maxSdkVersion": "23",
         "minSdkVersion": "16",
         "nativecode": [
           "armeabi",
+          "armeabi-v7a",
           "x86"
         ],
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 14587974,
-        "targetSdkVersion": "23",
+        "size": 18832319,
+        "targetSdkVersion": "27",
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2616,46 +2611,6 @@
           ],
           [
             "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ]
-        ],
-        "versionCode": 16000010,
-        "versionName": "16.0.0-RC-2-multi-SDK16"
-      },
-      {
-        "added": 1511913600000,
-        "apkName": "Orbot-15.5.1-RC-2-multi-SDK23.apk",
-        "hash": "392448d46c63781f8122c41fa6020e7c9324dee737a8bf0d8758781eeaed2254",
-        "hashType": "sha256",
-        "minSdkVersion": "23",
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "org.torproject.android",
-        "sig": "8bd7e51b479aeba908ff46ada3305a29",
-        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 13118935,
-        "targetSdkVersion": "25",
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
             null
           ],
           [
@@ -2669,14 +2624,53 @@
           [
             "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
             null
+          ]
+        ],
+        "versionCode": 16020041,
+        "versionName": "16.0.2-RC-1"
+      },
+      {
+        "added": 1526558088000,
+        "apkName": "Orbot-16.0.2-RC-1-fullperm-x86-release.apk",
+        "hash": "750ba7bb673e2e94ce8ab5e28a26875bd5778f304b79828aedd14ce0bb9e083a",
+        "hashType": "sha256",
+        "minSdkVersion": "16",
+        "nativecode": [
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 10128883,
+        "targetSdkVersion": "27",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
           ],
           [
-            "android.permission.READ_PHONE_STATE",
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
             null
           ]
         ],
-        "versionCode": 15510002,
-        "versionName": "15.5.1-RC-2-multi-SDK23"
+        "versionCode": 16020041,
+        "versionName": "16.0.2-RC-1"
       }
     ],
     "org.witness.informacam.app": [
