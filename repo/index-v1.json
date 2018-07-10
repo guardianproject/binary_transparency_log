@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1526662429000,
+    "timestamp": 1531231379000,
     "version": 19,
     "maxage": 60,
     "name": "Guardian Project Official Releases",
@@ -1006,15 +1006,15 @@
         "Security",
         "GuardianProject"
       ],
-      "suggestedVersionCode": "13",
+      "suggestedVersionCode": "15",
       "issueTracker": "https://dev.guardianproject.info/projects/orfox/issues?set_filter=1",
       "license": "MPL",
       "name": "Orfox",
       "sourceCode": "https://github.com/guardianproject/orfox",
       "added": 1474675200000,
-      "icon": "info.guardianproject.orfox.13.png",
+      "icon": "info.guardianproject.orfox.15.png",
       "packageName": "info.guardianproject.orfox",
-      "lastUpdated": 1523012443000,
+      "lastUpdated": 1531231345000,
       "localized": {
         "af": {
           "summary": "A-privaatheid gefokus webblaaier vir gebruik met Orbot, gebaseer op Tor Browser"
@@ -1968,6 +1968,72 @@
     ],
     "info.guardianproject.orfox": [
       {
+        "added": 1531231345000,
+        "apkName": "Orfox-Fennec-52.9.0esr-TorBrowser-7.5-1-Orfox-1.5.4-RC-1.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "2230d893f47aba32cd4a42ef4c13ae9eaca37b2c3ee2c09360af1bc80dec459a",
+        "hashType": "sha256",
+        "minSdkVersion": "15",
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "info.guardianproject.orfox",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 32268754,
+        "targetSdkVersion": "23",
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ]
+        ],
+        "versionCode": 15,
+        "versionName": "Fennec-52.9.0esr/TorBrowser-7.5-1/Orfox-1.5.4-RC-1"
+      },
+      {
         "added": 1523012443000,
         "apkName": "Orfox-v1.5.2-RC1-Fennec-52.7.3esr-7.5-1.apk",
         "features": [
@@ -2095,69 +2161,6 @@
         ],
         "versionCode": 12,
         "versionName": "Fennec-52.7.2esr/TorBrowser-7.5.2/Orfox-1.5.1-RC-1"
-      },
-      {
-        "added": 1501977600000,
-        "apkName": "Orfox-v1.4-RC-3.apk",
-        "hash": "35a0b1f60ac9df27c1442f92d8c6ea28b35039f08930e6c2c092ad27565db469",
-        "hashType": "sha256",
-        "minSdkVersion": "15",
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "info.guardianproject.orfox",
-        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
-        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
-        "size": 28639528,
-        "targetSdkVersion": "23",
-        "uses-permission": [
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "com.android.launcher.permission.INSTALL_SHORTCUT",
-            null
-          ],
-          [
-            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
-            null
-          ],
-          [
-            "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.SYSTEM_ALERT_WINDOW",
-            null
-          ]
-        ],
-        "versionCode": 10,
-        "versionName": "Fennec-52.2.0esr/TorBrowser-7.0-1/Orfox-1.4-RC-3"
       }
     ],
     "info.guardianproject.pixelknot": [
@@ -2670,58 +2673,6 @@
         ],
         "versionCode": 16000010,
         "versionName": "16.0.0-RC-2-multi-SDK16"
-      },
-      {
-        "added": 1511913600000,
-        "apkName": "Orbot-15.5.1-RC-2-multi-SDK23.apk",
-        "hash": "392448d46c63781f8122c41fa6020e7c9324dee737a8bf0d8758781eeaed2254",
-        "hashType": "sha256",
-        "minSdkVersion": "23",
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "org.torproject.android",
-        "sig": "8bd7e51b479aeba908ff46ada3305a29",
-        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 13118935,
-        "targetSdkVersion": "25",
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ]
-        ],
-        "versionCode": 15510002,
-        "versionName": "15.5.1-RC-2-multi-SDK23"
       }
     ],
     "org.witness.informacam.app": [
