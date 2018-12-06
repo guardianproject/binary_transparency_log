@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1541457567000,
+    "timestamp": 1544129148000,
     "version": 19,
     "maxage": 60,
     "name": "Guardian Project Archive",
@@ -597,7 +597,7 @@
         "Internet",
         "GuardianProject"
       ],
-      "suggestedVersionCode": "16020041",
+      "suggestedVersionCode": "16050100",
       "description": "<p>Tor is both software and an open network that helps you defend against network surveillance that threatens personal freedom and privacy, confidential business activities and relationships.</p><p>Orbot allows access to Tor by accessing a local SOCKS or HTTP proxy. On a rooted device, the proxying can be completely transparent i.e. the app that accesses the network need not be aware of the proxy's existence; you can choose which apps go via the proxy in the settings.</p><p>If you don't have root access, there are some apps that are designed to work closely with tor or allow proxied connections: <a href=\"fdroid.app:info.guardianproject.otr.app.im\">ChatSecure</a>, <a href=\"fdroid.app:info.guardianproject.browser\">Orweb</a> and https://f-droid.org/packages/org.mariotaku.twidere. There is also a proxy configurator addon for Firefox called <a href=\"https://github.com/guardianproject/ProxyMob/downloads\">ProxyMob</a> (not yet available from the Mozilla addon site).</p><p>Requires root: No, but you will need to use apps that allow proxies if root is not granted.</p>",
       "donate": "https://www.torproject.org/donate/donate.html.en",
       "flattrID": "5649",
@@ -607,9 +607,9 @@
       "sourceCode": "https://gitweb.torproject.org/orbot.git",
       "webSite": "http://www.torproject.org/docs/android.html",
       "added": 1374451200000,
-      "icon": "org.torproject.android.16020041.png",
+      "icon": "org.torproject.android.16050100.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1526558087000,
+      "lastUpdated": 1544129108000,
       "localized": {
         "af": {
           "summary": "Verbeter jou privaatheid, breek deur middel van firewalls en meer veilig te komm"
@@ -7337,6 +7337,43 @@
       }
     ],
     "org.torproject.android": [
+      {
+        "added": 1515369600000,
+        "apkName": "Orbot-16.0.0-RC-2-multi-SDK16-Android4.1andUp.apk",
+        "hash": "577decb04f548ad749d993a4e4a15f316261b63df7085a2dcb7a9945637ee550",
+        "hashType": "sha256",
+        "maxSdkVersion": "23",
+        "minSdkVersion": "16",
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 14587974,
+        "targetSdkVersion": "23",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ]
+        ],
+        "versionCode": 16000010,
+        "versionName": "16.0.0-RC-2-multi-SDK16"
+      },
       {
         "added": 1511913600000,
         "apkName": "Orbot-15.5.1-RC-2-multi-SDK23.apk",
