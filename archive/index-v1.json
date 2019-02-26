@@ -1,61 +1,40 @@
 {
   "repo": {
-    "timestamp": 1550086270000,
-    "version": 19,
-    "maxage": 60,
+    "timestamp": 1551155153000,
+    "version": 21,
+    "maxage": 14,
     "name": "Guardian Project Archive",
     "icon": "guardianproject.png",
     "address": "https://guardianproject.info/fdroid/archive",
-    "description": "The official repository of The Guardian Project apps for use with FDroid client. This contains older versions of applications from the main repository. ",
+    "description": "The official repository of The Guardian Project apps for use with the F-Droid client. This contains older versions of applications from the main repository. ",
     "mirrors": [
       "http://bdf2wcxujkg6qqff.onion/fdroid/archive",
       "https://guardianproject.info/fdroid/archive",
       "https://s3.amazonaws.com/guardianproject/fdroid/archive",
-      "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/archive",
       "https://guardianproject.gitlab.io/fdroid-repo/fdroid/archive",
-      "https://gitlab.com/guardianproject/fdroid-repo/raw/master/fdroid/archive"
+      "https://gitlab.com/guardianproject/fdroid-repo/raw/master/fdroid/archive",
+      "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/archive"
     ]
   },
   "requests": {
-    "install": [
-      "org.torproject.android"
-    ],
+    "install": [],
     "uninstall": []
   },
   "apps": [
     {
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
+      "authorWebSite": "https://guardianproject.info",
+      "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
       "categories": [
-        "Multimedia",
-        "Security",
-        "GuardianProject"
-      ],
-      "suggestedVersionCode": "1",
-      "description": "<p>Plugin for <a href=\"fdroid.app:info.guardianproject.otr.app.im\">ChatSecure</a> to support for core emoji input and display.  Based on \"Phantom Open Emoji\" project.</p>",
-      "issueTracker": "https://dev.guardianproject.info/projects/chatsecure/issues",
-      "license": "MIT",
-      "sourceCode": "https://github.com/guardianproject/ChatSecureVoicePlugin",
-      "summary": "ChatSecure Open Emoji Plugin",
-      "webSite": "https://guardianproject.info/apps/chatsecure",
-      "added": 1385942400000,
-      "icon": "info.guardianproject.chatsecure.emoji.core.1.png",
-      "packageName": "info.guardianproject.chatsecure.emoji.core",
-      "lastUpdated": 1385942400000
-    },
-    {
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
-      "categories": [
-        "Security",
-        "GuardianProject"
+        "Guardian Project",
+        "Security"
       ],
       "suggestedVersionCode": "4",
-      "description": "<p>Android 4+ allows you to disable certificates from the system Settings and root isn't required, so try that first if you want to manually mess with the certificates. The app won't work with Android 4+ anyway.</p><p>An app to manage security certificates on your phone also containing a version of the Android CACert keystore derived from Mozilla. If a certificate has recently become untrusted you can either install an update to this app or you can backup and remove certificates by yourself.</p><p>Requires root: Yes, it writes to the system partition. You will need a device that has the \u2018grep\u2019 command on it (via busybox: present on most custom ROMs). If the \u2018save\u2019 doesn\u2019t work, then you will need to make your /system partition read-write by using a file explorer like https://f-droid.org/packages/com.ghostsq.commander or via a command in https://f-droid.org/packages/jackpal.androidterm.</p>",
+      "description": "<p>Android 4+ allows you to disable certificates from the system Settings and root isn't required, so try that first if you want to manually mess with the certificates. The app won't work with Android 4+ anyway.</p><p>An app to manage security certificates on your phone also containing a version of the Android CACert keystore derived from Mozilla. If a certificate has recently become untrusted you can either install an update to this app or you can backup and remove certificates by yourself.</p><p>Requires root: Yes, it writes to the system partition. You will need a device that has the \u2018grep\u2019 command on it (via busybox: present on most custom ROMs). If the \u2018save\u2019 doesn\u2019t work, then you will need to make your /system partition read-write by using a file explorer like https://f-droid.org/packages/com.ghostsq.commander/ or via a command in https://f-droid.org/packages/jackpal.androidterm/.</p>",
       "issueTracker": "https://github.com/guardianproject/cacert/issues",
-      "license": "GPLv3",
+      "liberapayID": "33617",
+      "license": "GPL-3.0-only",
       "name": "CACertMan",
       "sourceCode": "https://github.com/guardianproject/cacert",
       "summary": "Disable untrusted certificates",
@@ -68,20 +47,20 @@
     {
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
+      "authorWebSite": "https://guardianproject.info",
       "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
       "categories": [
-        "Development",
-        "GuardianProject"
+        "Guardian Project",
+        "Development"
       ],
-      "suggestedVersionCode": "9999999",
+      "suggestedVersionCode": "206",
       "issueTracker": "https://dev.guardianproject.info/projects/informacam/issues",
-      "license": "GPLv3",
+      "license": "GPL-3.0-or-later",
       "name": "CameraV",
       "sourceCode": "https://github.com/guardianproject/CameraV",
       "webSite": "https://guardianproject.info/apps/camerav/",
       "added": 1386720000000,
-      "icon": "org.witness.informacam.app.206.png",
+      "icon": "org.witness.informacam.app.201.png",
       "packageName": "org.witness.informacam.app",
       "lastUpdated": 1446508800000,
       "localized": {
@@ -381,15 +360,16 @@
     {
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
+      "authorWebSite": "https://guardianproject.info",
       "categories": [
-        "Development",
-        "GuardianProject"
+        "Guardian Project",
+        "Security"
       ],
-      "suggestedVersionCode": "5",
-      "description": "<p>GnuPrivacyGuard extends the gpgcli command line tool to bring an integrated privacy engine to your Android. It gives you command line access to the entire GnuPG suite of encryption software. It also serves as the test bed for complete Android integration for all of GnuPG's crypto services, including OpenPGP, symmetric encryption, and more.</p><p>GPG is GNU\u2019s tool for end-to-end secure communication and encrypted data storage. This trusted protocol is the free software alternative to PGP. This app is built upon GnuPG 2.1, the new modularized version of GnuPG that now supports S/MIME.</p><p>GPG aims to provide an integrated experience, so clicking on PGP files should \"just work\". You can also share files to GPG to encrypt them. GPG will also respond when you click on a PGP fingerprint URL (one that starts with openpgp4fpr:).</p><p>Before using GPG, be sure to launch the app and let it finish its installation process. Once it has completed, then you're ready to use it. The easiest way to get started with GPG is to install https://f-droid.org/packages/jackpal.androidterm. GPG will automatically configure Android Terminal Emulator as long as you have the \"Allow PATH extensions\" settings enabled.</p><p>Status: ALPHA</p>",
+      "suggestedVersionName": "0.3.2",
+      "suggestedVersionCode": "3020",
+      "description": "<p>GnuPrivacyGuard extends the gpgcli command line tool to bring an integrated privacy engine to your Android. It gives you command line access to the entire GnuPG suite of encryption software. It also serves as the test bed for complete Android integration for all of GnuPG's crypto services, including OpenPGP, symmetric encryption, and more.</p><p>GPG is GNU\u2019s tool for end-to-end secure communication and encrypted data storage. This trusted protocol is the free software alternative to PGP. This app is built upon GnuPG 2.1, the new modularized version of GnuPG that now supports S/MIME.</p><p>GPG aims to provide an integrated experience, so clicking on PGP files should \"just work\". You can also share files to GPG to encrypt them. GPG will also respond when you click on a PGP fingerprint URL (one that starts with openpgp4fpr:).</p><p>Before using GPG, be sure to launch the app and let it finish its installation process. Once it has completed, then you're ready to use it. The easiest way to get started with GPG is to install https://f-droid.org/packages/jackpal.androidterm/. GPG will automatically configure Android Terminal Emulator as long as you have the \"Allow PATH extensions\" settings enabled.</p><p>Status: Unmaintained, use https://f-droid.org/packages/org.sufficientlysecure.keychain/</p>",
       "issueTracker": "https://dev.guardianproject.info/projects/gpgandroid/issues",
-      "license": "GPLv3",
+      "license": "GPL-3.0-only",
       "name": "GnuPrivacyGuard",
       "sourceCode": "https://github.com/guardianproject/gnupg-for-android",
       "summary": "GnuPG via gpgcli",
@@ -402,16 +382,18 @@
     {
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
+      "authorWebSite": "https://guardianproject.info",
       "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
       "categories": [
-        "Development",
-        "GuardianProject"
+        "Guardian Project",
+        "Development"
       ],
+      "suggestedVersionName": "0.5.4",
       "suggestedVersionCode": "5400",
-      "description": "<p>Lil' Debi builds up a whole Debian chroot on your phone entirely using debootstrap. You choose the release, mirror, and size of the disk image, and away it goes. It could take up to an hour on a slow device.</p><p>Then it has a simple chroot manager that fscks your disk, mounts/unmounts things, starts/stops sshd if you have it installed, etc. You can also then use \u2018apt-get\u2019 to install any package that is released for ARM processors. This includes things like a complete real shell, Tor, TraceRouteTCP, iwconfig/ipconfig, and other security and crypto tools. Works well with https://f-droid.org/packages/jackpal.androidterm\u2014just run `/debian/shell` to get a Debian shell.</p><p>The aim of Lil\u2019 Debi is to provide a transparent and tightly integrated Debian install on your Android device. It mounts all of your Android partitions in Debian space, so you see a fusion of both systems. It's even possible to have Lil\u2019 Debi launch the normal Debian init start-up scripts when it starts, so that all you need to do is apt-get install and any servers you install will just work.</p><p>Lil' Debi works with as few modifications to the Android system as possible. Currently, it only adds a /bin symlink, and a /debian mount directory. It does not touch /system at all.</p><p>Requires root: Yes, because it needs to run debootstrap, create dirs in /, mount/umount, etc.</p>",
+      "description": "<p>Lil' Debi builds up a whole Debian chroot on your phone entirely using debootstrap. You choose the release, mirror, and size of the disk image, and away it goes. It could take up to an hour on a slow device.</p><p>Then it has a simple chroot manager that fscks your disk, mounts/unmounts things, starts/stops sshd if you have it installed, etc. You can also then use \u2018apt-get\u2019 to install any package that is released for ARM processors. This includes things like a complete real shell, Tor, TraceRouteTCP, iwconfig/ipconfig, and other security and crypto tools. Works well with https://f-droid.org/packages/jackpal.androidterm \u2014just run `/debian/shell` to get a Debian shell.</p><p>The aim of Lil\u2019 Debi is to provide a transparent and tightly integrated Debian install on your Android device. It mounts all of your Android partitions in Debian space, so you see a fusion of both systems. It's even possible to have Lil\u2019 Debi launch the normal Debian init start-up scripts when it starts, so that all you need to do is apt-get install and any servers you install will just work.</p><p>Lil' Debi works with as few modifications to the Android system as possible. Currently, it only adds a /bin symlink, and a /debian mount directory. It does not touch /system at all.</p><p>Requires root: Yes, because it needs to run debootstrap, create dirs in /, mount/umount, etc.</p>",
       "issueTracker": "https://github.com/guardianproject/lildebi/issues",
-      "license": "GPLv3",
+      "liberapayID": "33617",
+      "license": "GPL-3.0-or-later",
       "name": "Lil' Debi",
       "sourceCode": "https://github.com/guardianproject/lildebi",
       "summary": "Run Debian on your phone",
@@ -424,18 +406,22 @@
     {
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
+      "authorWebSite": "https://guardianproject.info",
+      "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
       "categories": [
-        "Office",
-        "GuardianProject"
+        "Guardian Project",
+        "Writing",
+        "Security"
       ],
       "suggestedVersionCode": "12",
-      "description": "<p>Simple app for taking notes that encrypts everything behind a password.</p><p>Status: Unmaintained</p>",
+      "description": "<p>Simple app for taking notes that encrypts everything behind a password.</p><p>Status: Unmaintained.</p>",
       "issueTracker": "https://github.com/guardianproject/notecipher/issues",
-      "license": "Apache2",
+      "liberapayID": "33617",
+      "license": "Apache-2.0",
       "name": "NoteCipher",
       "sourceCode": "https://github.com/guardianproject/notecipher",
       "summary": "Notepad with lock",
+      "webSite": "https://guardianproject.info",
       "added": 1358294400000,
       "icon": "info.guardianproject.notepadbot.12.png",
       "packageName": "info.guardianproject.notepadbot",
@@ -444,20 +430,25 @@
     {
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
+      "authorWebSite": "https://guardianproject.info",
+      "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
       "categories": [
+        "Guardian Project",
         "Multimedia",
-        "Security",
-        "GuardianProject"
+        "Security"
       ],
       "suggestedVersionCode": "4001",
-      "issueTracker": "https://github.com/guardianproject/obscuracam/issues",
-      "license": "GPLv3",
+      "description": "<p>In a world of viral videos and facial recognition, ObscuraCam helps you share photos and videos while protecting the privacy of you and those you care about. With ObscuraCam you can blur and disguise faces in your photos and videos. Information that could identify you as the cameraperson is removed from the files for added security.</p><ul><li> PRIVACY FOR YOUR PICTURES: ObscuraCam can be used as a camera to take photos, or to anonymize photos and videos you\u2019ve already taken.</li><li> DISGUISE YOURSELF: Cover faces with pixelate, redact (blackout) or funny nose and glasses</li><li> AUTOMATIC FACE DETECTION: ObscuraCam automatically detects faces in both photos and videos, so you can quickly and easily anonymize a crowd or a long video.</li><li> MULTIPLE PRIVACY MODES: Faces can be pixelated, removed completely, or disguised with funny nose and glasses. You can also blur everything except a small portion of an image.</li><li> SHARE SECURELY: We remove all identifying data stored in photos including GPS location data and phone make &amp; model so you can save the protected photo back to the Gallery, or share it directly Facebook, Twitter or any other \"Share\" enabled app.</li><li> PROTECTS THE IDENTITY OF THE PHOTOGRAPHER: Smartphones attach information to every photo they take, including where it was taken and by what type of camera. ObscuraCam removes all of this information.</li><li> AWARD-WINNING: ObscuraCam was a Winner of the 2013 Knight News Challenge</li></ul><p>=== Learn More ===</p><ul><li> PARTNERSHIP: ObscuraCam is a partnership between the security experts at the Guardian Project and WITNESS.org, a non-profit using the power of video and storytelling to open the eyes of the world to human rights abuses.</li><li> ABOUT US: Guardian Project is a group of developers that make secure mobile apps and open-source code for a better tomorrow.</li><li> OUR WEBSITE: GuardianProject.info.</li><li> ABOUT WITNESS: A non-profit using the power of video and storytelling to open the eyes of the world to human rights abuses.</li><li> WITNESS\u2019 WEBSITE: http://witness.org</li><li> ON TWITTER: https://twitter.com/guardianproject &amp; https://twitter.com/witnessorg</li><li> OPEN-SOURCE: ObscuraCam is free software. You can take a look at our source code, or join the community to help make Orweb even better: https://github.com/guardianproject/ObscuraCam</li><li> MESSAGE US: Are we missing your favorite feature? Found an annoying bug? Please tell us! We\u2019d love to hear from you. Send us an email: support@guardianproject.info.</li></ul>",
+      "issueTracker": "https://github.com/guardianproject/ObscuraCam/issues",
+      "liberapayID": "33617",
+      "license": "GPL-3.0-or-later",
       "name": "ObscuraCam",
-      "sourceCode": "https://github.com/guardianproject/obscuracam",
+      "sourceCode": "https://github.com/guardianproject/ObscuraCam",
+      "summary": "The Privacy Camera",
+      "translation": "https://www.transifex.com/otf/obscuracam/",
       "webSite": "https://guardianproject.info/apps/obscuracam",
       "added": 1376870400000,
-      "icon": "org.witness.sscphase1.4001.png",
+      "icon": "org.witness.sscphase1.34.png",
       "packageName": "org.witness.sscphase1",
       "lastUpdated": 1513900800000,
       "localized": {
@@ -589,27 +580,28 @@
       }
     },
     {
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
+      "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
       "categories": [
+        "Guardian Project",
         "Security",
-        "Internet",
-        "GuardianProject"
+        "Internet"
       ],
       "suggestedVersionCode": "16050200",
-      "description": "<p>Tor is both software and an open network that helps you defend against network surveillance that threatens personal freedom and privacy, confidential business activities and relationships.</p><p>Orbot allows access to Tor by accessing a local SOCKS or HTTP proxy. On a rooted device, the proxying can be completely transparent i.e. the app that accesses the network need not be aware of the proxy's existence; you can choose which apps go via the proxy in the settings.</p><p>If you don't have root access, there are some apps that are designed to work closely with tor or allow proxied connections: <a href=\"fdroid.app:info.guardianproject.otr.app.im\">ChatSecure</a>, <a href=\"fdroid.app:info.guardianproject.browser\">Orweb</a> and https://f-droid.org/packages/org.mariotaku.twidere. There is also a proxy configurator addon for Firefox called <a href=\"https://github.com/guardianproject/ProxyMob/downloads\">ProxyMob</a> (not yet available from the Mozilla addon site).</p><p>Requires root: No, but you will need to use apps that allow proxies if root is not granted.</p>",
+      "description": "<p>Tor is both software and an open network that helps you defend against network surveillance that threatens personal freedom and privacy, confidential business activities and relationships.</p><p>Orbot allows access to Tor by accessing a local SOCKS or HTTP proxy. On a rooted device, the proxying can be completely transparent i.e. the app that accesses the network need not be aware of the proxy's existence; you can choose which apps go via the proxy in the settings.</p><p>If you don't have root access, there are some apps that are designed to work closely with tor or allow proxied connections: https://f-droid.org/packages/info.guardianproject.otr.app.im/, https://f-droid.org/packages/acr.browser.lightning/ and https://f-droid.org/packages/org.mariotaku.twidere/. There is also a proxy configurator addon for Firefox called <a href=\"https://github.com/guardianproject/ProxyMob/downloads\">ProxyMob</a> (not yet available from the Mozilla addon site).</p>",
       "donate": "https://www.torproject.org/donate/donate.html.en",
       "flattrID": "5649",
       "issueTracker": "https://dev.guardianproject.info/projects/orbot/issues",
-      "license": "NewBSD",
+      "liberapayID": "33617",
+      "license": "BSD-3-Clause",
       "name": "Orbot",
       "sourceCode": "https://gitweb.torproject.org/orbot.git",
-      "webSite": "http://www.torproject.org/docs/android.html",
+      "summary": "Tor (anonymity) client",
+      "translation": "https://www.transifex.com/otf/orbot/",
+      "webSite": "https://www.torproject.org/docs/android.html",
       "added": 1374451200000,
-      "icon": "org.torproject.android.16050200.png",
+      "icon": "org.torproject.android.16020041.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1545180728000,
+      "lastUpdated": 1545177600000,
       "localized": {
         "af": {
           "summary": "Verbeter jou privaatheid, breek deur middel van firewalls en meer veilig te komm"
@@ -755,21 +747,25 @@
     {
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
+      "authorWebSite": "https://guardianproject.info",
+      "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
       "categories": [
+        "Guardian Project",
         "Internet",
-        "Security",
-        "GuardianProject"
+        "Security"
       ],
       "suggestedVersionCode": "15",
-      "issueTracker": "https://dev.guardianproject.info/projects/orfox/issues?set_filter=1",
-      "license": "MPL",
+      "donate": "https://www.torproject.org/donate/donate.html",
+      "liberapayID": "33617",
+      "license": "MPL-2.0",
       "name": "Orfox",
       "sourceCode": "https://github.com/guardianproject/orfox",
+      "translation": "https://www.transifex.com/otf/torproject/",
+      "webSite": "https://dev.guardianproject.info/projects/orfox-private-browser/",
       "added": 1474675200000,
-      "icon": "info.guardianproject.orfox.15.png",
+      "icon": "info.guardianproject.orfox.10.png",
       "packageName": "info.guardianproject.orfox",
-      "lastUpdated": 1531231345000,
+      "lastUpdated": 1531180800000,
       "localized": {
         "af": {
           "summary": "A-privaatheid gefokus webblaaier vir gebruik met Orbot, gebaseer op Tor Browser"
@@ -907,19 +903,23 @@
     {
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
+      "authorWebSite": "https://guardianproject.info",
+      "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
       "categories": [
+        "Guardian Project",
         "Internet",
-        "Security",
-        "GuardianProject"
+        "Security"
       ],
+      "suggestedVersionName": "0.7.1",
       "suggestedVersionCode": "7010",
-      "description": "<p>Orweb is a companion browser to <a href=\"fdroid.app:org.torproject.android\">Orbot</a>, the port of Tor to Android.</p><p>Orbot anonymizes internet traffic by routing it through many different stages and you must have that enabled first, though root isn't needed. Orweb disables certain other browser features that could be used to identify you.</p>",
+      "description": "<p>Orweb is a companion browser to https://f-droid.org/packages/org.torproject.android/, the port of Tor to Android.</p><p>Orbot anonymizes internet traffic by routing it through many different stages and you must have that enabled first, though root isn't needed. Orweb disables certain other browser features that could be used to identify you.</p><p>Please note that Orweb is superseded by Tor Browser.  Orweb is no longer maintained at all.</p>",
       "issueTracker": "https://dev.guardianproject.info/projects/orweb/issues?set_filter=1",
-      "license": "GPL",
+      "liberapayID": "33617",
+      "license": "GPL-2.0-only",
       "name": "Orweb",
       "sourceCode": "https://github.com/guardianproject/orweb",
       "summary": "Privacy-enhanced browser",
+      "webSite": "https://guardianproject.info/apps/orweb",
       "added": 1350864000000,
       "icon": "info.guardianproject.browser.7010.png",
       "packageName": "info.guardianproject.browser",
@@ -931,18 +931,26 @@
       }
     },
     {
+      "antiFeatures": [
+        "DisabledAlgorithm",
+        "KnownVuln"
+      ],
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
+      "authorWebSite": "https://guardianproject.info",
+      "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
       "categories": [
-        "Office",
-        "GuardianProject"
+        "Guardian Project",
+        "Security"
       ],
       "suggestedVersionCode": "100",
       "issueTracker": "https://github.com/guardianproject/PixelKnot/issues",
-      "license": "GPLv3",
+      "liberapayID": "33617",
+      "license": "GPL-3.0-only",
       "name": "PixelKnot",
       "sourceCode": "https://github.com/guardianproject/PixelKnot",
+      "translation": "https://www.transifex.com/otf/pixelknot/",
+      "webSite": "https://guardianproject.info",
       "added": 1361836800000,
       "icon": "info.guardianproject.pixelknot.100.png",
       "packageName": "info.guardianproject.pixelknot",
@@ -1095,16 +1103,19 @@
       "authorWebSite": "https://guardianproject.info",
       "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
       "categories": [
-        "Navigation",
-        "Security",
-        "GuardianProject"
+        "Guardian Project",
+        "Security"
       ],
       "suggestedVersionCode": "75",
+      "description": "<p>Ripple is a \"panic button\" that can send it's trigger message to any app that is a \"panic responder\". Such apps can do things like lock, disguise themselves, delete private data, send an emergency message, and more. It is meant for situations where there is time to react, but where users need to be sure it is not mistakenly set off.</p><p>Here are two example scenarios:</p><ul><li> An organization gets regularly raided by the security forces, who search all of the computers and mobile devices on the premises. The organization usually has at least a minute or two of warning before a raid starts. They need a very reliable way to trigger wiping all of the data from the sensitive apps.</li><li> An aid worker has lots of sensitive data about people on their device. They regularly sync that data up with a secure, central database. Occasionally, the aid worker has to leave the country on very short notice. The border guards regularly download the entire contents of mobile devices of people crossing through. While waiting in line at the border, the aid worker sees the border guards seizing people's devices, and then remembers all the data on the device, so she unlocks her phone and hits the wipe trigger, which wipes all sensitive apps from the device. When the aid worker returns to the central office, the device is again synced up with the central database.</li></ul>",
       "issueTracker": "https://dev.guardianproject.info/projects/panic/issues",
-      "license": "GPLv3-or-later",
+      "liberapayID": "33617",
+      "license": "GPL-3.0-or-later",
       "name": "Ripple",
       "sourceCode": "https://github.com/guardianproject/ripple",
-      "webSite": "https://dev.guardianproject.info/projects/panic",
+      "summary": "Trigger apps to protect your privacy when in anxious or panic situations",
+      "translation": "https://hosted.weblate.org/projects/guardianproject/ripple/",
+      "webSite": "https://guardianproject.info/tag/panic",
       "added": 1480636800000,
       "icon": "info.guardianproject.ripple.75.png",
       "packageName": "info.guardianproject.ripple",
@@ -1269,6 +1280,32 @@
       "authorName": "Guardian Project",
       "authorWebSite": " https://guardianproject.info",
       "categories": [
+        "Multimedia",
+        "Security",
+        "GuardianProject"
+      ],
+      "suggestedVersionCode": "1",
+      "description": "<p>Plugin for https://f-droid.org/packages/info.guardianproject.otr.app.im/ to support for core emoji input and display.  Based on \"Phantom Open Emoji\" project.</p>",
+      "issueTracker": "https://dev.guardianproject.info/projects/chatsecure/issues",
+      "license": "MIT",
+      "name": "StickerPack",
+      "sourceCode": "https://github.com/guardianproject/ChatSecureVoicePlugin",
+      "summary": "ChatSecure Open Emoji Plugin",
+      "webSite": "https://guardianproject.info/apps/chatsecure",
+      "added": 1385942400000,
+      "icon": "info.guardianproject.chatsecure.emoji.core.1.png",
+      "packageName": "info.guardianproject.chatsecure.emoji.core",
+      "lastUpdated": 1385942400000
+    },
+    {
+      "antiFeatures": [
+        "DisabledAlgorithm",
+        "KnownVuln"
+      ],
+      "authorEmail": "support@guardianproject.info",
+      "authorName": "Guardian Project",
+      "authorWebSite": " https://guardianproject.info",
+      "categories": [
         "Internet",
         "Multimedia",
         "GuardianProject"
@@ -1300,25 +1337,109 @@
       "license": "MPL",
       "name": "Tor Browser for Android (Alpha)",
       "summary": "Experience real private browsing without tracking, surveillance, or censorship.",
-      "added": 1539016886000,
-      "icon": "org.torproject.torbrowser_alpha.2015609457.png",
+      "added": 1538956800000,
+      "icon": "org.torproject.torbrowser_alpha.2015539353.png",
       "packageName": "org.torproject.torbrowser_alpha",
-      "lastUpdated": 1550086238000
+      "lastUpdated": 1550016000000
     }
   ],
   "packages": {
     "info.guardianproject.browser": [
       {
+        "added": 1448496000000,
+        "apkName": "Orweb-0.7.1.apk",
+        "hash": "949d65d6e8a1eadd0aa626bdc7c5a3e2b0dbe5a38dea1d725cce2a34ec84f0d4",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "packageName": "info.guardianproject.browser",
+        "sig": "a0eeebb161f946e3516945fae8a92a3e",
+        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
+        "size": 2424394,
+        "targetSdkVersion": 21,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 7010,
+        "versionName": "0.7.1"
+      },
+      {
+        "added": 1415836800000,
+        "apkName": "Orweb-release-0.7.apk",
+        "hash": "763541f43f5dc136744b4361fe67d36f25cc036526d6c3e934287d72d1b411ab",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "packageName": "info.guardianproject.browser",
+        "sig": "a0eeebb161f946e3516945fae8a92a3e",
+        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
+        "size": 1244875,
+        "targetSdkVersion": 18,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 28,
+        "versionName": "0.7"
+      },
+      {
+        "added": 1404086400000,
+        "apkName": "Orweb-release-0.6.1.apk",
+        "hash": "103f4a98fa282923c07e445b2a383e946b6c15e10ed08005af3d0743249a0359",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "packageName": "info.guardianproject.browser",
+        "sig": "a0eeebb161f946e3516945fae8a92a3e",
+        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
+        "size": 931433,
+        "targetSdkVersion": 19,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 27,
+        "versionName": "0.6.1"
+      },
+      {
         "added": 1392249600000,
         "apkName": "Orweb-release-0.5.2.apk",
         "hash": "1f9660aff68f0b049455e3c891333a7e35230eeb72c1366b71a5767befae45a4",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "info.guardianproject.browser",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1894241,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -1341,12 +1462,12 @@
         "apkName": "Orweb-release-0.5.1.apk",
         "hash": "4f7d3257c191a088feedeaae6154b2e428e8e0eb758e4f8239ee145819847356",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "info.guardianproject.browser",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1894277,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -1369,12 +1490,12 @@
         "apkName": "Orweb-release-0.5.0-BETA-3.apk",
         "hash": "a03476f3eb40e1206e7874656e33316cc3033e363c0dbd1427560d12c4ec9079",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "info.guardianproject.browser",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1798919,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -1397,12 +1518,12 @@
         "apkName": "Orweb-release-0.4.4a.apk",
         "hash": "6ae429df66b28ddec6e6bc66f6bfbf3d89e3469efdb91108132d642a836a714a",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "packageName": "info.guardianproject.browser",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 748618,
-        "targetSdkVersion": "15",
+        "targetSdkVersion": 15,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -1419,12 +1540,11 @@
         "apkName": "CACertMan-0.0.2-alpha-20111011.apk",
         "hash": "251ebd40ce4a281a2292692707fb1e9c91428994cbad80a416a297db51069eb8",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.cacert",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 172263,
-        "targetSdkVersion": "7",
         "versionCode": 4,
         "versionName": "0.0.2.20111012"
       },
@@ -1433,12 +1553,11 @@
         "apkName": "CACertMan-0.0.2-20110906.apk",
         "hash": "c217c49abe5134007ceb2623a6189a73fa02af9d2b2bbcc5cbc4cb5da7b36a5d",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "packageName": "info.guardianproject.cacert",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 170305,
-        "targetSdkVersion": "8",
         "versionCode": 3,
         "versionName": "0.0.2-20110906"
       }
@@ -1449,12 +1568,12 @@
         "apkName": "ChatSecurePluginOpenEmoji-release-v1.apk",
         "hash": "131c1ebaf795c3f053701285699f0b7e517de1c7fdba56e247b1ec31766b2808",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "packageName": "info.guardianproject.chatsecure.emoji.core",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1814271,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "versionCode": 1,
         "versionName": "1.0"
       }
@@ -1465,7 +1584,7 @@
         "apkName": "GnuPrivacyGuard-release-0.3.1.apk",
         "hash": "53119c4b237563487e134c66403e77d9f93dcad9c05962751d00f7cc7257cc13",
         "hashType": "sha256",
-        "minSdkVersion": "14",
+        "minSdkVersion": 14,
         "nativecode": [
           "armeabi-v7a"
         ],
@@ -1473,7 +1592,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10248614,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -1540,7 +1659,7 @@
         "apkName": "GnuPrivacyGuard-release-0.3.apk",
         "hash": "3590e087b9003bd5be7cee95763ad5079b0ab5a40571a1edc0536602f7e8c050",
         "hashType": "sha256",
-        "minSdkVersion": "14",
+        "minSdkVersion": 14,
         "nativecode": [
           "armeabi-v7a"
         ],
@@ -1548,7 +1667,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10245957,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -1615,7 +1734,7 @@
         "apkName": "GnuPrivacyGuard-release-0.2.1.apk",
         "hash": "04ab4e5d93ff3412b0678e0b2edc036f8c405dd307db60e0146f8adc1a67a81c",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "nativecode": [
           "armeabi"
         ],
@@ -1623,7 +1742,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 9063339,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -1690,7 +1809,7 @@
         "apkName": "GnuPrivacyGuard-release-0.2.apk",
         "hash": "dbc80b1db19b4f1a8230a1f00072667aec5fc5f4042a628794458591e4c098d2",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "nativecode": [
           "armeabi"
         ],
@@ -1698,7 +1817,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 9004775,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -1765,7 +1884,7 @@
         "apkName": "GnuPrivacyGuard-release-0.0.apk",
         "hash": "4df53bdc7cf26517d632b5e5c0f46831be91f91db6a2b4ff5d0f62b9163f6def",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "nativecode": [
           "armeabi"
         ],
@@ -1773,7 +1892,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 7632534,
-        "targetSdkVersion": "16",
+        "targetSdkVersion": 16,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -1810,13 +1929,13 @@
         "apkName": "LilDebi-0.5.4-release.apk",
         "hash": "2c490376d8853fae04e79541f5d61e66a42ed0e890208945a11036c4a7b111da",
         "hashType": "sha256",
-        "maxSdkVersion": "20",
-        "minSdkVersion": "8",
+        "maxSdkVersion": 20,
+        "minSdkVersion": 8,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1876705,
-        "targetSdkVersion": "20",
+        "targetSdkVersion": 20,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -1859,12 +1978,12 @@
         "apkName": "LilDebi-0.5.3-release.apk",
         "hash": "01c5a8e1fd778c141e70633d14f1b69228d6f492961098616e0446c116cf9e44",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1879560,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -1907,12 +2026,12 @@
         "apkName": "LilDebi-0.5.2-release.apk",
         "hash": "07fa3dfb690e44eb540942ba2a51718c72351c91a253a56a0c90649f6d8903dd",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1861790,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -1955,12 +2074,12 @@
         "apkName": "LilDebi-0.5.1-release.apk",
         "hash": "0ec542aabec66b1877699ef27549fe355339224680d7923078d03f375028fca1",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1589297,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2003,12 +2122,12 @@
         "apkName": "LilDebi-0.5-release.apk",
         "hash": "90d90741dbf37b5a1566622d5b4d27f09a10930ed318a9126200d04d194df42d",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1566384,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2047,12 +2166,12 @@
         "apkName": "LilDebi-release-0.4.7.apk",
         "hash": "eea5c2e356141cb76c564247df426a3668250a880f837822cf77f7440e53f7ed",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1229837,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2091,12 +2210,12 @@
         "apkName": "LilDebi-release-0.4.6.apk",
         "hash": "ff36722ab9f147b5253a8559ef781faaaf959658a5e07a46914174f451e537ec",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1951134,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2135,12 +2254,12 @@
         "apkName": "LilDebi-release-0.4.5.apk",
         "hash": "fcf5005f0c90960d880c73c56d7658d2b4de42b7cbcf8a0438515f16aac4e3a7",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1949937,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2175,12 +2294,12 @@
         "apkName": "LilDebi-release-0.4.4.apk",
         "hash": "638f150a828eb1f07146a891949adb0e3e2f0c573c70b3ce59d6700a59bd10e0",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1954691,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2215,12 +2334,12 @@
         "apkName": "LilDebi-release-0.4.3.apk",
         "hash": "794ea75624f8a273f7ddf156b3869951dff0008315916fbb29dc59f357b359e2",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1943589,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2255,12 +2374,12 @@
         "apkName": "LilDebi-release-0.4.2.apk",
         "hash": "ebe920d885c050e729e8c96fc0e06567856089066d6d9b269be594ccb2216911",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1909605,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2295,12 +2414,12 @@
         "apkName": "LilDebi-release-0.4.1.apk",
         "hash": "b256a196b6c979d37e50c7f647ab12c9caaa9c3e33a01049e3ade0ea8db9fdbb",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1903079,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2331,12 +2450,12 @@
         "apkName": "LilDebi-release-0.3.apk",
         "hash": "7676405fddebb8404b4395e4e22011300d3288e95037a80fbf6acf0436f28f2f",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.lildebi",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1886801,
-        "targetSdkVersion": "10",
+        "targetSdkVersion": 10,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2366,10 +2485,14 @@
     "info.guardianproject.mrapp": [
       {
         "added": 1405728000000,
+        "antiFeatures": [
+          "DisabledAlgorithm",
+          "KnownVuln"
+        ],
         "apkName": "StoryMaker-v0.0.10-b118-BETA.apk",
         "hash": "b90d1d2816fd959d315b0d0c9e896aeacd30d770d77cc3929848f6d68b4d9da7",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "nativecode": [
           "armeabi"
         ],
@@ -2377,7 +2500,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 27045191,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2444,7 +2567,7 @@
         "apkName": "StoryMaker-release-0.0.9-build116.apk",
         "hash": "50a9d48a3881e281b3af677e0ba9b979f9e3fbdf0ca16139017eb8c72bb237c4",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "nativecode": [
           "armeabi"
         ],
@@ -2452,7 +2575,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 26949222,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2519,7 +2642,7 @@
         "apkName": "StoryMaker-release-0.0.9-build115.apk",
         "hash": "5530bfe85fc89d0a6abdb46c015206d7f039d71cbafe923c3daa33d514f21111",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "nativecode": [
           "armeabi"
         ],
@@ -2527,7 +2650,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 26948336,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2594,7 +2717,7 @@
         "apkName": "StoryMaker-release-0.0.8-build96.apk",
         "hash": "aeee4611cd00b92c375ea6756fcaf4c0c48a851b573acda1e67345ba8c613ca3",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "nativecode": [
           "armeabi"
         ],
@@ -2602,7 +2725,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 18900155,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2669,7 +2792,7 @@
         "apkName": "StoryMaker-0.0.7-build95.apk",
         "hash": "f99c656ef847f881f2bf11cc2743ceca83c3dfeb3ad0d41b5a641529517bbb15",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "nativecode": [
           "armeabi"
         ],
@@ -2677,7 +2800,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 26315275,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2744,7 +2867,7 @@
         "apkName": "StoryMaker-0.0.8-beta-1.apk",
         "hash": "50d8f567346e939b7524718de120130e331ac3e35d770a80e1716e9511978517",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "nativecode": [
           "armeabi"
         ],
@@ -2752,7 +2875,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 18897549,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2819,7 +2942,7 @@
         "apkName": "StoryMaker-0.0.6-beta3-build91.apk",
         "hash": "de9c671edf409056e7c4e59dc59002b04d7849e5657e67d18bfe680eb4428377",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "nativecode": [
           "armeabi"
         ],
@@ -2827,7 +2950,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 28452651,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -2896,7 +3019,7 @@
         "apkName": "NoteCipher-beta-0.1.apk",
         "hash": "b560a3d6364c32990ea7505f53b019f64fde597d67513f41a50e7d034af48caa",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "nativecode": [
           "armeabi",
           "x86"
@@ -2905,7 +3028,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 7321123,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.WRITE_EXTERNAL_STORAGE",
@@ -2928,7 +3051,7 @@
         "apkName": "NoteCipher-0.0.7.1.apk",
         "hash": "da518f13206d2218234bfcc83205b7b2b81ec67a4cc448f818c617332235e700",
         "hashType": "sha256",
-        "minSdkVersion": "11",
+        "minSdkVersion": 11,
         "nativecode": [
           "armeabi"
         ],
@@ -2936,7 +3059,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 3729342,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.WRITE_EXTERNAL_STORAGE",
@@ -2955,7 +3078,7 @@
         "apkName": "NoteCipher-0.0.7.apk",
         "hash": "8fa7536a87634c6b3441053c4f16315e4fd5aa6ef672a0026a594c107308d7bf",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "nativecode": [
           "armeabi"
         ],
@@ -2963,7 +3086,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 3731119,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.WRITE_EXTERNAL_STORAGE",
@@ -2982,9 +3105,12 @@
       {
         "added": 1501977600000,
         "apkName": "Orfox-v1.4-RC-3.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
         "hash": "35a0b1f60ac9df27c1442f92d8c6ea28b35039f08930e6c2c092ad27565db469",
         "hashType": "sha256",
-        "minSdkVersion": "15",
+        "minSdkVersion": 15,
         "nativecode": [
           "armeabi-v7a"
         ],
@@ -2992,7 +3118,7 @@
         "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
         "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
         "size": 28639528,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "android.permission.ACCESS_NETWORK_STATE",
@@ -3045,9 +3171,12 @@
       {
         "added": 1501718400000,
         "apkName": "Orfox-v1.4-RC-2.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
         "hash": "a03e16ee9cc2f4bbe0b1478658dce36c9336dfb52e0b4ee10b1022b19a9dcf64",
         "hashType": "sha256",
-        "minSdkVersion": "15",
+        "minSdkVersion": 15,
         "nativecode": [
           "armeabi-v7a"
         ],
@@ -3055,7 +3184,7 @@
         "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
         "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
         "size": 28638834,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "android.permission.ACCESS_NETWORK_STATE",
@@ -3108,9 +3237,12 @@
       {
         "added": 1480636800000,
         "apkName": "Orfox-1.2.1-TorBrowser-6.5-Fennec45.5.1-build2.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
         "hash": "d43032e79c7c31cabb194b8c1c4b14fbf73dd2cfda958ba415879ddf2f38ace2",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi-v7a"
         ],
@@ -3118,7 +3250,7 @@
         "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
         "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
         "size": 35273126,
-        "targetSdkVersion": "22",
+        "targetSdkVersion": 22,
         "uses-permission": [
           [
             "android.permission.ACCESS_NETWORK_STATE",
@@ -3195,9 +3327,12 @@
       {
         "added": 1474675200000,
         "apkName": "Orfox-1.2-TorBrowser-6.5-Fennec45.4.0.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
         "hash": "9b5f6614b94a47ae561e8c974d42056ba6cb6da520766deda09aec3699aeff94",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi-v7a"
         ],
@@ -3205,7 +3340,7 @@
         "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
         "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
         "size": 35242066,
-        "targetSdkVersion": "22",
+        "targetSdkVersion": 22,
         "uses-permission": [
           [
             "android.permission.ACCESS_NETWORK_STATE",
@@ -3282,9 +3417,12 @@
       {
         "added": 1480636800000,
         "apkName": "fennec-38.0.en-US.android-arm.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
         "hash": "2aa221192d4fb50c30fc2ff479e61fa0e627e7647f3b736c3049a3d8e91d16fd",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi-v7a"
         ],
@@ -3292,7 +3430,7 @@
         "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
         "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
         "size": 30555657,
-        "targetSdkVersion": "22",
+        "targetSdkVersion": 22,
         "uses-permission": [
           [
             "android.permission.RECEIVE_BOOT_COMPLETED",
@@ -3381,7 +3519,7 @@
         "apkName": "ChatSecure-v14.2.3a.apk",
         "hash": "36d7d71c8a2115bdd2bd63bb639af286ee3242cce11cdb5c53378d1a7f35528e",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -3390,7 +3528,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10502397,
-        "targetSdkVersion": "21",
+        "targetSdkVersion": 21,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -3469,7 +3607,7 @@
         "apkName": "ChatSecure-v14.2.2.apk",
         "hash": "9d4620fec0c7837ddffccde7918d7a7db0976fbcd361b96659abd93b5cc0d9e3",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -3478,7 +3616,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10502135,
-        "targetSdkVersion": "21",
+        "targetSdkVersion": 21,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -3557,7 +3695,7 @@
         "apkName": "ChatSecure-v14.2.1.apk",
         "hash": "f82a3a7a823f5540b335743eb1399d0fd1f61bc68958750b5ef6aa0d95ad9a54",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -3566,7 +3704,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10463010,
-        "targetSdkVersion": "21",
+        "targetSdkVersion": 21,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -3645,7 +3783,7 @@
         "apkName": "ChatSecure-v14.2.0.apk",
         "hash": "4367bcb568ae11107feec6a67c58a0526b7be1389fc8a8be9ecaa09c5c24c807",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -3654,7 +3792,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10462923,
-        "targetSdkVersion": "21",
+        "targetSdkVersion": 21,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -3733,7 +3871,7 @@
         "apkName": "ChatSecure-v14.1.1-RC-5.apk",
         "hash": "73147a20fc05feabd1b24f30fb317ef7c65b9e5d6d1e85807a4789e8d2bf9919",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -3742,7 +3880,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11715209,
-        "targetSdkVersion": "21",
+        "targetSdkVersion": 21,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -3821,7 +3959,7 @@
         "apkName": "ChatSecure-v14.1.1-RC-3.apk",
         "hash": "24eaa3daa985ba92d612682c6d559e766a8cb3e13157249dd0343ff4217eb64e",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -3830,7 +3968,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11715225,
-        "targetSdkVersion": "21",
+        "targetSdkVersion": 21,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -3909,7 +4047,7 @@
         "apkName": "ChatSecure-v14.1.0-beta-2-release.apk",
         "hash": "ee0dc8008fffd95ce6689163ab2422b54d7b1aadbb9db5949481f4823dc82020",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -3918,7 +4056,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11641509,
-        "targetSdkVersion": "21",
+        "targetSdkVersion": 21,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -3997,7 +4135,7 @@
         "apkName": "ChatSecure-v14.1.0-beta-1.apk",
         "hash": "68adc26b6b330ebe715fb2cd58c929928cf2f119811ed21045979effb96eb7c1",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -4006,7 +4144,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11564751,
-        "targetSdkVersion": "21",
+        "targetSdkVersion": 21,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -4085,7 +4223,7 @@
         "apkName": "ChatSecure-v14.0.9.apk",
         "hash": "f3127723680318d8f7f98eff3b13511de3142c743b1a6de7185db51d92418a3b",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -4094,7 +4232,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11568571,
-        "targetSdkVersion": "21",
+        "targetSdkVersion": 21,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -4173,7 +4311,7 @@
         "apkName": "ChatSecure-v14.0.8.apk",
         "hash": "e089215dd9a8f91a2e2c6ad2bcca7a234ce40b8be17b6c025d46b2e7f724f359",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -4182,7 +4320,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 12371855,
-        "targetSdkVersion": "21",
+        "targetSdkVersion": 21,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -4261,7 +4399,7 @@
         "apkName": "ChatSecure-v14.0.6.apk",
         "hash": "2373977f46a8bd50342f745c72e26eb3a436cd15f78ddc323a7e91f7f9db9609",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -4270,7 +4408,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11273260,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -4349,7 +4487,7 @@
         "apkName": "ChatSecure-v14.0.4.apk",
         "hash": "18441d4562428419906b6ecff22d61d37f539ebbf94c0b8770d6d56f90bc38a3",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -4358,7 +4496,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11236846,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -4437,7 +4575,7 @@
         "apkName": "ChatSecure-v14.0.3.apk",
         "hash": "46b0b26e2122a8bf937be259d6219ffe5bace7b2eda692b43a5f55fff2322e13",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -4446,7 +4584,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11235852,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -4525,7 +4663,7 @@
         "apkName": "ChatSecure-v14.0.2.apk",
         "hash": "b3d52571886e68e246847446e97055172bfa763aa9e2b4111d0de7dcf9a47263",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -4534,7 +4672,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11234767,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -4613,7 +4751,7 @@
         "apkName": "ChatSecure-v13.2.0-ALPHA-6.apk",
         "hash": "98b2cce5a9f69891e1480837623827e5f8380f9cad935c733eac67a6a225da3a",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -4622,7 +4760,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10099288,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -4701,7 +4839,7 @@
         "apkName": "ChatSecure-v13.2.0-ALPHA-4.apk",
         "hash": "4ef0631ea18a2212918f5f984e17e9ee82015a366294f8b997c1bfa9b9a997bc",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -4710,7 +4848,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10072185,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -4789,7 +4927,7 @@
         "apkName": "ChatSecure-v13.2.0-ALPHA-1.apk",
         "hash": "3c96d795cdbe75574491f892e4a0575ebac3dd462d9ced1891552027d0f44421",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -4798,7 +4936,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10117965,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -4873,7 +5011,7 @@
         "apkName": "ChatSecure-v13.1.3-beta2-release.apk",
         "hash": "e7a55aac90bd8259d647e53e57777a4e15c36791045b9a5d1b2d72a32b5f355e",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -4882,7 +5020,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10102948,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -4957,7 +5095,7 @@
         "apkName": "ChatSecure-13.1.3-debug.apk",
         "hash": "c7e89a088f6f82c9705402ad8f58f56e8c34e9e7e068bbf5b5b8756ba51912c4",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -4966,7 +5104,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10102970,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -5041,7 +5179,7 @@
         "apkName": "ChatSecure-v13.1.2.apk",
         "hash": "4611bfeef8cec918c8b36f9cb5346451a6e3e57901802ff031d2ff38bb2c589f",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -5050,7 +5188,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10100721,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -5125,7 +5263,7 @@
         "apkName": "ChatSecure-v13.1.1.apk",
         "hash": "2288c3f76b96b200ff280d98f303364efed6f19331c29389c8b311293c760096",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -5134,7 +5272,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10105753,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -5209,7 +5347,7 @@
         "apkName": "ChatSecure-v13.0.9-BETA.apk",
         "hash": "fd5bfadceb21e741c94fd7e3459986b6bfb531d9acf68c4776620a37eaecc921",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -5218,7 +5356,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10101421,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -5293,7 +5431,7 @@
         "apkName": "ChatSecure-v13.0.7-BETA.apk",
         "hash": "45244d9347f37adb8d7539412cc8913e1671239205cb1a8282572052bdf0b572",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -5302,7 +5440,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10094920,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -5377,7 +5515,7 @@
         "apkName": "ChatSecure-v13.0.6-BETA.apk",
         "hash": "c5c1c81609a9ac9531047277b2ea6bc6b9ac5f7280f0f4d0266bb3935a5a20e8",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -5386,7 +5524,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10094577,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -5461,7 +5599,7 @@
         "apkName": "ChatSecure-v13.0.5.1-BETA.apk",
         "hash": "9fd90492de24c07b0d7efaf3bc6569e4839024d82425adac97d21ba48343a8b2",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -5470,7 +5608,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10094662,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -5545,7 +5683,7 @@
         "apkName": "ChatSecure-v13.0.5-BETA.apk",
         "hash": "61226d13ea4e448f2cd583e9612613707009e495bc9c1df63b7220ad3ba76fca",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -5554,7 +5692,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10089498,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -5629,7 +5767,7 @@
         "apkName": "ChatSecure-v13.0.4-BETA.apk",
         "hash": "94c9b98023d7e6c235f508ace250f39c09d12986b6ef6549ab24d275e50017c8",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -5638,7 +5776,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10029707,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -5713,7 +5851,7 @@
         "apkName": "ChatSecure-v13.0.3-BETA.apk",
         "hash": "4d1df4502bff8a1e31caafec5f59f3e43e8882828fb20c36fdaee001003155d9",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -5722,7 +5860,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11812880,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -5797,7 +5935,7 @@
         "apkName": "ChatSecure-v13.0.2-BETA2.apk",
         "hash": "f88bfa679bd4f9d081fc9d4b343d86d296dd663665ae94d5b8d9963481dc1713",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -5806,7 +5944,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11812148,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -5881,7 +6019,7 @@
         "apkName": "ChatSecure-v13.0.1-BETA1.apk",
         "hash": "d10afbc313a84b37019bae737bfd7f2e473f978a9cc2ed337e20e64d04bd52e4",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -5890,7 +6028,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11822228,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -5965,7 +6103,7 @@
         "apkName": "ChatSecure-v12.7.1-RC5.apk",
         "hash": "8660446e109d42742af19691aaee20165cdff636238b61ca367aee863bb3695f",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -5974,7 +6112,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11838912,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6049,7 +6187,7 @@
         "apkName": "ChatSecure-v12.6.5-RC4.apk",
         "hash": "0f5ed4cbde47fc502cc202465e2da2fd7bd37b85d9146b5c04d59e12ef785d74",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -6058,7 +6196,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11962582,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6133,7 +6271,7 @@
         "apkName": "ChatSecure-v12.6.4-RC3.apk",
         "hash": "3aee2a7e7d16db4f0a412bb81aa25398df851e703b5eb7fbeb2ce21e13c92278",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -6142,7 +6280,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11957446,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6217,7 +6355,7 @@
         "apkName": "ChatSecure-v12.6.3-RC2.apk",
         "hash": "413bd67000698101c652fda0f26205c481a1c4b4d640f47a776ad57e74387d69",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -6226,7 +6364,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11962695,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6301,7 +6439,7 @@
         "apkName": "ChatSecure-v12.6.1-RC1.apk",
         "hash": "21666957142e01fdb837a1bfb9e5fcae44c44ad6817c8807ebc23c93e1da10b1",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -6310,7 +6448,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11215784,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6385,7 +6523,7 @@
         "apkName": "ChatSecure-v12.4.2-release.apk",
         "hash": "2f754b8c6ce4f0135b10eadc7249c89f365af16f70ef0e2192ecf62aca48390f",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -6394,7 +6532,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11840243,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6469,7 +6607,7 @@
         "apkName": "ChatSecure-v12.4.0-beta4-release.apk",
         "hash": "0d9aaa96abb232cc2a344b7b47f4893b55dce15d40f97b6c70df8d94058e8cbf",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi",
           "x86"
@@ -6478,7 +6616,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 11838309,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6553,7 +6691,7 @@
         "apkName": "ChatSecure-v12.1.0-beta1-release.apk",
         "hash": "1c23d1c0fa700ae847364fb4e3e0d3ff2d2b1b149da6498e4ed5b979fb1d11b6",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi"
         ],
@@ -6561,7 +6699,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 10354140,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6636,12 +6774,12 @@
         "apkName": "Gibberbot-0.0.11-RC5.apk",
         "hash": "94c5e314f69c3a5c110cfa122a808e907fe1d3d9b911b706891324fab4a52d97",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.otr.app.im",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 4214768,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6708,12 +6846,12 @@
         "apkName": "Gibberbot-0.0.11-RC4-bugfix.apk",
         "hash": "69cc6f4e4a43ca352d9370f3ccd6a84b2fa61152ea09287274349e139e590773",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.otr.app.im",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 4221091,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6780,12 +6918,12 @@
         "apkName": "Gibberbot-0.0.11-rc3.apk",
         "hash": "f92b630abdcbe315bbad0258a6595fbefa1fe2d6fa28d4cd859afb73bf34be5d",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.otr.app.im",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 4221042,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6852,12 +6990,12 @@
         "apkName": "Gibberbot-0.0.11-rc3-netbugfix.apk",
         "hash": "111a440657772b347b7a3e0bc5b16ebb7c691d5e8bac1e34ae908882d547b263",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.otr.app.im",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 4221491,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6924,12 +7062,12 @@
         "apkName": "Gibberbot-0.0.11-rc2.apk",
         "hash": "b0690b8f8231864fcfb720cfb579f729411e61f0659cc11b4032eb9087186a45",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.otr.app.im",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 4219641,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -6996,12 +7134,12 @@
         "apkName": "Gibberbot-0.0.11-beta-4b.apk",
         "hash": "fc7434e0ba283fcb3526f628d6617dadc177e342b77cf5bbf6c6684ea16070a2",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.otr.app.im",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 4219895,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -7068,12 +7206,12 @@
         "apkName": "Gibberbot-0.0.11-beta-4a.apk",
         "hash": "f2cce1b69cd1312f388de428400b63b6e5138abccfd19ab0897198abff52631a",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.otr.app.im",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 4219846,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -7140,12 +7278,12 @@
         "apkName": "Gibberbot-0.0.11-beta-4.apk",
         "hash": "e114e321ad6696460a5197fdbbc77c3f06de89aa0ca601d7654b934f147b7e6b",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.otr.app.im",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 4219991,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -7208,12 +7346,12 @@
         "apkName": "Gibberbot-0.0.11-beta-3.apk",
         "hash": "d325a96095574be213735c2f2e626be15e60c6304cb0327624faa8e25231d797",
         "hashType": "sha256",
-        "minSdkVersion": "7",
+        "minSdkVersion": 7,
         "packageName": "info.guardianproject.otr.app.im",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 4220628,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -7276,12 +7414,12 @@
         "apkName": "Gibberbot-release-0.0.10-RC6.apk",
         "hash": "d77e1dec124f04a6b91a6ca4cb270457d1d85b4715b06777a5b3d7b17af35772",
         "hashType": "sha256",
-        "minSdkVersion": "4",
+        "minSdkVersion": 4,
         "packageName": "info.guardianproject.otr.app.im",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 3438898,
-        "targetSdkVersion": "4",
+        "targetSdkVersion": 4,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -7328,12 +7466,12 @@
         "apkName": "Gibberbot-release-0.0.10-RC5.apk",
         "hash": "2df42a09a428747c2d2d13e21c971f80c144376247c683e6dde7efbd782065eb",
         "hashType": "sha256",
-        "minSdkVersion": "4",
+        "minSdkVersion": 4,
         "packageName": "info.guardianproject.otr.app.im",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 3431327,
-        "targetSdkVersion": "4",
+        "targetSdkVersion": 4,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -7380,12 +7518,12 @@
         "apkName": "Gibberbot-v10-RC2.apk",
         "hash": "3a6cff1baf26e4d256421439f6046d6482fa9176172602f5a2f53b99036d94f2",
         "hashType": "sha256",
-        "minSdkVersion": "4",
+        "minSdkVersion": 4,
         "packageName": "info.guardianproject.otr.app.im",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 3265594,
-        "targetSdkVersion": "4",
+        "targetSdkVersion": 4,
         "uses-permission": [
           [
             "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
@@ -7430,42 +7568,52 @@
     ],
     "info.guardianproject.pixelknot": [
       {
-        "added": 1373932800000,
-        "apkName": "PixelKnot-release-0.3.apk",
-        "hash": "fb4e27b04f2649bd6dfe2d3793b0a8bdcb5e5504296edf145e5b7260ec7d49cb",
+        "added": 1479600000000,
+        "antiFeatures": [
+          "DisabledAlgorithm",
+          "KnownVuln"
+        ],
+        "apkName": "PixelKnot-release-1.0.0.apk",
+        "hash": "f97557cf7ec81ade50c308c5552dc6dc827d0e02ce90f84b1df6b7477d9f5a39",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 17,
         "nativecode": [
-          "armeabi"
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
         ],
         "packageName": "info.guardianproject.pixelknot",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 3959792,
-        "targetSdkVersion": "17",
+        "size": 1983586,
+        "targetSdkVersion": 25,
         "uses-permission": [
           [
-            "android.permission.CAMERA",
+            "android.permission.READ_EXTERNAL_STORAGE",
             null
           ],
           [
             "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
+            18
           ],
           [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
+            "android.permission.VIBRATE",
+            18
           ]
         ],
-        "versionCode": 3,
-        "versionName": "0.3"
+        "versionCode": 100,
+        "versionName": "1.0.0"
       },
       {
         "added": 1361836800000,
         "apkName": "PixelKnot-release-0.3-RC1.apk",
         "hash": "1fe2da832133d7b71b3cfe8f1bf632a20fa4211129a837afeb4ec5609d50cdf8",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi"
         ],
@@ -7473,7 +7621,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 3959935,
-        "targetSdkVersion": "17",
+        "targetSdkVersion": 17,
         "uses-permission": [
           [
             "android.permission.CAMERA",
@@ -7498,12 +7646,12 @@
         "apkName": "Ripple-0.2-release.apk",
         "hash": "4b14b1b402f0197e1e6ffe2c11e052432fc8a52749f5f02d9cc67799658df239",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "packageName": "info.guardianproject.ripple",
         "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
         "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
         "size": 1669315,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "versionCode": 75,
         "versionName": "0.2"
       },
@@ -7512,12 +7660,12 @@
         "apkName": "Ripple-0.1.apk",
         "hash": "9fd24cbb3552123e6ee119f912f1646dd21cd7a683734a8d502d8b44854a284b",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "packageName": "info.guardianproject.ripple",
         "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
         "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
         "size": 1670285,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "versionCode": 2,
         "versionName": "0.1"
       },
@@ -7526,12 +7674,12 @@
         "apkName": "Ripple-0.0.apk",
         "hash": "025894a5f3a39a288ee60bb6c9cc2c559d395f22fed020d1086308ba12df85a3",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "packageName": "info.guardianproject.ripple",
         "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
         "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
         "size": 1664407,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "versionCode": 1,
         "versionName": "0.0"
       }
@@ -7542,12 +7690,11 @@
         "apkName": "ChatSecureVoiceMessaging-0.2.apk",
         "hash": "abae18cc9cfa62fca5dce072c4c50d41b4fece506967ce9a3e2711cd1031dbee",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "packageName": "info.guardianproject.soundrecorder",
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 394212,
-        "targetSdkVersion": "10",
         "uses-permission": [
           [
             "android.permission.RECORD_AUDIO",
@@ -7576,11 +7723,11 @@
     ],
     "org.torproject.android": [
       {
-        "added": 1526558087000,
+        "added": 1526515200000,
         "apkName": "Orbot-16.0.2-RC-1-fullperm-universal-release.apk",
         "hash": "ceaf11111c90e9fcb32bdfaed4d656bd23f812734d8237c0ae140594c1c283c5",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi",
           "armeabi-v7a",
@@ -7590,7 +7737,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 18832319,
-        "targetSdkVersion": "27",
+        "targetSdkVersion": 27,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -7625,7 +7772,7 @@
         "apkName": "Orbot-16.0.0-RC-2-multi-SDK23-Android6andUp.apk",
         "hash": "47d805fa86d9682f213256b23f150f113d2b3fc050affc714400089f74bb7597",
         "hashType": "sha256",
-        "minSdkVersion": "23",
+        "minSdkVersion": 23,
         "nativecode": [
           "armeabi",
           "x86"
@@ -7634,7 +7781,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 14542664,
-        "targetSdkVersion": "26",
+        "targetSdkVersion": 26,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -7673,8 +7820,8 @@
         "apkName": "Orbot-16.0.0-RC-2-multi-SDK16-Android4.1andUp.apk",
         "hash": "577decb04f548ad749d993a4e4a15f316261b63df7085a2dcb7a9945637ee550",
         "hashType": "sha256",
-        "maxSdkVersion": "23",
-        "minSdkVersion": "16",
+        "maxSdkVersion": 23,
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi",
           "x86"
@@ -7683,7 +7830,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 14587974,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -7710,7 +7857,7 @@
         "apkName": "Orbot-15.5.1-RC-2-multi-SDK23.apk",
         "hash": "392448d46c63781f8122c41fa6020e7c9324dee737a8bf0d8758781eeaed2254",
         "hashType": "sha256",
-        "minSdkVersion": "23",
+        "minSdkVersion": 23,
         "nativecode": [
           "armeabi",
           "x86"
@@ -7719,7 +7866,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 13118935,
-        "targetSdkVersion": "25",
+        "targetSdkVersion": 25,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -7762,8 +7909,8 @@
         "apkName": "Orbot-15.5.1-RC-2-multi-SDK16.apk",
         "hash": "b09aa9435e0ba193dfa8a631d1216d81bae7c5caf61db4aef8be5a7533e89807",
         "hashType": "sha256",
-        "maxSdkVersion": "23",
-        "minSdkVersion": "16",
+        "maxSdkVersion": 23,
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi",
           "x86"
@@ -7772,7 +7919,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 13163024,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -7799,7 +7946,7 @@
         "apkName": "Orbot-v15.4.2-RC-1-multi-fullperm-SDK23.apk",
         "hash": "a426158c6ea1c3efcba7b97b940efc19119d48376612904bd8f2bc992ef59b2a",
         "hashType": "sha256",
-        "minSdkVersion": "23",
+        "minSdkVersion": 23,
         "nativecode": [
           "armeabi",
           "x86"
@@ -7808,7 +7955,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 13249725,
-        "targetSdkVersion": "25",
+        "targetSdkVersion": 25,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -7851,8 +7998,8 @@
         "apkName": "Orbot-v15.4.2-RC-1-multi-minimalperm-SDK16.apk",
         "hash": "1394e73683cb3933233306946aa503443b5628680a9906a4528832aba56afc37",
         "hashType": "sha256",
-        "maxSdkVersion": "23",
-        "minSdkVersion": "16",
+        "maxSdkVersion": 23,
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi",
           "x86"
@@ -7861,7 +8008,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 13278405,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -7888,7 +8035,7 @@
         "apkName": "Orbot-v15.4.1-RC-1-MULTI.apk",
         "hash": "b38683345188f6fbfdfd4d5db03f0a2d8cf510c320d056e63c4aff8824d267f3",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi",
           "x86"
@@ -7897,7 +8044,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 13277498,
-        "targetSdkVersion": "25",
+        "targetSdkVersion": 25,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -7940,7 +8087,7 @@
         "apkName": "Orbot-v15.4.0-BETA-1-ARM-ONLY.apk",
         "hash": "c8f53c7a3b8d2001209b52f5d9a81f1ec26630ef29a80680a3fbc0a4bfa4d6c8",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi",
           "x86"
@@ -7949,7 +8096,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 8186660,
-        "targetSdkVersion": "25",
+        "targetSdkVersion": 25,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -7992,7 +8139,7 @@
         "apkName": "Orbot-v15.2.0-RC-8-multi.apk",
         "hash": "3758e1b6e6b9a3b7848b253d08d6c0b1b1b3223184da4bd2ba1aaff8cf676357",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi",
           "x86"
@@ -8001,7 +8148,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 12296544,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8028,7 +8175,7 @@
         "apkName": "Orbot-v15.2.0-RC-7-multi.apk",
         "hash": "8dc3edf0a9799eb23b5e478e15547e38831b28cc3e88b049aa5f41b7b72e7bf9",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "arm64-v8a",
           "armeabi",
@@ -8039,7 +8186,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 12457510,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8066,7 +8213,7 @@
         "apkName": "Orbot-v15.2.0-RC-5-arm.apk",
         "hash": "51c7e2b6a6de542e0d44f82d89ddf1d3216ec7a28297381ef15b12da2f3246f7",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "arm64-v8a",
           "armeabi",
@@ -8076,7 +8223,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 7600548,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8103,7 +8250,7 @@
         "apkName": "Orbot-v15.2.0-RC-2-arm.apk",
         "hash": "15891c2f20d79c6bc3639af008e6958c0450e94cd0b404cdf76ab45d15e701ce",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi"
         ],
@@ -8111,7 +8258,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 7420851,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8138,7 +8285,7 @@
         "apkName": "Orbot-v15.2.0-RC-1-arm.apk",
         "hash": "df982b9b2a025f7a3804959ca79d99b5f82b80f08a0c44b0fdfe1c4a67bdb209",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi"
         ],
@@ -8146,7 +8293,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 7721426,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8169,7 +8316,7 @@
         "apkName": "Orbot-v15.2.0-beta-2-arm.apk",
         "hash": "d99f3dd3670736412f9f89297a2fc1cece9ee0e8ea3965e9e290aa4bbd327ad7",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi"
         ],
@@ -8177,7 +8324,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 7756341,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8200,7 +8347,7 @@
         "apkName": "Orbot-v15.1.2.apk",
         "hash": "5097052de49cb3d8de0d0140fb75119da0cbcfbd2c9de190cd47b36e5ae56a87",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi",
           "x86"
@@ -8209,7 +8356,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 11131885,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "org.torproject.android.MANAGE_TOR",
@@ -8236,7 +8383,7 @@
         "apkName": "Orbot-v15.1.1.apk",
         "hash": "e83a4825453a2d56ce00468044cc949fdaa026c7e9c472c6db0d2d2ce174e1f3",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi",
           "x86"
@@ -8245,7 +8392,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 14325341,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "org.torproject.android.MANAGE_TOR",
@@ -8272,7 +8419,7 @@
         "apkName": "Orbot-v15.1.0-RC-4.apk",
         "hash": "1dc54a8707cd2dc66604b1b9176e4baf944270ecc328ffdbeb56eedbcfbabefb",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "arm64-v8a",
           "armeabi",
@@ -8284,7 +8431,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 14616747,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "org.torproject.android.MANAGE_TOR",
@@ -8311,7 +8458,7 @@
         "apkName": "Orbot-v15.1.0-RC-2.apk",
         "hash": "a2278eabd35c604a86e04b300aa4949330cf02d5ba954471ba3866577756f6e9",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "arm64-v8a",
           "armeabi",
@@ -8323,7 +8470,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 14544495,
-        "targetSdkVersion": "23",
+        "targetSdkVersion": 23,
         "uses-permission": [
           [
             "org.torproject.android.MANAGE_TOR",
@@ -8350,7 +8497,7 @@
         "apkName": "Orbot-v15.0.1-RC-3.apk",
         "hash": "54d58388dd54979894be91ae991dcd76c6fcf591d7b46246e9d91fad62627628",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi",
           "armeabi-v7a",
@@ -8360,7 +8507,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 10679878,
-        "targetSdkVersion": "22",
+        "targetSdkVersion": 22,
         "uses-permission": [
           [
             "org.torproject.android.MANAGE_TOR",
@@ -8387,13 +8534,13 @@
         "apkName": "Orbot-v14.1.4-LollipopPIE.apk",
         "hash": "bcc97294c297b10030abc8cd605526a95ab38431857205e62fdab863d541e71f",
         "hashType": "sha256",
-        "maxSdkVersion": "21",
-        "minSdkVersion": "21",
+        "maxSdkVersion": 21,
+        "minSdkVersion": 21,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5825595,
-        "targetSdkVersion": "21",
+        "targetSdkVersion": 21,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8424,13 +8571,13 @@
         "apkName": "Orbot-v14.1.4-UpToKitKat-nonPIE.apk",
         "hash": "bab1b35dd2010768b9178051dd1078ab8d0982b782735f2f41d4256c4b6fe4a7",
         "hashType": "sha256",
-        "maxSdkVersion": "20",
-        "minSdkVersion": "9",
+        "maxSdkVersion": 20,
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5797696,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8461,13 +8608,13 @@
         "apkName": "Orbot-v14.1.3-LollipopPIE.apk",
         "hash": "b2bffbba92accf14f0fc6da0c3defbd74dd99d1df62d1185b8de66d20654dcbf",
         "hashType": "sha256",
-        "maxSdkVersion": "21",
-        "minSdkVersion": "21",
+        "maxSdkVersion": 21,
+        "minSdkVersion": 21,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5985190,
-        "targetSdkVersion": "21",
+        "targetSdkVersion": 21,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8498,13 +8645,13 @@
         "apkName": "Orbot-v14.1.3-UpToKitKat-nonPIE.apk",
         "hash": "91d68604a826359e603dd02555b67103a8b5301493ecb04fbf18bc68f417a42f",
         "hashType": "sha256",
-        "maxSdkVersion": "20",
-        "minSdkVersion": "9",
+        "maxSdkVersion": 20,
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5957322,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8535,12 +8682,12 @@
         "apkName": "Orbot-v14.0.7.1.apk",
         "hash": "64effc44e7b544354a5f62fc2f21d384b98422cfbaaddd4a5a2d35b6c37d8487",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5520623,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8571,12 +8718,12 @@
         "apkName": "Orbot-v14.0.7.apk",
         "hash": "03a0d5cd03285e1a50d6dead9ee2052db715ff1a1ba223c161d739b6bbf2ed35",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5520671,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8607,12 +8754,12 @@
         "apkName": "Orbot-v14.0.6.apk",
         "hash": "562356e38cb9b03e71ccf40af5ef9822554f8416ffec56a0f3b58e1f81563420",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5519328,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8643,12 +8790,12 @@
         "apkName": "Orbot-v14.0.5.4.apk",
         "hash": "f4c13685423a7612aa8f00619f801aeeece2ac5c24402ccd32ab89c1129052fe",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5519406,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8679,12 +8826,12 @@
         "apkName": "Orbot-v14.0.5.3.apk",
         "hash": "8171b90a081b756056e8d95f6d6c86c09b06324e3b98b53ba7b5d45abba7412e",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5517429,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8715,12 +8862,12 @@
         "apkName": "Orbot-v14.0.5.apk",
         "hash": "ed0010fa6ad7135282a18812f8d79cb053cf842eb02f109beb8e4d1c0b0dc79e",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5515509,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8751,12 +8898,12 @@
         "apkName": "Orbot-v14.0.4.3-release.apk",
         "hash": "b1faea1129d7a80a00c9f5700d2070644726b491e8451fd99f8d9b4cb4096b55",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5487826,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8795,12 +8942,12 @@
         "apkName": "Orbot-v14.0.4.2-release.apk",
         "hash": "0f2d440fac76f89e68934747226f6d6d8a4ea9df65e90076439dbad9cc7ed10d",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5489363,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8831,12 +8978,12 @@
         "apkName": "Orbot-v14.0.4-release.apk",
         "hash": "a386950668de60e0cd845f59aa68d480ef9e0ddcc05fd69bbcc2cfb4e821980e",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5443000,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8867,12 +9014,12 @@
         "apkName": "Orbot-v14.0.3.1-release.apk",
         "hash": "c5907351c01d85c78be4db0d0b482790e32e851c0abf91a152f6a43df0786031",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5443365,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8903,12 +9050,12 @@
         "apkName": "Orbot-v14.0.3-release.apk",
         "hash": "350394d85836f1d7ebc9cac9626ca352c2ed527529145107506336ed3c54547d",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5443331,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8939,12 +9086,12 @@
         "apkName": "Orbot-v14.0.2.1-release.apk",
         "hash": "915608a634bd20ea5581f6e47cfcf9cc67491d6b05ee0fa821034b8d907d6ee6",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5467168,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -8975,12 +9122,12 @@
         "apkName": "Orbot-v14.0.2-release.apk",
         "hash": "1ac8d81339ffa1e7769ac0735bdc6ed4330a5701ecac4371422744d45fa984b8",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5467123,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9011,12 +9158,12 @@
         "apkName": "Orbot-v14.0.1-release.apk",
         "hash": "be2151ae4bc5248aa848bcc3f06c4463d75c800746414f4a80219a5ff3db7561",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5467077,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9047,12 +9194,12 @@
         "apkName": "Orbot-v14.0.0-RC-3.apk",
         "hash": "2aedd2c39fc729058da6746853fbe681c821f36650a5b25f4c3cb866c9f9a028",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5465315,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9083,12 +9230,12 @@
         "apkName": "Orbot-v14.0.0-RC-1.apk",
         "hash": "17346966dad4877e6ff8638eddceadac38014dc0a360731a4fced4136d10fa9a",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5465302,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9119,12 +9266,12 @@
         "apkName": "Orbot-v14.0.0-BETA-2.apk",
         "hash": "0d0900a9d18a7138fac16d3bbceeb1d0ae01e166b9cbadeea559f4d335c98903",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5459701,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9155,12 +9302,12 @@
         "apkName": "Orbot-v14.0.0-BETA-1.apk",
         "hash": "20718e981d5a9d2e6d8effb141c11b950400657512890c9b2076025652f3fe46",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5435575,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9191,12 +9338,12 @@
         "apkName": "Orbot-v14.0.0-ALPHA-3.apk",
         "hash": "56d7dbd22c998b10fe9d36e0263cfe6c5eca977a34b6782780ec975026bd9136",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5441145,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9227,12 +9374,12 @@
         "apkName": "Orbot-v14.0.0-ALPHA-2a.apk",
         "hash": "1c68515daead3790941719d0ef3f3d12cac3403f9638616e8fd9391956b9a740",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5439526,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9263,12 +9410,12 @@
         "apkName": "Orbot-v14.0.0-ALPHA-2.apk",
         "hash": "5ecb91f834d89847ca954fadcb4f2aa092c0b748d04f569d2158b091a86838a6",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5439475,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9299,12 +9446,12 @@
         "apkName": "Orbot-v13.0.7-BETA-1.apk",
         "hash": "308b9b3cf55ee702e118d240fc04713461e054498d5389c0f98faa57a09f8004",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5461617,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9335,12 +9482,12 @@
         "apkName": "Orbot-v13.0.6-RC-4a.apk",
         "hash": "0bf928ec50f8ec02f5f20ce8261d241de082a145c51cbb71bc0d0ed18c53199e",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5491652,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9371,12 +9518,12 @@
         "apkName": "Orbot-v13.0.6-RC-4.apk",
         "hash": "ddbf37c1b5c3c790e929f93bdc5b2c054223d263ec5ad94618fa218af2217931",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5491477,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9407,12 +9554,12 @@
         "apkName": "Orbot-v13.0.6-RC-3-DEBUGDIAG.apk",
         "hash": "4c3cbfcccef92becc00ebaa47cd2046e9f11ac2b61e83a905eaa08b802f17393",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5490697,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9443,12 +9590,12 @@
         "apkName": "Orbot-v13.0.6-RC-3.apk",
         "hash": "39c021a5e5eb19b05657dd6b9b756360e4e23762a2843b4f44729e65c7259b18",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5486082,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9479,12 +9626,12 @@
         "apkName": "Orbot-v13.0.6-RC-2.apk",
         "hash": "bda43e192cb741de455bf7320a887857ba94fd144dd9bd358a186fae2c026786",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5486000,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9515,12 +9662,12 @@
         "apkName": "Orbot-v13.0.6-RC-1.apk",
         "hash": "89060e320b415bcd96b3d070be843aee021ef7a002fae777333d7cbf126918a5",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5485612,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9551,12 +9698,12 @@
         "apkName": "Orbot-v13.0.6-BETA-8.apk",
         "hash": "13437f7789207b56ff756f1d701d0a702c16758422229257fd9062d2fd0175da",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5495996,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9587,12 +9734,12 @@
         "apkName": "Orbot-v13.0.6-BETA-7.apk",
         "hash": "5fcbdbc09122e7b062ac17c7dba889f76fbc8028324ba898953521256eded50b",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5738928,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9623,12 +9770,12 @@
         "apkName": "Orbot-v13.0.6-BETA-6.apk",
         "hash": "432cfb2d9d54d4886ef6ea8e5effec7a555e5435a0fe13c2a74d51bff6119017",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5738670,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9659,12 +9806,12 @@
         "apkName": "Orbot-v13.0.6-BETA-5.apk",
         "hash": "cf1965312e465728233e783229707b663deeb32a85be39d2a168ce3ed54cf279",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5738822,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9695,12 +9842,12 @@
         "apkName": "Orbot-v13.0.6-BETA-4.apk",
         "hash": "bcad45f8b7ebaaedd3ff290068e3998b4f635bbe14b62dd5473069ea4e72f365",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5752095,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9731,12 +9878,12 @@
         "apkName": "Orbot-v13.0.6-BETA-3.apk",
         "hash": "94c0b1987f9c2e0a9eb9c87c3447a9b8612073dfd47640b089fcd0fe4c181575",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5750899,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9763,12 +9910,12 @@
         "apkName": "Orbot-v13.0.6-BETA-1.apk",
         "hash": "75e09dc6253caab76e00ec21d521d10d80d9112a35d02c9e5f7d028cc59761f4",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5740252,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9795,7 +9942,7 @@
         "apkName": "Orbot-v13.0.4a.apk",
         "hash": "1eed3bafc47c2167d90da62198799531139e01df2fc4868a2784b6b1990f895b",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi"
         ],
@@ -9803,7 +9950,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 4882251,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9830,7 +9977,7 @@
         "apkName": "Orbot-v13.0.3.apk",
         "hash": "5b828749b6763068e728e37b40e540bc152ef5cb03dadbd11b79410a3cecedd6",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi"
         ],
@@ -9838,7 +9985,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 4882507,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9865,7 +10012,7 @@
         "apkName": "Orbot-v13.0.2.apk",
         "hash": "c750d903cd9cb4a0e0f1dfc9ce9e64d9315d9c778b2e02e63e36a8aacdbed790",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi"
         ],
@@ -9873,7 +10020,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 4881795,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9900,7 +10047,7 @@
         "apkName": "Orbot-v13.0.1-ARMv5.apk",
         "hash": "e2acf90f2a93f43a1f1314ba4e5e81e39ae64fc99938a63b87b6e5444ef0df56",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi"
         ],
@@ -9908,7 +10055,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 4881436,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9935,7 +10082,7 @@
         "apkName": "Orbot-v13.0.1.apk",
         "hash": "4a983e1bca13d561d82407e979d5c2200d8777c26e465be6f8bf47ac3f557fc2",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi"
         ],
@@ -9943,7 +10090,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 4826000,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -9970,7 +10117,7 @@
         "apkName": "Orbot-v13.0.0-RC1.apk",
         "hash": "ac63b45764ced485ad7e5f3a0494e6e7b2990bb5f32c40e60ba181c430a6efcf",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi"
         ],
@@ -9978,7 +10125,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5418918,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -10005,7 +10152,7 @@
         "apkName": "Orbot-v13.0.0-alpha-1.apk",
         "hash": "40525ad35a497d946c3a3fd70ed1bec9e7ed6aff3344e0366d758537f23e95e3",
         "hashType": "sha256",
-        "minSdkVersion": "9",
+        "minSdkVersion": 9,
         "nativecode": [
           "armeabi"
         ],
@@ -10013,7 +10160,7 @@
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5108650,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -10040,12 +10187,12 @@
         "apkName": "Orbot-release-12.0.5.apk",
         "hash": "6028eeb32984c3d226307ccb932a6da2357c85a6ab6a52f29b90c71d18421beb",
         "hashType": "sha256",
-        "minSdkVersion": "5",
+        "minSdkVersion": 5,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5526128,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -10072,12 +10219,12 @@
         "apkName": "Orbot-release-12.0.4.apk",
         "hash": "a3f553065366300c84cf78a1a36c709cfc393bceb20d4c93059a61c30bd2168a",
         "hashType": "sha256",
-        "minSdkVersion": "5",
+        "minSdkVersion": 5,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5470368,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -10104,12 +10251,12 @@
         "apkName": "Orbot-release-12.0.3.apk",
         "hash": "f02f78cdae7b8630b78e030fbd73d654ba484460723bace2d07b57e54f024d6a",
         "hashType": "sha256",
-        "minSdkVersion": "5",
+        "minSdkVersion": 5,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5597805,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -10136,12 +10283,12 @@
         "apkName": "Orbot-release-12.0.1-beta-1.apk",
         "hash": "22c899f726d1608ef30b23add8f9d9d9dfd2710c018820ff081d66d16a139b3f",
         "hashType": "sha256",
-        "minSdkVersion": "5",
+        "minSdkVersion": 5,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5572712,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -10168,12 +10315,12 @@
         "apkName": "Orbot-release-0.2.3.23-rc-1.0.11-RC6.apk",
         "hash": "eb4d7ce28ca6a1ce287ec293772fbf337bafd17c4cc383927890ad7c5dc01488",
         "hashType": "sha256",
-        "minSdkVersion": "5",
+        "minSdkVersion": 5,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5307853,
-        "targetSdkVersion": "15",
+        "targetSdkVersion": 15,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -10196,12 +10343,12 @@
         "apkName": "Orbot-release-0.2.3.23-rc-1.0.11-RC5-test2.apk",
         "hash": "b37db5944ecc91d2af39c4c1e1c00ddc9c2738c7f2087851745665b3a4a1cf11",
         "hashType": "sha256",
-        "minSdkVersion": "5",
+        "minSdkVersion": 5,
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
         "size": 5171698,
-        "targetSdkVersion": "15",
+        "targetSdkVersion": 15,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -10222,14 +10369,14 @@
     ],
     "org.torproject.torbrowser_alpha": [
       {
-        "added": 1539256120000,
+        "added": 1539216000000,
         "apkName": "tor-browser-android-arm-1.0a2.apk",
         "features": [
           "android.hardware.touchscreen"
         ],
         "hash": "08e0428b441a2f1a568fcda407266f0e95a2ad74404016cb8618cfb080561f64",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi-v7a"
         ],
@@ -10237,7 +10384,7 @@
         "sig": "779dcbfee750f281e0a8574e05216e04",
         "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
         "size": 35085518,
-        "targetSdkVersion": "26",
+        "targetSdkVersion": 26,
         "uses-permission": [
           [
             "android.permission.ACCESS_NETWORK_STATE",
@@ -10276,14 +10423,14 @@
         "versionName": "60.2.1"
       },
       {
-        "added": 1539016886000,
+        "added": 1538956800000,
         "apkName": "tor-browser-android-arm-1.0a1.apk",
         "features": [
           "android.hardware.touchscreen"
         ],
         "hash": "d320efdb4a488c3272811812d3d87b85effcce00e9c4f3cd162df931034c308c",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi-v7a"
         ],
@@ -10291,7 +10438,7 @@
         "sig": "779dcbfee750f281e0a8574e05216e04",
         "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
         "size": 33840334,
-        "targetSdkVersion": "26",
+        "targetSdkVersion": 26,
         "uses-permission": [
           [
             "android.permission.ACCESS_NETWORK_STATE",
@@ -10336,7 +10483,7 @@
         "apkName": "InformaCam-beta-0.1.35.apk",
         "hash": "9a3fc49814e91a191a9a67c272d76e105add8cc3cfe2bed6c9b094f0e84a9c0a",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "nativecode": [
           "armeabi"
         ],
@@ -10344,7 +10491,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 16892544,
-        "targetSdkVersion": "18",
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -10423,7 +10570,7 @@
         "apkName": "CameraV-release-0.2.1.apk",
         "hash": "89808dc92a93a0b793d9d1da3cdbb615a761ff7479bc499558eddaa680a850dc",
         "hashType": "sha256",
-        "minSdkVersion": "16",
+        "minSdkVersion": 16,
         "nativecode": [
           "armeabi",
           "armeabi-v7a",
@@ -10433,7 +10580,7 @@
         "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
         "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
         "size": 23052881,
-        "targetSdkVersion": "19",
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -10522,7 +10669,7 @@
         "apkName": "ObscuraCam-2.0-RC2b.apk",
         "hash": "eeea54985c96769524ec82fb1d3599b193a2d20d1f57f3afc4c97b11bd48df8f",
         "hashType": "sha256",
-        "minSdkVersion": "10",
+        "minSdkVersion": 10,
         "nativecode": [
           "armeabi"
         ],
@@ -10530,7 +10677,7 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 8240221,
-        "targetSdkVersion": "11",
+        "targetSdkVersion": 11,
         "uses-permission": [
           [
             "android.permission.READ_MEDIA_STORAGE",
@@ -10565,7 +10712,7 @@
         "apkName": "ObscuraCam-1.2-FINAL.apk",
         "hash": "fc4b1e26b09ab79b1ab174e8985b89985a0110f9d97d2b0472e529c85e3a1d89",
         "hashType": "sha256",
-        "minSdkVersion": "8",
+        "minSdkVersion": 8,
         "nativecode": [
           "armeabi"
         ],
@@ -10573,7 +10720,6 @@
         "sig": "a0eeebb161f946e3516945fae8a92a3e",
         "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
         "size": 1728825,
-        "targetSdkVersion": "8",
         "uses-permission": [
           [
             "android.permission.WRITE_EXTERNAL_STORAGE",
