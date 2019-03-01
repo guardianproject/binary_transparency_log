@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1551463342000,
+    "timestamp": 1551466372000,
     "version": 21,
     "maxage": 14,
     "name": "Guardian Project Official Releases",
@@ -18,26 +18,6 @@
     "uninstall": []
   },
   "apps": [
-    {
-      "authorEmail": "playstore@torproject.org",
-      "authorName": "The Tor Project",
-      "authorWebSite": "https://www.torproject.org/",
-      "categories": [
-        "Internet",
-        "Security",
-        "Guardian Project"
-      ],
-      "suggestedVersionCode": "2015609458",
-      "description": "<p>Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.</p><p>Note: For this release, you also need to install Orbot, a proxy application that will connect Tor Browser for Android with the Tor network. For the upcoming Tor Browser for Android stable release, our goal is for Orbot not to be necessary to connect to Tor.</p><p>Known issue: Our Security Slider is now under \u2018Security Settings,\u2019 but because of a small issue, it\u2019s only showing up after you restart the app. We plan on fixing it for the next release.</p><p>BLOCK TRACKERS Tor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.</p>",
-      "issueTracker": "https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~tbb-mobile",
-      "license": "MPL",
-      "name": "Always-On Notifications",
-      "summary": "Experience real private browsing without tracking, surveillance, or censorship.",
-      "added": 1538956800000,
-      "icon": "org.torproject.torbrowser_alpha.2015609458.png",
-      "packageName": "org.torproject.torbrowser_alpha",
-      "lastUpdated": 1551448922000
-    },
     {
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
@@ -1042,8 +1022,8 @@
     },
     {
       "antiFeatures": [
-        "KnownVuln",
-        "DisabledAlgorithm"
+        "DisabledAlgorithm",
+        "KnownVuln"
       ],
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
@@ -1346,6 +1326,26 @@
           "summary": "Bi\u1ebfn c\u00e1c b\u1ee9c \u1ea3nh v\u00e0 video c\u1ee7a b\u1ea1n v\u00e0o, b\u1eb1ng ch\u1ee9ng tr\u1ef1c quan k\u00fd an to\u00e0n"
         }
       }
+    },
+    {
+      "authorEmail": "playstore@torproject.org",
+      "authorName": "The Tor Project",
+      "authorWebSite": "https://www.torproject.org/",
+      "categories": [
+        "Internet",
+        "Security",
+        "Guardian Project"
+      ],
+      "suggestedVersionCode": "2015609458",
+      "description": "<p>Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.</p><p>Note: For this release, you also need to install Orbot, a proxy application that will connect Tor Browser for Android with the Tor network. For the upcoming Tor Browser for Android stable release, our goal is for Orbot not to be necessary to connect to Tor.</p><p>Known issue: Our Security Slider is now under \u2018Security Settings,\u2019 but because of a small issue, it\u2019s only showing up after you restart the app. We plan on fixing it for the next release.</p><p>BLOCK TRACKERS Tor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.</p>",
+      "issueTracker": "https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~tbb-mobile",
+      "license": "MPL",
+      "name": "Tor Browser for Android (Alpha)",
+      "summary": "Experience real private browsing without tracking, surveillance, or censorship.",
+      "added": 1538956800000,
+      "icon": "org.torproject.torbrowser_alpha.2015609458.png",
+      "packageName": "org.torproject.torbrowser_alpha",
+      "lastUpdated": 1551448922000
     }
   ],
   "packages": {
