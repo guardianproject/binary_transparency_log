@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1551461098000,
+    "timestamp": 1551463344000,
     "version": 21,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -24,7 +24,8 @@
       "authorWebSite": "https://www.torproject.org/",
       "categories": [
         "Internet",
-        "Security"
+        "Security",
+        "Guardian Project"
       ],
       "suggestedVersionCode": "2015609458",
       "description": "<p>Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.</p><p>Note: For this release, you also need to install Orbot, a proxy application that will connect Tor Browser for Android with the Tor network. For the upcoming Tor Browser for Android stable release, our goal is for Orbot not to be necessary to connect to Tor.</p><p>Known issue: Our Security Slider is now under \u2018Security Settings,\u2019 but because of a small issue, it\u2019s only showing up after you restart the app. We plan on fixing it for the next release.</p><p>BLOCK TRACKERS Tor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.</p>",
@@ -779,7 +780,7 @@
       "translation": "https://www.transifex.com/otf/torproject/",
       "webSite": "https://dev.guardianproject.info/projects/orfox-private-browser/",
       "added": 1474675200000,
-      "icon": "info.guardianproject.orfox.10.png",
+      "icon": "info.guardianproject.orfox.15.png",
       "packageName": "info.guardianproject.orfox",
       "lastUpdated": 1531180800000,
       "localized": {
@@ -948,8 +949,8 @@
     },
     {
       "antiFeatures": [
-        "DisabledAlgorithm",
-        "KnownVuln"
+        "KnownVuln",
+        "DisabledAlgorithm"
       ],
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
@@ -1315,8 +1316,8 @@
     },
     {
       "antiFeatures": [
-        "DisabledAlgorithm",
-        "KnownVuln"
+        "KnownVuln",
+        "DisabledAlgorithm"
       ],
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
@@ -3099,6 +3100,204 @@
       }
     ],
     "info.guardianproject.orfox": [
+      {
+        "added": 1531180800000,
+        "apkName": "Orfox-Fennec-52.9.0esr-TorBrowser-7.5-1-Orfox-1.5.4-RC-1.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "2230d893f47aba32cd4a42ef4c13ae9eaca37b2c3ee2c09360af1bc80dec459a",
+        "hashType": "sha256",
+        "minSdkVersion": 15,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "info.guardianproject.orfox",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 32268754,
+        "targetSdkVersion": 23,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ]
+        ],
+        "versionCode": 15,
+        "versionName": "Fennec-52.9.0esr/TorBrowser-7.5-1/Orfox-1.5.4-RC-1"
+      },
+      {
+        "added": 1522972800000,
+        "apkName": "Orfox-v1.5.2-RC1-Fennec-52.7.3esr-7.5-1.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "4dc0f1f7124a5244f4055cb3d3fb03d1aed8c852a46ec71d92aaebdd5b62e95d",
+        "hashType": "sha256",
+        "minSdkVersion": 15,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "info.guardianproject.orfox",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 28744029,
+        "targetSdkVersion": 23,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ]
+        ],
+        "versionCode": 13,
+        "versionName": "Fennec-52.7.3esr/TorBrowser-7.5.3/Orfox-1.5.2-RC-1"
+      },
+      {
+        "added": 1521763200000,
+        "apkName": "Orfox-v1.5.1-RC1-Fennec-52.7.2esr-TorBrowser-7.5-1.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "d74f264040570cf7eef41b2e487d004e13acbdd9150d90031b4e48da9c568e71",
+        "hashType": "sha256",
+        "minSdkVersion": 15,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "info.guardianproject.orfox",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 28737327,
+        "targetSdkVersion": 23,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ]
+        ],
+        "versionCode": 12,
+        "versionName": "Fennec-52.7.2esr/TorBrowser-7.5.2/Orfox-1.5.1-RC-1"
+      },
       {
         "added": 1501977600000,
         "apkName": "Orfox-v1.4-RC-3.apk",
