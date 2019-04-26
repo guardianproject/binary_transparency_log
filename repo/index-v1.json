@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1556300299000,
+    "timestamp": 1556319665000,
     "version": 21,
     "maxage": 14,
     "name": "Guardian Project Official Releases",
@@ -523,14 +523,13 @@
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
       "authorWebSite": "https://guardianproject.info",
-      "binaries": "https://guardianproject.info/fdroid/repo/LocationPrivacy-0.3.apk",
       "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
       "categories": [
         "Guardian Project",
         "Navigation",
         "Security"
       ],
-      "suggestedVersionCode": "30",
+      "suggestedVersionCode": "31",
       "issueTracker": "https://dev.guardianproject.info/projects/panic/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
@@ -539,9 +538,9 @@
       "translation": "https://hosted.weblate.org/projects/guardianproject/locationprivacy/",
       "webSite": "https://guardianproject.info/2015/01/23/sharing-your-location-privately",
       "added": 1422489600000,
-      "icon": "info.guardianproject.locationprivacy.30.png",
+      "icon": "info.guardianproject.locationprivacy.31.png",
       "packageName": "info.guardianproject.locationprivacy",
-      "lastUpdated": 1480636800000,
+      "lastUpdated": 1556319629000,
       "localized": {
         "af": {
           "summary": "privaatheid filters vir gedeelde ligging skakels"
@@ -1022,8 +1021,8 @@
     },
     {
       "antiFeatures": [
-        "KnownVuln",
-        "DisabledAlgorithm"
+        "DisabledAlgorithm",
+        "KnownVuln"
       ],
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
@@ -1519,6 +1518,26 @@
     ],
     "info.guardianproject.locationprivacy": [
       {
+        "added": 1556319629000,
+        "apkName": "info.guardianproject.locationprivacy_31.apk",
+        "hash": "1dbfb07b0868bfb527729c40120e625e1cfd5dbfbdd84c05dcbf435008e0ebfb",
+        "hashType": "sha256",
+        "minSdkVersion": 10,
+        "packageName": "info.guardianproject.locationprivacy",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 1421922,
+        "targetSdkVersion": 23,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ]
+        ],
+        "versionCode": 31,
+        "versionName": "0.3.1"
+      },
+      {
         "added": 1480636800000,
         "apkName": "LocationPrivacy-0.3.apk",
         "hash": "ec2b2c6e3a99422fbe8229711dfc7b741961c2ba7bc171c745818d8b76fc4d63",
@@ -1557,26 +1576,6 @@
         ],
         "versionCode": 20,
         "versionName": "0.2"
-      },
-      {
-        "added": 1422489600000,
-        "apkName": "LocationPrivacy-0.1.apk",
-        "hash": "130cfcc8b916682d974aa4e13385b47bdc23d07b0de852640563b880aeb61d1f",
-        "hashType": "sha256",
-        "minSdkVersion": 8,
-        "packageName": "info.guardianproject.locationprivacy",
-        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
-        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
-        "size": 818384,
-        "targetSdkVersion": 21,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ]
-        ],
-        "versionCode": 10,
-        "versionName": "0.1"
       }
     ],
     "info.guardianproject.pixelknot": [
