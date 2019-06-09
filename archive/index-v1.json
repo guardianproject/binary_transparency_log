@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1558546331000,
+    "timestamp": 1560043027000,
     "version": 21,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -758,9 +758,9 @@
       "translation": "https://www.transifex.com/otf/orbot/",
       "webSite": "https://www.torproject.org/docs/android.html",
       "added": 1374451200000,
-      "icon": "org.torproject.android.16020041.png",
+      "icon": "org.torproject.android.15401000.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1545177600000,
+      "lastUpdated": 1560042979000,
       "localized": {
         "af": {
           "summary": "Verbeter jou privaatheid, breek deur middel van firewalls en meer veilig te komm"
@@ -1265,7 +1265,7 @@
         "Guardian Project",
         "Security"
       ],
-      "suggestedVersionCode": "75",
+      "suggestedVersionCode": "104",
       "description": "<p>Ripple is a \"panic button\" that can send it's trigger message to any app that is a \"panic responder\". Such apps can do things like lock, disguise themselves, delete private data, send an emergency message, and more. It is meant for situations where there is time to react, but where users need to be sure it is not mistakenly set off.</p><p>Here are two example scenarios:</p><ul><li> An organization gets regularly raided by the security forces, who search all of the computers and mobile devices on the premises. The organization usually has at least a minute or two of warning before a raid starts. They need a very reliable way to trigger wiping all of the data from the sensitive apps.</li><li> An aid worker has lots of sensitive data about people on their device. They regularly sync that data up with a secure, central database. Occasionally, the aid worker has to leave the country on very short notice. The border guards regularly download the entire contents of mobile devices of people crossing through. While waiting in line at the border, the aid worker sees the border guards seizing people's devices, and then remembers all the data on the device, so she unlocks her phone and hits the wipe trigger, which wipes all sensitive apps from the device. When the aid worker returns to the central office, the device is again synced up with the central database.</li></ul>",
       "issueTracker": "https://dev.guardianproject.info/projects/panic/issues",
       "liberapayID": "33617",
@@ -1276,9 +1276,9 @@
       "translation": "https://hosted.weblate.org/projects/guardianproject/ripple/",
       "webSite": "https://guardianproject.info/tag/panic",
       "added": 1480636800000,
-      "icon": "info.guardianproject.ripple.75.png",
+      "icon": "info.guardianproject.ripple.104.png",
       "packageName": "info.guardianproject.ripple",
-      "lastUpdated": 1480636800000,
+      "lastUpdated": 1547424000000,
       "localized": {
         "af": {
           "summary": "Sneller apps om jou privaatheid te beskerm wanneer dit in angstig of paniekerig "
@@ -8012,6 +8012,20 @@
     ],
     "info.guardianproject.ripple": [
       {
+        "added": 1547424000000,
+        "apkName": "info.guardianproject.ripple_104.apk",
+        "hash": "c51da9a0ecf5960c9a08a4a77bc261e80b27e479f719ca641866b8a7422dcd47",
+        "hashType": "sha256",
+        "minSdkVersion": 10,
+        "packageName": "info.guardianproject.ripple",
+        "sig": "d47234c2500f43d3b273a1ee047497ed",
+        "signer": "927f7e38b6acbecd84e02dace33efa9a7a2f0979750f28f585688ee38b3a4e28",
+        "size": 1640290,
+        "targetSdkVersion": 23,
+        "versionCode": 104,
+        "versionName": "0.2.4"
+      },
+      {
         "added": 1480636800000,
         "apkName": "Ripple-0.2-release.apk",
         "hash": "4b14b1b402f0197e1e6ffe2c11e052432fc8a52749f5f02d9cc67799658df239",
@@ -8092,366 +8106,6 @@
       }
     ],
     "org.torproject.android": [
-      {
-        "added": 1526515200000,
-        "apkName": "Orbot-16.0.2-RC-1-fullperm-universal-release.apk",
-        "hash": "ceaf11111c90e9fcb32bdfaed4d656bd23f812734d8237c0ae140594c1c283c5",
-        "hashType": "sha256",
-        "minSdkVersion": 16,
-        "nativecode": [
-          "armeabi",
-          "armeabi-v7a",
-          "x86"
-        ],
-        "packageName": "org.torproject.android",
-        "sig": "8bd7e51b479aeba908ff46ada3305a29",
-        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 18832319,
-        "targetSdkVersion": 27,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-            null
-          ]
-        ],
-        "versionCode": 16020041,
-        "versionName": "16.0.2-RC-1"
-      },
-      {
-        "added": 1515369600000,
-        "apkName": "Orbot-16.0.0-RC-2-multi-SDK23-Android6andUp.apk",
-        "hash": "47d805fa86d9682f213256b23f150f113d2b3fc050affc714400089f74bb7597",
-        "hashType": "sha256",
-        "minSdkVersion": 23,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "org.torproject.android",
-        "sig": "8bd7e51b479aeba908ff46ada3305a29",
-        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 14542664,
-        "targetSdkVersion": 26,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ]
-        ],
-        "versionCode": 16000011,
-        "versionName": "16.0.0-RC-2-multi-SDK23"
-      },
-      {
-        "added": 1515369600000,
-        "apkName": "Orbot-16.0.0-RC-2-multi-SDK16-Android4.1andUp.apk",
-        "hash": "577decb04f548ad749d993a4e4a15f316261b63df7085a2dcb7a9945637ee550",
-        "hashType": "sha256",
-        "maxSdkVersion": 23,
-        "minSdkVersion": 16,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "org.torproject.android",
-        "sig": "8bd7e51b479aeba908ff46ada3305a29",
-        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 14587974,
-        "targetSdkVersion": 23,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ]
-        ],
-        "versionCode": 16000010,
-        "versionName": "16.0.0-RC-2-multi-SDK16"
-      },
-      {
-        "added": 1511913600000,
-        "apkName": "Orbot-15.5.1-RC-2-multi-SDK23.apk",
-        "hash": "392448d46c63781f8122c41fa6020e7c9324dee737a8bf0d8758781eeaed2254",
-        "hashType": "sha256",
-        "minSdkVersion": 23,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "org.torproject.android",
-        "sig": "8bd7e51b479aeba908ff46ada3305a29",
-        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 13118935,
-        "targetSdkVersion": 25,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ]
-        ],
-        "versionCode": 15510002,
-        "versionName": "15.5.1-RC-2-multi-SDK23"
-      },
-      {
-        "added": 1511913600000,
-        "apkName": "Orbot-15.5.1-RC-2-multi-SDK16.apk",
-        "hash": "b09aa9435e0ba193dfa8a631d1216d81bae7c5caf61db4aef8be5a7533e89807",
-        "hashType": "sha256",
-        "maxSdkVersion": 23,
-        "minSdkVersion": 16,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "org.torproject.android",
-        "sig": "8bd7e51b479aeba908ff46ada3305a29",
-        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 13163024,
-        "targetSdkVersion": 23,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ]
-        ],
-        "versionCode": 15510001,
-        "versionName": "15.5.1-RC-2-multi-SDK16"
-      },
-      {
-        "added": 1499385600000,
-        "apkName": "Orbot-v15.4.2-RC-1-multi-fullperm-SDK23.apk",
-        "hash": "a426158c6ea1c3efcba7b97b940efc19119d48376612904bd8f2bc992ef59b2a",
-        "hashType": "sha256",
-        "minSdkVersion": 23,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "org.torproject.android",
-        "sig": "8bd7e51b479aeba908ff46ada3305a29",
-        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 13249725,
-        "targetSdkVersion": 25,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ]
-        ],
-        "versionCode": 15420001,
-        "versionName": "15.4.2-RC-1-multi-SDK23"
-      },
-      {
-        "added": 1499385600000,
-        "apkName": "Orbot-v15.4.2-RC-1-multi-minimalperm-SDK16.apk",
-        "hash": "1394e73683cb3933233306946aa503443b5628680a9906a4528832aba56afc37",
-        "hashType": "sha256",
-        "maxSdkVersion": 23,
-        "minSdkVersion": 16,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "org.torproject.android",
-        "sig": "8bd7e51b479aeba908ff46ada3305a29",
-        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 13278405,
-        "targetSdkVersion": 23,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ]
-        ],
-        "versionCode": 15420000,
-        "versionName": "15.4.2-RC-1-multi-SDK16"
-      },
-      {
-        "added": 1499385600000,
-        "apkName": "Orbot-v15.4.1-RC-1-MULTI.apk",
-        "hash": "b38683345188f6fbfdfd4d5db03f0a2d8cf510c320d056e63c4aff8824d267f3",
-        "hashType": "sha256",
-        "minSdkVersion": 16,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "org.torproject.android",
-        "sig": "8bd7e51b479aeba908ff46ada3305a29",
-        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 13277498,
-        "targetSdkVersion": 25,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ]
-        ],
-        "versionCode": 15410000,
-        "versionName": "15.4.1-RC-1-multi"
-      },
       {
         "added": 1499385600000,
         "apkName": "Orbot-v15.4.0-BETA-1-ARM-ONLY.apk",

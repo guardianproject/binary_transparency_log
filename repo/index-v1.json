@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1558546327000,
+    "timestamp": 1560043024000,
     "version": 21,
     "maxage": 14,
     "name": "Guardian Project Official Releases",
@@ -498,6 +498,25 @@
       }
     },
     {
+      "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
+      "categories": [
+        "Connectivity"
+      ],
+      "changelog": "https://github.com/n8fr8/gilgamesh/blob/HEAD/CHANGELOG",
+      "suggestedVersionName": "0.0.12",
+      "suggestedVersionCode": "12",
+      "description": "<p>Use Bluetooth to chat with others in the same area, even if Internet access is down or restricted.</p>",
+      "issueTracker": "https://github.com/n8fr8/gilgamesh/issues",
+      "liberapayID": "33617",
+      "license": "GPL-3.0-or-later",
+      "name": "Gilga",
+      "sourceCode": "https://github.com/n8fr8/gilgamesh",
+      "added": 1413417600000,
+      "icon": "info.guardianproject.gilga.12.png",
+      "packageName": "info.guardianproject.gilga",
+      "lastUpdated": 1413417600000
+    },
+    {
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
       "authorWebSite": "https://guardianproject.info",
@@ -874,9 +893,9 @@
       "translation": "https://www.transifex.com/otf/orbot/",
       "webSite": "https://www.torproject.org/docs/android.html",
       "added": 1374451200000,
-      "icon": "org.torproject.android.16050200.png",
+      "icon": "org.torproject.android.16104000.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1545177600000,
+      "lastUpdated": 1560042979000,
       "localized": {
         "af": {
           "summary": "Verbeter jou privaatheid, breek deur middel van firewalls en meer veilig te komm"
@@ -1335,16 +1354,16 @@
         "Security",
         "Guardian Project"
       ],
-      "suggestedVersionCode": "2015615372",
+      "suggestedVersionCode": "2015615380",
       "description": "<p>Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.</p><p>BLOCK TRACKERS Tor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.</p>",
       "issueTracker": "https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~tbb-mobile",
       "license": "MPL",
       "name": "Tor Browser",
       "summary": "Experience real private browsing without tracking, surveillance, or censorship.",
       "added": 1558545243000,
-      "icon": "org.torproject.torbrowser.2015615372.png",
+      "icon": "org.torproject.torbrowser.2015615380.png",
       "packageName": "org.torproject.torbrowser",
-      "lastUpdated": 1558545247000
+      "lastUpdated": 1560042987000
     },
     {
       "authorEmail": "playstore@torproject.org",
@@ -1534,6 +1553,56 @@
         ],
         "versionCode": 14,
         "versionName": "0.1.8"
+      }
+    ],
+    "info.guardianproject.gilga": [
+      {
+        "added": 1413417600000,
+        "apkName": "info.guardianproject.gilga_12.apk",
+        "hash": "35fe692018fab84cef714d53eb415396cfc726db8691acaec5e768c51b10e6dc",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "packageName": "info.guardianproject.gilga",
+        "sig": "6de574cd61a684bda38ba8e895dece7c",
+        "signer": "a8c44573cb5f69cb3e57d5d301e950a0d9c67a5e996df2105610cef91effdb93",
+        "size": 67581,
+        "targetSdkVersion": 20,
+        "uses-permission": [
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 12,
+        "versionName": "0.0.12"
       }
     ],
     "info.guardianproject.locationprivacy": [
@@ -1944,6 +2013,159 @@
     ],
     "org.torproject.android": [
       {
+        "added": 1560042979000,
+        "apkName": "Orbot-16.1.0-BETA-4-tor-0.4.0.4-rc-fullperm-universal-release.apk",
+        "hash": "47c6febb417d2a6bd9acd38aa4879195b6f5c3deb1b82de4f28890822be1c31e",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 33528360,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ]
+        ],
+        "versionCode": 16104000,
+        "versionName": "16.1.0-BETA-4-tor-0.4.0.4-rc"
+      },
+      {
+        "added": 1560042976000,
+        "apkName": "Orbot-16.1.0-BETA-3-tor-0.4.0.4-rc-fullperm-universal-release.apk",
+        "hash": "fc7f39cc9d02b2e86ef8ea9541a1b26e3314ad87fbf1db396cce5b62d81f64a7",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 33528316,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ]
+        ],
+        "versionCode": 16103000,
+        "versionName": "16.1.0-BETA-3-tor-0.4.0.4-rc"
+      },
+      {
+        "added": 1560042973000,
+        "apkName": "Orbot-16.1.0-BETA-1-tor-0.4.0.4-rc-fullperm-universal-release.apk",
+        "hash": "29ef0ed7638b2eb8c5c7b6a51b26fee30d3180ce3aeb78146e8ae30545f7c846",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 33527400,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ]
+        ],
+        "versionCode": 16100003,
+        "versionName": "16.1.0-BETA-1-tor-0.4.0.4-rc"
+      },
+      {
         "added": 1545177600000,
         "apkName": "Orbot-16.0.5-RC-2-tor-0.3.4.9-fullperm-armeabi-v7a-release.apk",
         "hash": "650b419045a08546b82fc17ee858a007674692228b716c54353a8cab0e9df63b",
@@ -2075,9 +2297,489 @@
         ],
         "versionCode": 16050100,
         "versionName": "16.0.5-RC-1-tor-0.3.4.9"
+      },
+      {
+        "added": 1526515200000,
+        "apkName": "Orbot-16.0.2-RC-1-fullperm-universal-release.apk",
+        "hash": "ceaf11111c90e9fcb32bdfaed4d656bd23f812734d8237c0ae140594c1c283c5",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi",
+          "armeabi-v7a",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 18832319,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ]
+        ],
+        "versionCode": 16020041,
+        "versionName": "16.0.2-RC-1"
+      },
+      {
+        "added": 1515369600000,
+        "apkName": "Orbot-16.0.0-RC-2-multi-SDK23-Android6andUp.apk",
+        "hash": "47d805fa86d9682f213256b23f150f113d2b3fc050affc714400089f74bb7597",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 14542664,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ]
+        ],
+        "versionCode": 16000011,
+        "versionName": "16.0.0-RC-2-multi-SDK23"
+      },
+      {
+        "added": 1515369600000,
+        "apkName": "Orbot-16.0.0-RC-2-multi-SDK16-Android4.1andUp.apk",
+        "hash": "577decb04f548ad749d993a4e4a15f316261b63df7085a2dcb7a9945637ee550",
+        "hashType": "sha256",
+        "maxSdkVersion": 23,
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 14587974,
+        "targetSdkVersion": 23,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ]
+        ],
+        "versionCode": 16000010,
+        "versionName": "16.0.0-RC-2-multi-SDK16"
+      },
+      {
+        "added": 1511913600000,
+        "apkName": "Orbot-15.5.1-RC-2-multi-SDK23.apk",
+        "hash": "392448d46c63781f8122c41fa6020e7c9324dee737a8bf0d8758781eeaed2254",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 13118935,
+        "targetSdkVersion": 25,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ]
+        ],
+        "versionCode": 15510002,
+        "versionName": "15.5.1-RC-2-multi-SDK23"
+      },
+      {
+        "added": 1511913600000,
+        "apkName": "Orbot-15.5.1-RC-2-multi-SDK16.apk",
+        "hash": "b09aa9435e0ba193dfa8a631d1216d81bae7c5caf61db4aef8be5a7533e89807",
+        "hashType": "sha256",
+        "maxSdkVersion": 23,
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 13163024,
+        "targetSdkVersion": 23,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ]
+        ],
+        "versionCode": 15510001,
+        "versionName": "15.5.1-RC-2-multi-SDK16"
+      },
+      {
+        "added": 1499385600000,
+        "apkName": "Orbot-v15.4.2-RC-1-multi-fullperm-SDK23.apk",
+        "hash": "a426158c6ea1c3efcba7b97b940efc19119d48376612904bd8f2bc992ef59b2a",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 13249725,
+        "targetSdkVersion": 25,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ]
+        ],
+        "versionCode": 15420001,
+        "versionName": "15.4.2-RC-1-multi-SDK23"
+      },
+      {
+        "added": 1499385600000,
+        "apkName": "Orbot-v15.4.2-RC-1-multi-minimalperm-SDK16.apk",
+        "hash": "1394e73683cb3933233306946aa503443b5628680a9906a4528832aba56afc37",
+        "hashType": "sha256",
+        "maxSdkVersion": 23,
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 13278405,
+        "targetSdkVersion": 23,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ]
+        ],
+        "versionCode": 15420000,
+        "versionName": "15.4.2-RC-1-multi-SDK16"
+      },
+      {
+        "added": 1499385600000,
+        "apkName": "Orbot-v15.4.1-RC-1-MULTI.apk",
+        "hash": "b38683345188f6fbfdfd4d5db03f0a2d8cf510c320d056e63c4aff8824d267f3",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 13277498,
+        "targetSdkVersion": 25,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ]
+        ],
+        "versionCode": 15410000,
+        "versionName": "15.4.1-RC-1-multi"
       }
     ],
     "org.torproject.torbrowser": [
+      {
+        "added": 1560042987000,
+        "apkName": "tor-browser-8.5.1-android-x86-multi.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "de9ce5e97f02e616a578e78bc2095ac9c0ac27dffa9d270885b6958a3a1aa958",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "x86"
+        ],
+        "packageName": "org.torproject.torbrowser",
+        "sig": "31e36334f34e126a0e0d1efd29b84fb2",
+        "signer": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8",
+        "size": 45797963,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015615380,
+        "versionName": "60.7.0"
+      },
+      {
+        "added": 1560042984000,
+        "apkName": "tor-browser-8.5.1-android-armv7-multi.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "56469f49b37e35a81addff0d867c8c7f1fa3e4ee2da750ec1084e983a30164a8",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "org.torproject.torbrowser",
+        "sig": "31e36334f34e126a0e0d1efd29b84fb2",
+        "signer": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8",
+        "size": 44327595,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015615377,
+        "versionName": "60.7.0"
+      },
       {
         "added": 1558545247000,
         "apkName": "tor-browser-8.5-android-x86-multi.apk",
