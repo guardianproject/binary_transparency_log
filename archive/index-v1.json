@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1560861123000,
+    "timestamp": 1561644793000,
     "version": 21,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -777,9 +777,9 @@
       "translation": "https://www.transifex.com/otf/orbot/",
       "webSite": "https://www.torproject.org/docs/android.html",
       "added": 1374451200000,
-      "icon": "org.torproject.android.16000010.png",
+      "icon": "org.torproject.android.16000011.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1560042979000,
+      "lastUpdated": 1561644732000,
       "localized": {
         "af": {
           "summary": "Verbeter jou privaatheid, breek deur middel van firewalls en meer veilig te komm"
@@ -1110,8 +1110,8 @@
     },
     {
       "antiFeatures": [
-        "KnownVuln",
-        "DisabledAlgorithm"
+        "DisabledAlgorithm",
+        "KnownVuln"
       ],
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
@@ -1477,8 +1477,8 @@
     },
     {
       "antiFeatures": [
-        "KnownVuln",
-        "DisabledAlgorithm"
+        "DisabledAlgorithm",
+        "KnownVuln"
       ],
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
@@ -1510,16 +1510,36 @@
         "Security",
         "Guardian Project"
       ],
-      "suggestedVersionCode": "2015620188",
+      "suggestedVersionCode": "2015615396",
+      "description": "<p>Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.</p><p>BLOCK TRACKERS Tor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.</p>",
+      "issueTracker": "https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~tbb-mobile",
+      "license": "MPL",
+      "name": "Tor Browser",
+      "summary": "Experience real private browsing without tracking, surveillance, or censorship.",
+      "added": 1558545243000,
+      "icon": "org.torproject.torbrowser.2015615372.png",
+      "packageName": "org.torproject.torbrowser",
+      "lastUpdated": 1561644742000
+    },
+    {
+      "authorEmail": "playstore@torproject.org",
+      "authorName": "The Tor Project",
+      "authorWebSite": "https://www.torproject.org/",
+      "categories": [
+        "Internet",
+        "Security",
+        "Guardian Project"
+      ],
+      "suggestedVersionCode": "2015620196",
       "description": "<p>Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.</p><p>Note: For this release, you also need to install Orbot, a proxy application that will connect Tor Browser for Android with the Tor network. For the upcoming Tor Browser for Android stable release, our goal is for Orbot not to be necessary to connect to Tor.</p><p>Known issue: Our Security Slider is now under \u2018Security Settings,\u2019 but because of a small issue, it\u2019s only showing up after you restart the app. We plan on fixing it for the next release.</p><p>BLOCK TRACKERS Tor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.</p>",
       "issueTracker": "https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~tbb-mobile",
       "license": "MPL",
       "name": "Tor Browser for Android (Alpha)",
       "summary": "Experience real private browsing without tracking, surveillance, or censorship.",
       "added": 1538956800000,
-      "icon": "org.torproject.torbrowser_alpha.2015615276.png",
+      "icon": "org.torproject.torbrowser_alpha.2015620180.png",
       "packageName": "org.torproject.torbrowser_alpha",
-      "lastUpdated": 1560861085000
+      "lastUpdated": 1561644754000
     }
   ],
   "packages": {
@@ -8163,6 +8183,54 @@
     "org.torproject.android": [
       {
         "added": 1515369600000,
+        "apkName": "Orbot-16.0.0-RC-2-multi-SDK23-Android6andUp.apk",
+        "hash": "47d805fa86d9682f213256b23f150f113d2b3fc050affc714400089f74bb7597",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 14542664,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ]
+        ],
+        "versionCode": 16000011,
+        "versionName": "16.0.0-RC-2-multi-SDK23"
+      },
+      {
+        "added": 1515369600000,
         "apkName": "Orbot-16.0.0-RC-2-multi-SDK16-Android4.1andUp.apk",
         "hash": "577decb04f548ad749d993a4e4a15f316261b63df7085a2dcb7a9945637ee550",
         "hashType": "sha256",
@@ -10713,7 +10781,249 @@
         "versionName": "0.2.3.23-rc-1.0.11-RC5-test2"
       }
     ],
+    "org.torproject.torbrowser": [
+      {
+        "added": 1558545247000,
+        "apkName": "tor-browser-8.5-android-x86-multi.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "2363894276afb1736e8022df3af00ca24041c089850b9659a8a59432f0121e95",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "x86"
+        ],
+        "packageName": "org.torproject.torbrowser",
+        "sig": "31e36334f34e126a0e0d1efd29b84fb2",
+        "signer": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8",
+        "size": 45802059,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015615372,
+        "versionName": "60.7.0"
+      },
+      {
+        "added": 1558545243000,
+        "apkName": "tor-browser-8.5-android-armv7-multi.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "05efd244d3200985254dc21da1e1281527fd43cfaa912b3b804aa87605f092c9",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "org.torproject.torbrowser",
+        "sig": "31e36334f34e126a0e0d1efd29b84fb2",
+        "signer": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8",
+        "size": 44323499,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015615369,
+        "versionName": "60.7.0"
+      }
+    ],
     "org.torproject.torbrowser_alpha": [
+      {
+        "added": 1558545256000,
+        "apkName": "tor-browser-9.0a1-android-x86-multi-qa.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "a530cce513da42a4403d8875304d195e8012f88be948f834da6fe201d3996115",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "x86"
+        ],
+        "packageName": "org.torproject.torbrowser_alpha",
+        "sig": "779dcbfee750f281e0a8574e05216e04",
+        "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
+        "size": 45814347,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015620180,
+        "versionName": "60.7.0"
+      },
+      {
+        "added": 1558545253000,
+        "apkName": "tor-browser-9.0a1-android-armv7-multi-qa.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "6d4b67e05e284ccddbb94704fa8031ef181d402f84ab3785dc776fbf94a01149",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "org.torproject.torbrowser_alpha",
+        "sig": "779dcbfee750f281e0a8574e05216e04",
+        "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
+        "size": 44331691,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015620177,
+        "versionName": "60.7.0"
+      },
       {
         "added": 1557403651000,
         "apkName": "tor-browser-8.5a12-android-x86-multi.apk",
