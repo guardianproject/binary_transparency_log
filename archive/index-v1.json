@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1584405701000,
+    "timestamp": 1585012226000,
     "version": 21,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -1119,8 +1119,8 @@
     },
     {
       "antiFeatures": [
-        "KnownVuln",
-        "DisabledAlgorithm"
+        "DisabledAlgorithm",
+        "KnownVuln"
       ],
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
@@ -1551,8 +1551,8 @@
     },
     {
       "antiFeatures": [
-        "KnownVuln",
-        "DisabledAlgorithm"
+        "DisabledAlgorithm",
+        "KnownVuln"
       ],
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
@@ -1585,7 +1585,7 @@
         "Security",
         "Guardian Project"
       ],
-      "suggestedVersionCode": "2015690687",
+      "suggestedVersionCode": "2015690695",
       "description": "<p>Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.</p><p>BLOCK TRACKERS Tor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.</p><p>DEFEND AGAINST SURVEILLANCE Tor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.</p><p>RESIST FINGERPRINTING Tor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.</p><p>MULTI-LAYERED ENCRYPTION When you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:</p><p>BROWSE FREELY With Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.</p><p>THIS APP IS MADE POSSIBLE BY DONORS LIKE YOU Tor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp</p><p>Learn more about Tor Browser for Android: - Need help? Visit https://support.torproject.org. The manual is coming soon. - Learn more about what\u2019s happening at Tor: https://blog.torproject.org - Follow the Tor Project on Twitter: https://twitter.com/torproject</p><p>ABOUT THE TOR PROJECT The Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.</p>",
       "donate": "https://donate.torproject.org/",
       "issueTracker": "https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~tbb-mobile",
@@ -1594,9 +1594,9 @@
       "name": "Tor Browser",
       "summary": "Experience real private browsing without tracking, surveillance, or censorship.",
       "added": 1558545243000,
-      "icon": "org.torproject.torbrowser.2015690671.png",
+      "icon": "org.torproject.torbrowser.2015690679.png",
       "packageName": "org.torproject.torbrowser",
-      "lastUpdated": 1584405509000
+      "lastUpdated": 1585012117000
     },
     {
       "authorEmail": "playstore@torproject.org",
@@ -11619,6 +11619,294 @@
       }
     ],
     "org.torproject.torbrowser": [
+      {
+        "added": 1581614758000,
+        "apkName": "tor-browser-9.0.5-android-x86_64-multi.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "86d9af98dae4ec1bdcb3dd2e045fa50735096b7d0825d20f49a9b14bdfe2e76d",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "x86_64"
+        ],
+        "packageName": "org.torproject.torbrowser",
+        "sig": "31e36334f34e126a0e0d1efd29b84fb2",
+        "signer": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8",
+        "size": 61305013,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015690679,
+        "versionName": "68.5.0"
+      },
+      {
+        "added": 1581614752000,
+        "apkName": "tor-browser-9.0.5-android-x86-multi.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "ce61ff8871395059c3fcbe1787ed5046217656b3dda0ae34da2e886f99efa67e",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "x86"
+        ],
+        "packageName": "org.torproject.torbrowser",
+        "sig": "31e36334f34e126a0e0d1efd29b84fb2",
+        "signer": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8",
+        "size": 63549777,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015690677,
+        "versionName": "68.5.0"
+      },
+      {
+        "added": 1581614741000,
+        "apkName": "tor-browser-9.0.5-android-aarch64-multi.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "8b1dc49a4575837f126130a12d67f513881ed0c6aa5de887354191b42320a0b0",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "org.torproject.torbrowser",
+        "sig": "31e36334f34e126a0e0d1efd29b84fb2",
+        "signer": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8",
+        "size": 62492889,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015690675,
+        "versionName": "68.5.0"
+      },
+      {
+        "added": 1581614746000,
+        "apkName": "tor-browser-9.0.5-android-armv7-multi.apk",
+        "features": [
+          "android.hardware.touchscreen"
+        ],
+        "hash": "ccfdabcd5887027083378aba99b1f62d96f253f979951597d6e747a7bd5acd87",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "org.torproject.torbrowser",
+        "sig": "31e36334f34e126a0e0d1efd29b84fb2",
+        "signer": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8",
+        "size": 56443313,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015690673,
+        "versionName": "68.5.0"
+      },
       {
         "added": 1578926702000,
         "apkName": "tor-browser-9.0.4-android-x86_64-multi.apk",
