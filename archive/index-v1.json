@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1590501787000,
+    "timestamp": 1591119040000,
     "version": 21,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -58,7 +58,7 @@
       "sourceCode": "https://github.com/guardianproject/CameraV",
       "webSite": "https://guardianproject.info/apps/camerav/",
       "added": 1386720000000,
-      "icon": "org.witness.informacam.app.204.png",
+      "icon": "org.witness.informacam.app.206.png",
       "packageName": "org.witness.informacam.app",
       "lastUpdated": 1446508800000,
       "localized": {
@@ -373,7 +373,7 @@
       "translation": "https://www.transifex.com/otf/securereader/",
       "webSite": "https://dev.guardianproject.info/projects/secure-reader",
       "added": 1400025600000,
-      "icon": "info.guardianproject.courier.14.png",
+      "icon": "info.guardianproject.courier.15.png",
       "packageName": "info.guardianproject.courier",
       "lastUpdated": 1403740800000,
       "localized": {
@@ -934,7 +934,7 @@
         "Security",
         "Internet"
       ],
-      "suggestedVersionCode": "516142100",
+      "suggestedVersionCode": "1630200100",
       "donate": "https://www.torproject.org/donate/donate.html.en",
       "flattrID": "5649",
       "issueTracker": "https://github.com/guardianproject/orbot/issues",
@@ -945,9 +945,9 @@
       "translation": "https://hosted.weblate.org/projects/guardianproject/orbot",
       "webSite": "https://guardianproject.info/apps/org.torproject.android",
       "added": 1374451200000,
-      "icon": "org.torproject.android.416141000.png",
+      "icon": "org.torproject.android.416142100.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1590449613000,
+      "lastUpdated": 1591118891000,
       "localized": {
         "af": {
           "summary": "Verbeter jou privaatheid, breek deur middel van firewalls en meer veilig te komm"
@@ -1812,7 +1812,7 @@
         "Guardian Project",
         "Multimedia"
       ],
-      "suggestedVersionCode": "20301",
+      "suggestedVersionCode": "20313",
       "description": "<p>Add metadata and Creative Commons licensing to your audiovisual media and then send it to the Internet Archive via Tor. It offers more agency over your media, while protecting civil liberties and increasing interoperability for those interested in finding it and reusing it in the future.</p>",
       "issueTracker": "https://github.com/OpenArchive/openarchive-android/issues",
       "license": "GPL-3.0-only",
@@ -1821,9 +1821,9 @@
       "summary": "Organize and share media",
       "webSite": "https://open-archive.net",
       "added": 1472083200000,
-      "icon": "net.opendasharchive.openarchive.release.17.png",
+      "icon": "net.opendasharchive.openarchive.release.20212.png",
       "packageName": "net.opendasharchive.openarchive.release",
-      "lastUpdated": 1580391136000
+      "lastUpdated": 1591118888000
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -2158,6 +2158,58 @@
       }
     ],
     "info.guardianproject.courier": [
+      {
+        "added": 1403740800000,
+        "apkName": "Courier-0.1.9.apk",
+        "hash": "bf6566da1f90831887f5bf5605f8d816b1f7f694969459dec599b8bc01a827d3",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "nativecode": [
+          "armeabi",
+          "x86"
+        ],
+        "packageName": "info.guardianproject.courier",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 16484753,
+        "targetSdkVersion": 15,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 15,
+        "versionName": "0.1.9"
+      },
       {
         "added": 1400025600000,
         "apkName": "Courier-0.1.8.apk",
@@ -8630,6 +8682,61 @@
     ],
     "net.opendasharchive.openarchive.release": [
       {
+        "added": 1576715786000,
+        "apkName": "OpenArchive-0.2.2-beta-2-releaseflavor-release.apk",
+        "hash": "14db946ed6b94d9413ec12e46d72ef5761e75e0aceaf877066a4f0ab27027b59",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64",
+          "x86_64/darwin"
+        ],
+        "packageName": "net.opendasharchive.openarchive.release",
+        "sig": "3118fb92e54c3b053903f0334596fd9e",
+        "signer": "e08e63ca87fdb93247dbab38f2e7f4104896bb487af5980838ace64c93c15a3c",
+        "size": 10911594,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ]
+        ],
+        "versionCode": 20212,
+        "versionName": "0.2.2-beta-2"
+      },
+      {
         "added": 1511913600000,
         "apkName": "openarchive-0.0.17-alpha-1.apk",
         "hash": "a20de1d42ccd0487b2af68d36a44bb8cb115eaad44aca6bac94aa1850083f03f",
@@ -8803,6 +8910,53 @@
       }
     ],
     "org.torproject.android": [
+      {
+        "added": 1580945651000,
+        "apkName": "Orbot-16.1.4-RC-1-tor-0.4.2.5-rc-fullperm-x86-release.apk",
+        "hash": "6162dd7520c6adee4db07a9408a50c82d9e8a77f0d81cd9a3c97072b9f522c5b",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "x86"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 11044995,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ]
+        ],
+        "versionCode": 416142100,
+        "versionName": "16.1.4-RC-1-tor-0.4.2.5-rc"
+      },
       {
         "added": 1580391143000,
         "apkName": "Orbot-16.1.4-BETA-1-tor-0.4.2.5-rc-fullperm-x86-release.apk",
@@ -20326,6 +20480,103 @@
       }
     ],
     "org.witness.informacam.app": [
+      {
+        "added": 1446508800000,
+        "apkName": "CameraVApp-release-0.2.6.apk",
+        "hash": "508f453e26c8c83dba858b53b21d909d549fe5646d01eb198c96c22d8e521e7c",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi",
+          "armeabi-v7a",
+          "x86"
+        ],
+        "packageName": "org.witness.informacam.app",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 24123646,
+        "targetSdkVersion": 21,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.GET_ACCOUNTS",
+            null
+          ],
+          [
+            "android.permission.USE_CREDENTIALS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.KILL_BACKGROUND_PROCESSES",
+            null
+          ],
+          [
+            "android.permission.GET_TOP_ACTIVITY_INFO",
+            null
+          ]
+        ],
+        "versionCode": 206,
+        "versionName": "0.2.6"
+      },
       {
         "added": 1443744000000,
         "apkName": "CameraV-release-0.2.4.apk",
