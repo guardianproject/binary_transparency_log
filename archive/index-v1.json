@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1601998982000,
+    "timestamp": 1602008094000,
     "version": 21,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -152,6 +152,30 @@
       "icon": "info.guardianproject.gpg.5.png",
       "packageName": "info.guardianproject.gpg",
       "lastUpdated": 1396828800000
+    },
+    {
+      "authorEmail": "support@guardianproject.info",
+      "authorName": "Guardian Project",
+      "authorWebSite": "https://guardianproject.info",
+      "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
+      "categories": [
+        "Guardian Project",
+        "Security"
+      ],
+      "suggestedVersionCode": "212",
+      "description": "<p>Haven is for people who need a way to protect their personal spaces and possessions without compromising their own privacy. It is an Android application that leverages on-device sensors to provide monitoring and protection of physical spaces. Haven turns any Android phone into a motion, sound, vibration and light detector, watching for unexpected guests and unwanted intruders. We designed Haven for investigative journalists, human rights defenders, and people at risk of forced disappearance to create a new kind of herd immunity. By combining the array of sensors found in any smartphone, with the world\u2019s most secure communications technologies, like Signal and Tor, Haven prevents the worst kind of people from silencing citizens without getting caught in the act.</p><p>Project Team</p><p>Haven was developed through a collaboration between Freedom of the Press Foundation and Guardian Project. Prototype funding was generously provided by FoPF, and donations to support continuing work can be contributed through their site: https://freedom.press/donate-support-haven-open-source-project</p><p>Safety through Sensors</p><p>Haven only saves images and sound when triggered by motion or volume, and stores everything locally on the device. You can position the device\u2019s camera to capture visible motion, or set your phone somewhere discreet to just listen for noises. Get secure notifications of intrusion events instantly and access the logs remotely or anytime later.</p><p>The follow sensors are monitored for a measurable change, and then recorded to an event log on the device:</p><ul><li> Accelerometer: phone\u2019s motion and vibration</li><li> Camera: motion in the phone\u2019s visible surroundings from front or back camera</li><li> Microphone: noises in the enviroment</li><li> Light: change in light from ambient light sensor</li><li> Power: detect device being unplugged or power loss</li></ul>",
+      "issueTracker": "https://github.com/guardianproject/haven/issues",
+      "liberapayID": "33617",
+      "license": "GPL-3.0-or-later",
+      "name": "Haven",
+      "sourceCode": "https://github.com/guardianproject/haven",
+      "summary": "Protect personal spaces and possessions without compromising privacy",
+      "translation": "https://hosted.weblate.org/projects/guardianproject/haven/",
+      "webSite": "https://guardianproject.github.io/haven",
+      "added": 1513900800000,
+      "icon": "org.havenapp.main.212.png",
+      "packageName": "org.havenapp.main",
+      "lastUpdated": 1575676800000
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -6818,6 +6842,351 @@
         ],
         "versionCode": 2,
         "versionName": "0.2"
+      }
+    ],
+    "org.havenapp.main": [
+      {
+        "added": 1549843200000,
+        "apkName": "Haven-0.2.0-beta-3-release.apk",
+        "hash": "bc2cdfed816baf7c08af4964815dd27a85b91fe9a66288e375f47636f8dcacad",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi-v7a",
+          "x86"
+        ],
+        "packageName": "org.havenapp.main",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 14258906,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.SEND_SMS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ]
+        ],
+        "versionCode": 212,
+        "versionName": "0.2.0-beta-3"
+      },
+      {
+        "added": 1531699200000,
+        "apkName": "Haven-0.2.0-alpha-3-release.apk",
+        "features": [
+          "android.hardware.camera"
+        ],
+        "hash": "8e33a47ba17ab9737325274e8b7a50505f5a15535b035ce0bde9edc5e6ee1ebe",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi",
+          "armeabi-v7a",
+          "x86"
+        ],
+        "packageName": "org.havenapp.main",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 13542740,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.SEND_SMS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 116,
+        "versionName": "0.2.0-alpha-3"
+      },
+      {
+        "added": 1530835200000,
+        "apkName": "Haven-0.2.0-alpha-2-release.apk",
+        "features": [
+          "android.hardware.camera"
+        ],
+        "hash": "0cd7a8f5296a4a02f3032c69389df94c4880e39b9f793bfcceb968553362ec2b",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi",
+          "armeabi-v7a",
+          "x86"
+        ],
+        "packageName": "org.havenapp.main",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 13488474,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.SEND_SMS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 115,
+        "versionName": "0.2.0-alpha-2"
+      },
+      {
+        "added": 1530576000000,
+        "apkName": "Haven-0.2.0-alpha-1-release.apk",
+        "features": [
+          "android.hardware.camera"
+        ],
+        "hash": "79c4cac9184f520416c18e300cc9bf4a2d34128c21c2ca059924378bc40ff4c0",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi",
+          "armeabi-v7a",
+          "x86"
+        ],
+        "packageName": "org.havenapp.main",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 13486438,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.SEND_SMS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 114,
+        "versionName": "0.2.0-alpha-1"
+      },
+      {
+        "added": 1513900800000,
+        "apkName": "Haven-0.1.0-beta-3-release.apk",
+        "features": [
+          "android.hardware.camera",
+          "android.hardware.camera.autofocus"
+        ],
+        "hash": "6c79473bbe3fffcd7327f0ef770a31d19552b967f30f4622e8b7facbad449ab6",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "org.havenapp.main",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 9395119,
+        "targetSdkVersion": 25,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.SEND_SMS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 102,
+        "versionName": "0.1.0-beta-3"
       }
     ],
     "org.torproject.android": [
