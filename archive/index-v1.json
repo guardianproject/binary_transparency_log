@@ -1,12 +1,12 @@
 {
   "repo": {
-    "timestamp": 1607586452000,
+    "timestamp": 1607760978000,
     "version": 21,
     "maxage": 14,
     "name": "Guardian Project Archive",
     "icon": "guardianproject.png",
     "address": "https://guardianproject.info/fdroid/archive",
-    "description": "The official repository of The Guardian Project apps for use with the F-Droid client. This contains older versions of applications from the main repository. ",
+    "description": "The official repository of The Guardian Project apps for use with the F-Droid\nclient. This contains older versions of applications from the main repository.\n",
     "mirrors": [
       "https://guardianproject.info/fdroid/archive",
       "http://bdf2wcxujkg6qqff.onion/fdroid/archive",
@@ -32,7 +32,7 @@
         "Guardian Project"
       ],
       "suggestedVersionCode": "4",
-      "description": "<p>Android 4+ allows you to disable certificates from the system Settings and root isn't required, so try that first if you want to manually mess with the certificates. The app won't work with Android 4+ anyway.</p><p>An app to manage security certificates on your phone also containing a version of the Android CACert keystore derived from Mozilla. If a certificate has recently become untrusted you can either install an update to this app or you can backup and remove certificates by yourself.</p><p>Requires root: Yes, it writes to the system partition. You will need a device that has the \u2018grep\u2019 command on it (via busybox: present on most custom ROMs). If the \u2018save\u2019 doesn\u2019t work, then you will need to make your /system partition read-write by using a file explorer like https://f-droid.org/packages/com.ghostsq.commander or via a command in https://f-droid.org/packages/jackpal.androidterm.</p>",
+      "description": "Android 4+ allows you to disable certificates from the system Settings and\nroot isn't required, so try that first if you want to manually mess with the\ncertificates.\nThe app won't work with Android 4+ anyway.\n\nAn app to manage security certificates on your phone also containing a version\nof the Android CACert keystore derived from Mozilla.\nIf a certificate has recently become untrusted you can either install an update\nto this app or you can backup and remove certificates by yourself.\n\nRequires root: Yes, it writes to the system partition.\nYou will need a device that has the \u2018grep\u2019 command on it (via busybox:\npresent on most custom ROMs).\nIf the \u2018save\u2019 doesn\u2019t work, then you will need to make your /system partition\nread-write by using a file explorer like https://f-droid.org/packages/com.ghostsq.commander or via\na command in https://f-droid.org/packages/jackpal.androidterm.",
       "issueTracker": "https://github.com/guardianproject/cacert/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-only",
@@ -97,7 +97,7 @@
         "Guardian Project"
       ],
       "suggestedVersionCode": "2",
-      "description": "<p>This is a plugin for <a href=\"fdroid.app:info.guardianproject.otr.app.im\">ChatSecure</a>. It does not have any function on its own.  For Your Ears Only... completely private, end-to-end encryption voice message recording, sending, receiving and playback.</p><p> * For use with <a href=\"fdroid.app:info.guardianproject.otr.app.im\">ChatSecure</a>'s encrypted \"Off-the-record\" data stream  * Works over Tor - the ONLY Onion-routed voice messaging system, for total anonymity</p>",
+      "description": "This is a plugin for [[info.guardianproject.otr.app.im]]. It does not have any\nfunction on its own.  For Your Ears Only... completely private, end-to-end\nencryption voice message recording, sending, receiving and playback.\n\n * For use with [[info.guardianproject.otr.app.im]]'s encrypted \"Off-the-record\" data stream\n * Works over Tor - the ONLY Onion-routed voice messaging system, for total anonymity",
       "issueTracker": "https://dev.guardianproject.info/projects/chatsecure/issues",
       "liberapayID": "33617",
       "license": "SIL Open Font License, MIT License and the CC 3.0 License [CC-By with attribution requirement waived]",
@@ -141,7 +141,7 @@
         "Security"
       ],
       "suggestedVersionCode": "5",
-      "description": "<p>GnuPrivacyGuard extends the gpgcli command line tool to bring an integrated privacy engine to your Android. It gives you command line access to the entire GnuPG suite of encryption software. It also serves as the test bed for complete Android integration for all of GnuPG's crypto services, including OpenPGP, symmetric encryption, and more.</p><p>GPG is GNU\u2019s tool for end-to-end secure communication and encrypted data storage. This trusted protocol is the free software alternative to PGP. This app is built upon GnuPG 2.1, the new modularized version of GnuPG that now supports S/MIME.</p><p>GPG aims to provide an integrated experience, so clicking on PGP files should \"just work\". You can also share files to GPG to encrypt them. GPG will also respond when you click on a PGP fingerprint URL (one that starts with openpgp4fpr:).</p><p>Before using GPG, be sure to launch the app and let it finish its installation process. Once it has completed, then you're ready to use it. The easiest way to get started with GPG is to install https://f-droid.org/packages/jackpal.androidterm. GPG will automatically configure Android Terminal Emulator as long as you have the \"Allow PATH extensions\" settings enabled.</p><p>Status: Unmaintained, use https://f-droid.org/packages/org.sufficientlysecure.keychain/</p>",
+      "description": "GnuPrivacyGuard extends the gpgcli command line tool to bring an integrated\nprivacy engine to your Android. It gives you command line access to the entire\nGnuPG suite of encryption software. It also serves as the test bed for\ncomplete Android integration for all of GnuPG's crypto services, including\nOpenPGP, symmetric encryption, and more.\n\nGPG is GNU\u2019s tool for end-to-end secure communication and encrypted data\nstorage. This trusted protocol is the free software alternative to PGP. This\napp is built upon GnuPG 2.1, the new modularized version of GnuPG that now\nsupports S/MIME.\n\nGPG aims to provide an integrated experience, so clicking on PGP files should\n\"just work\". You can also share files to GPG to encrypt them. GPG will also\nrespond when you click on a PGP fingerprint URL (one that starts with\nopenpgp4fpr:).\n\nBefore using GPG, be sure to launch the app and let it finish its installation\nprocess. Once it has completed, then you're ready to use it. The easiest way\nto get started with GPG is to install https://f-droid.org/packages/jackpal.androidterm. GPG will\nautomatically configure Android Terminal Emulator as long as you have the\n\"Allow PATH extensions\" settings enabled.\n\nStatus: Unmaintained, use https://f-droid.org/packages/org.sufficientlysecure.keychain/",
       "issueTracker": "https://dev.guardianproject.info/projects/gpgandroid/issues",
       "license": "GPL-3.0-or-later",
       "name": "GnuPrivacyGuard",
@@ -163,7 +163,7 @@
         "Security"
       ],
       "suggestedVersionCode": "212",
-      "description": "<p>Haven is for people who need a way to protect their personal spaces and possessions without compromising their own privacy. It is an Android application that leverages on-device sensors to provide monitoring and protection of physical spaces. Haven turns any Android phone into a motion, sound, vibration and light detector, watching for unexpected guests and unwanted intruders. We designed Haven for investigative journalists, human rights defenders, and people at risk of forced disappearance to create a new kind of herd immunity. By combining the array of sensors found in any smartphone, with the world\u2019s most secure communications technologies, like Signal and Tor, Haven prevents the worst kind of people from silencing citizens without getting caught in the act.</p><p>Project Team</p><p>Haven was developed through a collaboration between Freedom of the Press Foundation and Guardian Project. Prototype funding was generously provided by FoPF, and donations to support continuing work can be contributed through their site: https://freedom.press/donate-support-haven-open-source-project</p><p>Safety through Sensors</p><p>Haven only saves images and sound when triggered by motion or volume, and stores everything locally on the device. You can position the device\u2019s camera to capture visible motion, or set your phone somewhere discreet to just listen for noises. Get secure notifications of intrusion events instantly and access the logs remotely or anytime later.</p><p>The follow sensors are monitored for a measurable change, and then recorded to an event log on the device:</p><ul><li> Accelerometer: phone\u2019s motion and vibration</li><li> Camera: motion in the phone\u2019s visible surroundings from front or back camera</li><li> Microphone: noises in the enviroment</li><li> Light: change in light from ambient light sensor</li><li> Power: detect device being unplugged or power loss</li></ul>",
+      "description": "Haven is for people who need a way to protect their personal spaces\nand possessions without compromising their own privacy. It is an\nAndroid application that leverages on-device sensors to provide\nmonitoring and protection of physical spaces. Haven turns any Android\nphone into a motion, sound, vibration and light detector, watching\nfor unexpected guests and unwanted intruders. We designed Haven for\ninvestigative journalists, human rights defenders, and people at risk\nof forced disappearance to create a new kind of herd immunity. By\ncombining the array of sensors found in any smartphone, with the\nworld\u2019s most secure communications technologies, like Signal and Tor,\nHaven prevents the worst kind of people from silencing citizens\nwithout getting caught in the act.\n\nProject Team\n\nHaven was developed through a collaboration between Freedom of the\nPress Foundation and Guardian Project. Prototype funding was\ngenerously provided by FoPF, and donations to support continuing work\ncan be contributed through their site:\nhttps://freedom.press/donate-support-haven-open-source-project\n\nSafety through Sensors\n\nHaven only saves images and sound when triggered by motion or volume,\nand stores everything locally on the device. You can position the\ndevice\u2019s camera to capture visible motion, or set your phone\nsomewhere discreet to just listen for noises. Get secure\nnotifications of intrusion events instantly and access the logs\nremotely or anytime later.\n\nThe follow sensors are monitored for a measurable change, and then\nrecorded to an event log on the device:\n\n* Accelerometer: phone\u2019s motion and vibration\n* Camera: motion in the phone\u2019s visible surroundings from front or back camera\n* Microphone: noises in the enviroment\n* Light: change in light from ambient light sensor\n* Power: detect device being unplugged or power loss\n",
       "issueTracker": "https://github.com/guardianproject/haven/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
@@ -187,7 +187,7 @@
         "Guardian Project"
       ],
       "suggestedVersionCode": "5400",
-      "description": "<p>Lil' Debi builds up a whole Debian chroot on your phone entirely using debootstrap. You choose the release, mirror, and size of the disk image, and away it goes. It could take up to an hour on a slow device.</p><p>Then it has a simple chroot manager that fscks your disk, mounts/unmounts things, starts/stops sshd if you have it installed, etc. You can also then use \u2018apt-get\u2019 to install any package that is released for ARM processors. This includes things like a complete real shell, Tor, TraceRouteTCP, iwconfig/ipconfig, and other security and crypto tools. Works well with https://f-droid.org/packages/jackpal.androidterm \u2014just run `/debian/shell` to get a Debian shell.</p><p>The aim of Lil\u2019 Debi is to provide a transparent and tightly integrated Debian install on your Android device. It mounts all of your Android partitions in Debian space, so you see a fusion of both systems. It's even possible to have Lil\u2019 Debi launch the normal Debian init start-up scripts when it starts, so that all you need to do is apt-get install and any servers you install will just work.</p><p>Lil' Debi works with as few modifications to the Android system as possible. Currently, it only adds a /bin symlink, and a /debian mount directory. It does not touch /system at all.</p><p>Requires root: Yes, because it needs to run debootstrap, create dirs in /, mount/umount, etc.</p>",
+      "description": "Lil' Debi builds up a whole Debian chroot on your phone entirely using\ndebootstrap. You choose the release, mirror, and size of the disk image, and\naway it goes. It could take up to an hour on a slow device.\n\nThen it has a simple chroot manager that fscks your disk, mounts/unmounts\nthings, starts/stops sshd if you have it installed, etc. You can also then use\n\u2018apt-get\u2019 to install any package that is released for ARM processors. This\nincludes things like a complete real shell, Tor, TraceRouteTCP,\niwconfig/ipconfig, and other security and crypto tools. Works well with\nhttps://f-droid.org/packages/jackpal.androidterm \u2014just run `/debian/shell` to get a Debian shell.\n\nThe aim of Lil\u2019 Debi is to provide a transparent and tightly integrated Debian\ninstall on your Android device. It mounts all of your Android partitions in\nDebian space, so you see a fusion of both systems. It's even possible to have\nLil\u2019 Debi launch the normal Debian init start-up scripts when it starts, so that\nall you need to do is apt-get install and any servers you install will just\nwork.\n\nLil' Debi works with as few modifications to the Android system as possible.\nCurrently, it only adds a /bin symlink, and a /debian mount directory. It does\nnot touch /system at all.\n\nRequires root: Yes, because it needs to run debootstrap, create dirs in /,\nmount/umount, etc.",
       "issueTracker": "https://github.com/guardianproject/lildebi/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
@@ -236,7 +236,7 @@
         "Guardian Project"
       ],
       "suggestedVersionCode": "12",
-      "description": "<p>Simple app for taking notes that encrypts everything behind a password.</p><p>Status: Unmaintained.</p>",
+      "description": "Simple app for taking notes that encrypts everything behind a password.\n\nStatus: Unmaintained.",
       "issueTracker": "https://github.com/guardianproject/notecipher/issues",
       "liberapayID": "33617",
       "license": "Apache-2.0",
@@ -282,7 +282,7 @@
         "Security",
         "Internet"
       ],
-      "suggestedVersionCode": "516123000",
+      "suggestedVersionCode": "516141000",
       "donate": "https://www.torproject.org/donate/donate.html.en",
       "flattrID": "5649",
       "issueTracker": "https://github.com/guardianproject/orbot/issues",
@@ -293,9 +293,9 @@
       "translation": "https://hosted.weblate.org/projects/guardianproject/orbot",
       "webSite": "https://guardianproject.info/apps/org.torproject.android",
       "added": 1374451200000,
-      "icon": "org.torproject.android.516123000.png",
+      "icon": "org.torproject.android.516141000.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1604494910000
+      "lastUpdated": 1607760912000
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -332,7 +332,7 @@
       ],
       "suggestedVersionName": "0.7.1",
       "suggestedVersionCode": "7010",
-      "description": "<p>Orweb is a companion browser to https://f-droid.org/packages/org.torproject.android/, the port of Tor to Android.</p><p>Orbot anonymizes internet traffic by routing it through many different stages and you must have that enabled first, though root isn't needed. Orweb disables certain other browser features that could be used to identify you.</p><p>Please note that Orweb is superseded by Tor Browser.  Orweb is no longer maintained at all.</p>",
+      "description": "Orweb is a companion browser to\nhttps://f-droid.org/packages/org.torproject.android/, the port of\nTor to Android.\n\nOrbot anonymizes internet traffic by routing it through many different stages\nand you must have that enabled first, though root isn't needed. Orweb disables\ncertain other browser features that could be used to identify you.\n\nPlease note that Orweb is superseded by Tor Browser.  Orweb is no\nlonger maintained at all.",
       "issueTracker": "https://dev.guardianproject.info/projects/orweb/issues?set_filter=1",
       "liberapayID": "33617",
       "license": "GPL-2.0-only",
@@ -391,6 +391,26 @@
     },
     {
       "authorEmail": "support@guardianproject.info",
+      "authorName": "Open Archive",
+      "authorWebSite": "https://open-archive.net",
+      "categories": [
+        "Guardian Project",
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "20301",
+      "description": "Save (Share Archive Verify Encrypt) by OpenArchive\nenables you to safely preserve, organize, and share your mobile media.\n",
+      "issueTracker": "https://github.com/OpenArchive/Save-app-android/issues",
+      "license": "GPL-3.0-only",
+      "name": "Save",
+      "sourceCode": "https://github.com/OpenArchive/Save-app-android",
+      "webSite": "https://open-archive.net",
+      "added": 1596672000000,
+      "icon": "net.opendasharchive.openarchive.release.20301.png",
+      "packageName": "net.opendasharchive.openarchive.release",
+      "lastUpdated": 1607760907000
+    },
+    {
+      "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
       "authorWebSite": " https://guardianproject.info",
       "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
@@ -400,7 +420,7 @@
         "Guardian Project"
       ],
       "suggestedVersionCode": "1",
-      "description": "<p>Plugin for https://f-droid.org/packages/info.guardianproject.otr.app.im/ to support for core emoji input and display.  Based on \"Phantom Open Emoji\" project.</p>",
+      "description": "Plugin for https://f-droid.org/packages/info.guardianproject.otr.app.im/ to support for core emoji input\nand display.  Based on \"Phantom Open Emoji\" project.\n",
       "issueTracker": "https://dev.guardianproject.info/projects/chatsecure/issues",
       "liberapayID": "33617",
       "license": "MIT",
@@ -423,7 +443,7 @@
         "Guardian Project"
       ],
       "suggestedVersionCode": "118",
-      "description": "<p>Creating great stories is now easier than ever with StoryMaker. Our unique templates, overlays, and lessons guide you through the entire creative process. StoryMaker lets you edit your content right on your mobile, making it even easier to finish your story. Once you've finished, StoryMaker lets you publish your story to all of your favorite platforms.</p><ul><li> AUDIO PHOTO &amp; VIDEO *</li></ul><p>Whether it\u2019s a photo series, an audio story, or a video package, StoryMaker walks you through what you need to know in order to be successful.</p><ul><li> TEMPLATES *</li></ul><p>Our story templates offer suggested narrative arcs, and potential questions to give you structure, but leave you enough room to tell the story you want.</p><ul><li> LEARN *</li></ul><p>Designed by a group of trainers with years of experience working in the field, StoryMaker is the tool you need to tell the stories you're passionate about, while staying safe. StoryMaker has access to a 55 lesson course in Journalism, Security, Photo, Audio, and Video production. So when you\u2019re ready to dive deep and learn everything you can, we have the lessons to get you started.</p><ul><li> OVERLAYS *</li></ul><p>Everyone recognizes an interview or a location shot when they see them on the news, but with StoryMaker\u2019s innovative overlays it\u2019s easy to recreate the shot you want when it matters the most, at the point of production.</p><ul><li> EDIT *</li></ul><p>StoryMaker lets you rearrange and trim your clips to tweak them to perfection, it even makes it easy to record your own narration to go with your story.</p><ul><li> SHARE *</li></ul><p>When your story is ready you can share it across all of your favorite platforms straight from StoryMaker.</p><ul><li> SECURITY *</li></ul><p>StoryMaker takes security seriously. Our integration with Orbot allows for supported platforms to be accessed via Tor. StoryMaker relies upon Orbot, for defending against network surveillance and enabling circumvention on hostile networks.</p><ul><li> EXPERIENCE *</li></ul><p>StoryMaker is successful because our creative team is filled with trainers with years of experience. People who have been in the field, and know how to break complex ideas down into easy to follow instructions.</p><ul><li> MULTILINGUAL *</li></ul><p>StoryMaker supports English, Arabic, Croation/Bosnian, and Serbian languages. With experimental translations in French, Spanish, Persian, German, Macedonian and Korean. If you find issues, or would like to participate in our localization effort, please visit our wiki for more instructions: http://storymaker.cc/wiki/index.php?title=Translation</p>",
+      "description": "Creating great stories is now easier than ever with StoryMaker. Our unique templates, overlays, and lessons guide you through the entire creative process. StoryMaker lets you edit your content right on your mobile, making it even easier to finish your story. Once you've finished, StoryMaker lets you publish your story to all of your favorite platforms.\n* AUDIO PHOTO & VIDEO *\nWhether it\u2019s a photo series, an audio story, or a video package, StoryMaker walks you through what you need to know in order to be successful.\n* TEMPLATES *\nOur story templates offer suggested narrative arcs, and potential questions to give you structure, but leave you enough room to tell the story you want.\n* LEARN *\nDesigned by a group of trainers with years of experience working in the field, StoryMaker is the tool you need to tell the stories you're passionate about, while staying safe. StoryMaker has access to a 55 lesson course in Journalism, Security, Photo, Audio, and Video production. So when you\u2019re ready to dive deep and learn everything you can, we have the lessons to get you started.\n* OVERLAYS *\nEveryone recognizes an interview or a location shot when they see them on the news, but with StoryMaker\u2019s innovative overlays it\u2019s easy to recreate the shot you want when it matters the most, at the point of production.\n* EDIT *\nStoryMaker lets you rearrange and trim your clips to tweak them to perfection, it even makes it easy to record your own narration to go with your story.\n* SHARE *\nWhen your story is ready you can share it across all of your favorite platforms straight from StoryMaker.\n* SECURITY *\nStoryMaker takes security seriously. Our integration with Orbot allows for supported platforms to be accessed via Tor. StoryMaker relies upon Orbot, for defending against network surveillance and enabling circumvention on hostile networks.\n* EXPERIENCE *\nStoryMaker is successful because our creative team is filled with trainers with years of experience. People who have been in the field, and know how to break complex ideas down into easy to follow instructions.\n* MULTILINGUAL *\nStoryMaker supports English, Arabic, Croation/Bosnian, and Serbian languages. With experimental translations in French, Spanish, Persian, German, Macedonian and Korean.\nIf you find issues, or would like to participate in our localization effort,\nplease visit our wiki for more instructions:\nhttp://storymaker.cc/wiki/index.php?title=Translation",
       "issueTracker": "https://dev.guardianproject.info/projects/storymaker/issues",
       "license": "GPL-2.0-or-later",
       "name": "StoryMaker",
@@ -446,7 +466,7 @@
         "Guardian Project"
       ],
       "suggestedVersionCode": "2015737903",
-      "description": "<p>Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.</p><p>BLOCK TRACKERS Tor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.</p><p>DEFEND AGAINST SURVEILLANCE Tor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.</p><p>RESIST FINGERPRINTING Tor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.</p><p>MULTI-LAYERED ENCRYPTION When you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:</p><p>BROWSE FREELY With Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.</p><p>THIS APP IS MADE POSSIBLE BY DONORS LIKE YOU Tor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp</p><p>Learn more about Tor Browser for Android: - Need help? Visit https://support.torproject.org. The manual is coming soon. - Learn more about what\u2019s happening at Tor: https://blog.torproject.org - Follow the Tor Project on Twitter: https://twitter.com/torproject</p><p>ABOUT THE TOR PROJECT The Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.</p>",
+      "description": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n",
       "donate": "https://donate.torproject.org/",
       "issueTracker": "https://gitlab.torproject.org/tpo/applications/tor-browser/issues",
       "license": "MPL-2.0",
@@ -470,7 +490,7 @@
         "Guardian Project"
       ],
       "suggestedVersionCode": "2015738671",
-      "description": "<p>Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.</p><p>BLOCK TRACKERS Tor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.</p><p>DEFEND AGAINST SURVEILLANCE Tor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.</p><p>RESIST FINGERPRINTING Tor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.</p><p>MULTI-LAYERED ENCRYPTION When you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:</p><p>BROWSE FREELY With Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.</p><p>THIS APP IS MADE POSSIBLE BY DONORS LIKE YOU Tor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp</p><p>Learn more about Tor Browser for Android: - Need help? Visit https://support.torproject.org. The manual is coming soon. - Learn more about what\u2019s happening at Tor: https://blog.torproject.org - Follow the Tor Project on Twitter: https://twitter.com/torproject</p><p>ABOUT THE TOR PROJECT The Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.</p>",
+      "description": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n",
       "donate": "https://donate.torproject.org/",
       "issueTracker": "https://gitlab.torproject.org/tpo/applications/tor-browser/issues",
       "license": "MPL-2.0",
@@ -6844,6 +6864,63 @@
         "versionName": "0.2"
       }
     ],
+    "net.opendasharchive.openarchive.release": [
+      {
+        "added": 1596672000000,
+        "apkName": "OpenArchive-0.2.2-RC-1-releaseflavor-release.apk",
+        "hash": "ce1797a8ecbbc84c478e37ddc885f28b37c4610fd5932e7f98dc60792cbf962c",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64",
+          "x86_64/darwin"
+        ],
+        "packageName": "net.opendasharchive.openarchive.release",
+        "sig": "3118fb92e54c3b053903f0334596fd9e",
+        "signer": "e08e63ca87fdb93247dbab38f2e7f4104896bb487af5980838ace64c93c15a3c",
+        "size": 10955642,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ]
+        ],
+        "versionCode": 20301,
+        "versionName": "0.2.2-RC-1"
+      }
+    ],
     "org.havenapp.main": [
       {
         "added": 1549843200000,
@@ -7190,6 +7267,53 @@
       }
     ],
     "org.torproject.android": [
+      {
+        "added": 1596672000000,
+        "apkName": "Orbot-16.1.4-BETA-1-tor-0.4.2.5-rc-fullperm-x86_64-release.apk",
+        "hash": "beea768f5d3f343930984d77bc706dc69bbd3f08f04c9d4ea3faa87c59f2dc39",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "x86_64"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 10860993,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ]
+        ],
+        "versionCode": 516141000,
+        "versionName": "16.1.4-BETA-1-tor-0.4.2.5-rc"
+      },
       {
         "added": 1596672000000,
         "apkName": "Orbot-16.1.2-RC-2-tor-0.4.1.5-rc-fullperm-x86_64-release.apk",
