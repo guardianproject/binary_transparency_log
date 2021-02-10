@@ -1,7 +1,7 @@
 {
   "repo": {
-    "timestamp": 1612782270000,
-    "version": 21,
+    "timestamp": 1612943117000,
+    "version": 20000,
     "maxage": 14,
     "name": "Guardian Project Official Releases",
     "icon": "guardianproject.png",
@@ -13,7 +13,7 @@
       "https://s3.amazonaws.com/guardianproject/fdroid/repo",
       "https://guardianproject.s3.amazonaws.com/fdroid/repo",
       "https://guardianproject.gitlab.io/fdroid-repo/fdroid/repo",
-      "https://gitlab.com/guardianproject/fdroid-repo/raw/master/fdroid/repo",
+      "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/repo",
       "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/repo"
     ]
   },
@@ -39,7 +39,6 @@
       "liberapay": "GuardianProject",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
-      "name": "Checkey",
       "sourceCode": "https://gitlab.com/guardianproject/checkey",
       "translation": "https://hosted.weblate.org/projects/guardianproject/checkey/",
       "webSite": "https://dev.guardianproject.info/projects/checkey",
@@ -264,13 +263,17 @@
       "issueTracker": "https://gitlab.com/circuloapp/circulo-android/issues",
       "liberapayID": "33617",
       "license": "Apache-2.0",
-      "name": "C\u00edrculo",
       "sourceCode": "https://gitlab.com/circuloapp/circulo-android",
       "summary": "Protect personal spaces and possessions without compromising privacy",
       "added": 1596672000000,
       "icon": "org.article19.circulo.10023.png",
       "packageName": "org.article19.circulo",
-      "lastUpdated": 1596672000000
+      "lastUpdated": 1596672000000,
+      "localized": {
+        "en-US": {
+          "name": "C\u00edrculo"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -286,7 +289,6 @@
       "issueTracker": "https://github.com/guardianproject/haven/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
-      "name": "Haven",
       "sourceCode": "https://github.com/guardianproject/haven",
       "summary": "Protect personal spaces and possessions without compromising privacy",
       "translation": "https://hosted.weblate.org/projects/guardianproject/haven/",
@@ -299,6 +301,7 @@
         "en-US": {
           "featureGraphic": "featureGraphic_6zy8XrwrJqDibHZTB6HrMqPy1HQBSmlgEFuRpss8DeY=.png",
           "icon": "icon_fMOlWQaVmYjknHOYj-Wujp4jEi62Yz6rQar38boLxQ0=.png",
+          "name": "Haven",
           "phoneScreenshots": [
             "haven-1-intro1.png",
             "haven-2-sound-config.png",
@@ -330,7 +333,6 @@
       "liberapay": "GuardianProject",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
-      "name": "LocationPrivacy",
       "sourceCode": "https://github.com/guardianproject/LocationPrivacy",
       "translation": "https://hosted.weblate.org/projects/guardianproject/locationprivacy/",
       "webSite": "https://guardianproject.info/2015/01/23/sharing-your-location-privately",
@@ -418,7 +420,6 @@
       "issueTracker": "https://github.com/guardianproject/ObscuraCam/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
-      "name": "ObscuraCam",
       "sourceCode": "https://github.com/guardianproject/ObscuraCam",
       "translation": "https://hosted.weblate.org/projects/guardianproject/obscuracam",
       "webSite": "https://guardianproject.info/apps/obscuracam",
@@ -648,7 +649,7 @@
       "added": 1374451200000,
       "icon": "org.torproject.android.1633300100.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1607760912000,
+      "lastUpdated": 1607731200000,
       "localized": {
         "af": {
           "description": "Orbot is a free proxy app that empowers other apps to use the internet more securely. Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world. Tor is free software and an open network that helps you defend against a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security known as traffic analysis.\n\n*** SAMSUNG GALAXY USERS ***\nOn some devices, a Samsung app is listening on the same network port that Orbot needs. Download 'SockStat' from Google Play. Look for the app on port 9050. Force stop and disable that app. You can also try to change Orbot's \"Tor SOCKS\" setting under the Debug section to 9051 or AUTO. You can see the fix in this video: https://www.youtube.com/watch?v=yK-nK4F67_g\n*****\n\nOrbot is the only app that creates a truly private internet connection. As the New York Times writes, \u201cwhen a communication arrives from Tor, you can never know where or whom it\u2019s from.\u201d Tor won the 2012 Electronic Frontier Foundation (EFF) Pioneer Award.\n\n\u2605 ACCEPT NO SUBSTITUTES: Orbot is the safest way to use the Internet on Android. Period. Orbot bounces your encrypted traffic several times through computers around the world, instead of connecting you directly like VPNs and proxies. This process takes a little longer, but the strongest privacy and identity protection available is worth the wait.\n\u2605 PRIVATE WEB SURFING: Use with Orfox, the most anonymous way to access any website, even if it\u2019s normally blocked, monitored, or on the hidden web. Get Orfox: https://play.google.com/store/apps/details?id=info.guardianproject.orfox\n\u2605 PRIVATE CHAT MESSAGING: Use ChatSecure with Orbot to chat confidentially with anyone, anywhere for free. Get ChatSecure: https://play.google.com/store/apps/details?id=info.guardianproject.otr.app.im\n\u2605 PRIVACY FOR APPS: Any installed app can use Tor if it has a proxy feature, using the settings found here: https://guardianproject.info/apps/orbot/ Use Orbot with Twitter, or try private web searching with DuckDuckGo: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android\n\u2605 PRIVACY FOR EVERYONE: Tor can help you confidentially research a competitor, get around the Facebook block at school, or circumvent a firewall to watch sports at work.\n\u2605 PRIVACY MADE EASY: Check out our fun, interactive walkthrough: https://guardianproject.info/howto/browsefreely\n\u2605 IT\u2019S OFFICIAL: This is the official version of the Tor onion routing service for Android.\n\n***We Love Feedback***\n\u2605 ABOUT US: Guardian Project is a group of developers that make secure mobile apps and open-source code for a better tomorrow.\n\u2605 OPEN-SOURCE: Orbot is free software. Take a look at our source code, or join the community to make it better: https://gitweb.torproject.org/orbot.git\n\u2605 MESSAGE US: Are we missing your favorite feature? Found an annoying bug? We\u2019d love to hear from you! Send us an email: support@guardianproject.info\n\n***Disclaimer***\nThe Guardian Project makes apps that are designed to protect your security and anonymity. The protocols that we use are widely regarded as the state of the art in security technology. While we are constantly upgrading our software to combat the latest threats and eliminate bugs, no technology is 100% foolproof. For maximum security and anonymity users must utilize best practices to keep themselves safe.  You can find a good introductory guide to these topics at https://securityinabox.org\n",
@@ -1080,7 +1081,6 @@
       "issueTracker": "https://github.com/guardianproject/PixelKnot/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-only",
-      "name": "PixelKnot",
       "sourceCode": "https://github.com/guardianproject/PixelKnot",
       "translation": "https://www.transifex.com/otf/pixelknot/",
       "webSite": "https://guardianproject.info",
@@ -1459,7 +1459,6 @@
       "liberapay": "GuardianProject",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
-      "name": "Ripple",
       "sourceCode": "https://github.com/guardianproject/ripple",
       "translation": "https://hosted.weblate.org/projects/guardianproject/ripple/",
       "webSite": "https://guardianproject.info/tag/panic",
@@ -1694,13 +1693,17 @@
       "description": "Save (Share Archive Verify Encrypt) by OpenArchive\nenables you to safely preserve, organize, and share your mobile media.\n",
       "issueTracker": "https://github.com/OpenArchive/Save-app-android/issues",
       "license": "GPL-3.0-only",
-      "name": "Save",
       "sourceCode": "https://github.com/OpenArchive/Save-app-android",
       "webSite": "https://open-archive.net",
       "added": 1596672000000,
       "icon": "net.opendasharchive.openarchive.release.20321.png",
       "packageName": "net.opendasharchive.openarchive.release",
-      "lastUpdated": 1607760907000
+      "lastUpdated": 1607731200000,
+      "localized": {
+        "en-US": {
+          "name": "Save"
+        }
+      }
     },
     {
       "authorEmail": "playstore@torproject.org",
@@ -1724,7 +1727,7 @@
       "added": 1596672000000,
       "icon": "org.torproject.torbrowser.2015808031.png",
       "packageName": "org.torproject.torbrowser",
-      "lastUpdated": 1612512003000,
+      "lastUpdated": 1612483200000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
@@ -1762,7 +1765,7 @@
       "added": 1596672000000,
       "icon": "org.torproject.torbrowser_alpha.2015808791.png",
       "packageName": "org.torproject.torbrowser_alpha",
-      "lastUpdated": 1612782157000
+      "lastUpdated": 1612742400000
     }
   ],
   "packages": {
@@ -2025,7 +2028,7 @@
     ],
     "net.opendasharchive.openarchive.release": [
       {
-        "added": 1607760907000,
+        "added": 1607731200000,
         "apkName": "OpenArchive-0.2.3-RC-1-releaseflavor-release.apk",
         "hash": "90292380921a93a65e936b48d4d30ee39e798e236e0bcb06dc58421a98f73184",
         "hashType": "sha256",
@@ -2479,7 +2482,7 @@
     ],
     "org.torproject.android": [
       {
-        "added": 1607760912000,
+        "added": 1607731200000,
         "apkName": "Orbot-16.3.3-RC-1-tor-0.4.3.6-fullperm-universal-release.apk",
         "hash": "dd4ccf44023684a4f2a8734b693657bb8d5391139e05fd48cbbce96c9a385a21",
         "hashType": "sha256",
@@ -2529,7 +2532,7 @@
         "versionName": "16.3.3-RC-1-tor-0.4.3.6"
       },
       {
-        "added": 1604494910000,
+        "added": 1604448000000,
         "apkName": "Orbot-16.3.2-RC-1-tor-0.4.3.6-fullperm-universal-release.apk",
         "hash": "64ed35c7962d37c109f48a4d7a82f26c6cf44b8fbbda6858f1e1bab1b26af8ee",
         "hashType": "sha256",
@@ -2680,7 +2683,7 @@
     ],
     "org.torproject.torbrowser": [
       {
-        "added": 1612512003000,
+        "added": 1612483200000,
         "apkName": "tor-browser-10.0.10-android-x86_64-multi.apk",
         "hash": "e3da234e9b3e3d116995f6f0dc49c350042b52dff2ca9f68629486483f9cde7b",
         "hashType": "sha256",
@@ -2785,7 +2788,7 @@
         "versionName": "10.0.10 (85.1.0-Release)"
       },
       {
-        "added": 1612511991000,
+        "added": 1612483200000,
         "apkName": "tor-browser-10.0.10-android-x86-multi.apk",
         "hash": "3c75fb5664517284be9817b77e244049bdc1b22950c1351dd4303da648935627",
         "hashType": "sha256",
@@ -2890,7 +2893,7 @@
         "versionName": "10.0.10 (85.1.0-Release)"
       },
       {
-        "added": 1612511970000,
+        "added": 1612483200000,
         "apkName": "tor-browser-10.0.10-android-aarch64-multi.apk",
         "hash": "c044b95eb135219fec046f229ad6a9039149a94cabac82b1653211e1e8b04269",
         "hashType": "sha256",
@@ -2995,7 +2998,7 @@
         "versionName": "10.0.10 (85.1.0-Release)"
       },
       {
-        "added": 1612511980000,
+        "added": 1612483200000,
         "apkName": "tor-browser-10.0.10-android-armv7-multi.apk",
         "hash": "da5dedd67ce9b7ac86303b18672eab9d0afe806e2218f2b392b9c256f2f2cc26",
         "hashType": "sha256",
@@ -3100,7 +3103,7 @@
         "versionName": "10.0.10 (85.1.0-Release)"
       },
       {
-        "added": 1611734794000,
+        "added": 1611705600000,
         "apkName": "tor-browser-10.0.9-android-x86_64-multi.apk",
         "hash": "315e99bf9c44e22e5471810be7275f7d134c07d9916dc60028ca06585abbe33c",
         "hashType": "sha256",
@@ -3205,7 +3208,7 @@
         "versionName": "10.0.9 (85.1.0-Release)"
       },
       {
-        "added": 1611734782000,
+        "added": 1611705600000,
         "apkName": "tor-browser-10.0.9-android-x86-multi.apk",
         "hash": "bbbb472189fdb476b252e9dd4c197519bef81f5b3e953be01b45f3517b77de81",
         "hashType": "sha256",
@@ -3310,7 +3313,7 @@
         "versionName": "10.0.9 (85.1.0-Release)"
       },
       {
-        "added": 1611734760000,
+        "added": 1611705600000,
         "apkName": "tor-browser-10.0.9-android-aarch64-multi.apk",
         "hash": "552de68be731c99ba2815808fba20bae471b1a16213093e9056a1405fd9a7171",
         "hashType": "sha256",
@@ -3415,7 +3418,7 @@
         "versionName": "10.0.9 (85.1.0-Release)"
       },
       {
-        "added": 1611734771000,
+        "added": 1611705600000,
         "apkName": "tor-browser-10.0.9-android-armv7-multi.apk",
         "hash": "b0137b134eb3bb3db6d61c38bb2116ecee10be4dec2b69d3ad2701a208654637",
         "hashType": "sha256",
@@ -3522,7 +3525,7 @@
     ],
     "org.torproject.torbrowser_alpha": [
       {
-        "added": 1612782157000,
+        "added": 1612742400000,
         "apkName": "tor-browser-10.5a9-android-x86_64-multi.apk",
         "hash": "7570f4892456d996f9c9b2f9cc38216abc9d3731f7e0437ca959f88df82975e5",
         "hashType": "sha256",
@@ -3619,7 +3622,7 @@
         "versionName": "10.5a9 (86.0.0b2-Beta)"
       },
       {
-        "added": 1612782143000,
+        "added": 1612742400000,
         "apkName": "tor-browser-10.5a9-android-x86-multi.apk",
         "hash": "bed89cd0c3ab34161370944ab475443137edd2a0fcf1b26cb76b585b374ed92a",
         "hashType": "sha256",
@@ -3716,7 +3719,7 @@
         "versionName": "10.5a9 (86.0.0b2-Beta)"
       },
       {
-        "added": 1612782116000,
+        "added": 1612742400000,
         "apkName": "tor-browser-10.5a9-android-aarch64-multi.apk",
         "hash": "5147bb77546d27baef741b1a0e4e0c2438875febb6c6b34f60919efc4bcb3291",
         "hashType": "sha256",
@@ -3813,7 +3816,7 @@
         "versionName": "10.5a9 (86.0.0b2-Beta)"
       },
       {
-        "added": 1612782128000,
+        "added": 1612742400000,
         "apkName": "tor-browser-10.5a9-android-armv7-multi.apk",
         "hash": "3d62486bf370c4d1346ecbcfcc60a2bd185758af74babaf8820b04b64d45b881",
         "hashType": "sha256",

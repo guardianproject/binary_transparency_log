@@ -1,19 +1,19 @@
 {
   "repo": {
-    "timestamp": 1612782237000,
-    "version": 21,
+    "timestamp": 1612943085000,
+    "version": 20000,
     "maxage": 14,
     "name": "Guardian Project Archive",
     "icon": "guardianproject.png",
-    "address": "https://guardianproject.info/fdroid/archive",
     "description": "The official repository of The Guardian Project apps for use with the F-Droid\nclient. This contains older versions of applications from the main repository.\n",
+    "address": "https://guardianproject.info/fdroid/archive",
     "mirrors": [
       "https://guardianproject.info/fdroid/archive",
       "http://bdf2wcxujkg6qqff.onion/fdroid/archive",
       "https://s3.amazonaws.com/guardianproject/fdroid/archive",
       "https://guardianproject.s3.amazonaws.com/fdroid/archive",
       "https://guardianproject.gitlab.io/fdroid-repo/fdroid/archive",
-      "https://gitlab.com/guardianproject/fdroid-repo/raw/master/fdroid/archive",
+      "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/archive",
       "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/archive"
     ]
   },
@@ -36,14 +36,18 @@
       "issueTracker": "https://github.com/guardianproject/cacert/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-only",
-      "name": "CACertMan",
       "sourceCode": "https://github.com/guardianproject/cacert",
       "summary": "Disable untrusted certificates",
       "webSite": "https://guardianproject.info/2011/09/05/cacertman-app-to-address-diginotar-other-bad-cas",
       "added": 1376870400000,
       "icon": "info.guardianproject.cacert.4.png",
       "packageName": "info.guardianproject.cacert",
-      "lastUpdated": 1383177600000
+      "lastUpdated": 1383177600000,
+      "localized": {
+        "en-US": {
+          "name": "CACertMan"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -79,13 +83,17 @@
       "issueTracker": "https://dev.guardianproject.info/projects/gibberbot/issues",
       "liberapayID": "33617",
       "license": "Apache-2.0",
-      "name": "ChatSecure",
       "sourceCode": "https://github.com/guardianproject/ChatSecureAndroid",
       "webSite": "https://dev.guardianproject.info/projects/gibberbot",
       "added": 1363651200000,
       "icon": "info.guardianproject.otr.app.im.1423001.png",
       "packageName": "info.guardianproject.otr.app.im",
-      "lastUpdated": 1480636800000
+      "lastUpdated": 1480636800000,
+      "localized": {
+        "en-US": {
+          "name": "ChatSecure"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -101,14 +109,18 @@
       "issueTracker": "https://dev.guardianproject.info/projects/chatsecure/issues",
       "liberapayID": "33617",
       "license": "SIL Open Font License, MIT License and the CC 3.0 License [CC-By with attribution requirement waived]",
-      "name": "ChatSecureVoicePlugin",
       "sourceCode": "https://github.com/guardianproject/ChatSecureVoicePlugin",
       "summary": "ChatSecure Voice Messaging",
       "webSite": "https://guardianproject.info/apps/chatsecure",
       "added": 1386892800000,
       "icon": "info.guardianproject.soundrecorder.2.png",
       "packageName": "info.guardianproject.soundrecorder",
-      "lastUpdated": 1386892800000
+      "lastUpdated": 1386892800000,
+      "localized": {
+        "en-US": {
+          "name": "ChatSecureVoicePlugin"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -122,14 +134,18 @@
       "suggestedVersionCode": "15",
       "liberapayID": "33617",
       "license": "GPL-3.0-only",
-      "name": "Courier",
       "sourceCode": "https://github.com/guardianproject/securereader",
       "translation": "https://www.transifex.com/otf/securereader/",
       "webSite": "https://dev.guardianproject.info/projects/secure-reader",
       "added": 1400025600000,
       "icon": "info.guardianproject.courier.15.png",
       "packageName": "info.guardianproject.courier",
-      "lastUpdated": 1403740800000
+      "lastUpdated": 1403740800000,
+      "localized": {
+        "en-US": {
+          "name": "Courier"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -144,14 +160,18 @@
       "description": "GnuPrivacyGuard extends the gpgcli command line tool to bring an integrated\nprivacy engine to your Android. It gives you command line access to the entire\nGnuPG suite of encryption software. It also serves as the test bed for\ncomplete Android integration for all of GnuPG's crypto services, including\nOpenPGP, symmetric encryption, and more.\n\nGPG is GNU\u2019s tool for end-to-end secure communication and encrypted data\nstorage. This trusted protocol is the free software alternative to PGP. This\napp is built upon GnuPG 2.1, the new modularized version of GnuPG that now\nsupports S/MIME.\n\nGPG aims to provide an integrated experience, so clicking on PGP files should\n\"just work\". You can also share files to GPG to encrypt them. GPG will also\nrespond when you click on a PGP fingerprint URL (one that starts with\nopenpgp4fpr:).\n\nBefore using GPG, be sure to launch the app and let it finish its installation\nprocess. Once it has completed, then you're ready to use it. The easiest way\nto get started with GPG is to install https://f-droid.org/packages/jackpal.androidterm. GPG will\nautomatically configure Android Terminal Emulator as long as you have the\n\"Allow PATH extensions\" settings enabled.\n\nStatus: Unmaintained, use https://f-droid.org/packages/org.sufficientlysecure.keychain/",
       "issueTracker": "https://dev.guardianproject.info/projects/gpgandroid/issues",
       "license": "GPL-3.0-or-later",
-      "name": "GnuPrivacyGuard",
       "sourceCode": "https://github.com/guardianproject/gnupg-for-android",
       "summary": "GnuPG via gpgcli",
       "webSite": "https://guardianproject.info/code/gnupg",
       "added": 1367971200000,
       "icon": "info.guardianproject.gpg.5.png",
       "packageName": "info.guardianproject.gpg",
-      "lastUpdated": 1396828800000
+      "lastUpdated": 1396828800000,
+      "localized": {
+        "en-US": {
+          "name": "GnuPrivacyGuard"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -167,7 +187,6 @@
       "issueTracker": "https://github.com/guardianproject/haven/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
-      "name": "Haven",
       "sourceCode": "https://github.com/guardianproject/haven",
       "summary": "Protect personal spaces and possessions without compromising privacy",
       "translation": "https://hosted.weblate.org/projects/guardianproject/haven/",
@@ -175,7 +194,12 @@
       "added": 1513900800000,
       "icon": "org.havenapp.main.212.png",
       "packageName": "org.havenapp.main",
-      "lastUpdated": 1575676800000
+      "lastUpdated": 1575676800000,
+      "localized": {
+        "en-US": {
+          "name": "Haven"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -191,14 +215,18 @@
       "issueTracker": "https://github.com/guardianproject/lildebi/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
-      "name": "Lil' Debi",
       "sourceCode": "https://github.com/guardianproject/lildebi",
       "summary": "Run Debian on your phone",
       "webSite": "https://github.com/guardianproject/lildebi/wiki",
       "added": 1360108800000,
       "icon": "info.guardianproject.lildebi.5400.png",
       "packageName": "info.guardianproject.lildebi",
-      "lastUpdated": 1422230400000
+      "lastUpdated": 1422230400000,
+      "localized": {
+        "en-US": {
+          "name": "Lil' Debi"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -216,14 +244,18 @@
       "issueTracker": "https://dev.guardianproject.info/projects/panic/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
-      "name": "LocationPrivacy",
       "sourceCode": "https://github.com/guardianproject/LocationPrivacy",
       "translation": "https://hosted.weblate.org/projects/guardianproject/locationprivacy/",
       "webSite": "https://guardianproject.info/2015/01/23/sharing-your-location-privately",
       "added": 1422489600000,
       "icon": "info.guardianproject.locationprivacy.10.png",
       "packageName": "info.guardianproject.locationprivacy",
-      "lastUpdated": 1556236800000
+      "lastUpdated": 1556236800000,
+      "localized": {
+        "en-US": {
+          "name": "LocationPrivacy"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -240,14 +272,18 @@
       "issueTracker": "https://github.com/guardianproject/notecipher/issues",
       "liberapayID": "33617",
       "license": "Apache-2.0",
-      "name": "NoteCipher",
       "sourceCode": "https://github.com/guardianproject/notecipher",
       "summary": "Notepad with lock",
       "webSite": "https://guardianproject.info",
       "added": 1358294400000,
       "icon": "info.guardianproject.notepadbot.12.png",
       "packageName": "info.guardianproject.notepadbot",
-      "lastUpdated": 1394409600000
+      "lastUpdated": 1394409600000,
+      "localized": {
+        "en-US": {
+          "name": "NoteCipher"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -263,14 +299,18 @@
       "issueTracker": "https://github.com/guardianproject/ObscuraCam/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
-      "name": "ObscuraCam",
       "sourceCode": "https://github.com/guardianproject/ObscuraCam",
       "translation": "https://hosted.weblate.org/projects/guardianproject/obscuracam",
       "webSite": "https://guardianproject.info/apps/obscuracam",
       "added": 1376870400000,
       "icon": "org.witness.sscphase1.39.png",
       "packageName": "org.witness.sscphase1",
-      "lastUpdated": 1513900800000
+      "lastUpdated": 1513900800000,
+      "localized": {
+        "en-US": {
+          "name": "ObscuraCam"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -295,7 +335,7 @@
       "added": 1374451200000,
       "icon": "org.torproject.android.516141000.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1607760912000
+      "lastUpdated": 1607731200000
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -336,14 +376,18 @@
       "issueTracker": "https://dev.guardianproject.info/projects/orweb/issues?set_filter=1",
       "liberapayID": "33617",
       "license": "GPL-2.0-only",
-      "name": "Orweb",
       "sourceCode": "https://github.com/guardianproject/orweb",
       "summary": "Privacy-enhanced browser",
       "webSite": "https://guardianproject.info/apps/orweb",
       "added": 1350864000000,
       "icon": "info.guardianproject.browser.7010.png",
       "packageName": "info.guardianproject.browser",
-      "lastUpdated": 1448496000000
+      "lastUpdated": 1448496000000,
+      "localized": {
+        "en-US": {
+          "name": "Orweb"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -358,14 +402,18 @@
       "issueTracker": "https://github.com/guardianproject/PixelKnot/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-only",
-      "name": "PixelKnot",
       "sourceCode": "https://github.com/guardianproject/PixelKnot",
       "translation": "https://www.transifex.com/otf/pixelknot/",
       "webSite": "https://guardianproject.info",
       "added": 1361836800000,
       "icon": "info.guardianproject.pixelknot.3.png",
       "packageName": "info.guardianproject.pixelknot",
-      "lastUpdated": 1479600000000
+      "lastUpdated": 1479600000000,
+      "localized": {
+        "en-US": {
+          "name": "PixelKnot"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -380,14 +428,18 @@
       "issueTracker": "https://dev.guardianproject.info/projects/panic/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
-      "name": "Ripple",
       "sourceCode": "https://github.com/guardianproject/ripple",
       "translation": "https://hosted.weblate.org/projects/guardianproject/ripple/",
       "webSite": "https://guardianproject.info/tag/panic",
       "added": 1480636800000,
       "icon": "info.guardianproject.ripple.75.png",
       "packageName": "info.guardianproject.ripple",
-      "lastUpdated": 1547424000000
+      "lastUpdated": 1547424000000,
+      "localized": {
+        "en-US": {
+          "name": "Ripple"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -401,13 +453,17 @@
       "description": "Save (Share Archive Verify Encrypt) by OpenArchive\nenables you to safely preserve, organize, and share your mobile media.\n",
       "issueTracker": "https://github.com/OpenArchive/Save-app-android/issues",
       "license": "GPL-3.0-only",
-      "name": "Save",
       "sourceCode": "https://github.com/OpenArchive/Save-app-android",
       "webSite": "https://open-archive.net",
       "added": 1596672000000,
       "icon": "net.opendasharchive.openarchive.release.20301.png",
       "packageName": "net.opendasharchive.openarchive.release",
-      "lastUpdated": 1607760907000
+      "lastUpdated": 1607731200000,
+      "localized": {
+        "en-US": {
+          "name": "Save"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -424,14 +480,18 @@
       "issueTracker": "https://dev.guardianproject.info/projects/chatsecure/issues",
       "liberapayID": "33617",
       "license": "MIT",
-      "name": "StickerPack",
       "sourceCode": "https://github.com/guardianproject/ChatSecureVoicePlugin",
       "summary": "ChatSecure Open Emoji Plugin",
       "webSite": "https://guardianproject.info/apps/chatsecure",
       "added": 1385942400000,
       "icon": "info.guardianproject.chatsecure.emoji.core.1.png",
       "packageName": "info.guardianproject.chatsecure.emoji.core",
-      "lastUpdated": 1385942400000
+      "lastUpdated": 1385942400000,
+      "localized": {
+        "en-US": {
+          "name": "StickerPack"
+        }
+      }
     },
     {
       "authorEmail": "support@guardianproject.info",
@@ -446,14 +506,18 @@
       "description": "Creating great stories is now easier than ever with StoryMaker. Our unique templates, overlays, and lessons guide you through the entire creative process. StoryMaker lets you edit your content right on your mobile, making it even easier to finish your story. Once you've finished, StoryMaker lets you publish your story to all of your favorite platforms.\n* AUDIO PHOTO & VIDEO *\nWhether it\u2019s a photo series, an audio story, or a video package, StoryMaker walks you through what you need to know in order to be successful.\n* TEMPLATES *\nOur story templates offer suggested narrative arcs, and potential questions to give you structure, but leave you enough room to tell the story you want.\n* LEARN *\nDesigned by a group of trainers with years of experience working in the field, StoryMaker is the tool you need to tell the stories you're passionate about, while staying safe. StoryMaker has access to a 55 lesson course in Journalism, Security, Photo, Audio, and Video production. So when you\u2019re ready to dive deep and learn everything you can, we have the lessons to get you started.\n* OVERLAYS *\nEveryone recognizes an interview or a location shot when they see them on the news, but with StoryMaker\u2019s innovative overlays it\u2019s easy to recreate the shot you want when it matters the most, at the point of production.\n* EDIT *\nStoryMaker lets you rearrange and trim your clips to tweak them to perfection, it even makes it easy to record your own narration to go with your story.\n* SHARE *\nWhen your story is ready you can share it across all of your favorite platforms straight from StoryMaker.\n* SECURITY *\nStoryMaker takes security seriously. Our integration with Orbot allows for supported platforms to be accessed via Tor. StoryMaker relies upon Orbot, for defending against network surveillance and enabling circumvention on hostile networks.\n* EXPERIENCE *\nStoryMaker is successful because our creative team is filled with trainers with years of experience. People who have been in the field, and know how to break complex ideas down into easy to follow instructions.\n* MULTILINGUAL *\nStoryMaker supports English, Arabic, Croation/Bosnian, and Serbian languages. With experimental translations in French, Spanish, Persian, German, Macedonian and Korean.\nIf you find issues, or would like to participate in our localization effort,\nplease visit our wiki for more instructions:\nhttp://storymaker.cc/wiki/index.php?title=Translation",
       "issueTracker": "https://dev.guardianproject.info/projects/storymaker/issues",
       "license": "GPL-2.0-or-later",
-      "name": "StoryMaker",
       "sourceCode": "https://github.com/guardianproject/storymaker",
       "summary": "produce professional-grade videos with your Android phone",
       "webSite": "https://storymaker.cc/",
       "added": 1383177600000,
       "icon": "info.guardianproject.mrapp.118.png",
       "packageName": "info.guardianproject.mrapp",
-      "lastUpdated": 1405728000000
+      "lastUpdated": 1405728000000,
+      "localized": {
+        "en-US": {
+          "name": "StoryMaker"
+        }
+      }
     },
     {
       "authorEmail": "playstore@torproject.org",
@@ -477,7 +541,7 @@
       "added": 1596672000000,
       "icon": "org.torproject.torbrowser.2015808015.png",
       "packageName": "org.torproject.torbrowser",
-      "lastUpdated": 1612512003000
+      "lastUpdated": 1612483200000
     },
     {
       "authorEmail": "playstore@torproject.org",
@@ -501,7 +565,7 @@
       "added": 1596672000000,
       "icon": "org.torproject.torbrowser_alpha.2015808783.png",
       "packageName": "org.torproject.torbrowser_alpha",
-      "lastUpdated": 1612782157000
+      "lastUpdated": 1612742400000
     }
   ],
   "packages": {
@@ -9596,7 +9660,7 @@
     ],
     "org.torproject.torbrowser": [
       {
-        "added": 1610524965000,
+        "added": 1610496000000,
         "apkName": "tor-browser-10.0.8-android-x86_64-multi.apk",
         "hash": "0903150ec1032bf6dd859576f50a08fe285e3bb3006430136ab6c6c351d7f083",
         "hashType": "sha256",
@@ -9701,7 +9765,7 @@
         "versionName": "10.0.8 (84.1.4-Release)"
       },
       {
-        "added": 1610524953000,
+        "added": 1610496000000,
         "apkName": "tor-browser-10.0.8-android-x86-multi.apk",
         "hash": "0eaebc6986259aa7b81e9be583f4b0b605bf43eeafc488ce3a8448235a342fa8",
         "hashType": "sha256",
@@ -9806,7 +9870,7 @@
         "versionName": "10.0.8 (84.1.4-Release)"
       },
       {
-        "added": 1610524931000,
+        "added": 1610496000000,
         "apkName": "tor-browser-10.0.8-android-aarch64-multi.apk",
         "hash": "a6bb031fa5a51c79a00285db4151bf82a7bf18493768f36cf36efce7ebdc3629",
         "hashType": "sha256",
@@ -9911,7 +9975,7 @@
         "versionName": "10.0.8 (84.1.4-Release)"
       },
       {
-        "added": 1610524942000,
+        "added": 1610496000000,
         "apkName": "tor-browser-10.0.8-android-armv7-multi.apk",
         "hash": "0e6abdd19f02b0f52e6f170ba3f78dc2a1ff7f68d9b97f66f3c5519e6116f73b",
         "hashType": "sha256",
@@ -10016,7 +10080,7 @@
         "versionName": "10.0.8 (84.1.4-Release)"
       },
       {
-        "added": 1608019208000,
+        "added": 1607990400000,
         "apkName": "tor-browser-10.0.7-android-x86_64-multi.apk",
         "hash": "c47fd833a377470154f56a1caa7fcbcf6f82fb0fcd585d5c7faae9a51c5f7a3e",
         "hashType": "sha256",
@@ -10121,7 +10185,7 @@
         "versionName": "10.0.7 (84.1.0-Release)"
       },
       {
-        "added": 1608019196000,
+        "added": 1607990400000,
         "apkName": "tor-browser-10.0.7-android-x86-multi.apk",
         "hash": "ac378d011b48a19cde30179402b890e1fa97514a96f920c7a9ac09bcdc304260",
         "hashType": "sha256",
@@ -10226,7 +10290,7 @@
         "versionName": "10.0.7 (84.1.0-Release)"
       },
       {
-        "added": 1608019174000,
+        "added": 1607990400000,
         "apkName": "tor-browser-10.0.7-android-aarch64-multi.apk",
         "hash": "58305e8efeecd8f2d13b533ce1a3ce35f085218ffe65565af87c9ece8ed58015",
         "hashType": "sha256",
@@ -10331,7 +10395,7 @@
         "versionName": "10.0.7 (84.1.0-Release)"
       },
       {
-        "added": 1608019184000,
+        "added": 1607990400000,
         "apkName": "tor-browser-10.0.7-android-armv7-multi.apk",
         "hash": "90ca1bd2cd9234d5ff496dbde9ddd39b584730481d659cf10c3d3001529e0c0a",
         "hashType": "sha256",
@@ -10436,7 +10500,7 @@
         "versionName": "10.0.7 (84.1.0-Release)"
       },
       {
-        "added": 1607586398000,
+        "added": 1607558400000,
         "apkName": "tor-browser-10.0.6-android-x86_64-multi.apk",
         "hash": "c953b63083cbb72bde7cba05bf094ad08c72e021cbb7b7a9ba3c41fea1eb6dba",
         "hashType": "sha256",
@@ -10541,7 +10605,7 @@
         "versionName": "10.0.6 (83.1.0-Release)"
       },
       {
-        "added": 1607586386000,
+        "added": 1607558400000,
         "apkName": "tor-browser-10.0.6-android-x86-multi.apk",
         "hash": "82d6ce48d7a7265debdfd2831e1b695fa8188539bf1e56517a59ce8a24bf7b96",
         "hashType": "sha256",
@@ -10646,7 +10710,7 @@
         "versionName": "10.0.6 (83.1.0-Release)"
       },
       {
-        "added": 1607586365000,
+        "added": 1607558400000,
         "apkName": "tor-browser-10.0.6-android-aarch64-multi.apk",
         "hash": "28333220a40fd191862fabc396bd70a6bccaeec949554fd415a14a3f9a01140f",
         "hashType": "sha256",
@@ -10751,7 +10815,7 @@
         "versionName": "10.0.6 (83.1.0-Release)"
       },
       {
-        "added": 1607586375000,
+        "added": 1607558400000,
         "apkName": "tor-browser-10.0.6-android-armv7-multi.apk",
         "hash": "f25d73d22399e6d7a4fe7c4a09f4cc713b886be1be0fe007a43f1f6dce403536",
         "hashType": "sha256",
@@ -10856,7 +10920,7 @@
         "versionName": "10.0.6 (83.1.0-Release)"
       },
       {
-        "added": 1606551240000,
+        "added": 1606521600000,
         "apkName": "tor-browser-10.0.5-android-x86_64-multi.apk",
         "hash": "7cfe9a742977c523ddee62664ff0d84c5fd85e32f527b51a3a06cb7f1e473f04",
         "hashType": "sha256",
@@ -10961,7 +11025,7 @@
         "versionName": "10.0.5 (83.1.0-Release)"
       },
       {
-        "added": 1606551229000,
+        "added": 1606521600000,
         "apkName": "tor-browser-10.0.5-android-x86-multi.apk",
         "hash": "6e4f92e1db2a67cb90e8ec391f7cd72a7a9de531ab81e5c8b839e344a3498895",
         "hashType": "sha256",
@@ -11066,7 +11130,7 @@
         "versionName": "10.0.5 (83.1.0-Release)"
       },
       {
-        "added": 1606551207000,
+        "added": 1606521600000,
         "apkName": "tor-browser-10.0.5-android-aarch64-multi.apk",
         "hash": "6026b93600cbc666e90ded22f3e3d45f6da8413e600a0167c46709dd3ec6cf4f",
         "hashType": "sha256",
@@ -11171,7 +11235,7 @@
         "versionName": "10.0.5 (83.1.0-Release)"
       },
       {
-        "added": 1606551218000,
+        "added": 1606521600000,
         "apkName": "tor-browser-10.0.5-android-armv7-multi.apk",
         "hash": "8114f493509ca738fea469231887aff540e2a79a7fee9d9af70dec662265e394",
         "hashType": "sha256",
@@ -11276,7 +11340,7 @@
         "versionName": "10.0.5 (83.1.0-Release)"
       },
       {
-        "added": 1605039948000,
+        "added": 1604966400000,
         "apkName": "tor-browser-10.0.4-android-x86_64-multi.apk",
         "hash": "f8af5488d1075053200812709168dd1eb17751122d147272d6e3d6a2238b13b5",
         "hashType": "sha256",
@@ -11381,7 +11445,7 @@
         "versionName": "10.0.4 (82.1.1-Release)"
       },
       {
-        "added": 1605039935000,
+        "added": 1604966400000,
         "apkName": "tor-browser-10.0.4-android-x86-multi.apk",
         "hash": "63e99d1122ef4b8af2a697ebd387bcaeeac13a280e7eea9901989f061b941d66",
         "hashType": "sha256",
@@ -11486,7 +11550,7 @@
         "versionName": "10.0.4 (82.1.1-Release)"
       },
       {
-        "added": 1605039911000,
+        "added": 1604966400000,
         "apkName": "tor-browser-10.0.4-android-aarch64-multi.apk",
         "hash": "26cc011b4eafc118e50f62c72e3258f8d789fd9cdae56eb45c49452bf2ab7532",
         "hashType": "sha256",
@@ -11591,7 +11655,7 @@
         "versionName": "10.0.4 (82.1.1-Release)"
       },
       {
-        "added": 1605039922000,
+        "added": 1604966400000,
         "apkName": "tor-browser-10.0.4-android-armv7-multi.apk",
         "hash": "e62a280f53eabc1151f43b2ef416cc56e31b50bc08a325cb4d2e6117c5b76982",
         "hashType": "sha256",
@@ -11696,7 +11760,7 @@
         "versionName": "10.0.4 (82.1.1-Release)"
       },
       {
-        "added": 1604494956000,
+        "added": 1604448000000,
         "apkName": "tor-browser-10.0.3-android-x86_64-multi.apk",
         "hash": "40f9ac1a79312d0a73e0cd6733f9b06e95135fb5336efbebb8ed5160a5264b2b",
         "hashType": "sha256",
@@ -11801,7 +11865,7 @@
         "versionName": "10.0.3 (82.1.1-Release)"
       },
       {
-        "added": 1604494945000,
+        "added": 1604448000000,
         "apkName": "tor-browser-10.0.3-android-x86-multi.apk",
         "hash": "ed3cf193d11b13c87f933acc00e63261f5502ee09310389806df8a42e404b52b",
         "hashType": "sha256",
@@ -11906,7 +11970,7 @@
         "versionName": "10.0.3 (82.1.1-Release)"
       },
       {
-        "added": 1604494922000,
+        "added": 1604448000000,
         "apkName": "tor-browser-10.0.3-android-aarch64-multi.apk",
         "hash": "a4e66378ddba7b6ab57b4df8e1b6988bba2ea6b00abe70299b280f3fc3f14b1f",
         "hashType": "sha256",
@@ -12011,7 +12075,7 @@
         "versionName": "10.0.3 (82.1.1-Release)"
       },
       {
-        "added": 1604494933000,
+        "added": 1604448000000,
         "apkName": "tor-browser-10.0.3-android-armv7-multi.apk",
         "hash": "211524dbd9523a01c64ac5db1e93d7213d1ce9a9098dc1571e8bccd5660354c0",
         "hashType": "sha256",
@@ -12116,7 +12180,7 @@
         "versionName": "10.0.3 (82.1.1-Release)"
       },
       {
-        "added": 1598631257000,
+        "added": 1598572800000,
         "apkName": "tor-browser-9.5.4-android-x86_64-multi.apk",
         "features": [
           "android.hardware.touchscreen"
@@ -12188,7 +12252,7 @@
         "versionName": "68.12.0"
       },
       {
-        "added": 1598631251000,
+        "added": 1598572800000,
         "apkName": "tor-browser-9.5.4-android-x86-multi.apk",
         "features": [
           "android.hardware.touchscreen"
@@ -12260,7 +12324,7 @@
         "versionName": "68.12.0"
       },
       {
-        "added": 1598631240000,
+        "added": 1598572800000,
         "apkName": "tor-browser-9.5.4-android-aarch64-multi.apk",
         "features": [
           "android.hardware.touchscreen"
@@ -12332,7 +12396,7 @@
         "versionName": "68.12.0"
       },
       {
-        "added": 1598631245000,
+        "added": 1598572800000,
         "apkName": "tor-browser-9.5.4-android-armv7-multi.apk",
         "features": [
           "android.hardware.touchscreen"
@@ -13270,7 +13334,7 @@
     ],
     "org.torproject.torbrowser_alpha": [
       {
-        "added": 1611734853000,
+        "added": 1611705600000,
         "apkName": "tor-browser-10.5a8-android-x86_64-multi.apk",
         "hash": "25b0d838566d058e5d17a9d3e6a34a4e6232c4fc422882301d31b8eed1db02dc",
         "hashType": "sha256",
@@ -13375,7 +13439,7 @@
         "versionName": "10.5a8 (85.1.0-Beta)"
       },
       {
-        "added": 1611734839000,
+        "added": 1611705600000,
         "apkName": "tor-browser-10.5a8-android-x86-multi.apk",
         "hash": "79228fea9af9036f7d05f95f98dd5b8f2bb4116635e2f219aab0ac105fb07761",
         "hashType": "sha256",
@@ -13480,7 +13544,7 @@
         "versionName": "10.5a8 (85.1.0-Beta)"
       },
       {
-        "added": 1611734812000,
+        "added": 1611705600000,
         "apkName": "tor-browser-10.5a8-android-aarch64-multi.apk",
         "hash": "4a8d6fcd29c262f1aba0ae51c7be6ba6c57fa7c09f3df249de999c7f367c099e",
         "hashType": "sha256",
@@ -13585,7 +13649,7 @@
         "versionName": "10.5a8 (85.1.0-Beta)"
       },
       {
-        "added": 1611734825000,
+        "added": 1611705600000,
         "apkName": "tor-browser-10.5a8-android-armv7-multi.apk",
         "hash": "7fe0712501eb5eb4db9ccfdc80e1db3e3d9ce4fcf5177de93e2ca9d8ec3d800e",
         "hashType": "sha256",
@@ -13690,7 +13754,7 @@
         "versionName": "10.5a8 (85.1.0-Beta)"
       },
       {
-        "added": 1611129442000,
+        "added": 1611100800000,
         "apkName": "tor-browser-10.5a7-android-x86_64-multi.apk",
         "hash": "5503e5edbb62d8c694cae88c53a4cbf99c0c4b78786b7e2ce2484ad8e58b1802",
         "hashType": "sha256",
@@ -13795,7 +13859,7 @@
         "versionName": "10.5a7 (85.0.0b7-Beta)"
       },
       {
-        "added": 1611129427000,
+        "added": 1611100800000,
         "apkName": "tor-browser-10.5a7-android-x86-multi.apk",
         "hash": "06fe7f7839f20ac5ac44db550b880be450e024ed9798693aaadb67282fd92a05",
         "hashType": "sha256",
@@ -13900,7 +13964,7 @@
         "versionName": "10.5a7 (85.0.0b7-Beta)"
       },
       {
-        "added": 1611129400000,
+        "added": 1611100800000,
         "apkName": "tor-browser-10.5a7-android-aarch64-multi.apk",
         "hash": "2d9b0a7a6e2a1300709e1e94ab229773e75106918785fedc0959817a6f85c5cc",
         "hashType": "sha256",
@@ -14005,7 +14069,7 @@
         "versionName": "10.5a7 (85.0.0b7-Beta)"
       },
       {
-        "added": 1611129413000,
+        "added": 1611100800000,
         "apkName": "tor-browser-10.5a7-android-armv7-multi.apk",
         "hash": "bfb23c39f1c7966441bf9c743a4f19959308e13f3a5752ddc104bdf3bbc23744",
         "hashType": "sha256",
@@ -14110,7 +14174,7 @@
         "versionName": "10.5a7 (85.0.0b7-Beta)"
       },
       {
-        "added": 1608538542000,
+        "added": 1608508800000,
         "apkName": "tor-browser-10.5a6-android-x86_64-multi.apk",
         "hash": "9f152ad2e7ff2442698c63b402d1d7e738bfd03a2e6ade3403f7bf900fbce3b8",
         "hashType": "sha256",
@@ -14215,7 +14279,7 @@
         "versionName": "10.5a6 (84.1.0-Beta)"
       },
       {
-        "added": 1608538528000,
+        "added": 1608508800000,
         "apkName": "tor-browser-10.5a6-android-x86-multi.apk",
         "hash": "2361f6255eee66138e3839844bc32de5f39f26ea1f987715a10afc6aa126d8b4",
         "hashType": "sha256",
@@ -14320,7 +14384,7 @@
         "versionName": "10.5a6 (84.1.0-Beta)"
       },
       {
-        "added": 1608538501000,
+        "added": 1608508800000,
         "apkName": "tor-browser-10.5a6-android-aarch64-multi.apk",
         "hash": "28f33d0d9261710a9754e9370b3cfc269e395723f7a8b0178635f8fee38423f9",
         "hashType": "sha256",
@@ -14425,7 +14489,7 @@
         "versionName": "10.5a6 (84.1.0-Beta)"
       },
       {
-        "added": 1608538514000,
+        "added": 1608508800000,
         "apkName": "tor-browser-10.5a6-android-armv7-multi.apk",
         "hash": "4f00e8a9ea713cb06f171d9b80ec98197c8f510db14a7b95b2c8d74da98936d9",
         "hashType": "sha256",
@@ -14530,7 +14594,7 @@
         "versionName": "10.5a6 (84.1.0-Beta)"
       },
       {
-        "added": 1607413495000,
+        "added": 1607385600000,
         "apkName": "tor-browser-10.5a5-android-x86_64-multi.apk",
         "hash": "433d681b0d6f5c243ea4a145ebf8de3bc459f308e1f07b52eeedc6c32486dc08",
         "hashType": "sha256",
@@ -14635,7 +14699,7 @@
         "versionName": "10.5a5 (84.0.0b2-Beta)"
       },
       {
-        "added": 1607413481000,
+        "added": 1607385600000,
         "apkName": "tor-browser-10.5a5-android-x86-multi.apk",
         "hash": "0ba1e541a523f3724bef9ad34da46712d13de649f0e22d8d7bfab192ec931845",
         "hashType": "sha256",
@@ -14740,7 +14804,7 @@
         "versionName": "10.5a5 (84.0.0b2-Beta)"
       },
       {
-        "added": 1607413454000,
+        "added": 1607385600000,
         "apkName": "tor-browser-10.5a5-android-aarch64-multi.apk",
         "hash": "90e6bc4b98c3cd76f4114a15072c13ccab0bfd7ba150526f8402a4d30ede4c3e",
         "hashType": "sha256",
@@ -14845,7 +14909,7 @@
         "versionName": "10.5a5 (84.0.0b2-Beta)"
       },
       {
-        "added": 1607413466000,
+        "added": 1607385600000,
         "apkName": "tor-browser-10.5a5-android-armv7-multi.apk",
         "hash": "606e4e3148e8a0a8af74863b43ef6dce938739c6ef941cec8bcd1321edc53575",
         "hashType": "sha256",
@@ -14950,7 +15014,7 @@
         "versionName": "10.5a5 (84.0.0b2-Beta)"
       },
       {
-        "added": 1605772852000,
+        "added": 1605744000000,
         "apkName": "tor-browser-10.5a4-android-x86_64-multi.apk",
         "hash": "e3c6727618c4510473c888ab0ab2ebfbbb617bebe729463d61d097942c676082",
         "hashType": "sha256",
@@ -15055,7 +15119,7 @@
         "versionName": "10.5a4 (83.1.0-Beta)"
       },
       {
-        "added": 1605772838000,
+        "added": 1605744000000,
         "apkName": "tor-browser-10.5a4-android-x86-multi.apk",
         "hash": "cada29089aad9786e14fc0b1f3bb82cde953801b49880adfe11dadaf3df665af",
         "hashType": "sha256",
@@ -15160,7 +15224,7 @@
         "versionName": "10.5a4 (83.1.0-Beta)"
       },
       {
-        "added": 1605772811000,
+        "added": 1605744000000,
         "apkName": "tor-browser-10.5a4-android-aarch64-multi.apk",
         "hash": "d49eade8e68efd6a9e6feb5e30020a0a56a8dcfd0044c647707c76cb5fecf0da",
         "hashType": "sha256",
@@ -15265,7 +15329,7 @@
         "versionName": "10.5a4 (83.1.0-Beta)"
       },
       {
-        "added": 1605772824000,
+        "added": 1605744000000,
         "apkName": "tor-browser-10.5a4-android-armv7-multi.apk",
         "hash": "82ce72e6a93fc740beda8808216ede580fba755dd47cb2b16565be84838c6ada",
         "hashType": "sha256",
@@ -15370,7 +15434,7 @@
         "versionName": "10.5a4 (83.1.0-Beta)"
       },
       {
-        "added": 1605253637000,
+        "added": 1605225600000,
         "apkName": "tor-browser-10.5a3-android-x86_64-multi.apk",
         "hash": "7f0e57079eb69fcc418f0ae3f0238e732d1786f5cd662f6821a9452a1cd127d5",
         "hashType": "sha256",
@@ -15475,7 +15539,7 @@
         "versionName": "10.5a3 (82.1.1-Beta)"
       },
       {
-        "added": 1605253623000,
+        "added": 1605225600000,
         "apkName": "tor-browser-10.5a3-android-x86-multi.apk",
         "hash": "01be3b079b6eea5e63728958817d5a638ace4d6bc57fc19d17c99ff19af74455",
         "hashType": "sha256",
@@ -15580,7 +15644,7 @@
         "versionName": "10.5a3 (82.1.1-Beta)"
       },
       {
-        "added": 1605253596000,
+        "added": 1605225600000,
         "apkName": "tor-browser-10.5a3-android-aarch64-multi.apk",
         "hash": "5a1a205866574dbc7c3d063c43148f5cdfb4e4b6c73a44428d4d1835eecb1810",
         "hashType": "sha256",
@@ -15685,7 +15749,7 @@
         "versionName": "10.5a3 (82.1.1-Beta)"
       },
       {
-        "added": 1605253609000,
+        "added": 1605225600000,
         "apkName": "tor-browser-10.5a3-android-armv7-multi.apk",
         "hash": "b109643006a730a869d87b17491e5d0d5110e81debb83fef1107577f8ed19d6c",
         "hashType": "sha256",
@@ -15790,7 +15854,7 @@
         "versionName": "10.5a3 (82.1.1-Beta)"
       },
       {
-        "added": 1604495011000,
+        "added": 1604448000000,
         "apkName": "tor-browser-10.0a9-android-x86_64-multi.apk",
         "hash": "6345b8e61dd16553c396e38ba6f963dc7222c1a59e8e2626f370bd09ab2afc62",
         "hashType": "sha256",
@@ -15895,7 +15959,7 @@
         "versionName": "10.0a9 (82.1.1-Beta)"
       },
       {
-        "added": 1604494997000,
+        "added": 1604448000000,
         "apkName": "tor-browser-10.0a9-android-x86-multi.apk",
         "hash": "65efbbaccf2b6e8c66e5cfa11e3ad01bf9c8b400ea4a4a3c79fedd46b7d6c5b7",
         "hashType": "sha256",
@@ -16000,7 +16064,7 @@
         "versionName": "10.0a9 (82.1.1-Beta)"
       },
       {
-        "added": 1604494970000,
+        "added": 1604448000000,
         "apkName": "tor-browser-10.0a9-android-aarch64-multi.apk",
         "hash": "53fb2f0ed11160f88e63e60b867d329f385e54eeda6c4b768a66156f9eabfc84",
         "hashType": "sha256",
@@ -16105,7 +16169,7 @@
         "versionName": "10.0a9 (82.1.1-Beta)"
       },
       {
-        "added": 1604494983000,
+        "added": 1604448000000,
         "apkName": "tor-browser-10.0a9-android-armv7-multi.apk",
         "hash": "974a07bc13b03c52cd53c99044a107b819dca0bea19811d907717c186145e14d",
         "hashType": "sha256",
@@ -16210,7 +16274,7 @@
         "versionName": "10.0a9 (82.1.1-Beta)"
       },
       {
-        "added": 1598631228000,
+        "added": 1598572800000,
         "apkName": "tor-browser-10.0a6-android-x86_64-multi.apk",
         "features": [
           "android.hardware.touchscreen"
@@ -16282,7 +16346,7 @@
         "versionName": "68.12.0"
       },
       {
-        "added": 1598631222000,
+        "added": 1598572800000,
         "apkName": "tor-browser-10.0a6-android-x86-multi.apk",
         "features": [
           "android.hardware.touchscreen"
@@ -16354,7 +16418,7 @@
         "versionName": "68.12.0"
       },
       {
-        "added": 1598631210000,
+        "added": 1598572800000,
         "apkName": "tor-browser-10.0a6-android-aarch64-multi.apk",
         "features": [
           "android.hardware.touchscreen"
@@ -16426,7 +16490,7 @@
         "versionName": "68.12.0"
       },
       {
-        "added": 1598631216000,
+        "added": 1598572800000,
         "apkName": "tor-browser-10.0a6-android-armv7-multi.apk",
         "features": [
           "android.hardware.touchscreen"
