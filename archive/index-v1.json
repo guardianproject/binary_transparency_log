@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1614154283000,
+    "timestamp": 1614239867000,
     "version": 20000,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -553,7 +553,7 @@
         "Security",
         "Guardian Project"
       ],
-      "suggestedVersionCode": "2015808783",
+      "suggestedVersionCode": "2015808791",
       "description": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n",
       "donate": "https://donate.torproject.org/",
       "issueTracker": "https://gitlab.torproject.org/tpo/applications/tor-browser/issues",
@@ -563,9 +563,9 @@
       "sourceCode": "https://gitweb.torproject.org/tor-browser.git",
       "summary": "Experience real private browsing without tracking, surveillance, or censorship.",
       "added": 1596672000000,
-      "icon": "org.torproject.torbrowser_alpha.2015808783.png",
+      "icon": "org.torproject.torbrowser_alpha.2015808791.png",
       "packageName": "org.torproject.torbrowser_alpha",
-      "lastUpdated": 1612742400000
+      "lastUpdated": 1614239776000
     }
   ],
   "packages": {
@@ -13753,6 +13753,394 @@
       }
     ],
     "org.torproject.torbrowser_alpha": [
+      {
+        "added": 1612742400000,
+        "apkName": "tor-browser-10.5a9-android-x86_64-multi.apk",
+        "hash": "7570f4892456d996f9c9b2f9cc38216abc9d3731f7e0437ca959f88df82975e5",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "x86_64"
+        ],
+        "packageName": "org.torproject.torbrowser_alpha",
+        "sig": "779dcbfee750f281e0a8574e05216e04",
+        "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
+        "size": 85274895,
+        "targetSdkVersion": 29,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            26
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015808791,
+        "versionName": "10.5a9 (86.0.0b2-Beta)"
+      },
+      {
+        "added": 1612742400000,
+        "apkName": "tor-browser-10.5a9-android-x86-multi.apk",
+        "hash": "bed89cd0c3ab34161370944ab475443137edd2a0fcf1b26cb76b585b374ed92a",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "x86"
+        ],
+        "packageName": "org.torproject.torbrowser_alpha",
+        "sig": "779dcbfee750f281e0a8574e05216e04",
+        "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
+        "size": 88572125,
+        "targetSdkVersion": 29,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            26
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015808789,
+        "versionName": "10.5a9 (86.0.0b2-Beta)"
+      },
+      {
+        "added": 1612742400000,
+        "apkName": "tor-browser-10.5a9-android-aarch64-multi.apk",
+        "hash": "5147bb77546d27baef741b1a0e4e0c2438875febb6c6b34f60919efc4bcb3291",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "org.torproject.torbrowser_alpha",
+        "sig": "779dcbfee750f281e0a8574e05216e04",
+        "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
+        "size": 84279618,
+        "targetSdkVersion": 29,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            26
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015808787,
+        "versionName": "10.5a9 (86.0.0b2-Beta)"
+      },
+      {
+        "added": 1612742400000,
+        "apkName": "tor-browser-10.5a9-android-armv7-multi.apk",
+        "hash": "3d62486bf370c4d1346ecbcfcc60a2bd185758af74babaf8820b04b64d45b881",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "org.torproject.torbrowser_alpha",
+        "sig": "779dcbfee750f281e0a8574e05216e04",
+        "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
+        "size": 77074788,
+        "targetSdkVersion": 29,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            26
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2015808785,
+        "versionName": "10.5a9 (86.0.0b2-Beta)"
+      },
       {
         "added": 1611705600000,
         "apkName": "tor-browser-10.5a8-android-x86_64-multi.apk",
