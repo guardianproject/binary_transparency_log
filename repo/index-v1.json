@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1619942156000,
+    "timestamp": 1620050348000,
     "version": 20001,
     "maxage": 14,
     "name": "Guardian Project Official Releases",
@@ -1765,6 +1765,32 @@
       "icon": "org.torproject.torbrowser_alpha.2015808839.png",
       "packageName": "org.torproject.torbrowser_alpha",
       "lastUpdated": 1619481600000
+    },
+    {
+      "authorEmail": "support@guardianproject.info",
+      "authorName": "Guardian Project",
+      "authorWebSite": "https://guardianproject.info",
+      "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
+      "categories": [
+        "Security"
+      ],
+      "suggestedVersionCode": "1",
+      "issueTracker": "https://gitlab.com/guardianproject/torservices/issues",
+      "liberapay": "GuardianProject",
+      "license": "GPL-3.0-or-later",
+      "sourceCode": "https://gitlab.com/guardianproject/torservices",
+      "added": 1620050193000,
+      "icon": "org.torproject.torservices.1.png",
+      "packageName": "org.torproject.torservices",
+      "lastUpdated": 1620050193000,
+      "localized": {
+        "en-US": {
+          "description": "TorServices is a free proxy app that empowers other apps to use the internet more securely. It acts as a simple Tor \"provider\" for apps to hide their Internet traffic by encrypting it, then bouncing through a series of computers around the world. Tor is free software and an open network that helps you defend against a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security known as traffic analysis. \n\nThis app is a compliment to Orbot, which provides the full, \"batteries included\" Tor utility.\n",
+          "icon": "icon_NTqDkUSRsPZf24fX_eEmLwJ79JTaOUF6zg24wpCglj8=.png",
+          "name": "TorServices (alpha)",
+          "summary": "The simplest, fastest, smallest Tor proxy app (early test release)"
+        }
+      }
     }
   ],
   "packages": {
@@ -3898,6 +3924,54 @@
         ],
         "versionCode": 2015808833,
         "versionName": "10.5a15 (88.1.1-Beta)"
+      }
+    ],
+    "org.torproject.torservices": [
+      {
+        "added": 1620050193000,
+        "apkName": "org.torproject.torservices_1.apk",
+        "hash": "9c2b6c68ddca39d7435e8b3f380db4dc684b7abb6df77226e3fee54028ece906",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "org.torproject.torservices",
+        "sig": "c9ee556015007c5f78b7e62329a4b427",
+        "signer": "fdbd9538a76d4c39edce86e1f86709f8f0dacdf3841b9f116aa5021b342930d9",
+        "size": 10735518,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "0.1"
       }
     ],
     "org.witness.proofmode": [
