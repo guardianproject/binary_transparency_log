@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1652085332000,
+    "timestamp": 1652184914000,
     "version": 20001,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -354,7 +354,7 @@
         "Security",
         "Internet"
       ],
-      "suggestedVersionCode": "1632300100",
+      "suggestedVersionCode": "1633300100",
       "donate": "https://www.torproject.org/donate/donate.html.en",
       "flattrID": "5649",
       "issueTracker": "https://github.com/guardianproject/orbot/issues",
@@ -365,9 +365,9 @@
       "translation": "https://hosted.weblate.org/projects/guardianproject/orbot",
       "webSite": "https://guardianproject.info/apps/org.torproject.android",
       "added": 1374451200000,
-      "icon": "org.torproject.android.1632300100.png",
+      "icon": "org.torproject.android.1633300100.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1647454168000
+      "lastUpdated": 1652184702000
     },
     {
       "allowedAPKSigningKeys": [
@@ -467,7 +467,7 @@
         "Multimedia",
         "Guardian Project"
       ],
-      "suggestedVersionCode": "1412",
+      "suggestedVersionCode": "1421",
       "issueTracker": "https://github.com/guardianproject/proofmode/issues",
       "liberapayID": "33617",
       "license": "GPL-3.0-or-later",
@@ -475,7 +475,7 @@
       "sourceCode": "https://github.com/guardianproject/proofmode",
       "added": 1596672000000,
       "packageName": "org.witness.proofmode",
-      "lastUpdated": 1628868424000
+      "lastUpdated": 1652184704000
     },
     {
       "allowedAPKSigningKeys": [
@@ -7481,6 +7481,56 @@
       }
     ],
     "org.torproject.android": [
+      {
+        "added": 1607731200000,
+        "apkName": "Orbot-16.3.3-RC-1-tor-0.4.3.6-fullperm-universal-release.apk",
+        "hash": "dd4ccf44023684a4f2a8734b693657bb8d5391139e05fd48cbbce96c9a385a21",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 47280566,
+        "targetSdkVersion": 29,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            18
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            18
+          ]
+        ],
+        "versionCode": 1633300100,
+        "versionName": "16.3.3-RC-1-tor-0.4.3.6"
+      },
       {
         "added": 1604448000000,
         "apkName": "Orbot-16.3.2-RC-1-tor-0.4.3.6-fullperm-universal-release.apk",
@@ -30071,6 +30121,58 @@
       }
     ],
     "org.witness.proofmode": [
+      {
+        "added": 1628868424000,
+        "apkName": "ProofMode-0.0.14-RC-1-artwork-release.apk",
+        "hash": "20f4cc933f8dc480836748f993cc95758f3f5e6613178c61738fb580115cdf7a",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "packageName": "org.witness.proofmode",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 10427006,
+        "targetSdkVersion": 30,
+        "uses-permission": [
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_BACKGROUND_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ]
+        ],
+        "versionCode": 1421,
+        "versionName": "0.0.14-RC-1"
+      },
       {
         "added": 1628868422000,
         "apkName": "ProofMode-0.0.14-BETA-2-artwork-release.apk",
