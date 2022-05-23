@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1653288822000,
+    "timestamp": 1653295183000,
     "version": 20001,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -142,16 +142,16 @@
         "Reading",
         "Guardian Project"
       ],
-      "suggestedVersionCode": "15",
+      "suggestedVersionCode": "14",
       "liberapayID": "33617",
       "license": "GPL-3.0-only",
       "sourceCode": "https://github.com/guardianproject/securereader",
       "translation": "https://www.transifex.com/otf/securereader/",
       "webSite": "https://dev.guardianproject.info/projects/secure-reader",
       "added": 1400025600000,
-      "icon": "info.guardianproject.courier.15.png",
+      "icon": "info.guardianproject.courier.14.png",
       "packageName": "info.guardianproject.courier",
-      "lastUpdated": 1403740800000,
+      "lastUpdated": 1400025600000,
       "localized": {
         "en-US": {
           "name": "Courier"
@@ -170,7 +170,7 @@
         "Guardian Project",
         "Security"
       ],
-      "suggestedVersionCode": "5",
+      "suggestedVersionCode": "4",
       "description": "GnuPrivacyGuard extends the gpgcli command line tool to bring an integrated\nprivacy engine to your Android. It gives you command line access to the entire\nGnuPG suite of encryption software. It also serves as the test bed for\ncomplete Android integration for all of GnuPG's crypto services, including\nOpenPGP, symmetric encryption, and more.\n\nGPG is GNU\u2019s tool for end-to-end secure communication and encrypted data\nstorage. This trusted protocol is the free software alternative to PGP. This\napp is built upon GnuPG 2.1, the new modularized version of GnuPG that now\nsupports S/MIME.\n\nGPG aims to provide an integrated experience, so clicking on PGP files should\n\"just work\". You can also share files to GPG to encrypt them. GPG will also\nrespond when you click on a PGP fingerprint URL (one that starts with\nopenpgp4fpr:).\n\nBefore using GPG, be sure to launch the app and let it finish its installation\nprocess. Once it has completed, then you're ready to use it. The easiest way\nto get started with GPG is to install https://f-droid.org/packages/jackpal.androidterm. GPG will\nautomatically configure Android Terminal Emulator as long as you have the\n\"Allow PATH extensions\" settings enabled.\n\nStatus: Unmaintained, use https://f-droid.org/packages/org.sufficientlysecure.keychain/",
       "issueTracker": "https://dev.guardianproject.info/projects/gpgandroid/issues",
       "license": "GPL-3.0-or-later",
@@ -178,9 +178,9 @@
       "summary": "GnuPG via gpgcli",
       "webSite": "https://guardianproject.info/code/gnupg",
       "added": 1367971200000,
-      "icon": "info.guardianproject.gpg.5.png",
+      "icon": "info.guardianproject.gpg.4.png",
       "packageName": "info.guardianproject.gpg",
-      "lastUpdated": 1396828800000,
+      "lastUpdated": 1394582400000,
       "localized": {
         "en-US": {
           "name": "GnuPrivacyGuard"
@@ -245,38 +245,6 @@
       "localized": {
         "en-US": {
           "name": "Lil' Debi"
-        }
-      }
-    },
-    {
-      "allowedAPKSigningKeys": [
-        "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
-      ],
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": "https://guardianproject.info",
-      "binaries": "https://guardianproject.info/fdroid/repo/LocationPrivacy-%v.apk",
-      "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-      "categories": [
-        "Navigation",
-        "Security",
-        "Guardian Project"
-      ],
-      "suggestedVersionName": "0.3.1",
-      "suggestedVersionCode": "31",
-      "issueTracker": "https://dev.guardianproject.info/projects/panic/issues",
-      "liberapayID": "33617",
-      "license": "GPL-3.0-or-later",
-      "sourceCode": "https://github.com/guardianproject/LocationPrivacy",
-      "translation": "https://hosted.weblate.org/projects/guardianproject/locationprivacy/",
-      "webSite": "https://guardianproject.info/2015/01/23/sharing-your-location-privately",
-      "added": 1422489600000,
-      "icon": "info.guardianproject.locationprivacy.10.png",
-      "packageName": "info.guardianproject.locationprivacy",
-      "lastUpdated": 1556236800000,
-      "localized": {
-        "en-US": {
-          "name": "LocationPrivacy"
         }
       }
     },
@@ -889,58 +857,6 @@
     ],
     "info.guardianproject.courier": [
       {
-        "added": 1403740800000,
-        "apkName": "Courier-0.1.9.apk",
-        "hash": "bf6566da1f90831887f5bf5605f8d816b1f7f694969459dec599b8bc01a827d3",
-        "hashType": "sha256",
-        "minSdkVersion": 9,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "info.guardianproject.courier",
-        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
-        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
-        "size": 16484753,
-        "targetSdkVersion": 15,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH_ADMIN",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 15,
-        "versionName": "0.1.9"
-      },
-      {
         "added": 1400025600000,
         "apkName": "Courier-0.1.8.apk",
         "hash": "e013db095e8da843fae5ac44be6152e51377ee717e5c8a7b6d913d7720566b5a",
@@ -994,81 +910,6 @@
       }
     ],
     "info.guardianproject.gpg": [
-      {
-        "added": 1396828800000,
-        "apkName": "GnuPrivacyGuard-release-0.3.1.apk",
-        "hash": "53119c4b237563487e134c66403e77d9f93dcad9c05962751d00f7cc7257cc13",
-        "hashType": "sha256",
-        "minSdkVersion": 14,
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "info.guardianproject.gpg",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 10248614,
-        "targetSdkVersion": 19,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.SYSTEM_ALERT_WINDOW",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.AUTHENTICATE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.READ_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.WRITE_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.APPEND_TO_PATH",
-            null
-          ]
-        ],
-        "versionCode": 5,
-        "versionName": "0.3.1"
-      },
       {
         "added": 1394582400000,
         "apkName": "GnuPrivacyGuard-release-0.3.apk",
@@ -1825,42 +1666,6 @@
         "versionName": "0.4.2"
       },
       {
-        "added": 1365465600000,
-        "apkName": "LilDebi-release-0.4.1.apk",
-        "hash": "b256a196b6c979d37e50c7f647ab12c9caaa9c3e33a01049e3ade0ea8db9fdbb",
-        "hashType": "sha256",
-        "minSdkVersion": 7,
-        "packageName": "info.guardianproject.lildebi",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 1903079,
-        "targetSdkVersion": 17,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 6,
-        "versionName": "0.4.1"
-      },
-      {
         "added": 1360108800000,
         "apkName": "LilDebi-release-0.3.apk",
         "hash": "7676405fddebb8404b4395e4e22011300d3288e95037a80fbf6acf0436f28f2f",
@@ -1895,28 +1700,6 @@
         ],
         "versionCode": 4,
         "versionName": "0.3"
-      }
-    ],
-    "info.guardianproject.locationprivacy": [
-      {
-        "added": 1422489600000,
-        "apkName": "LocationPrivacy-0.1.apk",
-        "hash": "130cfcc8b916682d974aa4e13385b47bdc23d07b0de852640563b880aeb61d1f",
-        "hashType": "sha256",
-        "minSdkVersion": 8,
-        "packageName": "info.guardianproject.locationprivacy",
-        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
-        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
-        "size": 818384,
-        "targetSdkVersion": 21,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ]
-        ],
-        "versionCode": 10,
-        "versionName": "0.1"
       }
     ],
     "info.guardianproject.mrapp": [
@@ -5398,90 +5181,6 @@
         ],
         "versionCode": 93,
         "versionName": "13.0.1"
-      },
-      {
-        "added": 1382572800000,
-        "apkName": "ChatSecure-v12.7.1-RC5.apk",
-        "hash": "8660446e109d42742af19691aaee20165cdff636238b61ca367aee863bb3695f",
-        "hashType": "sha256",
-        "minSdkVersion": 9,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "info.guardianproject.otr.app.im",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 11838912,
-        "targetSdkVersion": 18,
-        "uses-permission": [
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.WRITE_ONLY",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.im.permission.IM_SERVICE",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ]
-        ],
-        "versionCode": 92,
-        "versionName": "12.7.1"
       },
       {
         "added": 1382227200000,
