@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1668501053000,
+    "timestamp": 1668580487000,
     "version": 20002,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -10,7 +10,8 @@
     "mirrors": [
       "https://guardianproject.info/fdroid/archive",
       "https://s3.amazonaws.com/guardianproject/fdroid/archive",
-      "https://guardianproject.s3.amazonaws.com/fdroid/archive"
+      "https://guardianproject.s3.amazonaws.com/fdroid/archive",
+      "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/archive"
     ]
   },
   "requests": {
@@ -322,7 +323,7 @@
         "Security",
         "Internet"
       ],
-      "suggestedVersionCode": "1633300100",
+      "suggestedVersionCode": "1641300200",
       "donate": "https://www.torproject.org/donate/donate.html.en",
       "flattrID": "5649",
       "issueTracker": "https://github.com/guardianproject/orbot/issues",
@@ -333,9 +334,8 @@
       "translation": "https://hosted.weblate.org/projects/guardianproject/orbot",
       "webSite": "https://guardianproject.info/apps/org.torproject.android",
       "added": 1374451200000,
-      "icon": "org.torproject.android.1633300100.png",
       "packageName": "org.torproject.android",
-      "lastUpdated": 1652140800000
+      "lastUpdated": 1668580198000
     },
     {
       "allowedAPKSigningKeys": [
@@ -7186,6 +7186,57 @@
       }
     ],
     "org.torproject.android": [
+      {
+        "added": 1619740800000,
+        "apkName": "Orbot-16.4.1-RC-2-tor.0.4.4.6-fullperm-universal-release.apk",
+        "hash": "786ccde7a2d936a242123e22b7b15e417de2316fe86b02ac007a62f169a0e8ef",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "org.torproject.android",
+        "sig": "8bd7e51b479aeba908ff46ada3305a29",
+        "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
+        "size": 63052394,
+        "targetSdkVersion": 29,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            18
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            18
+          ]
+        ],
+        "versionCode": 1641300200,
+        "versionName": "16.4.1-RC-2-tor.0.4.4.6"
+      },
       {
         "added": 1607731200000,
         "apkName": "Orbot-16.3.3-RC-1-tor-0.4.3.6-fullperm-universal-release.apk",

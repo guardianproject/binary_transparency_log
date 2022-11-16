@@ -23,9 +23,12 @@
       },
       {
         "url": "https://guardianproject.s3.amazonaws.com/fdroid/archive"
+      },
+      {
+        "url": "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/archive"
       }
     ],
-    "timestamp": 1668501053000
+    "timestamp": 1668580487000
   },
   "packages": {
     "info.guardianproject.browser": {
@@ -6787,7 +6790,7 @@
           "Internet"
         ],
         "issueTracker": "https://github.com/guardianproject/orbot/issues",
-        "lastUpdated": 1652140800000,
+        "lastUpdated": 1668580198000,
         "license": "BSD-3-Clause",
         "sourceCode": "https://github.com/guardianproject/orbot",
         "translation": "https://hosted.weblate.org/projects/guardianproject/orbot",
@@ -6804,16 +6807,63 @@
         "donate": [
           "https://www.torproject.org/donate/donate.html.en"
         ],
-        "icon": {
-          "en-US": {
-            "name": "/icons/org.torproject.android.1633300100.png",
-            "sha256": "fe84cf1d8253ff9aab042bdee1e05568537f2e9c22676739fbe3a8775984b8b8",
-            "size": 3505
-          }
-        },
         "preferredSigner": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
       },
       "versions": {
+        "786ccde7a2d936a242123e22b7b15e417de2316fe86b02ac007a62f169a0e8ef": {
+          "added": 1619740800000,
+          "file": {
+            "name": "/Orbot-16.4.1-RC-2-tor.0.4.4.6-fullperm-universal-release.apk",
+            "sha256": "786ccde7a2d936a242123e22b7b15e417de2316fe86b02ac007a62f169a0e8ef",
+            "size": 63052394,
+            "ipfsCIDv1": "bafybeigajprvwxzqfkqikvgww32vzljvcgbhts5y5fhrdur5vkniqhb7vy"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "16.4.1-RC-2-tor.0.4.4.6",
+            "versionCode": 1641300200,
+            "usesSdk": {
+              "minSdkVersion": 16,
+              "targetSdkVersion": 29
+            },
+            "signer": {
+              "sha256": [
+                "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 18
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 18
+              }
+            ]
+          }
+        },
         "dd4ccf44023684a4f2a8734b693657bb8d5391139e05fd48cbbce96c9a385a21": {
           "added": 1607731200000,
           "file": {
