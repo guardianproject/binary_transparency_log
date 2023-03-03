@@ -28,7 +28,7 @@
         "url": "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/archive"
       }
     ],
-    "timestamp": 1677480621000
+    "timestamp": 1677835063000
   },
   "packages": {
     "info.guardianproject.browser": {
@@ -48,7 +48,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "Orweb"
         },
@@ -311,7 +311,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "CACertMan"
         },
@@ -394,7 +394,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": " https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "StickerPack"
         },
@@ -454,7 +454,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "Courier"
         },
@@ -827,7 +827,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "Lil' Debi"
         },
@@ -1921,7 +1921,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "NoteCipher"
         },
@@ -2063,7 +2063,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "Orfox"
         },
@@ -2353,7 +2353,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": " https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "ChatSecure"
         },
@@ -5986,7 +5986,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "PixelKnot"
         },
@@ -6091,7 +6091,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "Ripple"
         },
@@ -6189,7 +6189,7 @@
         "authorEmail": "support@guardianproject.info",
         "authorName": "Guardian Project",
         "authorWebSite": " https://guardianproject.info",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "ChatSecureVoicePlugin"
         },
@@ -6269,7 +6269,7 @@
           "en-US": "Save"
         },
         "description": {
-          "en-US": "Save (Share Archive Verify Encrypt) by OpenArchive\nenables you to safely preserve, organize, and share your mobile media.\n"
+          "en-US": "Save (Share Archive Verify Encrypt) by OpenArchive\nenables you to safely preserve, organize, and share your mobile media.\n\nThis has been marked with Anti-Features because it includes proprietary libraries:\nhttps://github.com/OpenArchive/Save-app-android/blob/3d342b989f7da5f6d12aa5e8c8249e7c481cb7f1/app/build.gradle#L150\n"
         },
         "icon": {
           "en-US": {
@@ -6334,6 +6334,10 @@
                 "name": "android.permission.WAKE_LOCK"
               }
             ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {},
+            "NonFreeNet": {}
           }
         }
       }
@@ -6355,7 +6359,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "Haven"
         },
@@ -6363,7 +6367,7 @@
           "en-US": "Protect personal spaces and possessions without compromising privacy"
         },
         "description": {
-          "en-US": "Haven is for people who need a way to protect their personal spaces\nand possessions without compromising their own privacy. It is an\nAndroid application that leverages on-device sensors to provide\nmonitoring and protection of physical spaces. Haven turns any Android\nphone into a motion, sound, vibration and light detector, watching\nfor unexpected guests and unwanted intruders. We designed Haven for\ninvestigative journalists, human rights defenders, and people at risk\nof forced disappearance to create a new kind of herd immunity. By\ncombining the array of sensors found in any smartphone, with the\nworld\u2019s most secure communications technologies, like Signal and Tor,\nHaven prevents the worst kind of people from silencing citizens\nwithout getting caught in the act.\n\nProject Team\n\nHaven was developed through a collaboration between Freedom of the\nPress Foundation and Guardian Project. Prototype funding was\ngenerously provided by FoPF, and donations to support continuing work\ncan be contributed through their site:\nhttps://freedom.press/donate-support-haven-open-source-project\n\nSafety through Sensors\n\nHaven only saves images and sound when triggered by motion or volume,\nand stores everything locally on the device. You can position the\ndevice\u2019s camera to capture visible motion, or set your phone\nsomewhere discreet to just listen for noises. Get secure\nnotifications of intrusion events instantly and access the logs\nremotely or anytime later.\n\nThe follow sensors are monitored for a measurable change, and then\nrecorded to an event log on the device:\n\n* Accelerometer: phone\u2019s motion and vibration\n* Camera: motion in the phone\u2019s visible surroundings from front or back camera\n* Microphone: noises in the enviroment\n* Light: change in light from ambient light sensor\n* Power: detect device being unplugged or power loss\n"
+          "en-US": "Haven is for people who need a way to protect their personal spaces\nand possessions without compromising their own privacy. It is an\nAndroid application that leverages on-device sensors to provide\nmonitoring and protection of physical spaces. Haven turns any Android\nphone into a motion, sound, vibration and light detector, watching\nfor unexpected guests and unwanted intruders. We designed Haven for\ninvestigative journalists, human rights defenders, and people at risk\nof forced disappearance to create a new kind of herd immunity. By\ncombining the array of sensors found in any smartphone, with the\nworld\u2019s most secure communications technologies, like Signal and Tor,\nHaven prevents the worst kind of people from silencing citizens\nwithout getting caught in the act.\n\nProject Team\n\nHaven was developed through a collaboration between Freedom of the\nPress Foundation and Guardian Project. Prototype funding was\ngenerously provided by FoPF, and donations to support continuing work\ncan be contributed through their site:\nhttps://freedom.press/donate-support-haven-open-source-project\n\nSafety through Sensors\n\nHaven only saves images and sound when triggered by motion or volume,\nand stores everything locally on the device. You can position the\ndevice\u2019s camera to capture visible motion, or set your phone\nsomewhere discreet to just listen for noises. Get secure\nnotifications of intrusion events instantly and access the logs\nremotely or anytime later.\n\nThe follow sensors are monitored for a measurable change, and then\nrecorded to an event log on the device:\n\n* Accelerometer: phone\u2019s motion and vibration\n* Camera: motion in the phone\u2019s visible surroundings from front or back camera\n* Microphone: noises in the enviroment\n* Light: change in light from ambient light sensor\n* Power: detect device being unplugged or power loss\n\nThe non-free dependency Anti-Feature is due to a proprietary Google\nGMS library getting pulled in somehow.  Some library that Haven uses\nmust pull it in, it is not directly used in Haven.\n"
         },
         "icon": {
           "en-US": {
@@ -6440,6 +6444,9 @@
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               }
             ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
           }
         },
         "bc2cdfed816baf7c08af4964815dd27a85b91fe9a66288e375f47636f8dcacad": {
@@ -6510,6 +6517,9 @@
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               }
             ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
           }
         },
         "8e33a47ba17ab9737325274e8b7a50505f5a15535b035ce0bde9edc5e6ee1ebe": {
@@ -6577,6 +6587,9 @@
                 "name": "android.permission.READ_MEDIA_STORAGE"
               }
             ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
           }
         },
         "0cd7a8f5296a4a02f3032c69389df94c4880e39b9f793bfcceb968553362ec2b": {
@@ -6644,6 +6657,9 @@
                 "name": "android.permission.READ_MEDIA_STORAGE"
               }
             ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
           }
         },
         "79c4cac9184f520416c18e300cc9bf4a2d34128c21c2ca059924378bc40ff4c0": {
@@ -6711,6 +6727,9 @@
                 "name": "android.permission.READ_MEDIA_STORAGE"
               }
             ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
           }
         },
         "6c79473bbe3fffcd7327f0ef770a31d19552b967f30f4622e8b7facbad449ab6": {
@@ -6777,6 +6796,9 @@
                 "name": "android.permission.READ_MEDIA_STORAGE"
               }
             ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
           }
         }
       }
@@ -6789,8 +6811,9 @@
           "Security",
           "Internet"
         ],
+        "changelog": "https://github.com/guardianproject/orbot/releases",
         "issueTracker": "https://github.com/guardianproject/orbot/issues",
-        "lastUpdated": 1668580198000,
+        "lastUpdated": 1677834692000,
         "license": "BSD-3-Clause",
         "sourceCode": "https://github.com/guardianproject/orbot",
         "translation": "https://hosted.weblate.org/projects/guardianproject/orbot",
@@ -6800,7 +6823,7 @@
         "authorWebSite": "https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
         "flattrID": "5649",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "Orbot: Proxy with Tor"
         },
@@ -6810,6 +6833,62 @@
         "preferredSigner": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
       },
       "versions": {
+        "f45d8e7ea090446a6b6d89da2b5bfc85f14b3d8c66f8a9a35ced2c88f649b94f": {
+          "added": 1645142400000,
+          "file": {
+            "name": "/Orbot-16.6.0-RC-2-tor.0.4.6.9-fullperm-universal-release.apk",
+            "sha256": "f45d8e7ea090446a6b6d89da2b5bfc85f14b3d8c66f8a9a35ced2c88f649b94f",
+            "size": 46651248,
+            "ipfsCIDv1": "bafybeid7iis3agftoesg6ccznquvgodew257hmzsr7567sdc26dtrl4fnm"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "16.6.0-RC-2-tor.0.4.6.9",
+            "versionCode": 1660300200,
+            "usesSdk": {
+              "minSdkVersion": 16,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 18
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 18
+              }
+            ]
+          }
+        },
         "786ccde7a2d936a242123e22b7b15e417de2316fe86b02ac007a62f169a0e8ef": {
           "added": 1619740800000,
           "file": {
@@ -9642,7 +9721,7 @@
           "en-US": "Experience real private browsing without tracking, surveillance, or censorship."
         },
         "description": {
-          "en-US": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n\nAbout the Anti-Features\n  In order to support WebAuthn, Firefox includes a proprietary Google library.  Tor Browser inherited this change.\n"
+          "en-US": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n\nAbout the Anti-Features\nIn order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included.\nhttps://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161\n"
         },
         "donate": [
           "https://donate.torproject.org/"
@@ -24104,7 +24183,7 @@
           "en-US": "Experience real private browsing without tracking, surveillance, or censorship."
         },
         "description": {
-          "en-US": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n\nAbout the Anti-Features\n  In order to support WebAuthn, Firefox includes a proprietary Google library.  Tor Browser inherited this change.\n"
+          "en-US": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n\nAbout the Anti-Features\nIn order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included.\nhttps://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161\n"
         },
         "donate": [
           "https://donate.torproject.org/"
@@ -37834,7 +37913,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "CameraV: Secure Visual Proof"
         },
@@ -38280,19 +38359,223 @@
           "Guardian Project"
         ],
         "issueTracker": "https://github.com/guardianproject/proofmode/issues",
-        "lastUpdated": 1652140800000,
+        "lastUpdated": 1677834701000,
         "license": "GPL-3.0-or-later",
         "sourceCode": "https://github.com/guardianproject/proofmode",
         "authorEmail": "support@guardianproject.info",
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info/",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "ProofMode: Verified Witnessing"
         },
         "preferredSigner": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
       },
       "versions": {
+        "be9e89846e7ca670868a923e577166d82617c8025762ac0152da666e993f809b": {
+          "added": 1677834698000,
+          "file": {
+            "name": "/ProofMode-0.0.18-RC-1-artwork-release.apk",
+            "sha256": "be9e89846e7ca670868a923e577166d82617c8025762ac0152da666e993f809b",
+            "size": 19061937,
+            "ipfsCIDv1": "bafybeigj3ecn3elfqnjfxhsix3lyiijuqszx4kfaqbyryvcyusz6tspe5y"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.0.18-RC-1",
+            "versionCode": 180201,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_BACKGROUND_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_MEDIA_LOCATION"
+              },
+              {
+                "name": "org.witness.proofmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {},
+            "NonFreeNet": {}
+          }
+        },
+        "36c87147c5be685a51d0dd2ed55be938af2cadf94d2479f20ffdef7d6d7ec551": {
+          "added": 1677834695000,
+          "file": {
+            "name": "/ProofMode-0.0.18-BETA-1-artwork-release.apk",
+            "sha256": "36c87147c5be685a51d0dd2ed55be938af2cadf94d2479f20ffdef7d6d7ec551",
+            "size": 19205626,
+            "ipfsCIDv1": "bafybeidtszzf27hjtlt6eyuxh6ngljitajfv33vqdylp6gt5wgkcqmlcyq"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.0.18-BETA-1",
+            "versionCode": 180103,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_BACKGROUND_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "org.witness.proofmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {},
+            "NonFreeNet": {}
+          }
+        },
+        "b429041879fee4cff0ff51cb93a8630103c4f087b8dff70e2f32d5dfad1601c4": {
+          "added": 1652140800000,
+          "file": {
+            "name": "/ProofMode-0.0.15-RC-1-artwork-release.apk",
+            "sha256": "b429041879fee4cff0ff51cb93a8630103c4f087b8dff70e2f32d5dfad1601c4",
+            "size": 11265194,
+            "ipfsCIDv1": "bafybeiapds55gaansnp4bz3cy3yqqk5ink4smtlujlxixd7bbn2kdcdrgi"
+          },
+          "manifest": {
+            "versionName": "0.0.15-RC-1",
+            "versionCode": 150301,
+            "usesSdk": {
+              "minSdkVersion": 16,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_BACKGROUND_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {},
+            "NonFreeNet": {}
+          }
+        },
         "20f4cc933f8dc480836748f993cc95758f3f5e6613178c61738fb580115cdf7a": {
           "added": 1628812800000,
           "file": {
@@ -38342,6 +38625,10 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {},
+            "NonFreeNet": {}
           }
         },
         "0eb8e0b0a7df676069d7077b1b01989e14953322f3f9dd4c710f52a6fc13e08d": {
@@ -38390,6 +38677,10 @@
                 "name": "android.permission.READ_PHONE_STATE"
               }
             ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {},
+            "NonFreeNet": {}
           }
         },
         "116676cf0b9814f040fa009cf3df70c57bbf988b7ab583edb4ee49a062c58840": {
@@ -38438,6 +38729,10 @@
                 "name": "android.permission.READ_PHONE_STATE"
               }
             ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {},
+            "NonFreeNet": {}
           }
         },
         "b1dcf519c7e8c103eae5726811a19b02d63f8ee4559940177e933afe295d02b1": {
@@ -38489,6 +38784,10 @@
                 "name": "android.permission.WAKE_LOCK"
               }
             ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {},
+            "NonFreeNet": {}
           }
         }
       }
@@ -38511,7 +38810,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
         "bitcoin": "1Fi5xUHiAPRKxHvyUGVFGt9extBe8Srdbk",
-        "liberapayID": "33617",
+        "liberapay": "GuardianProject",
         "name": {
           "en-US": "ObscuraCam"
         },
