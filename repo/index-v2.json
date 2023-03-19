@@ -25,7 +25,7 @@
         "url": "https://guardianproject.s3.amazonaws.com/fdroid/repo"
       }
     ],
-    "timestamp": 1679122217000
+    "timestamp": 1679209186000
   },
   "packages": {
     "info.guardianproject.checkey": {
@@ -2283,7 +2283,7 @@
           "Guardian Project"
         ],
         "issueTracker": "https://gitlab.torproject.org/tpo/applications/tor-browser/issues",
-        "lastUpdated": 1676531512000,
+        "lastUpdated": 1679208791000,
         "license": "MPL-2.0",
         "sourceCode": "https://gitweb.torproject.org/tor-browser.git",
         "screenshots": {
@@ -2352,6 +2352,370 @@
         "preferredSigner": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
       },
       "versions": {
+        "2dd67847d7fb40dc1ff89135f889cd615d53b29b66ac9ca7b484319ffb9927f7": {
+          "added": 1679208791000,
+          "file": {
+            "name": "/tor-browser-12.0.4-android-x86_64-multi.apk",
+            "sha256": "2dd67847d7fb40dc1ff89135f889cd615d53b29b66ac9ca7b484319ffb9927f7",
+            "size": 95938465,
+            "ipfsCIDv1": "bafybeidwyegixjqek4otvbs6dbwe5zb6naf7yrg7y5us7c7u5lqtm4b53a"
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "102.2.1-Release (12.0.4)",
+            "versionCode": 2015959855,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+                "maxSdkVersion": 26
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        },
+        "00d9c2a73f6636c202a70d12ed03af080bc76876524c65b3b2dc724c608c8f2e": {
+          "added": 1679208778000,
+          "file": {
+            "name": "/tor-browser-12.0.4-android-x86-multi.apk",
+            "sha256": "00d9c2a73f6636c202a70d12ed03af080bc76876524c65b3b2dc724c608c8f2e",
+            "size": 100075365,
+            "ipfsCIDv1": "bafybeia7yfp3sxotaw7iujimbtaq5vj3owx3rtrb6xlze2ohzqfjh6lfdm"
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "102.2.1-Release (12.0.4)",
+            "versionCode": 2015959853,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+                "maxSdkVersion": 26
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        },
+        "e6afd2a216713af0280a469bdc4870bb807aa5f2d7c64e6f906111b53d718caf": {
+          "added": 1679208751000,
+          "file": {
+            "name": "/tor-browser-12.0.4-android-aarch64-multi.apk",
+            "sha256": "e6afd2a216713af0280a469bdc4870bb807aa5f2d7c64e6f906111b53d718caf",
+            "size": 93083613,
+            "ipfsCIDv1": "bafybeia7yb6ad2mko5thgueddrudwvpknzmgitiefrijskhnsnl3st2vyq"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "102.2.1-Release (12.0.4)",
+            "versionCode": 2015959851,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+                "maxSdkVersion": 26
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        },
+        "86d59a3c8f45c54eb8683403a7ddddb98c3a2f4cf77c979dfdc807d6de172d7a": {
+          "added": 1679208764000,
+          "file": {
+            "name": "/tor-browser-12.0.4-android-armv7-multi.apk",
+            "sha256": "86d59a3c8f45c54eb8683403a7ddddb98c3a2f4cf77c979dfdc807d6de172d7a",
+            "size": 85223429,
+            "ipfsCIDv1": "bafybeibfpia44tglv3kprclsdi6f2stttxbsbdketuu2ob4r7pdscxvfza"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "102.2.1-Release (12.0.4)",
+            "versionCode": 2015959849,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+                "maxSdkVersion": 26
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        },
         "96eadba6dc45305e6982dcccd2def7bdff7ae50b94b0291c4046667f30c41f89": {
           "added": 1676531512000,
           "file": {
@@ -2639,370 +3003,6 @@
             ],
             "versionName": "102.2.1-Release (12.0.3)",
             "versionCode": 2015959841,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 31
-            },
-            "signer": {
-              "sha256": [
-                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
-                "maxSdkVersion": 26
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeDep": {}
-          }
-        },
-        "487037d5b0957583aad84251a60589d275e8a0f3ebaa702462813e74106544ec": {
-          "added": 1674197784000,
-          "file": {
-            "name": "/tor-browser-12.0.2-android-x86_64-multi.apk",
-            "sha256": "487037d5b0957583aad84251a60589d275e8a0f3ebaa702462813e74106544ec",
-            "size": 95885049,
-            "ipfsCIDv1": "bafybeicijw4kc734ccibbzwg2my7eez6aeqn4dl44h2m32x3lr2t4flwly"
-          },
-          "manifest": {
-            "nativecode": [
-              "x86_64"
-            ],
-            "versionName": "102.2.1-Release (12.0.2)",
-            "versionCode": 2015889759,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 31
-            },
-            "signer": {
-              "sha256": [
-                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
-                "maxSdkVersion": 26
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeDep": {}
-          }
-        },
-        "21b15b3a2dfa597f275c2fb144189cbfb9811a5b5b35c31863feec39d1571afe": {
-          "added": 1674197771000,
-          "file": {
-            "name": "/tor-browser-12.0.2-android-x86-multi.apk",
-            "sha256": "21b15b3a2dfa597f275c2fb144189cbfb9811a5b5b35c31863feec39d1571afe",
-            "size": 100034237,
-            "ipfsCIDv1": "bafybeidfchmysxd7bupobyfuds6j4ydseidka5c3v7vdlulnqmldh3k22q"
-          },
-          "manifest": {
-            "nativecode": [
-              "x86"
-            ],
-            "versionName": "102.2.1-Release (12.0.2)",
-            "versionCode": 2015889757,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 31
-            },
-            "signer": {
-              "sha256": [
-                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
-                "maxSdkVersion": 26
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeDep": {}
-          }
-        },
-        "baf5bb0e0c0ab2d264632ff81f3e9ad67c5474cacf17ce40d99daaec44fadefe": {
-          "added": 1674197745000,
-          "file": {
-            "name": "/tor-browser-12.0.2-android-aarch64-multi.apk",
-            "sha256": "baf5bb0e0c0ab2d264632ff81f3e9ad67c5474cacf17ce40d99daaec44fadefe",
-            "size": 93038389,
-            "ipfsCIDv1": "bafybeibodvmg3fnwfoxo3uw6xwcfo3qtxnt5lfm4heedcljy3gz3nrjyda"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "102.2.1-Release (12.0.2)",
-            "versionCode": 2015889755,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 31
-            },
-            "signer": {
-              "sha256": [
-                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
-                "maxSdkVersion": 26
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeDep": {}
-          }
-        },
-        "fb225d76b3b8e149c2cb24e4008651424d46de4a8180135fbf337d01cff40ff5": {
-          "added": 1674197757000,
-          "file": {
-            "name": "/tor-browser-12.0.2-android-armv7-multi.apk",
-            "sha256": "fb225d76b3b8e149c2cb24e4008651424d46de4a8180135fbf337d01cff40ff5",
-            "size": 85186397,
-            "ipfsCIDv1": "bafybeidesw3xtqvpmho4t2ur44cuwgl4rufmq5sh3prtbdoaifkbo2kq74"
-          },
-          "manifest": {
-            "nativecode": [
-              "armeabi-v7a"
-            ],
-            "versionName": "102.2.1-Release (12.0.2)",
-            "versionCode": 2015889753,
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 31
