@@ -16,6 +16,7 @@
     "address": "https://guardianproject.info/fdroid/repo",
     "mirrors": [
       {
+        "isPrimary": true,
         "url": "https://guardianproject.info/fdroid/repo"
       },
       {
@@ -25,7 +26,7 @@
         "url": "https://guardianproject.s3.amazonaws.com/fdroid/repo"
       }
     ],
-    "timestamp": 1684910552000
+    "timestamp": 1684963682000
   },
   "packages": {
     "info.guardianproject.checkey": {
@@ -1174,7 +1175,7 @@
           "en-US": "Save"
         },
         "description": {
-          "en-US": "Save (Share Archive Verify Encrypt) by OpenArchive\nenables you to safely preserve, organize, and share your mobile media.\n\nThis has been marked with Anti-Features because it includes proprietary libraries:\nhttps://github.com/OpenArchive/Save-app-android/blob/3d342b989f7da5f6d12aa5e8c8249e7c481cb7f1/app/build.gradle#L150\n"
+          "en-US": "Save (Share Archive Verify Encrypt) by OpenArchive\nenables you to safely preserve, organize, and share your mobile media.\n"
         },
         "icon": {
           "en-US": {
@@ -1244,8 +1245,7 @@
             ]
           },
           "antiFeatures": {
-            "NonFreeDep": {},
-            "NonFreeNet": {}
+            "NonFreeDep": {}
           }
         },
         "45776b78292d15e56f22ff779e8b477cacc45fc9fe77337a27a6a7bcfeb50d5a": {
@@ -1306,8 +1306,7 @@
             ]
           },
           "antiFeatures": {
-            "NonFreeDep": {},
-            "NonFreeNet": {}
+            "NonFreeDep": {}
           }
         }
       }
@@ -1526,7 +1525,7 @@
           "en-US": "Protect personal spaces and possessions without compromising privacy"
         },
         "description": {
-          "en-US": "Haven is for people who need a way to protect their personal spaces\nand possessions without compromising their own privacy. It is an\nAndroid application that leverages on-device sensors to provide\nmonitoring and protection of physical spaces. Haven turns any Android\nphone into a motion, sound, vibration and light detector, watching\nfor unexpected guests and unwanted intruders. We designed Haven for\ninvestigative journalists, human rights defenders, and people at risk\nof forced disappearance to create a new kind of herd immunity. By\ncombining the array of sensors found in any smartphone, with the\nworld\u2019s most secure communications technologies, like Signal and Tor,\nHaven prevents the worst kind of people from silencing citizens\nwithout getting caught in the act.\n\nProject Team\n\nHaven was developed through a collaboration between Freedom of the\nPress Foundation and Guardian Project. Prototype funding was\ngenerously provided by FoPF, and donations to support continuing work\ncan be contributed through their site:\nhttps://freedom.press/donate-support-haven-open-source-project\n\nSafety through Sensors\n\nHaven only saves images and sound when triggered by motion or volume,\nand stores everything locally on the device. You can position the\ndevice\u2019s camera to capture visible motion, or set your phone\nsomewhere discreet to just listen for noises. Get secure\nnotifications of intrusion events instantly and access the logs\nremotely or anytime later.\n\nThe follow sensors are monitored for a measurable change, and then\nrecorded to an event log on the device:\n\n* Accelerometer: phone\u2019s motion and vibration\n* Camera: motion in the phone\u2019s visible surroundings from front or back camera\n* Microphone: noises in the enviroment\n* Light: change in light from ambient light sensor\n* Power: detect device being unplugged or power loss\n\nThe non-free dependency Anti-Feature is due to a proprietary Google\nGMS library getting pulled in somehow.  Some library that Haven uses\nmust pull it in, it is not directly used in Haven.\n"
+          "en-US": "Haven is for people who need a way to protect their personal spaces\nand possessions without compromising their own privacy. It is an\nAndroid application that leverages on-device sensors to provide\nmonitoring and protection of physical spaces. Haven turns any Android\nphone into a motion, sound, vibration and light detector, watching\nfor unexpected guests and unwanted intruders. We designed Haven for\ninvestigative journalists, human rights defenders, and people at risk\nof forced disappearance to create a new kind of herd immunity. By\ncombining the array of sensors found in any smartphone, with the\nworld\u2019s most secure communications technologies, like Signal and Tor,\nHaven prevents the worst kind of people from silencing citizens\nwithout getting caught in the act.\n\nProject Team\n\nHaven was developed through a collaboration between Freedom of the\nPress Foundation and Guardian Project. Prototype funding was\ngenerously provided by FoPF, and donations to support continuing work\ncan be contributed through their site:\nhttps://freedom.press/donate-support-haven-open-source-project\n\nSafety through Sensors\n\nHaven only saves images and sound when triggered by motion or volume,\nand stores everything locally on the device. You can position the\ndevice\u2019s camera to capture visible motion, or set your phone\nsomewhere discreet to just listen for noises. Get secure\nnotifications of intrusion events instantly and access the logs\nremotely or anytime later.\n\nThe follow sensors are monitored for a measurable change, and then\nrecorded to an event log on the device:\n\n* Accelerometer: phone\u2019s motion and vibration\n* Camera: motion in the phone\u2019s visible surroundings from front or back camera\n* Microphone: noises in the enviroment\n* Light: change in light from ambient light sensor\n* Power: detect device being unplugged or power loss\n"
         },
         "icon": {
           "en-US": {
@@ -1762,7 +1761,7 @@
         ],
         "changelog": "https://github.com/guardianproject/orbot/releases",
         "issueTracker": "https://github.com/guardianproject/orbot/issues",
-        "lastUpdated": 1677834692000,
+        "lastUpdated": 1684963270000,
         "license": "BSD-3-Clause",
         "sourceCode": "https://github.com/guardianproject/orbot",
         "translation": "https://hosted.weblate.org/projects/guardianproject/orbot",
@@ -2048,6 +2047,68 @@
         "preferredSigner": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
       },
       "versions": {
+        "10a4ad0fe599ed6b5c7fa450a0678b4e4606252be3906f9c27dd2484ea086682": {
+          "added": 1684963270000,
+          "file": {
+            "name": "/Orbot-17.0.0-RC-1-tor.0.4.7.11-fullperm-universal-release.apk",
+            "sha256": "10a4ad0fe599ed6b5c7fa450a0678b4e4606252be3906f9c27dd2484ea086682",
+            "size": 60910075,
+            "ipfsCIDv1": "bafybeifcr52az665u3w2sconp23bogllbxypi7zr43e2shrjoqajciapoa"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "17.0.0-RC-1-tor.0.4.7.11",
+            "versionCode": 1700300100,
+            "usesSdk": {
+              "minSdkVersion": 18,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 18
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 18
+              }
+            ]
+          }
+        },
         "a047b98fcc4723bc43e99b42cf246a31e82412229300d37287dc2fb5c9afe885": {
           "added": 1677834692000,
           "file": {
@@ -2215,62 +2276,6 @@
               }
             ]
           }
-        },
-        "284091758461422d0f14ab3476455ca563ad70fb662685bd3e4234fd6011c737": {
-          "added": 1647388800000,
-          "file": {
-            "name": "/Orbot-16.6.0-RC-4-tor.0.4.6.9-fullperm-universal-release.apk",
-            "sha256": "284091758461422d0f14ab3476455ca563ad70fb662685bd3e4234fd6011c737",
-            "size": 46668890,
-            "ipfsCIDv1": "bafybeihjbruxlphpne4s3na7vhxgum5y2kygb5vu4dcjktox7cff247pb4"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "16.6.0-RC-4-tor.0.4.6.9",
-            "versionCode": 1660300400,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 31
-            },
-            "signer": {
-              "sha256": [
-                "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 18
-              },
-              {
-                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 18
-              }
-            ]
-          }
         }
       }
     },
@@ -2344,7 +2349,7 @@
           "en-US": "Experience real private browsing without tracking, surveillance, or censorship."
         },
         "description": {
-          "en-US": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n\nAbout the Anti-Features\nIn order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included.\nhttps://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161\n"
+          "en-US": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n"
         },
         "donate": [
           "https://donate.torproject.org/"
@@ -3106,7 +3111,7 @@
           "en-US": "Experience real private browsing without tracking, surveillance, or censorship."
         },
         "description": {
-          "en-US": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n\nAbout the Anti-Features\nIn order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included.\nhttps://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161\n"
+          "en-US": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n"
         },
         "donate": [
           "https://donate.torproject.org/"
@@ -3752,7 +3757,7 @@
           "Guardian Project"
         ],
         "issueTracker": "https://github.com/guardianproject/proofmode/issues",
-        "lastUpdated": 1677834701000,
+        "lastUpdated": 1684963277000,
         "license": "GPL-3.0-or-later",
         "sourceCode": "https://github.com/guardianproject/proofmode",
         "featureGraphic": {
@@ -3921,13 +3926,13 @@
         "preferredSigner": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
       },
       "versions": {
-        "1ed82e8261e29d1223598a3c483e15f7bd313a5e43eb8d6fe2656a8f928eaf49": {
-          "added": 1677834701000,
+        "807eba786ba8578b8252a7adf47f3ea19cc2959b805086f25b942052ab29fd1c": {
+          "added": 1684963277000,
           "file": {
-            "name": "/ProofMode-0.0.18-RC-2-artwork-release.apk",
-            "sha256": "1ed82e8261e29d1223598a3c483e15f7bd313a5e43eb8d6fe2656a8f928eaf49",
-            "size": 19069169,
-            "ipfsCIDv1": "bafybeidyrobmcsfgvyetmhvxqp3yumzqzoilgc52vz5yyibqd4dcedowfi"
+            "name": "/ProofMode-0.0.19-RC-2-artwork-release.apk",
+            "sha256": "807eba786ba8578b8252a7adf47f3ea19cc2959b805086f25b942052ab29fd1c",
+            "size": 19318390,
+            "ipfsCIDv1": "bafybeibhzdgw4srwzsw6twygdi6gsikdjxcqizygflwx3i4oy3hweaia4m"
           },
           "manifest": {
             "nativecode": [
@@ -3936,8 +3941,8 @@
               "x86",
               "x86_64"
             ],
-            "versionName": "0.0.18-RC-2",
-            "versionCode": 180202,
+            "versionName": "0.0.19-RC-2",
+            "versionCode": 190302,
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 33
@@ -3949,10 +3954,26 @@
             },
             "usesPermission": [
               {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
               },
               {
                 "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_MEDIA_LOCATION"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
               },
               {
                 "name": "android.permission.CAMERA"
@@ -3980,12 +4001,6 @@
               },
               {
                 "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_IMAGES"
-              },
-              {
-                "name": "android.permission.ACCESS_MEDIA_LOCATION"
               },
               {
                 "name": "org.witness.proofmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
