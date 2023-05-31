@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1685515330000,
+    "timestamp": 1685563123000,
     "version": 20002,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -25,40 +25,10 @@
       "authorName": "Guardian Project",
       "authorWebSite": "https://guardianproject.info",
       "categories": [
-        "Security",
-        "Guardian Project"
-      ],
-      "suggestedVersionCode": "4",
-      "description": "Android 4+ allows you to disable certificates from the system Settings and\nroot isn't required, so try that first if you want to manually mess with the\ncertificates.\nThe app won't work with Android 4+ anyway.\n\nAn app to manage security certificates on your phone also containing a version\nof the Android CACert keystore derived from Mozilla.\nIf a certificate has recently become untrusted you can either install an update\nto this app or you can backup and remove certificates by yourself.\n\nRequires root: Yes, it writes to the system partition.\nYou will need a device that has the \u2018grep\u2019 command on it (via busybox:\npresent on most custom ROMs).\nIf the \u2018save\u2019 doesn\u2019t work, then you will need to make your /system partition\nread-write by using a file explorer like https://f-droid.org/packages/com.ghostsq.commander or via\na command in https://f-droid.org/packages/jackpal.androidterm.",
-      "issueTracker": "https://github.com/guardianproject/cacert/issues",
-      "liberapay": "GuardianProject",
-      "license": "GPL-3.0-only",
-      "openCollective": "GuardianProject",
-      "sourceCode": "https://github.com/guardianproject/cacert",
-      "summary": "Disable untrusted certificates",
-      "webSite": "https://guardianproject.info/2011/09/05/cacertman-app-to-address-diginotar-other-bad-cas",
-      "added": 1376870400000,
-      "icon": "info.guardianproject.cacert.4.png",
-      "packageName": "info.guardianproject.cacert",
-      "lastUpdated": 1383177600000,
-      "localized": {
-        "en-US": {
-          "name": "CACertMan"
-        }
-      }
-    },
-    {
-      "allowedAPKSigningKeys": [
-        "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
-      ],
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": "https://guardianproject.info",
-      "categories": [
         "Guardian Project",
         "Development"
       ],
-      "suggestedVersionCode": "206",
+      "suggestedVersionCode": "201",
       "issueTracker": "https://dev.guardianproject.info/projects/informacam/issues",
       "liberapay": "GuardianProject",
       "license": "GPL-3.0-or-later",
@@ -67,7 +37,7 @@
       "sourceCode": "https://github.com/guardianproject/CameraV",
       "webSite": "https://guardianproject.info/apps/camerav/",
       "added": 1386720000000,
-      "icon": "org.witness.informacam.app.206.png",
+      "icon": "org.witness.informacam.app.201.png",
       "packageName": "org.witness.informacam.app",
       "lastUpdated": 1446508800000
     },
@@ -82,7 +52,7 @@
         "Internet",
         "Guardian Project"
       ],
-      "suggestedVersionCode": "1423001",
+      "suggestedVersionCode": "1420000",
       "issueTracker": "https://dev.guardianproject.info/projects/gibberbot/issues",
       "liberapay": "GuardianProject",
       "license": "Apache-2.0",
@@ -90,70 +60,12 @@
       "sourceCode": "https://github.com/guardianproject/ChatSecureAndroid",
       "webSite": "https://dev.guardianproject.info/projects/gibberbot",
       "added": 1363651200000,
-      "icon": "info.guardianproject.otr.app.im.1423001.png",
+      "icon": "info.guardianproject.otr.app.im.1420000.png",
       "packageName": "info.guardianproject.otr.app.im",
       "lastUpdated": 1480636800000,
       "localized": {
         "en-US": {
           "name": "ChatSecure"
-        }
-      }
-    },
-    {
-      "allowedAPKSigningKeys": [
-        "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
-      ],
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
-      "categories": [
-        "Multimedia",
-        "Security",
-        "Guardian Project"
-      ],
-      "suggestedVersionCode": "2",
-      "description": "This is a plugin for [[info.guardianproject.otr.app.im]]. It does not have any\nfunction on its own.  For Your Ears Only... completely private, end-to-end\nencryption voice message recording, sending, receiving and playback.\n\n * For use with [[info.guardianproject.otr.app.im]]'s encrypted \"Off-the-record\" data stream\n * Works over Tor - the ONLY Onion-routed voice messaging system, for total anonymity",
-      "issueTracker": "https://dev.guardianproject.info/projects/chatsecure/issues",
-      "liberapay": "GuardianProject",
-      "license": "SIL Open Font License, MIT License and the CC 3.0 License [CC-By with attribution requirement waived]",
-      "sourceCode": "https://github.com/guardianproject/ChatSecureVoicePlugin",
-      "summary": "ChatSecure Voice Messaging",
-      "webSite": "https://guardianproject.info/apps/chatsecure",
-      "added": 1386892800000,
-      "icon": "info.guardianproject.soundrecorder.2.png",
-      "packageName": "info.guardianproject.soundrecorder",
-      "lastUpdated": 1386892800000,
-      "localized": {
-        "en-US": {
-          "name": "ChatSecureVoicePlugin"
-        }
-      }
-    },
-    {
-      "allowedAPKSigningKeys": [
-        "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
-      ],
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": "https://guardianproject.info",
-      "categories": [
-        "Reading",
-        "Guardian Project"
-      ],
-      "suggestedVersionCode": "14",
-      "liberapay": "GuardianProject",
-      "license": "GPL-3.0-only",
-      "openCollective": "GuardianProject",
-      "sourceCode": "https://github.com/guardianproject/securereader",
-      "translation": "https://www.transifex.com/otf/securereader/",
-      "webSite": "https://dev.guardianproject.info/projects/secure-reader",
-      "added": 1400025600000,
-      "icon": "info.guardianproject.courier.14.png",
-      "packageName": "info.guardianproject.courier",
-      "lastUpdated": 1400025600000,
-      "localized": {
-        "en-US": {
-          "name": "Courier"
         }
       }
     },
@@ -169,7 +81,7 @@
         "Guardian Project",
         "Security"
       ],
-      "suggestedVersionCode": "4",
+      "suggestedVersionCode": "1",
       "description": "GnuPrivacyGuard extends the gpgcli command line tool to bring an integrated\nprivacy engine to your Android. It gives you command line access to the entire\nGnuPG suite of encryption software. It also serves as the test bed for\ncomplete Android integration for all of GnuPG's crypto services, including\nOpenPGP, symmetric encryption, and more.\n\nGPG is GNU\u2019s tool for end-to-end secure communication and encrypted data\nstorage. This trusted protocol is the free software alternative to PGP. This\napp is built upon GnuPG 2.1, the new modularized version of GnuPG that now\nsupports S/MIME.\n\nGPG aims to provide an integrated experience, so clicking on PGP files should\n\"just work\". You can also share files to GPG to encrypt them. GPG will also\nrespond when you click on a PGP fingerprint URL (one that starts with\nopenpgp4fpr:).\n\nBefore using GPG, be sure to launch the app and let it finish its installation\nprocess. Once it has completed, then you're ready to use it. The easiest way\nto get started with GPG is to install https://f-droid.org/packages/jackpal.androidterm. GPG will\nautomatically configure Android Terminal Emulator as long as you have the\n\"Allow PATH extensions\" settings enabled.\n\nStatus: Unmaintained, use https://f-droid.org/packages/org.sufficientlysecure.keychain/",
       "issueTracker": "https://dev.guardianproject.info/projects/gpgandroid/issues",
       "license": "GPL-3.0-or-later",
@@ -177,12 +89,12 @@
       "summary": "GnuPG via gpgcli",
       "webSite": "https://guardianproject.info/code/gnupg",
       "added": 1367971200000,
-      "icon": "info.guardianproject.gpg.4.png",
+      "icon": "info.guardianproject.gpg.1.png",
       "packageName": "info.guardianproject.gpg",
       "lastUpdated": 1394582400000,
       "localized": {
         "en-US": {
-          "name": "GnuPrivacyGuard"
+          "name": "gpgcli"
         }
       }
     },
@@ -231,7 +143,7 @@
         "Development",
         "Guardian Project"
       ],
-      "suggestedVersionCode": "5400",
+      "suggestedVersionCode": "5100",
       "description": "Lil' Debi builds up a whole Debian chroot on your phone entirely using\ndebootstrap. You choose the release, mirror, and size of the disk image, and\naway it goes. It could take up to an hour on a slow device.\n\nThen it has a simple chroot manager that fscks your disk, mounts/unmounts\nthings, starts/stops sshd if you have it installed, etc. You can also then use\n\u2018apt-get\u2019 to install any package that is released for ARM processors. This\nincludes things like a complete real shell, Tor, TraceRouteTCP,\niwconfig/ipconfig, and other security and crypto tools. Works well with\nhttps://f-droid.org/packages/jackpal.androidterm \u2014just run `/debian/shell` to get a Debian shell.\n\nThe aim of Lil\u2019 Debi is to provide a transparent and tightly integrated Debian\ninstall on your Android device. It mounts all of your Android partitions in\nDebian space, so you see a fusion of both systems. It's even possible to have\nLil\u2019 Debi launch the normal Debian init start-up scripts when it starts, so that\nall you need to do is apt-get install and any servers you install will just\nwork.\n\nLil' Debi works with as few modifications to the Android system as possible.\nCurrently, it only adds a /bin symlink, and a /debian mount directory. It does\nnot touch /system at all.\n\nRequires root: Yes, because it needs to run debootstrap, create dirs in /,\nmount/umount, etc.",
       "issueTracker": "https://github.com/guardianproject/lildebi/issues",
       "liberapay": "GuardianProject",
@@ -241,43 +153,12 @@
       "summary": "Run Debian on your phone",
       "webSite": "https://github.com/guardianproject/lildebi/wiki",
       "added": 1360108800000,
-      "icon": "info.guardianproject.lildebi.5400.png",
+      "icon": "info.guardianproject.lildebi.5100.png",
       "packageName": "info.guardianproject.lildebi",
       "lastUpdated": 1422230400000,
       "localized": {
         "en-US": {
           "name": "Lil' Debi"
-        }
-      }
-    },
-    {
-      "allowedAPKSigningKeys": [
-        "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
-      ],
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": "https://guardianproject.info",
-      "categories": [
-        "Writing",
-        "Security",
-        "Guardian Project"
-      ],
-      "suggestedVersionCode": "12",
-      "description": "Simple app for taking notes that encrypts everything behind a password.\n\nStatus: Unmaintained.",
-      "issueTracker": "https://github.com/guardianproject/notecipher/issues",
-      "liberapay": "GuardianProject",
-      "license": "Apache-2.0",
-      "openCollective": "GuardianProject",
-      "sourceCode": "https://github.com/guardianproject/notecipher",
-      "summary": "Notepad with lock",
-      "webSite": "https://guardianproject.info",
-      "added": 1358294400000,
-      "icon": "info.guardianproject.notepadbot.12.png",
-      "packageName": "info.guardianproject.notepadbot",
-      "lastUpdated": 1394409600000,
-      "localized": {
-        "en-US": {
-          "name": "NoteCipher"
         }
       }
     },
@@ -388,7 +269,7 @@
       "summary": "Privacy-enhanced browser",
       "webSite": "https://guardianproject.info/apps/orweb",
       "added": 1350864000000,
-      "icon": "info.guardianproject.browser.7010.png",
+      "icon": "info.guardianproject.browser.25.png",
       "packageName": "info.guardianproject.browser",
       "lastUpdated": 1448496000000,
       "localized": {
@@ -517,50 +398,19 @@
       "authorName": "Guardian Project",
       "authorWebSite": " https://guardianproject.info",
       "categories": [
-        "Multimedia",
-        "Security",
-        "Guardian Project"
-      ],
-      "suggestedVersionCode": "1",
-      "description": "Plugin for https://f-droid.org/packages/info.guardianproject.otr.app.im/ to support for core emoji input\nand display.  Based on \"Phantom Open Emoji\" project.\n",
-      "issueTracker": "https://dev.guardianproject.info/projects/chatsecure/issues",
-      "liberapay": "GuardianProject",
-      "license": "MIT",
-      "openCollective": "GuardianProject",
-      "sourceCode": "https://github.com/guardianproject/ChatSecureVoicePlugin",
-      "summary": "ChatSecure Open Emoji Plugin",
-      "webSite": "https://guardianproject.info/apps/chatsecure",
-      "added": 1385942400000,
-      "icon": "info.guardianproject.chatsecure.emoji.core.1.png",
-      "packageName": "info.guardianproject.chatsecure.emoji.core",
-      "lastUpdated": 1385942400000,
-      "localized": {
-        "en-US": {
-          "name": "StickerPack"
-        }
-      }
-    },
-    {
-      "allowedAPKSigningKeys": [
-        "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
-      ],
-      "authorEmail": "support@guardianproject.info",
-      "authorName": "Guardian Project",
-      "authorWebSite": " https://guardianproject.info",
-      "categories": [
         "Internet",
         "Multimedia",
         "Guardian Project"
       ],
-      "suggestedVersionCode": "118",
+      "suggestedVersionCode": "96",
       "description": "Creating great stories is now easier than ever with StoryMaker. Our unique templates, overlays, and lessons guide you through the entire creative process. StoryMaker lets you edit your content right on your mobile, making it even easier to finish your story. Once you've finished, StoryMaker lets you publish your story to all of your favorite platforms.\n* AUDIO PHOTO & VIDEO *\nWhether it\u2019s a photo series, an audio story, or a video package, StoryMaker walks you through what you need to know in order to be successful.\n* TEMPLATES *\nOur story templates offer suggested narrative arcs, and potential questions to give you structure, but leave you enough room to tell the story you want.\n* LEARN *\nDesigned by a group of trainers with years of experience working in the field, StoryMaker is the tool you need to tell the stories you're passionate about, while staying safe. StoryMaker has access to a 55 lesson course in Journalism, Security, Photo, Audio, and Video production. So when you\u2019re ready to dive deep and learn everything you can, we have the lessons to get you started.\n* OVERLAYS *\nEveryone recognizes an interview or a location shot when they see them on the news, but with StoryMaker\u2019s innovative overlays it\u2019s easy to recreate the shot you want when it matters the most, at the point of production.\n* EDIT *\nStoryMaker lets you rearrange and trim your clips to tweak them to perfection, it even makes it easy to record your own narration to go with your story.\n* SHARE *\nWhen your story is ready you can share it across all of your favorite platforms straight from StoryMaker.\n* SECURITY *\nStoryMaker takes security seriously. Our integration with Orbot allows for supported platforms to be accessed via Tor. StoryMaker relies upon Orbot, for defending against network surveillance and enabling circumvention on hostile networks.\n* EXPERIENCE *\nStoryMaker is successful because our creative team is filled with trainers with years of experience. People who have been in the field, and know how to break complex ideas down into easy to follow instructions.\n* MULTILINGUAL *\nStoryMaker supports English, Arabic, Croation/Bosnian, and Serbian languages. With experimental translations in French, Spanish, Persian, German, Macedonian and Korean.\nIf you find issues, or would like to participate in our localization effort,\nplease visit our wiki for more instructions:\nhttp://storymaker.cc/wiki/index.php?title=Translation",
       "issueTracker": "https://dev.guardianproject.info/projects/storymaker/issues",
       "license": "GPL-2.0-or-later",
       "sourceCode": "https://github.com/guardianproject/storymaker",
-      "summary": "produce professional-grade videos with your Android phone",
+      "summary": "produce professional-grade videos with your phone",
       "webSite": "https://storymaker.cc/",
       "added": 1383177600000,
-      "icon": "info.guardianproject.mrapp.118.png",
+      "icon": "info.guardianproject.mrapp.96.png",
       "packageName": "info.guardianproject.mrapp",
       "lastUpdated": 1405728000000,
       "localized": {
@@ -622,7 +472,7 @@
       "litecoin": "LNAifc8nfjtDJ8azRPiancbZSBftPzhfzb",
       "name": "Tor Browser for Android (Alpha)",
       "sourceCode": "https://gitweb.torproject.org/tor-browser.git",
-      "summary": "Experience real private browsing without tracking, surveillance, or censorship.",
+      "summary": "Experience real private browsing without tracking, surveillance, or censorship",
       "added": 1596672000000,
       "packageName": "org.torproject.torbrowser_alpha",
       "lastUpdated": 1684997104000
@@ -630,90 +480,6 @@
   ],
   "packages": {
     "info.guardianproject.browser": [
-      {
-        "added": 1448496000000,
-        "apkName": "Orweb-0.7.1.apk",
-        "hash": "949d65d6e8a1eadd0aa626bdc7c5a3e2b0dbe5a38dea1d725cce2a34ec84f0d4",
-        "hashType": "sha256",
-        "minSdkVersion": 9,
-        "packageName": "info.guardianproject.browser",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 2424394,
-        "targetSdkVersion": 21,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 7010,
-        "versionName": "0.7.1"
-      },
-      {
-        "added": 1415836800000,
-        "apkName": "Orweb-release-0.7.apk",
-        "hash": "763541f43f5dc136744b4361fe67d36f25cc036526d6c3e934287d72d1b411ab",
-        "hashType": "sha256",
-        "minSdkVersion": 9,
-        "packageName": "info.guardianproject.browser",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 1244875,
-        "targetSdkVersion": 18,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 28,
-        "versionName": "0.7"
-      },
-      {
-        "added": 1404086400000,
-        "apkName": "Orweb-release-0.6.1.apk",
-        "hash": "103f4a98fa282923c07e445b2a383e946b6c15e10ed08005af3d0743249a0359",
-        "hashType": "sha256",
-        "minSdkVersion": 9,
-        "packageName": "info.guardianproject.browser",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 931433,
-        "targetSdkVersion": 19,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 27,
-        "versionName": "0.6.1"
-      },
       {
         "added": 1392249600000,
         "apkName": "Orweb-release-0.5.2.apk",
@@ -819,330 +585,7 @@
         "versionName": "0.4.4a"
       }
     ],
-    "info.guardianproject.cacert": [
-      {
-        "added": 1376870400000,
-        "apkName": "CACertMan-0.0.2-alpha-20111011.apk",
-        "hash": "251ebd40ce4a281a2292692707fb1e9c91428994cbad80a416a297db51069eb8",
-        "hashType": "sha256",
-        "minSdkVersion": 7,
-        "packageName": "info.guardianproject.cacert",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 172263,
-        "versionCode": 4,
-        "versionName": "0.0.2.20111012"
-      },
-      {
-        "added": 1383177600000,
-        "apkName": "CACertMan-0.0.2-20110906.apk",
-        "hash": "c217c49abe5134007ceb2623a6189a73fa02af9d2b2bbcc5cbc4cb5da7b36a5d",
-        "hashType": "sha256",
-        "minSdkVersion": 8,
-        "packageName": "info.guardianproject.cacert",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 170305,
-        "versionCode": 3,
-        "versionName": "0.0.2-20110906"
-      }
-    ],
-    "info.guardianproject.chatsecure.emoji.core": [
-      {
-        "added": 1385942400000,
-        "apkName": "ChatSecurePluginOpenEmoji-release-v1.apk",
-        "hash": "131c1ebaf795c3f053701285699f0b7e517de1c7fdba56e247b1ec31766b2808",
-        "hashType": "sha256",
-        "minSdkVersion": 8,
-        "packageName": "info.guardianproject.chatsecure.emoji.core",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 1814271,
-        "targetSdkVersion": 17,
-        "versionCode": 1,
-        "versionName": "1.0"
-      }
-    ],
-    "info.guardianproject.courier": [
-      {
-        "added": 1400025600000,
-        "apkName": "Courier-0.1.8.apk",
-        "hash": "e013db095e8da843fae5ac44be6152e51377ee717e5c8a7b6d913d7720566b5a",
-        "hashType": "sha256",
-        "minSdkVersion": 9,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "info.guardianproject.courier",
-        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
-        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
-        "size": 16536125,
-        "targetSdkVersion": 15,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH_ADMIN",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 14,
-        "versionName": "0.1.8"
-      }
-    ],
     "info.guardianproject.gpg": [
-      {
-        "added": 1394582400000,
-        "apkName": "GnuPrivacyGuard-release-0.3.apk",
-        "hash": "3590e087b9003bd5be7cee95763ad5079b0ab5a40571a1edc0536602f7e8c050",
-        "hashType": "sha256",
-        "minSdkVersion": 14,
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "info.guardianproject.gpg",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 10245957,
-        "targetSdkVersion": 19,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.SYSTEM_ALERT_WINDOW",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.AUTHENTICATE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.READ_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.WRITE_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.APPEND_TO_PATH",
-            null
-          ]
-        ],
-        "versionCode": 4,
-        "versionName": "0.3"
-      },
-      {
-        "added": 1379289600000,
-        "apkName": "GnuPrivacyGuard-release-0.2.1.apk",
-        "hash": "04ab4e5d93ff3412b0678e0b2edc036f8c405dd307db60e0146f8adc1a67a81c",
-        "hashType": "sha256",
-        "minSdkVersion": 8,
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.gpg",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 9063339,
-        "targetSdkVersion": 17,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.SYSTEM_ALERT_WINDOW",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.AUTHENTICATE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.READ_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.WRITE_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.APPEND_TO_PATH",
-            null
-          ]
-        ],
-        "versionCode": 3,
-        "versionName": "0.2.1"
-      },
-      {
-        "added": 1374796800000,
-        "apkName": "GnuPrivacyGuard-release-0.2.apk",
-        "hash": "dbc80b1db19b4f1a8230a1f00072667aec5fc5f4042a628794458591e4c098d2",
-        "hashType": "sha256",
-        "minSdkVersion": 8,
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.gpg",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 9004775,
-        "targetSdkVersion": 17,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.SYSTEM_ALERT_WINDOW",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.AUTHENTICATE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.READ_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.WRITE_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.APPEND_TO_PATH",
-            null
-          ]
-        ],
-        "versionCode": 2,
-        "versionName": "0.2"
-      },
       {
         "added": 1367971200000,
         "apkName": "GnuPrivacyGuard-release-0.0.apk",
@@ -1188,151 +631,6 @@
       }
     ],
     "info.guardianproject.lildebi": [
-      {
-        "added": 1422230400000,
-        "apkName": "LilDebi-0.5.4-release.apk",
-        "hash": "2c490376d8853fae04e79541f5d61e66a42ed0e890208945a11036c4a7b111da",
-        "hashType": "sha256",
-        "maxSdkVersion": 20,
-        "minSdkVersion": 8,
-        "packageName": "info.guardianproject.lildebi",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 1876705,
-        "targetSdkVersion": 20,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.RUN_SCRIPT",
-            null
-          ]
-        ],
-        "versionCode": 5400,
-        "versionName": "0.5.4"
-      },
-      {
-        "added": 1422230400000,
-        "apkName": "LilDebi-0.5.3-release.apk",
-        "hash": "01c5a8e1fd778c141e70633d14f1b69228d6f492961098616e0446c116cf9e44",
-        "hashType": "sha256",
-        "minSdkVersion": 8,
-        "packageName": "info.guardianproject.lildebi",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 1879560,
-        "targetSdkVersion": 19,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.RUN_SCRIPT",
-            null
-          ]
-        ],
-        "versionCode": 5300,
-        "versionName": "0.5.3"
-      },
-      {
-        "added": 1413936000000,
-        "apkName": "LilDebi-0.5.2-release.apk",
-        "hash": "07fa3dfb690e44eb540942ba2a51718c72351c91a253a56a0c90649f6d8903dd",
-        "hashType": "sha256",
-        "minSdkVersion": 8,
-        "packageName": "info.guardianproject.lildebi",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 1861790,
-        "targetSdkVersion": 19,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_SUPERUSER",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "jackpal.androidterm.permission.RUN_SCRIPT",
-            null
-          ]
-        ],
-        "versionCode": 5200,
-        "versionName": "0.5.2"
-      },
       {
         "added": 1413072000000,
         "apkName": "LilDebi-0.5.1-release.apk",
@@ -1712,231 +1010,6 @@
     ],
     "info.guardianproject.mrapp": [
       {
-        "added": 1405728000000,
-        "apkName": "StoryMaker-v0.0.10-b118-BETA.apk",
-        "hash": "b90d1d2816fd959d315b0d0c9e896aeacd30d770d77cc3929848f6d68b4d9da7",
-        "hashType": "sha256",
-        "minSdkVersion": 10,
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.mrapp",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 27045191,
-        "targetSdkVersion": 19,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_STORAGE",
-            null
-          ],
-          [
-            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH.youtube",
-            null
-          ]
-        ],
-        "versionCode": 118,
-        "versionName": "0.0.10-build118"
-      },
-      {
-        "added": 1402012800000,
-        "apkName": "StoryMaker-release-0.0.9-build116.apk",
-        "hash": "50a9d48a3881e281b3af677e0ba9b979f9e3fbdf0ca16139017eb8c72bb237c4",
-        "hashType": "sha256",
-        "minSdkVersion": 10,
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.mrapp",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 26949222,
-        "targetSdkVersion": 19,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_STORAGE",
-            null
-          ],
-          [
-            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH.youtube",
-            null
-          ]
-        ],
-        "versionCode": 116,
-        "versionName": "0.0.9-build116"
-      },
-      {
-        "added": 1401926400000,
-        "apkName": "StoryMaker-release-0.0.9-build115.apk",
-        "hash": "5530bfe85fc89d0a6abdb46c015206d7f039d71cbafe923c3daa33d514f21111",
-        "hashType": "sha256",
-        "minSdkVersion": 10,
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.mrapp",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 26948336,
-        "targetSdkVersion": 19,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_STORAGE",
-            null
-          ],
-          [
-            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH.youtube",
-            null
-          ]
-        ],
-        "versionCode": 115,
-        "versionName": "0.0.9-build115"
-      },
-      {
         "added": 1395964800000,
         "apkName": "StoryMaker-release-0.0.8-build96.apk",
         "hash": "aeee4611cd00b92c375ea6756fcaf4c0c48a851b573acda1e67345ba8c613ca3",
@@ -2237,94 +1310,6 @@
         "versionName": "0.0.6-beta3-build91"
       }
     ],
-    "info.guardianproject.notepadbot": [
-      {
-        "added": 1394409600000,
-        "apkName": "NoteCipher-beta-0.1.apk",
-        "hash": "b560a3d6364c32990ea7505f53b019f64fde597d67513f41a50e7d034af48caa",
-        "hashType": "sha256",
-        "minSdkVersion": 10,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "info.guardianproject.notepadbot",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 7321123,
-        "targetSdkVersion": 19,
-        "uses-permission": [
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 12,
-        "versionName": "0.1"
-      },
-      {
-        "added": 1383177600000,
-        "apkName": "NoteCipher-0.0.7.1.apk",
-        "hash": "da518f13206d2218234bfcc83205b7b2b81ec67a4cc448f818c617332235e700",
-        "hashType": "sha256",
-        "minSdkVersion": 11,
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.notepadbot",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 3729342,
-        "targetSdkVersion": 17,
-        "uses-permission": [
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 11,
-        "versionName": "0.0.7.1"
-      },
-      {
-        "added": 1358294400000,
-        "apkName": "NoteCipher-0.0.7.apk",
-        "hash": "8fa7536a87634c6b3441053c4f16315e4fd5aa6ef672a0026a594c107308d7bf",
-        "hashType": "sha256",
-        "minSdkVersion": 7,
-        "nativecode": [
-          "armeabi"
-        ],
-        "packageName": "info.guardianproject.notepadbot",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 3731119,
-        "targetSdkVersion": 17,
-        "uses-permission": [
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 10,
-        "versionName": "0.0.7"
-      }
-    ],
     "info.guardianproject.orfox": [
       {
         "added": 1480636800000,
@@ -2606,270 +1591,6 @@
       }
     ],
     "info.guardianproject.otr.app.im": [
-      {
-        "added": 1454457600000,
-        "apkName": "ChatSecure-v14.2.3a.apk",
-        "hash": "36d7d71c8a2115bdd2bd63bb639af286ee3242cce11cdb5c53378d1a7f35528e",
-        "hashType": "sha256",
-        "minSdkVersion": 9,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "info.guardianproject.otr.app.im",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 10502397,
-        "targetSdkVersion": 21,
-        "uses-permission": [
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.WRITE_ONLY",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.im.permission.IM_SERVICE",
-            null
-          ],
-          [
-            "android.permission.UPDATE_APP_OPS_STATS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ]
-        ],
-        "versionCode": 1423001,
-        "versionName": "14.2.3"
-      },
-      {
-        "added": 1480636800000,
-        "apkName": "ChatSecure-v14.2.2.apk",
-        "hash": "9d4620fec0c7837ddffccde7918d7a7db0976fbcd361b96659abd93b5cc0d9e3",
-        "hashType": "sha256",
-        "minSdkVersion": 9,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "info.guardianproject.otr.app.im",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 10502135,
-        "targetSdkVersion": 21,
-        "uses-permission": [
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.WRITE_ONLY",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.im.permission.IM_SERVICE",
-            null
-          ],
-          [
-            "android.permission.UPDATE_APP_OPS_STATS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ]
-        ],
-        "versionCode": 1422001,
-        "versionName": "14.2.2"
-      },
-      {
-        "added": 1440374400000,
-        "apkName": "ChatSecure-v14.2.1.apk",
-        "hash": "f82a3a7a823f5540b335743eb1399d0fd1f61bc68958750b5ef6aa0d95ad9a54",
-        "hashType": "sha256",
-        "minSdkVersion": 9,
-        "nativecode": [
-          "armeabi",
-          "x86"
-        ],
-        "packageName": "info.guardianproject.otr.app.im",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 10463010,
-        "targetSdkVersion": 21,
-        "uses-permission": [
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.providers.imps.permission.WRITE_ONLY",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "info.guardianproject.otr.app.im.permission.IM_SERVICE",
-            null
-          ],
-          [
-            "android.permission.UPDATE_APP_OPS_STATS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "com.google.android.googleapps.permission.GOOGLE_AUTH",
-            null
-          ]
-        ],
-        "versionCode": 1421001,
-        "versionName": "14.2.1"
-      },
       {
         "added": 1437350400000,
         "apkName": "ChatSecure-v14.2.0.apk",
@@ -6680,43 +5401,6 @@
         "targetSdkVersion": 23,
         "versionCode": 1,
         "versionName": "0.0"
-      }
-    ],
-    "info.guardianproject.soundrecorder": [
-      {
-        "added": 1386892800000,
-        "apkName": "ChatSecureVoiceMessaging-0.2.apk",
-        "hash": "abae18cc9cfa62fca5dce072c4c50d41b4fece506967ce9a3e2711cd1031dbee",
-        "hashType": "sha256",
-        "minSdkVersion": 10,
-        "packageName": "info.guardianproject.soundrecorder",
-        "sig": "a0eeebb161f946e3516945fae8a92a3e",
-        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
-        "size": 394212,
-        "uses-permission": [
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ]
-        ],
-        "versionCode": 2,
-        "versionName": "0.2"
       }
     ],
     "net.opendasharchive.openarchive.release": [
@@ -42406,297 +41090,6 @@
         ],
         "versionCode": 35,
         "versionName": "0.1.35"
-      },
-      {
-        "added": 1446508800000,
-        "apkName": "CameraVApp-release-0.2.6.apk",
-        "hash": "508f453e26c8c83dba858b53b21d909d549fe5646d01eb198c96c22d8e521e7c",
-        "hashType": "sha256",
-        "minSdkVersion": 16,
-        "nativecode": [
-          "armeabi",
-          "armeabi-v7a",
-          "x86"
-        ],
-        "packageName": "org.witness.informacam.app",
-        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
-        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
-        "size": 24123646,
-        "targetSdkVersion": 21,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_FINE_LOCATION",
-            null
-          ],
-          [
-            "android.permission.ACCESS_COARSE_LOCATION",
-            null
-          ],
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH_ADMIN",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.KILL_BACKGROUND_PROCESSES",
-            null
-          ],
-          [
-            "android.permission.GET_TOP_ACTIVITY_INFO",
-            null
-          ]
-        ],
-        "versionCode": 206,
-        "versionName": "0.2.6"
-      },
-      {
-        "added": 1443744000000,
-        "apkName": "CameraV-release-0.2.4.apk",
-        "hash": "a10eefaed5a12c353525b07e655f6959fe1eb06cd5c549be56afaca6db0c6ce0",
-        "hashType": "sha256",
-        "minSdkVersion": 16,
-        "nativecode": [
-          "armeabi",
-          "armeabi-v7a",
-          "x86"
-        ],
-        "packageName": "org.witness.informacam.app",
-        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
-        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
-        "size": 24062229,
-        "targetSdkVersion": 21,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_FINE_LOCATION",
-            null
-          ],
-          [
-            "android.permission.ACCESS_COARSE_LOCATION",
-            null
-          ],
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH_ADMIN",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.GET_TASKS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.KILL_BACKGROUND_PROCESSES",
-            null
-          ]
-        ],
-        "versionCode": 204,
-        "versionName": "0.2.4"
-      },
-      {
-        "added": 1442361600000,
-        "apkName": "CameraVApp-release-0.2.2.apk",
-        "hash": "8b17cbe2a5cb777b49f5ef67a390f9d9d68765c90213ac64f3ca0456860dc9b7",
-        "hashType": "sha256",
-        "minSdkVersion": 16,
-        "nativecode": [
-          "armeabi",
-          "armeabi-v7a",
-          "x86"
-        ],
-        "packageName": "org.witness.informacam.app",
-        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
-        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
-        "size": 24283932,
-        "targetSdkVersion": 21,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_FINE_LOCATION",
-            null
-          ],
-          [
-            "android.permission.ACCESS_COARSE_LOCATION",
-            null
-          ],
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH_ADMIN",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.GET_TASKS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.KILL_BACKGROUND_PROCESSES",
-            null
-          ]
-        ],
-        "versionCode": 202,
-        "versionName": "0.2.2"
       },
       {
         "added": 1438041600000,
