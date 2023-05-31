@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1685563171000,
+    "timestamp": 1685568672000,
     "version": 20002,
     "maxage": 14,
     "name": "Guardian Project Official Releases",
@@ -58,7 +58,7 @@
         "Guardian Project",
         "Development"
       ],
-      "suggestedVersionCode": "206",
+      "suggestedVersionCode": "201",
       "issueTracker": "https://dev.guardianproject.info/projects/informacam/issues",
       "liberapay": "GuardianProject",
       "license": "GPL-3.0-or-later",
@@ -67,9 +67,9 @@
       "sourceCode": "https://github.com/guardianproject/CameraV",
       "webSite": "https://guardianproject.info/apps/camerav/",
       "added": 1386720000000,
-      "icon": "org.witness.informacam.app.206.png",
+      "icon": "org.witness.informacam.app.201.png",
       "packageName": "org.witness.informacam.app",
-      "lastUpdated": 1446508800000,
+      "lastUpdated": 1438041600000,
       "localized": {
         "af": {
           "summary": "Die maklikste manier om verifieerbare foto's en video bewys te vang, veilig en p"
@@ -6173,21 +6173,19 @@
     ],
     "org.witness.informacam.app": [
       {
-        "added": 1446508800000,
-        "apkName": "CameraVApp-release-0.2.6.apk",
-        "hash": "508f453e26c8c83dba858b53b21d909d549fe5646d01eb198c96c22d8e521e7c",
+        "added": 1386720000000,
+        "apkName": "InformaCam-beta-0.1.35.apk",
+        "hash": "9a3fc49814e91a191a9a67c272d76e105add8cc3cfe2bed6c9b094f0e84a9c0a",
         "hashType": "sha256",
-        "minSdkVersion": 16,
+        "minSdkVersion": 10,
         "nativecode": [
-          "armeabi",
-          "armeabi-v7a",
-          "x86"
+          "armeabi"
         ],
         "packageName": "org.witness.informacam.app",
-        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
-        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
-        "size": 24123646,
-        "targetSdkVersion": 21,
+        "sig": "a0eeebb161f946e3516945fae8a92a3e",
+        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
+        "size": 16892544,
+        "targetSdkVersion": 18,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -6246,33 +6244,25 @@
             null
           ],
           [
-            "android.permission.GET_ACCOUNTS",
+            "android.permission.GET_TASKS",
             null
           ],
           [
-            "android.permission.USE_CREDENTIALS",
+            "android.permission.GET_ACCOUNTS",
             null
           ],
           [
             "android.permission.VIBRATE",
             null
-          ],
-          [
-            "android.permission.KILL_BACKGROUND_PROCESSES",
-            null
-          ],
-          [
-            "android.permission.GET_TOP_ACTIVITY_INFO",
-            null
           ]
         ],
-        "versionCode": 206,
-        "versionName": "0.2.6"
+        "versionCode": 35,
+        "versionName": "0.1.35"
       },
       {
-        "added": 1443744000000,
-        "apkName": "CameraV-release-0.2.4.apk",
-        "hash": "a10eefaed5a12c353525b07e655f6959fe1eb06cd5c549be56afaca6db0c6ce0",
+        "added": 1438041600000,
+        "apkName": "CameraV-release-0.2.1.apk",
+        "hash": "89808dc92a93a0b793d9d1da3cdbb615a761ff7479bc499558eddaa680a850dc",
         "hashType": "sha256",
         "minSdkVersion": 16,
         "nativecode": [
@@ -6283,8 +6273,8 @@
         "packageName": "org.witness.informacam.app",
         "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
         "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
-        "size": 24062229,
-        "targetSdkVersion": 21,
+        "size": 23052881,
+        "targetSdkVersion": 19,
         "uses-permission": [
           [
             "android.permission.INTERNET",
@@ -6363,105 +6353,8 @@
             null
           ]
         ],
-        "versionCode": 204,
-        "versionName": "0.2.4"
-      },
-      {
-        "added": 1442361600000,
-        "apkName": "CameraVApp-release-0.2.2.apk",
-        "hash": "8b17cbe2a5cb777b49f5ef67a390f9d9d68765c90213ac64f3ca0456860dc9b7",
-        "hashType": "sha256",
-        "minSdkVersion": 16,
-        "nativecode": [
-          "armeabi",
-          "armeabi-v7a",
-          "x86"
-        ],
-        "packageName": "org.witness.informacam.app",
-        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
-        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
-        "size": 24283932,
-        "targetSdkVersion": 21,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_FINE_LOCATION",
-            null
-          ],
-          [
-            "android.permission.ACCESS_COARSE_LOCATION",
-            null
-          ],
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH",
-            null
-          ],
-          [
-            "android.permission.BLUETOOTH_ADMIN",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.GET_TASKS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.KILL_BACKGROUND_PROCESSES",
-            null
-          ]
-        ],
-        "versionCode": 202,
-        "versionName": "0.2.2"
+        "versionCode": 201,
+        "versionName": "0.2.1"
       }
     ],
     "org.witness.proofmode": [

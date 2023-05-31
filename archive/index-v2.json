@@ -26,7 +26,24 @@
         "url": "https://guardianproject.s3.amazonaws.com/fdroid/archive"
       }
     ],
-    "timestamp": 1685563123000
+    "timestamp": 1685568625000,
+    "antiFeatures": {
+      "NonFreeComp": {
+        "description": {
+          "en-US": "This app includes non-free components or software libraries."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/NonFreeComp.png",
+            "sha256": "fdeb1b35495caee5e4c2a289679c978201ad46ab7627a30e501a8b5d4f295fbb",
+            "size": 897
+          }
+        },
+        "name": {
+          "en-US": "Non-Free Components"
+        }
+      }
+    }
   },
   "packages": {
     "info.guardianproject.browser": {
@@ -39475,202 +39492,6 @@
             "NonFreeComp": {
               "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
             }
-          }
-        }
-      }
-    },
-    "org.witness.informacam.app": {
-      "metadata": {
-        "added": 1386720000000,
-        "categories": [
-          "Guardian Project",
-          "Development"
-        ],
-        "issueTracker": "https://dev.guardianproject.info/projects/informacam/issues",
-        "lastUpdated": 1446508800000,
-        "license": "GPL-3.0-or-later",
-        "sourceCode": "https://github.com/guardianproject/CameraV",
-        "webSite": "https://guardianproject.info/apps/camerav/",
-        "authorEmail": "support@guardianproject.info",
-        "authorName": "Guardian Project",
-        "authorWebSite": "https://guardianproject.info",
-        "liberapay": "GuardianProject",
-        "openCollective": "GuardianProject",
-        "name": {
-          "en-US": "CameraV: Secure Visual Proof"
-        },
-        "icon": {
-          "en-US": {
-            "name": "/icons/org.witness.informacam.app.201.png",
-            "sha256": "d42c7692e898aa089735c05b76e37b818821b55b451f17a05184f9039bffe253",
-            "size": 2717
-          }
-        },
-        "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
-      },
-      "versions": {
-        "9a3fc49814e91a191a9a67c272d76e105add8cc3cfe2bed6c9b094f0e84a9c0a": {
-          "added": 1386720000000,
-          "file": {
-            "name": "/InformaCam-beta-0.1.35.apk",
-            "sha256": "9a3fc49814e91a191a9a67c272d76e105add8cc3cfe2bed6c9b094f0e84a9c0a",
-            "size": 16892544,
-            "ipfsCIDv1": "bafybeidngksblnaxf7vuj5u4tt5ietkcu3rfskwkzzsydyfon3l63q3vea"
-          },
-          "manifest": {
-            "nativecode": [
-              "armeabi"
-            ],
-            "versionName": "0.1.35",
-            "versionCode": 35,
-            "usesSdk": {
-              "minSdkVersion": 10,
-              "targetSdkVersion": 18
-            },
-            "signer": {
-              "sha256": [
-                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.ACCESS_FINE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_COARSE_LOCATION"
-              },
-              {
-                "name": "android.permission.READ_PHONE_STATE"
-              },
-              {
-                "name": "android.permission.BLUETOOTH"
-              },
-              {
-                "name": "android.permission.BLUETOOTH_ADMIN"
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.GET_TASKS"
-              },
-              {
-                "name": "android.permission.GET_ACCOUNTS"
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              }
-            ]
-          }
-        },
-        "89808dc92a93a0b793d9d1da3cdbb615a761ff7479bc499558eddaa680a850dc": {
-          "added": 1438041600000,
-          "file": {
-            "name": "/CameraV-release-0.2.1.apk",
-            "sha256": "89808dc92a93a0b793d9d1da3cdbb615a761ff7479bc499558eddaa680a850dc",
-            "size": 23052881,
-            "ipfsCIDv1": "bafybeiass6psrrso7sjx3sppwzy6tgy5zh5pmhiz4fhdrx7zk65zbyxr64"
-          },
-          "manifest": {
-            "nativecode": [
-              "armeabi",
-              "armeabi-v7a",
-              "x86"
-            ],
-            "versionName": "0.2.1",
-            "versionCode": 201,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 19
-            },
-            "signer": {
-              "sha256": [
-                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.ACCESS_FINE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_COARSE_LOCATION"
-              },
-              {
-                "name": "android.permission.READ_PHONE_STATE"
-              },
-              {
-                "name": "android.permission.BLUETOOTH"
-              },
-              {
-                "name": "android.permission.BLUETOOTH_ADMIN"
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.GET_TASKS"
-              },
-              {
-                "name": "android.permission.GET_ACCOUNTS"
-              },
-              {
-                "name": "android.permission.USE_CREDENTIALS"
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
-              }
-            ]
           }
         }
       }

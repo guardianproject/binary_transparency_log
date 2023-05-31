@@ -26,7 +26,24 @@
         "url": "https://guardianproject.s3.amazonaws.com/fdroid/repo"
       }
     ],
-    "timestamp": 1685563171000
+    "timestamp": 1685568672000,
+    "antiFeatures": {
+      "NonFreeComp": {
+        "description": {
+          "en-US": "This app includes non-free components or software libraries."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/NonFreeComp.png",
+            "sha256": "fdeb1b35495caee5e4c2a289679c978201ad46ab7627a30e501a8b5d4f295fbb",
+            "size": 897
+          }
+        },
+        "name": {
+          "en-US": "Non-Free Components"
+        }
+      }
+    }
   },
   "packages": {
     "info.guardianproject.browser": {
@@ -5485,7 +5502,7 @@
           "Development"
         ],
         "issueTracker": "https://dev.guardianproject.info/projects/informacam/issues",
-        "lastUpdated": 1446508800000,
+        "lastUpdated": 1438041600000,
         "license": "GPL-3.0-or-later",
         "sourceCode": "https://github.com/guardianproject/CameraV",
         "webSite": "https://guardianproject.info/apps/camerav/",
@@ -5568,118 +5585,30 @@
             "size": 6116
           }
         },
-        "preferredSigner": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+        "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
       },
       "versions": {
-        "508f453e26c8c83dba858b53b21d909d549fe5646d01eb198c96c22d8e521e7c": {
-          "added": 1446508800000,
+        "9a3fc49814e91a191a9a67c272d76e105add8cc3cfe2bed6c9b094f0e84a9c0a": {
+          "added": 1386720000000,
           "file": {
-            "name": "/CameraVApp-release-0.2.6.apk",
-            "sha256": "508f453e26c8c83dba858b53b21d909d549fe5646d01eb198c96c22d8e521e7c",
-            "size": 24123646,
-            "ipfsCIDv1": "bafybeia3ghdiokhu3udxpyubdq3qylambasojrki4m4g4kypxjcye2zzo4"
+            "name": "/InformaCam-beta-0.1.35.apk",
+            "sha256": "9a3fc49814e91a191a9a67c272d76e105add8cc3cfe2bed6c9b094f0e84a9c0a",
+            "size": 16892544,
+            "ipfsCIDv1": "bafybeidngksblnaxf7vuj5u4tt5ietkcu3rfskwkzzsydyfon3l63q3vea"
           },
           "manifest": {
             "nativecode": [
-              "armeabi",
-              "armeabi-v7a",
-              "x86"
+              "armeabi"
             ],
-            "versionName": "0.2.6",
-            "versionCode": 206,
+            "versionName": "0.1.35",
+            "versionCode": 35,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 21
+              "minSdkVersion": 10,
+              "targetSdkVersion": 18
             },
             "signer": {
               "sha256": [
-                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.ACCESS_FINE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_COARSE_LOCATION"
-              },
-              {
-                "name": "android.permission.READ_PHONE_STATE"
-              },
-              {
-                "name": "android.permission.BLUETOOTH"
-              },
-              {
-                "name": "android.permission.BLUETOOTH_ADMIN"
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.GET_ACCOUNTS"
-              },
-              {
-                "name": "android.permission.USE_CREDENTIALS"
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
-              },
-              {
-                "name": "android.permission.GET_TOP_ACTIVITY_INFO"
-              }
-            ]
-          }
-        },
-        "a10eefaed5a12c353525b07e655f6959fe1eb06cd5c549be56afaca6db0c6ce0": {
-          "added": 1443744000000,
-          "file": {
-            "name": "/CameraV-release-0.2.4.apk",
-            "sha256": "a10eefaed5a12c353525b07e655f6959fe1eb06cd5c549be56afaca6db0c6ce0",
-            "size": 24062229,
-            "ipfsCIDv1": "bafybeiaruh5nbu6ebxsm5e47a5o56mvznomemtynknqmaei3u34dxhdogq"
-          },
-          "manifest": {
-            "nativecode": [
-              "armeabi",
-              "armeabi-v7a",
-              "x86"
-            ],
-            "versionName": "0.2.4",
-            "versionCode": 204,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 21
-            },
-            "signer": {
-              "sha256": [
-                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
               ]
             },
             "usesPermission": [
@@ -5732,24 +5661,18 @@
                 "name": "android.permission.GET_ACCOUNTS"
               },
               {
-                "name": "android.permission.USE_CREDENTIALS"
-              },
-              {
                 "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
               }
             ]
           }
         },
-        "8b17cbe2a5cb777b49f5ef67a390f9d9d68765c90213ac64f3ca0456860dc9b7": {
-          "added": 1442361600000,
+        "89808dc92a93a0b793d9d1da3cdbb615a761ff7479bc499558eddaa680a850dc": {
+          "added": 1438041600000,
           "file": {
-            "name": "/CameraVApp-release-0.2.2.apk",
-            "sha256": "8b17cbe2a5cb777b49f5ef67a390f9d9d68765c90213ac64f3ca0456860dc9b7",
-            "size": 24283932,
-            "ipfsCIDv1": "bafybeic6vexd5yzqjro3j2xma6lpu5nqmynu6kquuizu5a2xwvqym6dk5i"
+            "name": "/CameraV-release-0.2.1.apk",
+            "sha256": "89808dc92a93a0b793d9d1da3cdbb615a761ff7479bc499558eddaa680a850dc",
+            "size": 23052881,
+            "ipfsCIDv1": "bafybeiass6psrrso7sjx3sppwzy6tgy5zh5pmhiz4fhdrx7zk65zbyxr64"
           },
           "manifest": {
             "nativecode": [
@@ -5757,11 +5680,11 @@
               "armeabi-v7a",
               "x86"
             ],
-            "versionName": "0.2.2",
-            "versionCode": 202,
+            "versionName": "0.2.1",
+            "versionCode": 201,
             "usesSdk": {
               "minSdkVersion": 16,
-              "targetSdkVersion": 21
+              "targetSdkVersion": 19
             },
             "signer": {
               "sha256": [
