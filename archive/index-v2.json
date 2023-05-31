@@ -26,7 +26,7 @@
         "url": "https://guardianproject.s3.amazonaws.com/fdroid/archive"
       }
     ],
-    "timestamp": 1685568625000,
+    "timestamp": 1685570059000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -75,14 +75,113 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/info.guardianproject.browser.25.png",
-            "sha256": "a99f4a958dce400dee44b76befd9b6716e041f5c5c9b02e2867052ead1feb63a",
-            "size": 5127
+            "name": "/icons/info.guardianproject.browser.7010.png",
+            "sha256": "fa629285670ec2eb68148e19a5ef83b91a6c11575efa8e3a9140997eb7e2e098",
+            "size": 4687
           }
         },
         "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
       },
       "versions": {
+        "949d65d6e8a1eadd0aa626bdc7c5a3e2b0dbe5a38dea1d725cce2a34ec84f0d4": {
+          "added": 1448496000000,
+          "file": {
+            "name": "/Orweb-0.7.1.apk",
+            "sha256": "949d65d6e8a1eadd0aa626bdc7c5a3e2b0dbe5a38dea1d725cce2a34ec84f0d4",
+            "size": 2424394,
+            "ipfsCIDv1": "bafybeihwyl4l26pd2tvqxmcyswserwljarvpz2y2ofwssws5eymjhjctsq"
+          },
+          "manifest": {
+            "versionName": "0.7.1",
+            "versionCode": 7010,
+            "usesSdk": {
+              "minSdkVersion": 9,
+              "targetSdkVersion": 21
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "763541f43f5dc136744b4361fe67d36f25cc036526d6c3e934287d72d1b411ab": {
+          "added": 1415836800000,
+          "file": {
+            "name": "/Orweb-release-0.7.apk",
+            "sha256": "763541f43f5dc136744b4361fe67d36f25cc036526d6c3e934287d72d1b411ab",
+            "size": 1244875,
+            "ipfsCIDv1": "bafybeie5aqdvzc45uncpxyopv6k63jirkxqhz4tvgzlib36d4hf3ujoace"
+          },
+          "manifest": {
+            "versionName": "0.7",
+            "versionCode": 28,
+            "usesSdk": {
+              "minSdkVersion": 9,
+              "targetSdkVersion": 18
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "103f4a98fa282923c07e445b2a383e946b6c15e10ed08005af3d0743249a0359": {
+          "added": 1404086400000,
+          "file": {
+            "name": "/Orweb-release-0.6.1.apk",
+            "sha256": "103f4a98fa282923c07e445b2a383e946b6c15e10ed08005af3d0743249a0359",
+            "size": 931433,
+            "ipfsCIDv1": "bafybeihvdogcejfmqi6dbtteimo25hjommq6lwi3bbpzwdooj222uw5rha"
+          },
+          "manifest": {
+            "versionName": "0.6.1",
+            "versionCode": 27,
+            "usesSdk": {
+              "minSdkVersion": 9,
+              "targetSdkVersion": 19
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
         "1f9660aff68f0b049455e3c891333a7e35230eeb72c1366b71a5767befae45a4": {
           "added": 1392249600000,
           "file": {
@@ -211,6 +310,233 @@
         }
       }
     },
+    "info.guardianproject.cacert": {
+      "metadata": {
+        "added": 1376870400000,
+        "categories": [
+          "Security",
+          "Guardian Project"
+        ],
+        "issueTracker": "https://github.com/guardianproject/cacert/issues",
+        "lastUpdated": 1383177600000,
+        "license": "GPL-3.0-only",
+        "sourceCode": "https://github.com/guardianproject/cacert",
+        "webSite": "https://guardianproject.info/2011/09/05/cacertman-app-to-address-diginotar-other-bad-cas",
+        "authorEmail": "support@guardianproject.info",
+        "authorName": "Guardian Project",
+        "authorWebSite": "https://guardianproject.info",
+        "liberapay": "GuardianProject",
+        "openCollective": "GuardianProject",
+        "name": {
+          "en-US": "CACertMan"
+        },
+        "summary": {
+          "en-US": "Disable untrusted certificates"
+        },
+        "description": {
+          "en-US": "Android 4+ allows you to disable certificates from the system Settings and\nroot isn't required, so try that first if you want to manually mess with the\ncertificates.\nThe app won't work with Android 4+ anyway.\n\nAn app to manage security certificates on your phone also containing a version\nof the Android CACert keystore derived from Mozilla.\nIf a certificate has recently become untrusted you can either install an update\nto this app or you can backup and remove certificates by yourself.\n\nRequires root: Yes, it writes to the system partition.\nYou will need a device that has the \u2018grep\u2019 command on it (via busybox:\npresent on most custom ROMs).\nIf the \u2018save\u2019 doesn\u2019t work, then you will need to make your /system partition\nread-write by using a file explorer like https://f-droid.org/packages/com.ghostsq.commander or via\na command in https://f-droid.org/packages/jackpal.androidterm."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/info.guardianproject.cacert.4.png",
+            "sha256": "9b3b882c72f684093100531ac0e965e17378b598443de18d38e9acea4b694ec8",
+            "size": 5066
+          }
+        },
+        "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+      },
+      "versions": {
+        "251ebd40ce4a281a2292692707fb1e9c91428994cbad80a416a297db51069eb8": {
+          "added": 1376870400000,
+          "file": {
+            "name": "/CACertMan-0.0.2-alpha-20111011.apk",
+            "sha256": "251ebd40ce4a281a2292692707fb1e9c91428994cbad80a416a297db51069eb8",
+            "size": 172263,
+            "ipfsCIDv1": "bafybeihnqvjukmfa5h27s3zbo4inuc46yi62cs2lbrgg5rw22den3jg72e"
+          },
+          "manifest": {
+            "versionName": "0.0.2.20111012",
+            "versionCode": 4,
+            "usesSdk": {
+              "minSdkVersion": 7,
+              "targetSdkVersion": 7
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            }
+          }
+        },
+        "c217c49abe5134007ceb2623a6189a73fa02af9d2b2bbcc5cbc4cb5da7b36a5d": {
+          "added": 1383177600000,
+          "file": {
+            "name": "/CACertMan-0.0.2-20110906.apk",
+            "sha256": "c217c49abe5134007ceb2623a6189a73fa02af9d2b2bbcc5cbc4cb5da7b36a5d",
+            "size": 170305,
+            "ipfsCIDv1": "bafybeihhihrotn5bs4a353vn4ka3got2h64otqxjdl2lmtbnkon4bp5zcu"
+          },
+          "manifest": {
+            "versionName": "0.0.2-20110906",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 8,
+              "targetSdkVersion": 8
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "info.guardianproject.chatsecure.emoji.core": {
+      "metadata": {
+        "added": 1385942400000,
+        "categories": [
+          "Multimedia",
+          "Security",
+          "Guardian Project"
+        ],
+        "issueTracker": "https://dev.guardianproject.info/projects/chatsecure/issues",
+        "lastUpdated": 1385942400000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/guardianproject/ChatSecureVoicePlugin",
+        "webSite": "https://guardianproject.info/apps/chatsecure",
+        "authorEmail": "support@guardianproject.info",
+        "authorName": "Guardian Project",
+        "authorWebSite": " https://guardianproject.info",
+        "liberapay": "GuardianProject",
+        "openCollective": "GuardianProject",
+        "name": {
+          "en-US": "StickerPack"
+        },
+        "summary": {
+          "en-US": "ChatSecure Open Emoji Plugin"
+        },
+        "description": {
+          "en-US": "Plugin for https://f-droid.org/packages/info.guardianproject.otr.app.im/ to support for core emoji input\nand display.  Based on \"Phantom Open Emoji\" project.\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/info.guardianproject.chatsecure.emoji.core.1.png",
+            "sha256": "05346d62d4096537906928af523ef9d5997663707a1d48e08f20992584e1424d",
+            "size": 5057
+          }
+        },
+        "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+      },
+      "versions": {
+        "131c1ebaf795c3f053701285699f0b7e517de1c7fdba56e247b1ec31766b2808": {
+          "added": 1385942400000,
+          "file": {
+            "name": "/ChatSecurePluginOpenEmoji-release-v1.apk",
+            "sha256": "131c1ebaf795c3f053701285699f0b7e517de1c7fdba56e247b1ec31766b2808",
+            "size": 1814271,
+            "ipfsCIDv1": "bafybeidtecgxr5q5df2tphjhjbysuatws4nu72eufhvk7r3u6stngp4dbm"
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 8,
+              "targetSdkVersion": 17
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "info.guardianproject.courier": {
+      "metadata": {
+        "added": 1400025600000,
+        "categories": [
+          "Reading",
+          "Guardian Project"
+        ],
+        "lastUpdated": 1400025600000,
+        "license": "GPL-3.0-only",
+        "sourceCode": "https://github.com/guardianproject/securereader",
+        "translation": "https://www.transifex.com/otf/securereader/",
+        "webSite": "https://dev.guardianproject.info/projects/secure-reader",
+        "authorEmail": "support@guardianproject.info",
+        "authorName": "Guardian Project",
+        "authorWebSite": "https://guardianproject.info",
+        "liberapay": "GuardianProject",
+        "openCollective": "GuardianProject",
+        "name": {
+          "en-US": "Courier"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/info.guardianproject.courier.14.png",
+            "sha256": "22c4b4994e9d681557d6c2c9ee05ec7abacde1b7b0de664bed2dc9f31e193cb2",
+            "size": 2072
+          }
+        },
+        "preferredSigner": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+      },
+      "versions": {
+        "e013db095e8da843fae5ac44be6152e51377ee717e5c8a7b6d913d7720566b5a": {
+          "added": 1400025600000,
+          "file": {
+            "name": "/Courier-0.1.8.apk",
+            "sha256": "e013db095e8da843fae5ac44be6152e51377ee717e5c8a7b6d913d7720566b5a",
+            "size": 16536125,
+            "ipfsCIDv1": "bafybeidfoa7nc272fwupmxn4xkuoermmndjryuwcz7g243hubaaxcmgigy"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi",
+              "x86"
+            ],
+            "versionName": "0.1.8",
+            "versionCode": 14,
+            "usesSdk": {
+              "minSdkVersion": 9,
+              "targetSdkVersion": 15
+            },
+            "signer": {
+              "sha256": [
+                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADMIN"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        }
+      }
+    },
     "info.guardianproject.gpg": {
       "metadata": {
         "added": 1367971200000,
@@ -228,7 +554,7 @@
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
         "name": {
-          "en-US": "gpgcli"
+          "en-US": "GnuPrivacyGuard"
         },
         "summary": {
           "en-US": "GnuPG via gpgcli"
@@ -238,7 +564,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/info.guardianproject.gpg.1.png",
+            "name": "/icons/info.guardianproject.gpg.4.png",
             "sha256": "e8b23c81b45ba458266ba1ecc3dfd211125b82c8a22e0ffb4d9ddd49bfba6c51",
             "size": 3749
           }
@@ -246,6 +572,213 @@
         "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
       },
       "versions": {
+        "3590e087b9003bd5be7cee95763ad5079b0ab5a40571a1edc0536602f7e8c050": {
+          "added": 1394582400000,
+          "file": {
+            "name": "/GnuPrivacyGuard-release-0.3.apk",
+            "sha256": "3590e087b9003bd5be7cee95763ad5079b0ab5a40571a1edc0536602f7e8c050",
+            "size": 10245957,
+            "ipfsCIDv1": "bafybeie3px4uzyugjqkb6bzquaobtte4uyx7y3glnnwunlzujgz73z3wnu"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "0.3",
+            "versionCode": 4,
+            "usesSdk": {
+              "minSdkVersion": 14,
+              "targetSdkVersion": 19
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.READ_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.WRITE_SYNC_SETTINGS"
+              },
+              {
+                "name": "jackpal.androidterm.permission.APPEND_TO_PATH"
+              }
+            ]
+          }
+        },
+        "04ab4e5d93ff3412b0678e0b2edc036f8c405dd307db60e0146f8adc1a67a81c": {
+          "added": 1379289600000,
+          "file": {
+            "name": "/GnuPrivacyGuard-release-0.2.1.apk",
+            "sha256": "04ab4e5d93ff3412b0678e0b2edc036f8c405dd307db60e0146f8adc1a67a81c",
+            "size": 9063339,
+            "ipfsCIDv1": "bafybeih7ne5cdj5tixotmarz5g6oshunbw24oo6mbhv2dkcebqz2yoswry"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi"
+            ],
+            "versionName": "0.2.1",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 8,
+              "targetSdkVersion": 17
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.READ_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.WRITE_SYNC_SETTINGS"
+              },
+              {
+                "name": "jackpal.androidterm.permission.APPEND_TO_PATH"
+              }
+            ]
+          }
+        },
+        "dbc80b1db19b4f1a8230a1f00072667aec5fc5f4042a628794458591e4c098d2": {
+          "added": 1374796800000,
+          "file": {
+            "name": "/GnuPrivacyGuard-release-0.2.apk",
+            "sha256": "dbc80b1db19b4f1a8230a1f00072667aec5fc5f4042a628794458591e4c098d2",
+            "size": 9004775,
+            "ipfsCIDv1": "bafybeihojl3ea25gkwnbxevpy73c6npoir54oklldyuu47x436upvabc3y"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi"
+            ],
+            "versionName": "0.2",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 8,
+              "targetSdkVersion": 17
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.READ_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.WRITE_SYNC_SETTINGS"
+              },
+              {
+                "name": "jackpal.androidterm.permission.APPEND_TO_PATH"
+              }
+            ]
+          }
+        },
         "4df53bdc7cf26517d632b5e5c0f46831be91f91db6a2b4ff5d0f62b9163f6def": {
           "added": 1367971200000,
           "file": {
@@ -321,14 +854,159 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/info.guardianproject.lildebi.5100.png",
-            "sha256": "53b623868e65d58e3818e0b387b76aa497c2b152ed6899cc805fd25ebbede96a",
-            "size": 4547
+            "name": "/icons/info.guardianproject.lildebi.5400.png",
+            "sha256": "8ff756a7d833540eae9cdd26e8620e01f4b402fc850eb993045f4125c406280b",
+            "size": 4180
           }
         },
         "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
       },
       "versions": {
+        "2c490376d8853fae04e79541f5d61e66a42ed0e890208945a11036c4a7b111da": {
+          "added": 1422230400000,
+          "file": {
+            "name": "/LilDebi-0.5.4-release.apk",
+            "sha256": "2c490376d8853fae04e79541f5d61e66a42ed0e890208945a11036c4a7b111da",
+            "size": 1876705,
+            "ipfsCIDv1": "bafybeiaekpos7eo7kvwxbl2dd6t7c3nbeulefmmhhfpqzgkhrhtf4jsthi"
+          },
+          "manifest": {
+            "versionName": "0.5.4",
+            "maxSdkVersion": 20,
+            "versionCode": 5400,
+            "usesSdk": {
+              "minSdkVersion": 8,
+              "targetSdkVersion": 20
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_SUPERUSER"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "jackpal.androidterm.permission.RUN_SCRIPT"
+              }
+            ]
+          }
+        },
+        "01c5a8e1fd778c141e70633d14f1b69228d6f492961098616e0446c116cf9e44": {
+          "added": 1422230400000,
+          "file": {
+            "name": "/LilDebi-0.5.3-release.apk",
+            "sha256": "01c5a8e1fd778c141e70633d14f1b69228d6f492961098616e0446c116cf9e44",
+            "size": 1879560,
+            "ipfsCIDv1": "bafybeidv36bfvhk7vz2euma5ia7f7dyf7bv7jhomonyvhfacvrf2juejhy"
+          },
+          "manifest": {
+            "versionName": "0.5.3",
+            "versionCode": 5300,
+            "usesSdk": {
+              "minSdkVersion": 8,
+              "targetSdkVersion": 19
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_SUPERUSER"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "jackpal.androidterm.permission.RUN_SCRIPT"
+              }
+            ]
+          }
+        },
+        "07fa3dfb690e44eb540942ba2a51718c72351c91a253a56a0c90649f6d8903dd": {
+          "added": 1413936000000,
+          "file": {
+            "name": "/LilDebi-0.5.2-release.apk",
+            "sha256": "07fa3dfb690e44eb540942ba2a51718c72351c91a253a56a0c90649f6d8903dd",
+            "size": 1861790,
+            "ipfsCIDv1": "bafybeifm4ai6iikwltseot7z3gkixoir4aphhgjvoyvxlyy2y7hkuw3m4q"
+          },
+          "manifest": {
+            "versionName": "0.5.2",
+            "versionCode": 5200,
+            "usesSdk": {
+              "minSdkVersion": 8,
+              "targetSdkVersion": 19
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_SUPERUSER"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "jackpal.androidterm.permission.RUN_SCRIPT"
+              }
+            ]
+          }
+        },
         "0ec542aabec66b1877699ef27549fe355339224680d7923078d03f375028fca1": {
           "added": 1413072000000,
           "file": {
@@ -748,7 +1426,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/info.guardianproject.mrapp.96.png",
+            "name": "/icons/info.guardianproject.mrapp.118.png",
             "sha256": "e01d0444558ddab24474beb271f678f0db9effa9773ab4db7a141bb2549d3f54",
             "size": 4753
           }
@@ -756,6 +1434,213 @@
         "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
       },
       "versions": {
+        "b90d1d2816fd959d315b0d0c9e896aeacd30d770d77cc3929848f6d68b4d9da7": {
+          "added": 1405728000000,
+          "file": {
+            "name": "/StoryMaker-v0.0.10-b118-BETA.apk",
+            "sha256": "b90d1d2816fd959d315b0d0c9e896aeacd30d770d77cc3929848f6d68b4d9da7",
+            "size": 27045191,
+            "ipfsCIDv1": "bafybeiatdtyr2lgrqcl6yhtaqqzrsodssqxha5ylvzzxjkfxlih7j2isqq"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi"
+            ],
+            "versionName": "0.0.10-build118",
+            "versionCode": 118,
+            "usesSdk": {
+              "minSdkVersion": 10,
+              "targetSdkVersion": 19
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_STORAGE"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "com.google.android.googleapps.permission.GOOGLE_AUTH"
+              },
+              {
+                "name": "com.google.android.googleapps.permission.GOOGLE_AUTH.youtube"
+              }
+            ]
+          }
+        },
+        "50a9d48a3881e281b3af677e0ba9b979f9e3fbdf0ca16139017eb8c72bb237c4": {
+          "added": 1402012800000,
+          "file": {
+            "name": "/StoryMaker-release-0.0.9-build116.apk",
+            "sha256": "50a9d48a3881e281b3af677e0ba9b979f9e3fbdf0ca16139017eb8c72bb237c4",
+            "size": 26949222,
+            "ipfsCIDv1": "bafybeigqtdtl2pjuvjntw7wvk5arfn22nvtyoppdjcsfcw6jorwirvbgt4"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi"
+            ],
+            "versionName": "0.0.9-build116",
+            "versionCode": 116,
+            "usesSdk": {
+              "minSdkVersion": 10,
+              "targetSdkVersion": 19
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_STORAGE"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "com.google.android.googleapps.permission.GOOGLE_AUTH"
+              },
+              {
+                "name": "com.google.android.googleapps.permission.GOOGLE_AUTH.youtube"
+              }
+            ]
+          }
+        },
+        "5530bfe85fc89d0a6abdb46c015206d7f039d71cbafe923c3daa33d514f21111": {
+          "added": 1401926400000,
+          "file": {
+            "name": "/StoryMaker-release-0.0.9-build115.apk",
+            "sha256": "5530bfe85fc89d0a6abdb46c015206d7f039d71cbafe923c3daa33d514f21111",
+            "size": 26948336,
+            "ipfsCIDv1": "bafybeib4kims6tdxrqdx3o3sigunpz264lxcgycpfzbj3zt2gd3oia5dva"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi"
+            ],
+            "versionName": "0.0.9-build115",
+            "versionCode": 115,
+            "usesSdk": {
+              "minSdkVersion": 10,
+              "targetSdkVersion": 19
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_STORAGE"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "com.google.android.googleapps.permission.GOOGLE_AUTH"
+              },
+              {
+                "name": "com.google.android.googleapps.permission.GOOGLE_AUTH.youtube"
+              }
+            ]
+          }
+        },
         "aeee4611cd00b92c375ea6756fcaf4c0c48a851b573acda1e67345ba8c613ca3": {
           "added": 1395964800000,
           "file": {
@@ -1028,6 +1913,148 @@
               },
               {
                 "name": "com.google.android.googleapps.permission.GOOGLE_AUTH.youtube"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "info.guardianproject.notepadbot": {
+      "metadata": {
+        "added": 1358294400000,
+        "categories": [
+          "Writing",
+          "Security",
+          "Guardian Project"
+        ],
+        "issueTracker": "https://github.com/guardianproject/notecipher/issues",
+        "lastUpdated": 1394409600000,
+        "license": "Apache-2.0",
+        "sourceCode": "https://github.com/guardianproject/notecipher",
+        "webSite": "https://guardianproject.info",
+        "authorEmail": "support@guardianproject.info",
+        "authorName": "Guardian Project",
+        "authorWebSite": "https://guardianproject.info",
+        "liberapay": "GuardianProject",
+        "openCollective": "GuardianProject",
+        "name": {
+          "en-US": "NoteCipher"
+        },
+        "summary": {
+          "en-US": "Notepad with lock"
+        },
+        "description": {
+          "en-US": "Simple app for taking notes that encrypts everything behind a password.\n\nStatus: Unmaintained."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/info.guardianproject.notepadbot.12.png",
+            "sha256": "88380912d14303efdc3fee838805089ac5bb6a8dcac2768b4755d2e8443b59b3",
+            "size": 3204
+          }
+        },
+        "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+      },
+      "versions": {
+        "b560a3d6364c32990ea7505f53b019f64fde597d67513f41a50e7d034af48caa": {
+          "added": 1394409600000,
+          "file": {
+            "name": "/NoteCipher-beta-0.1.apk",
+            "sha256": "b560a3d6364c32990ea7505f53b019f64fde597d67513f41a50e7d034af48caa",
+            "size": 7321123,
+            "ipfsCIDv1": "bafybeieel5qnk5vnn6vz3okypkytsheqtgwondjb67qefwomommuigrvv4"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi",
+              "x86"
+            ],
+            "versionName": "0.1",
+            "versionCode": 12,
+            "usesSdk": {
+              "minSdkVersion": 10,
+              "targetSdkVersion": 19
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "da518f13206d2218234bfcc83205b7b2b81ec67a4cc448f818c617332235e700": {
+          "added": 1383177600000,
+          "file": {
+            "name": "/NoteCipher-0.0.7.1.apk",
+            "sha256": "da518f13206d2218234bfcc83205b7b2b81ec67a4cc448f818c617332235e700",
+            "size": 3729342,
+            "ipfsCIDv1": "bafybeie3oznkws2praluw2oqt4valiqmekm5p5hrwcgojnk6wbygiorrou"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi"
+            ],
+            "versionName": "0.0.7.1",
+            "versionCode": 11,
+            "usesSdk": {
+              "minSdkVersion": 11,
+              "targetSdkVersion": 17
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "8fa7536a87634c6b3441053c4f16315e4fd5aa6ef672a0026a594c107308d7bf": {
+          "added": 1358294400000,
+          "file": {
+            "name": "/NoteCipher-0.0.7.apk",
+            "sha256": "8fa7536a87634c6b3441053c4f16315e4fd5aa6ef672a0026a594c107308d7bf",
+            "size": 3731119,
+            "ipfsCIDv1": "bafybeifzlyxranhei3rsngz2qvlgm4gmwratwvigqlpgcznxridcbxqsnq"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi"
+            ],
+            "versionName": "0.0.7",
+            "versionCode": 10,
+            "usesSdk": {
+              "minSdkVersion": 7,
+              "targetSdkVersion": 17
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
               }
             ]
           }
@@ -1347,7 +2374,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/info.guardianproject.otr.app.im.1420000.png",
+            "name": "/icons/info.guardianproject.otr.app.im.1423001.png",
             "sha256": "81b0049440a7fd23ccb20017e79966362f6eb4f4aa81f2d337fff6b51f83c946",
             "size": 1546
           }
@@ -1355,6 +2382,243 @@
         "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
       },
       "versions": {
+        "36d7d71c8a2115bdd2bd63bb639af286ee3242cce11cdb5c53378d1a7f35528e": {
+          "added": 1454457600000,
+          "file": {
+            "name": "/ChatSecure-v14.2.3a.apk",
+            "sha256": "36d7d71c8a2115bdd2bd63bb639af286ee3242cce11cdb5c53378d1a7f35528e",
+            "size": 10502397,
+            "ipfsCIDv1": "bafybeiglh7dknykd6rt7ocpblu6k34jfja5744563ych5rkfsbq6f42dm4"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi",
+              "x86"
+            ],
+            "versionName": "14.2.3",
+            "versionCode": 1423001,
+            "usesSdk": {
+              "minSdkVersion": 9,
+              "targetSdkVersion": 21
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY"
+              },
+              {
+                "name": "info.guardianproject.otr.app.providers.imps.permission.WRITE_ONLY"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "info.guardianproject.otr.app.im.permission.IM_SERVICE"
+              },
+              {
+                "name": "android.permission.UPDATE_APP_OPS_STATS"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "com.google.android.googleapps.permission.GOOGLE_AUTH"
+              }
+            ]
+          }
+        },
+        "9d4620fec0c7837ddffccde7918d7a7db0976fbcd361b96659abd93b5cc0d9e3": {
+          "added": 1480636800000,
+          "file": {
+            "name": "/ChatSecure-v14.2.2.apk",
+            "sha256": "9d4620fec0c7837ddffccde7918d7a7db0976fbcd361b96659abd93b5cc0d9e3",
+            "size": 10502135,
+            "ipfsCIDv1": "bafybeicrjtidblayhcj7daeeosdvmmgqwccjfqkhg7kbbelnyezpa3iucy"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi",
+              "x86"
+            ],
+            "versionName": "14.2.2",
+            "versionCode": 1422001,
+            "usesSdk": {
+              "minSdkVersion": 9,
+              "targetSdkVersion": 21
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY"
+              },
+              {
+                "name": "info.guardianproject.otr.app.providers.imps.permission.WRITE_ONLY"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "info.guardianproject.otr.app.im.permission.IM_SERVICE"
+              },
+              {
+                "name": "android.permission.UPDATE_APP_OPS_STATS"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "com.google.android.googleapps.permission.GOOGLE_AUTH"
+              }
+            ]
+          }
+        },
+        "f82a3a7a823f5540b335743eb1399d0fd1f61bc68958750b5ef6aa0d95ad9a54": {
+          "added": 1440374400000,
+          "file": {
+            "name": "/ChatSecure-v14.2.1.apk",
+            "sha256": "f82a3a7a823f5540b335743eb1399d0fd1f61bc68958750b5ef6aa0d95ad9a54",
+            "size": 10463010,
+            "ipfsCIDv1": "bafybeie5kg2wsw73e7hn6uqf75puamfed5ol7odimemppee6nvr46aswlq"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi",
+              "x86"
+            ],
+            "versionName": "14.2.1",
+            "versionCode": 1421001,
+            "usesSdk": {
+              "minSdkVersion": 9,
+              "targetSdkVersion": 21
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "info.guardianproject.otr.app.providers.imps.permission.READ_ONLY"
+              },
+              {
+                "name": "info.guardianproject.otr.app.providers.imps.permission.WRITE_ONLY"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "info.guardianproject.otr.app.im.permission.IM_SERVICE"
+              },
+              {
+                "name": "android.permission.UPDATE_APP_OPS_STATS"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "com.google.android.googleapps.permission.GOOGLE_AUTH"
+              }
+            ]
+          }
+        },
         "4367bcb568ae11107feec6a67c58a0526b7be1389fc8a8be9ecaa09c5c24c807": {
           "added": 1437350400000,
           "file": {
@@ -4920,6 +6184,83 @@
                 "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
               ]
             }
+          }
+        }
+      }
+    },
+    "info.guardianproject.soundrecorder": {
+      "metadata": {
+        "added": 1386892800000,
+        "categories": [
+          "Multimedia",
+          "Security",
+          "Guardian Project"
+        ],
+        "issueTracker": "https://dev.guardianproject.info/projects/chatsecure/issues",
+        "lastUpdated": 1386892800000,
+        "license": "SIL Open Font License, MIT License and the CC 3.0 License [CC-By with attribution requirement waived]",
+        "sourceCode": "https://github.com/guardianproject/ChatSecureVoicePlugin",
+        "webSite": "https://guardianproject.info/apps/chatsecure",
+        "authorEmail": "support@guardianproject.info",
+        "authorName": "Guardian Project",
+        "authorWebSite": " https://guardianproject.info",
+        "liberapay": "GuardianProject",
+        "name": {
+          "en-US": "ChatSecureVoicePlugin"
+        },
+        "summary": {
+          "en-US": "ChatSecure Voice Messaging"
+        },
+        "description": {
+          "en-US": "This is a plugin for [[info.guardianproject.otr.app.im]]. It does not have any\nfunction on its own.  For Your Ears Only... completely private, end-to-end\nencryption voice message recording, sending, receiving and playback.\n\n* For use with [[info.guardianproject.otr.app.im]]'s encrypted \"Off-the-record\" data stream\n* Works over Tor - the ONLY Onion-routed voice messaging system, for total anonymity"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/info.guardianproject.soundrecorder.2.png",
+            "sha256": "3ef218eb13fd5eb4d20808b995881df4ddd196367de5335c505886660df60b23",
+            "size": 2094
+          }
+        },
+        "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+      },
+      "versions": {
+        "abae18cc9cfa62fca5dce072c4c50d41b4fece506967ce9a3e2711cd1031dbee": {
+          "added": 1386892800000,
+          "file": {
+            "name": "/ChatSecureVoiceMessaging-0.2.apk",
+            "sha256": "abae18cc9cfa62fca5dce072c4c50d41b4fece506967ce9a3e2711cd1031dbee",
+            "size": 394212,
+            "ipfsCIDv1": "bafybeibi34k4rqcfzmqbejx6wd3nhhhryeo2zsphb3gu5nerdmueeqagwy"
+          },
+          "manifest": {
+            "versionName": "0.2",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 10,
+              "targetSdkVersion": 10
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
           }
         }
       }
@@ -39492,6 +40833,116 @@
             "NonFreeComp": {
               "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
             }
+          }
+        }
+      }
+    },
+    "org.witness.informacam.app": {
+      "metadata": {
+        "added": 1386720000000,
+        "categories": [
+          "Guardian Project",
+          "Development"
+        ],
+        "issueTracker": "https://dev.guardianproject.info/projects/informacam/issues",
+        "lastUpdated": 1386720000000,
+        "license": "GPL-3.0-or-later",
+        "sourceCode": "https://github.com/guardianproject/CameraV",
+        "webSite": "https://guardianproject.info/apps/camerav/",
+        "authorEmail": "support@guardianproject.info",
+        "authorName": "Guardian Project",
+        "authorWebSite": "https://guardianproject.info",
+        "liberapay": "GuardianProject",
+        "openCollective": "GuardianProject",
+        "name": {
+          "en-US": "CameraV: Secure Visual Proof"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/org.witness.informacam.app.35.png",
+            "sha256": "2b8a6d0590fc81615565e373c52b4d35c100f4a1a66e7ad839375bb4232bdd55",
+            "size": 2516
+          }
+        },
+        "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+      },
+      "versions": {
+        "9a3fc49814e91a191a9a67c272d76e105add8cc3cfe2bed6c9b094f0e84a9c0a": {
+          "added": 1386720000000,
+          "file": {
+            "name": "/InformaCam-beta-0.1.35.apk",
+            "sha256": "9a3fc49814e91a191a9a67c272d76e105add8cc3cfe2bed6c9b094f0e84a9c0a",
+            "size": 16892544,
+            "ipfsCIDv1": "bafybeidngksblnaxf7vuj5u4tt5ietkcu3rfskwkzzsydyfon3l63q3vea"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi"
+            ],
+            "versionName": "0.1.35",
+            "versionCode": 35,
+            "usesSdk": {
+              "minSdkVersion": 10,
+              "targetSdkVersion": 18
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADMIN"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.GET_TASKS"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              }
+            ]
           }
         }
       }
