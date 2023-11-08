@@ -26,7 +26,7 @@
         "url": "https://guardianproject.s3.amazonaws.com/fdroid/repo"
       }
     ],
-    "timestamp": 1699426358000,
+    "timestamp": 1699450960000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -2340,7 +2340,7 @@
           "Guardian Project"
         ],
         "issueTracker": "https://gitlab.torproject.org/tpo/applications/tor-browser/issues",
-        "lastUpdated": 1696056425000,
+        "lastUpdated": 1699450509000,
         "license": "MPL-2.0",
         "sourceCode": "https://gitweb.torproject.org/tor-browser.git",
         "screenshots": {
@@ -2409,23 +2409,23 @@
         "preferredSigner": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
       },
       "versions": {
-        "33ec452d422829e546cda0875620aa428f182a7030fc436db58b3550e65a7382": {
-          "added": 1696056425000,
+        "e2b03195401843c15f14e996cc6a4f1f096f7d5f591e219131c00af195d9ccba": {
+          "added": 1699450509000,
           "file": {
-            "name": "/tor-browser-12.5.6-android-x86_64-multi.apk",
-            "sha256": "33ec452d422829e546cda0875620aa428f182a7030fc436db58b3550e65a7382",
-            "size": 96470945,
-            "ipfsCIDv1": "bafybeihljs54slghkf2grg4zwv56izv7ts4xvvpqe3md4ytrmcvlok3qhi"
+            "name": "/tor-browser-android-x86_64-13.0.3.apk",
+            "sha256": "e2b03195401843c15f14e996cc6a4f1f096f7d5f591e219131c00af195d9ccba",
+            "size": 109826546,
+            "ipfsCIDv1": "bafybeigwcffu7un6qankh7fwa6ozly675bxbo526qy2hisca6l7tytzhh4"
           },
           "manifest": {
             "nativecode": [
               "x86_64"
             ],
-            "versionName": "102.2.1-Release (12.5.6)",
-            "versionCode": 2015960831,
+            "versionName": "115.2.1-release (13.0.3)",
+            "versionCode": 2015982215,
             "usesSdk": {
               "minSdkVersion": 21,
-              "targetSdkVersion": 31
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
@@ -2463,6 +2463,18 @@
                 "name": "android.permission.QUERY_ALL_PACKAGES"
               },
               {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
                 "name": "android.permission.ACCESS_NETWORK_STATE"
               },
               {
@@ -2472,19 +2484,25 @@
                 "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
               },
               {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
                 "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
                 "name": "com.google.android.c2dm.permission.RECEIVE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
                 "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
@@ -2502,23 +2520,23 @@
             }
           }
         },
-        "fd5ffb4b7d7d94868b05684f98f36f39fd1dd54ffb88b5dd7203e545e0de0b5a": {
-          "added": 1696056411000,
+        "07fa41e85f4bb6e8c78e71d868829579592deeb963499801123a9b7f655900eb": {
+          "added": 1699450459000,
           "file": {
-            "name": "/tor-browser-12.5.6-android-x86-multi.apk",
-            "sha256": "fd5ffb4b7d7d94868b05684f98f36f39fd1dd54ffb88b5dd7203e545e0de0b5a",
-            "size": 100607845,
-            "ipfsCIDv1": "bafybeiafozl3i74tv3qwfoagyhuvlu7q5nbwlkj4gdk6j3zxyvh4etpyx4"
+            "name": "/tor-browser-android-x86-13.0.3.apk",
+            "sha256": "07fa41e85f4bb6e8c78e71d868829579592deeb963499801123a9b7f655900eb",
+            "size": 114430387,
+            "ipfsCIDv1": "bafybeibrtlf54ke2kssoatvhs4ggrf2i7smk2tmjpthpp7gpvm77pfawmy"
           },
           "manifest": {
             "nativecode": [
               "x86"
             ],
-            "versionName": "102.2.1-Release (12.5.6)",
-            "versionCode": 2015960829,
+            "versionName": "115.2.1-release (13.0.3)",
+            "versionCode": 2015982213,
             "usesSdk": {
               "minSdkVersion": 21,
-              "targetSdkVersion": 31
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
@@ -2556,6 +2574,18 @@
                 "name": "android.permission.QUERY_ALL_PACKAGES"
               },
               {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
                 "name": "android.permission.ACCESS_NETWORK_STATE"
               },
               {
@@ -2565,19 +2595,25 @@
                 "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
               },
               {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
                 "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
                 "name": "com.google.android.c2dm.permission.RECEIVE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
                 "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
@@ -2595,23 +2631,23 @@
             }
           }
         },
-        "8a99a22f52a5ecc2501f167ac66b5119ff4de15243249427afafd990fb0c6d59": {
-          "added": 1696056386000,
+        "4cd05bb4505dd5268c1ce52d87022e97c9d10193f74544901e742552f9c5e15d": {
+          "added": 1699450367000,
           "file": {
-            "name": "/tor-browser-12.5.6-android-aarch64-multi.apk",
-            "sha256": "8a99a22f52a5ecc2501f167ac66b5119ff4de15243249427afafd990fb0c6d59",
-            "size": 93796317,
-            "ipfsCIDv1": "bafybeieaurqslbcgf7avfr4bbhzqyhfr7ichktsef52w2anntararz4pse"
+            "name": "/tor-browser-android-aarch64-13.0.3.apk",
+            "sha256": "4cd05bb4505dd5268c1ce52d87022e97c9d10193f74544901e742552f9c5e15d",
+            "size": 107938353,
+            "ipfsCIDv1": "bafybeig3bttav7hxkbsp44ktx5ckrmafu6qmuy3if2fru3bf5e5dhhtta4"
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "102.2.1-Release (12.5.6)",
-            "versionCode": 2015960827,
+            "versionName": "115.2.1-release (13.0.3)",
+            "versionCode": 2015982211,
             "usesSdk": {
               "minSdkVersion": 21,
-              "targetSdkVersion": 31
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
@@ -2649,6 +2685,18 @@
                 "name": "android.permission.QUERY_ALL_PACKAGES"
               },
               {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
                 "name": "android.permission.ACCESS_NETWORK_STATE"
               },
               {
@@ -2658,19 +2706,25 @@
                 "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
               },
               {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
                 "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
                 "name": "com.google.android.c2dm.permission.RECEIVE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
                 "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
@@ -2688,23 +2742,23 @@
             }
           }
         },
-        "839fbb1065e634398c1a07f94d02bb541a7d2791aa536cf2f38ab26098486f02": {
-          "added": 1696056398000,
+        "27a796c4e82802e279b3a979ad82c20e3d77d987ccc5bfaf5ef45485f3f9237e": {
+          "added": 1699450412000,
           "file": {
-            "name": "/tor-browser-12.5.6-android-armv7-multi.apk",
-            "sha256": "839fbb1065e634398c1a07f94d02bb541a7d2791aa536cf2f38ab26098486f02",
-            "size": 85784581,
-            "ipfsCIDv1": "bafybeib6wh3quwaidnronmp7nhkdjivundvwu2cb6v3xhvhwbpivozunjm"
+            "name": "/tor-browser-android-armv7-13.0.3.apk",
+            "sha256": "27a796c4e82802e279b3a979ad82c20e3d77d987ccc5bfaf5ef45485f3f9237e",
+            "size": 99574363,
+            "ipfsCIDv1": "bafybeibsd2xztlodpgpjhojrmtdtzpsqu3mub7k7heokv7727mnk23tzq4"
           },
           "manifest": {
             "nativecode": [
               "armeabi-v7a"
             ],
-            "versionName": "102.2.1-Release (12.5.6)",
-            "versionCode": 2015960825,
+            "versionName": "115.2.1-release (13.0.3)",
+            "versionCode": 2015982209,
             "usesSdk": {
               "minSdkVersion": 21,
-              "targetSdkVersion": 31
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
@@ -2742,6 +2796,18 @@
                 "name": "android.permission.QUERY_ALL_PACKAGES"
               },
               {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
                 "name": "android.permission.ACCESS_NETWORK_STATE"
               },
               {
@@ -2751,19 +2817,25 @@
                 "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
               },
               {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
                 "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
                 "name": "com.google.android.c2dm.permission.RECEIVE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
                 "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
@@ -2781,23 +2853,23 @@
             }
           }
         },
-        "3fd5bf2f4018e8d2eb9ce409fd850888c57b631f7489297363c897a3f9f7cab1": {
-          "added": 1695797140000,
+        "fee03a18e503f90b9bceca2650f99f9f040678de7892b65d99652db485e62958": {
+          "added": 1699450492000,
           "file": {
-            "name": "/tor-browser-12.5.5-android-x86_64-multi.apk",
-            "sha256": "3fd5bf2f4018e8d2eb9ce409fd850888c57b631f7489297363c897a3f9f7cab1",
-            "size": 96470945,
-            "ipfsCIDv1": "bafybeidgpol25bz7azkxfonyjr2sgbkr76uqxmdpsx6e3v7hbtzzhfqjh4"
+            "name": "/tor-browser-android-x86_64-13.0.1.apk",
+            "sha256": "fee03a18e503f90b9bceca2650f99f9f040678de7892b65d99652db485e62958",
+            "size": 109826546,
+            "ipfsCIDv1": "bafybeicomnyc46wjdmevlxegfcdczkeel3lberjnq3ynsttnjitwedgbwi"
           },
           "manifest": {
             "nativecode": [
               "x86_64"
             ],
-            "versionName": "102.2.1-Release (12.5.5)",
-            "versionCode": 2015960823,
+            "versionName": "115.2.1-release (13.0.1)",
+            "versionCode": 2015979383,
             "usesSdk": {
               "minSdkVersion": 21,
-              "targetSdkVersion": 31
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
@@ -2835,6 +2907,18 @@
                 "name": "android.permission.QUERY_ALL_PACKAGES"
               },
               {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
                 "name": "android.permission.ACCESS_NETWORK_STATE"
               },
               {
@@ -2844,19 +2928,25 @@
                 "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
               },
               {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
                 "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
                 "name": "com.google.android.c2dm.permission.RECEIVE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
                 "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
@@ -2874,23 +2964,23 @@
             }
           }
         },
-        "3f84c39b375e993314e2ea37fe190d308c47013e0dd7e7b0a0a288e9875b9fbd": {
-          "added": 1695797126000,
+        "c67a3ee99824d39d596ddac91a3adc7f69bd7191895eb8fb1c7f818432461600": {
+          "added": 1699450443000,
           "file": {
-            "name": "/tor-browser-12.5.5-android-x86-multi.apk",
-            "sha256": "3f84c39b375e993314e2ea37fe190d308c47013e0dd7e7b0a0a288e9875b9fbd",
-            "size": 100607845,
-            "ipfsCIDv1": "bafybeialoblb6cl4pglj2ckdilqcudjxzrnprakik5yxszzaug5x4esyjm"
+            "name": "/tor-browser-android-x86-13.0.1.apk",
+            "sha256": "c67a3ee99824d39d596ddac91a3adc7f69bd7191895eb8fb1c7f818432461600",
+            "size": 114430387,
+            "ipfsCIDv1": "bafybeiheq6h7drcfjz5zmrr2yilnkkbhhsrvtya3gs27vqxnhqep3qlu3q"
           },
           "manifest": {
             "nativecode": [
               "x86"
             ],
-            "versionName": "102.2.1-Release (12.5.5)",
-            "versionCode": 2015960821,
+            "versionName": "115.2.1-release (13.0.1)",
+            "versionCode": 2015979381,
             "usesSdk": {
               "minSdkVersion": 21,
-              "targetSdkVersion": 31
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
@@ -2928,6 +3018,18 @@
                 "name": "android.permission.QUERY_ALL_PACKAGES"
               },
               {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
                 "name": "android.permission.ACCESS_NETWORK_STATE"
               },
               {
@@ -2937,19 +3039,25 @@
                 "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
               },
               {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
                 "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
                 "name": "com.google.android.c2dm.permission.RECEIVE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
                 "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
@@ -2967,23 +3075,23 @@
             }
           }
         },
-        "85985bd5585fe7c1be89a7c178dfa588600aeddeee604e3d1e9bd75c34e7f03f": {
-          "added": 1695797101000,
+        "151d0d2799bb582d1ba3883e4476819d9766e2280ebcd7acf25e5bfef2670535": {
+          "added": 1699450351000,
           "file": {
-            "name": "/tor-browser-12.5.5-android-aarch64-multi.apk",
-            "sha256": "85985bd5585fe7c1be89a7c178dfa588600aeddeee604e3d1e9bd75c34e7f03f",
-            "size": 93792221,
-            "ipfsCIDv1": "bafybeidpnusu6ej54ykuooccr4ftjqj64d5q7xuk26j7jkquqkr67rhzeq"
+            "name": "/tor-browser-android-aarch64-13.0.1.apk",
+            "sha256": "151d0d2799bb582d1ba3883e4476819d9766e2280ebcd7acf25e5bfef2670535",
+            "size": 107938353,
+            "ipfsCIDv1": "bafybeiadvzbdmesg4uknnvzmvjykvbwbgxp323g65rohmkcxpbnxhlzf6a"
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "102.2.1-Release (12.5.5)",
-            "versionCode": 2015960819,
+            "versionName": "115.2.1-release (13.0.1)",
+            "versionCode": 2015979379,
             "usesSdk": {
               "minSdkVersion": 21,
-              "targetSdkVersion": 31
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
@@ -3021,6 +3129,18 @@
                 "name": "android.permission.QUERY_ALL_PACKAGES"
               },
               {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
                 "name": "android.permission.ACCESS_NETWORK_STATE"
               },
               {
@@ -3030,19 +3150,25 @@
                 "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
               },
               {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
                 "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
                 "name": "com.google.android.c2dm.permission.RECEIVE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
                 "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
@@ -3060,23 +3186,23 @@
             }
           }
         },
-        "04e5a8047c313fb5f7e025fd8eea974b418f24fc52554bf48686afe58ada72b5": {
-          "added": 1695797113000,
+        "ebfa838db421a1ef4c96313e8985f05a03d53bac58538d90c1e96881747032cb": {
+          "added": 1699450398000,
           "file": {
-            "name": "/tor-browser-12.5.5-android-armv7-multi.apk",
-            "sha256": "04e5a8047c313fb5f7e025fd8eea974b418f24fc52554bf48686afe58ada72b5",
-            "size": 85784581,
-            "ipfsCIDv1": "bafybeiffinpoygqhcddpggel23uni6dfjtactwdxyxwiobrhq5w4a4f2bu"
+            "name": "/tor-browser-android-armv7-13.0.1.apk",
+            "sha256": "ebfa838db421a1ef4c96313e8985f05a03d53bac58538d90c1e96881747032cb",
+            "size": 99574363,
+            "ipfsCIDv1": "bafybeig5prs5zca73nktsu4lvwdp5ctsjx2kus74xxixjdnsv3dvnaixzm"
           },
           "manifest": {
             "nativecode": [
               "armeabi-v7a"
             ],
-            "versionName": "102.2.1-Release (12.5.5)",
-            "versionCode": 2015960817,
+            "versionName": "115.2.1-release (13.0.1)",
+            "versionCode": 2015979377,
             "usesSdk": {
               "minSdkVersion": 21,
-              "targetSdkVersion": 31
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
@@ -3114,6 +3240,18 @@
                 "name": "android.permission.QUERY_ALL_PACKAGES"
               },
               {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
                 "name": "android.permission.ACCESS_NETWORK_STATE"
               },
               {
@@ -3123,19 +3261,25 @@
                 "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
               },
               {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
                 "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
                 "name": "com.google.android.c2dm.permission.RECEIVE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
                 "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
@@ -3164,7 +3308,7 @@
           "Guardian Project"
         ],
         "issueTracker": "https://gitlab.torproject.org/tpo/applications/tor-browser/issues",
-        "lastUpdated": 1691909325000,
+        "lastUpdated": 1699450525000,
         "license": "MPL-2.0",
         "sourceCode": "https://gitweb.torproject.org/tor-browser.git",
         "authorEmail": "playstore@torproject.org",
@@ -3187,20 +3331,20 @@
         "preferredSigner": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1"
       },
       "versions": {
-        "bd32e2cc771389b8a5d586db567e1515b723907ca208cdbb705d982088d85d76": {
-          "added": 1691909325000,
+        "13d4899c5af8b5755a800c871be2cc363d249896011f9362f2823904e4336240": {
+          "added": 1699450525000,
           "file": {
-            "name": "/tor-browser-13.0a2-android-x86_64-multi.apk",
-            "sha256": "bd32e2cc771389b8a5d586db567e1515b723907ca208cdbb705d982088d85d76",
-            "size": 109305168,
-            "ipfsCIDv1": "bafybeibvcpsz5cql56lomooy4wsnyoy7hahld7xycg3ayulewmgajgkt4e"
+            "name": "/tor-browser-android-x86_64-13.5a1.apk",
+            "sha256": "13d4899c5af8b5755a800c871be2cc363d249896011f9362f2823904e4336240",
+            "size": 109875828,
+            "ipfsCIDv1": "bafybeieshl7gbl235fn7iuvtgr25kfiplsd46gtbvrba4pldg65dosh754"
           },
           "manifest": {
             "nativecode": [
               "x86_64"
             ],
-            "versionName": "115.2.0-beta (13.0a2)",
-            "versionCode": 2015967671,
+            "versionName": "115.2.1-beta (13.5a1)",
+            "versionCode": 2015983151,
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 33
@@ -3298,20 +3442,20 @@
             }
           }
         },
-        "7d9626136ed7565f2a1b62cf7e315bd54ed7073a5b7713d0e4ead1f295b4c453": {
-          "added": 1691909308000,
+        "c24e46729e30910d58dd43f1ba0fff03dcf5af257a16bd1b85ab6ab9b3cd968a": {
+          "added": 1699450477000,
           "file": {
-            "name": "/tor-browser-13.0a2-android-x86-multi.apk",
-            "sha256": "7d9626136ed7565f2a1b62cf7e315bd54ed7073a5b7713d0e4ead1f295b4c453",
-            "size": 113966353,
-            "ipfsCIDv1": "bafybeig5m464x2nulxsphejppfwj6qercwlmjnbc2nqyq7q5rmuw2gtcvy"
+            "name": "/tor-browser-android-x86-13.5a1.apk",
+            "sha256": "c24e46729e30910d58dd43f1ba0fff03dcf5af257a16bd1b85ab6ab9b3cd968a",
+            "size": 114475573,
+            "ipfsCIDv1": "bafybeid2vrmysb5d55rmsyp2ywvaaq66cup56vfuzmgroolfc4we7h3k6y"
           },
           "manifest": {
             "nativecode": [
               "x86"
             ],
-            "versionName": "115.2.0-beta (13.0a2)",
-            "versionCode": 2015967669,
+            "versionName": "115.2.1-beta (13.5a1)",
+            "versionCode": 2015983149,
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 33
@@ -3409,20 +3553,20 @@
             }
           }
         },
-        "98544b3408191ec8ffe49766d1833701433a431ccc0be297a9a642221ed8847c": {
-          "added": 1691909276000,
+        "d86fef623e9c44047321515eda722d6464c8286c047e58a315e44deb066b854f": {
+          "added": 1699450383000,
           "file": {
-            "name": "/tor-browser-13.0a2-android-aarch64-multi.apk",
-            "sha256": "98544b3408191ec8ffe49766d1833701433a431ccc0be297a9a642221ed8847c",
-            "size": 107474319,
-            "ipfsCIDv1": "bafybeidczopaorkykuho3ej7dixqkkzudy6oqhw2riww73un7q44zo7ibi"
+            "name": "/tor-browser-android-aarch64-13.5a1.apk",
+            "sha256": "d86fef623e9c44047321515eda722d6464c8286c047e58a315e44deb066b854f",
+            "size": 107987635,
+            "ipfsCIDv1": "bafybeifyo75fhcossyygagxy6supotgd4t7qxoxbc6rzdr6iau2ks4xloe"
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "115.2.0-beta (13.0a2)",
-            "versionCode": 2015967667,
+            "versionName": "115.2.1-beta (13.5a1)",
+            "versionCode": 2015983147,
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 33
@@ -3520,20 +3664,20 @@
             }
           }
         },
-        "891ee6f9e0a667218ca1f3c757f6d84226a876e6880b759f07de2f7ab3f81280": {
-          "added": 1691909291000,
+        "6606d7777d80ca8cea60c394e8b3a51e91a39a7dbdb223755e1bc7263be5ae0d": {
+          "added": 1699450427000,
           "file": {
-            "name": "/tor-browser-13.0a2-android-armv7-multi.apk",
-            "sha256": "891ee6f9e0a667218ca1f3c757f6d84226a876e6880b759f07de2f7ab3f81280",
-            "size": 99081657,
-            "ipfsCIDv1": "bafybeiac25ryxowpjxe73qltsycpjlr42r7fvg6yayblqztrmutnc7u6da"
+            "name": "/tor-browser-android-armv7-13.5a1.apk",
+            "sha256": "6606d7777d80ca8cea60c394e8b3a51e91a39a7dbdb223755e1bc7263be5ae0d",
+            "size": 99623645,
+            "ipfsCIDv1": "bafybeidffraje67nnhrmgf5l5qcjcuikpiobvfddsokylpbclcakaz5mye"
           },
           "manifest": {
             "nativecode": [
               "armeabi-v7a"
             ],
-            "versionName": "115.2.0-beta (13.0a2)",
-            "versionCode": 2015967665,
+            "versionName": "115.2.1-beta (13.5a1)",
+            "versionCode": 2015983145,
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 33
