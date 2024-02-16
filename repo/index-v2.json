@@ -1,7 +1,7 @@
 {
   "repo": {
     "name": {
-      "en-US": "Guardian Project Official Releases"
+      "en-US": "Guardian Project"
     },
     "description": {
       "en-US": "The official repository of The Guardian Project apps for use with the F-Droid\nclient. Applications in this repository are official binaries built by the\noriginal application developers and signed by the same key as the APKs that\nare released in the Google Play Store.\n"
@@ -29,7 +29,7 @@
         "countryCode": "US"
       }
     ],
-    "timestamp": 1707980110000,
+    "timestamp": 1708068397000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -1295,7 +1295,7 @@
           },
           "antiFeatures": {
             "NonFreeComp": {
-              "en-US": "Includes proprietary libraries: https://github.com/OpenArchive/Save-app-android/blob/3d342b989f7da5f6d12aa5e8c8249e7c481cb7f1/app/build.gradle#L150\n"
+              "en-US": "Includes proprietary libraries to integrate with proprietary services like Dropbox and Google Drive.\n"
             }
           }
         },
@@ -1358,7 +1358,7 @@
           },
           "antiFeatures": {
             "NonFreeComp": {
-              "en-US": "Includes proprietary libraries: https://github.com/OpenArchive/Save-app-android/blob/3d342b989f7da5f6d12aa5e8c8249e7c481cb7f1/app/build.gradle#L150\n"
+              "en-US": "Includes proprietary libraries to integrate with proprietary services like Dropbox and Google Drive.\n"
             }
           }
         }
@@ -1496,6 +1496,11 @@
                 "name": "android.permission.WAKE_LOCK"
               }
             ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "Uses proprietary Google libraries to assist with accurately finding location and to display maps.\n"
+            }
           }
         }
       }
@@ -3872,6 +3877,13 @@
         "lastUpdated": 1707858990000,
         "license": "GPL-3.0-or-later",
         "sourceCode": "https://gitlab.com/guardianproject/torservices",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/org.torproject.torservices/en-US/featureGraphic_652NuMz3czdZYuoRljUUJpqrdjzpg0HYvGDT6hl8V-w=.png",
+            "sha256": "eb9d8db8ccf773375962ea11963514269aab763ce98341d8bc60d3ea197c57ec",
+            "size": 2266
+          }
+        },
         "authorEmail": "support@guardianproject.info",
         "authorName": "Guardian Project",
         "authorWebSite": "https://guardianproject.info",
@@ -4527,7 +4539,7 @@
           },
           "antiFeatures": {
             "NonFreeComp": {
-              "en-US": "Includes proprietary Google libraries: https://github.com/guardianproject/proofmode-android/blob/5bfc06f504a40574e30c32aa6af832bdb001ecf9/app/build.gradle#L106"
+              "en-US": "ProofMode uses a number of proprietary Google Play Services libraries, such as Play Integrity (SafetyNet), FusionLocationProvider and others, to provide extra assurances about the provenance of media files generated on an Android device.\n"
             }
           }
         }

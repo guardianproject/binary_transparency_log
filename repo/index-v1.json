@@ -1,9 +1,9 @@
 {
   "repo": {
-    "timestamp": 1707980110000,
+    "timestamp": 1708068397000,
     "version": 20002,
     "maxage": 14,
-    "name": "Guardian Project Official Releases",
+    "name": "Guardian Project",
     "icon": "guardianproject.png",
     "address": "https://guardianproject.info/fdroid/repo",
     "description": "The official repository of The Guardian Project apps for use with the F-Droid\nclient. Applications in this repository are official binaries built by the\noriginal application developers and signed by the same key as the APKs that\nare released in the Google Play Store.\n",
@@ -249,6 +249,9 @@
     {
       "allowedAPKSigningKeys": [
         "f3c7017a9c9bb304e85206a6f45723af0b31fe05acca3be974a86cc832a699d6"
+      ],
+      "antiFeatures": [
+        "NonFreeComp"
       ],
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
@@ -1912,6 +1915,7 @@
       "localized": {
         "en-US": {
           "description": "TorServices is a free proxy app that empowers other apps to use the internet more securely. It acts as a simple Tor \"provider\" for apps to hide their Internet traffic by encrypting it, then bouncing through a series of computers around the world. Tor is free software and an open network that helps you defend against a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security known as traffic analysis. \n\nThis app is a complement to Orbot, which provides the full, \"batteries included\" Tor utility.\n",
+          "featureGraphic": "featureGraphic_652NuMz3czdZYuoRljUUJpqrdjzpg0HYvGDT6hl8V-w=.png",
           "icon": "icon_NTqDkUSRsPZf24fX_eEmLwJ79JTaOUF6zg24wpCglj8=.png",
           "name": "TorServices (alpha)",
           "summary": "The simplest, fastest, smallest Tor proxy app (early test release)"
