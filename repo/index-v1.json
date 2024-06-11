@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1718088227000,
+    "timestamp": 1718131951000,
     "version": 20002,
     "maxage": 14,
     "name": "Guardian Project",
@@ -9,7 +9,10 @@
     "description": "The official repository of The Guardian Project apps for use with the F-Droid\nclient. Applications in this repository are official binaries built by the\noriginal application developers and signed by the same key as the APKs that\nare released in the Google Play Store.\n",
     "mirrors": [
       "https://s3.amazonaws.com/guardianproject/fdroid/repo",
-      "https://guardianproject.s3.amazonaws.com/fdroid/repo"
+      "https://guardianproject.s3.amazonaws.com/fdroid/repo",
+      "https://guardianproject.gitlab.io/fdroid-repo/fdroid/repo",
+      "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/repo",
+      "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/repo"
     ]
   },
   "requests": {
@@ -1884,7 +1887,7 @@
         "Security",
         "Guardian Project"
       ],
-      "suggestedVersionCode": "2016021063",
+      "suggestedVersionCode": "2016025911",
       "description": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n",
       "donate": "https://donate.torproject.org/",
       "issueTracker": "https://gitlab.torproject.org/tpo/applications/tor-browser/issues",
@@ -1895,7 +1898,7 @@
       "summary": "Experience real private browsing without tracking, surveillance, or censorship",
       "added": 1671692101000,
       "packageName": "org.torproject.torbrowser_alpha",
-      "lastUpdated": 1716015096000,
+      "lastUpdated": 1718131049000,
       "localized": {
         "en-US": {
           "icon": "icon_Zu0N6vB2v3ZDy5tTudEBErQ0YG5K5NhrH-SQM4bFUi0=.png",
@@ -3789,9 +3792,9 @@
     ],
     "org.torproject.torbrowser_alpha": [
       {
-        "added": 1716015096000,
-        "apkName": "tor-browser-android-x86_64-13.5a8.apk",
-        "hash": "ca96f04f52fb9b45817cb65c3b794803eb023a87c241df34c38a81e44e4a341b",
+        "added": 1718131049000,
+        "apkName": "tor-browser-android-x86_64-13.5a9.apk",
+        "hash": "1972fd49b3e7f4203d080fc319a62137276165227112f00bac788e8945e60f6f",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -3800,7 +3803,7 @@
         "packageName": "org.torproject.torbrowser_alpha",
         "sig": "779dcbfee750f281e0a8574e05216e04",
         "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
-        "size": 104074147,
+        "size": 103699179,
         "targetSdkVersion": 33,
         "uses-permission": [
           [
@@ -3856,15 +3859,15 @@
             null
           ],
           [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
             "android.permission.FOREGROUND_SERVICE",
             null
           ],
           [
             "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
             null
           ],
           [
@@ -3906,13 +3909,13 @@
             null
           ]
         ],
-        "versionCode": 2016021063,
-        "versionName": "115.2.1-beta (13.5a8)"
+        "versionCode": 2016025911,
+        "versionName": "115.2.1-beta (13.5a9)"
       },
       {
-        "added": 1716015076000,
-        "apkName": "tor-browser-android-x86-13.5a8.apk",
-        "hash": "1238af677f150b9c7ed159d2ad6ba09fffe1622378ff110e576786fd27d2c94d",
+        "added": 1718131028000,
+        "apkName": "tor-browser-android-x86-13.5a9.apk",
+        "hash": "6a3ee2e099d68dc6b2117733addf5d9e56d7133f19def95982570fdc187032af",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -3921,7 +3924,7 @@
         "packageName": "org.torproject.torbrowser_alpha",
         "sig": "779dcbfee750f281e0a8574e05216e04",
         "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
-        "size": 108784487,
+        "size": 108409522,
         "targetSdkVersion": 33,
         "uses-permission": [
           [
@@ -3977,15 +3980,15 @@
             null
           ],
           [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
             "android.permission.FOREGROUND_SERVICE",
             null
           ],
           [
             "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
             null
           ],
           [
@@ -4027,13 +4030,13 @@
             null
           ]
         ],
-        "versionCode": 2016021061,
-        "versionName": "115.2.1-beta (13.5a8)"
+        "versionCode": 2016025909,
+        "versionName": "115.2.1-beta (13.5a9)"
       },
       {
-        "added": 1716015036000,
-        "apkName": "tor-browser-android-aarch64-13.5a8.apk",
-        "hash": "a3546760f03f57c2044a3cc53541a63b6478be54ad42cbe76b9e2954cda5222e",
+        "added": 1718130986000,
+        "apkName": "tor-browser-android-aarch64-13.5a9.apk",
+        "hash": "e5512f4548e38b43c175360128ffe1156b46291f694dd2198effa0e4cac30fe9",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -4042,7 +4045,7 @@
         "packageName": "org.torproject.torbrowser_alpha",
         "sig": "779dcbfee750f281e0a8574e05216e04",
         "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
-        "size": 102042591,
+        "size": 101671716,
         "targetSdkVersion": 33,
         "uses-permission": [
           [
@@ -4098,15 +4101,15 @@
             null
           ],
           [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
             "android.permission.FOREGROUND_SERVICE",
             null
           ],
           [
             "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
             null
           ],
           [
@@ -4148,13 +4151,13 @@
             null
           ]
         ],
-        "versionCode": 2016021059,
-        "versionName": "115.2.1-beta (13.5a8)"
+        "versionCode": 2016025907,
+        "versionName": "115.2.1-beta (13.5a9)"
       },
       {
-        "added": 1716015055000,
-        "apkName": "tor-browser-android-armv7-13.5a8.apk",
-        "hash": "c44e135a7b84fa85dede60a3b552729a4b62b641c54b8bbfe30a39ee12fd72fa",
+        "added": 1718131006000,
+        "apkName": "tor-browser-android-armv7-13.5a9.apk",
+        "hash": "d3dbec4e2116a37e2712a727916d69fbe071d21a3df2fb71f9355ff5de5982b1",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -4163,7 +4166,7 @@
         "packageName": "org.torproject.torbrowser_alpha",
         "sig": "779dcbfee750f281e0a8574e05216e04",
         "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
-        "size": 94694407,
+        "size": 94339914,
         "targetSdkVersion": 33,
         "uses-permission": [
           [
@@ -4219,15 +4222,15 @@
             null
           ],
           [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
             "android.permission.FOREGROUND_SERVICE",
             null
           ],
           [
             "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
             null
           ],
           [
@@ -4269,8 +4272,8 @@
             null
           ]
         ],
-        "versionCode": 2016021057,
-        "versionName": "115.2.1-beta (13.5a8)"
+        "versionCode": 2016025905,
+        "versionName": "115.2.1-beta (13.5a9)"
       }
     ],
     "org.torproject.torservices": [
