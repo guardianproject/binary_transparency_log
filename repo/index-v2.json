@@ -38,7 +38,7 @@
         "url": "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/repo"
       }
     ],
-    "timestamp": 1720593635000,
+    "timestamp": 1720680720000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -2429,7 +2429,7 @@
           "Guardian Project"
         ],
         "issueTracker": "https://gitlab.torproject.org/tpo/applications/tor-browser/issues",
-        "lastUpdated": 1719038556000,
+        "lastUpdated": 1720680502000,
         "license": "MPL-2.0",
         "sourceCode": "https://gitweb.torproject.org/tor-browser.git",
         "screenshots": {
@@ -2505,6 +2505,450 @@
         "preferredSigner": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
       },
       "versions": {
+        "8f47ce543e61dfa60db10017708d9e8cbbc2dcf89083b338f360e2300e900f57": {
+          "added": 1720680502000,
+          "file": {
+            "name": "/tor-browser-android-x86_64-13.5.1.apk",
+            "sha256": "8f47ce543e61dfa60db10017708d9e8cbbc2dcf89083b338f360e2300e900f57",
+            "size": 103707265,
+            "ipfsCIDv1": "bafybeiaigh6lwxsiwi74rccawyuyod2bffsqulg5qx2hznul66xndrbd6a"
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "115.2.1-release (13.5.1)",
+            "versionCode": 2016031335,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+                "maxSdkVersion": 26
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
+            }
+          }
+        },
+        "5d74594aac302e39cc19c16967f01187042e6d617382bea95ca1aabf30b57d8b": {
+          "added": 1720680482000,
+          "file": {
+            "name": "/tor-browser-android-x86-13.5.1.apk",
+            "sha256": "5d74594aac302e39cc19c16967f01187042e6d617382bea95ca1aabf30b57d8b",
+            "size": 108409416,
+            "ipfsCIDv1": "bafybeidhsym26ntj4hnc7llgckwfj24vwb47xdxbcquxmqdmqlfxne75f4"
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "115.2.1-release (13.5.1)",
+            "versionCode": 2016031333,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+                "maxSdkVersion": 26
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
+            }
+          }
+        },
+        "774bcb688623209ffc12f5668df3992224dfd1000206799cadb36b500cf475c4": {
+          "added": 1720680443000,
+          "file": {
+            "name": "/tor-browser-android-aarch64-13.5.1.apk",
+            "sha256": "774bcb688623209ffc12f5668df3992224dfd1000206799cadb36b500cf475c4",
+            "size": 101675706,
+            "ipfsCIDv1": "bafybeifewvll7p3iu3iybj665lzqdy2rbhexkouzp2tsjiqheubpu5ch4i"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "115.2.1-release (13.5.1)",
+            "versionCode": 2016031331,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+                "maxSdkVersion": 26
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
+            }
+          }
+        },
+        "1b2bf2c79269e7844166ae54803eec6b0ff9271ed77460d53a1aa1250adfc755": {
+          "added": 1720680462000,
+          "file": {
+            "name": "/tor-browser-android-armv7-13.5.1.apk",
+            "sha256": "1b2bf2c79269e7844166ae54803eec6b0ff9271ed77460d53a1aa1250adfc755",
+            "size": 94327520,
+            "ipfsCIDv1": "bafybeibwyxqfgdfdtqxl2rf3qc5rhbipljqb4glgulgedakjku6attfmru"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "115.2.1-release (13.5.1)",
+            "versionCode": 2016031329,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+                "maxSdkVersion": 26
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
+            }
+          }
+        },
         "f508a2311cdec3cccf27fad3bed76c0de1142e373adca0d316017066c44260fa": {
           "added": 1719038556000,
           "file": {
@@ -2911,450 +3355,6 @@
               },
               {
                 "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
-            }
-          }
-        },
-        "1729c2a75240cde7231725a9e71892e01e8760acaeaa05539ff2bc218e520533": {
-          "added": 1718182525000,
-          "file": {
-            "name": "/tor-browser-android-x86_64-13.0.16.apk",
-            "sha256": "1729c2a75240cde7231725a9e71892e01e8760acaeaa05539ff2bc218e520533",
-            "size": 108215898,
-            "ipfsCIDv1": "bafybeihu3jdwtuu6epd2p4u5ntu6thy7ad2skhhsgv4hrwznfjrtsq3byq"
-          },
-          "manifest": {
-            "nativecode": [
-              "x86_64"
-            ],
-            "versionName": "115.2.1-release (13.0.16)",
-            "versionCode": 2016020063,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
-                "maxSdkVersion": 26
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VIDEO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_IMAGES"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
-            }
-          }
-        },
-        "0de5cef81befcfb23c0ae8615dac8d3a87c56f01f2384f0e74caf99f0d3906ef": {
-          "added": 1718182505000,
-          "file": {
-            "name": "/tor-browser-android-x86-13.0.16.apk",
-            "sha256": "0de5cef81befcfb23c0ae8615dac8d3a87c56f01f2384f0e74caf99f0d3906ef",
-            "size": 112963099,
-            "ipfsCIDv1": "bafybeifnvi35qlnrpehga4dj5ufvt3hgdjmor5exvzop34mfh7rd2ltc4m"
-          },
-          "manifest": {
-            "nativecode": [
-              "x86"
-            ],
-            "versionName": "115.2.1-release (13.0.16)",
-            "versionCode": 2016020061,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
-                "maxSdkVersion": 26
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VIDEO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_IMAGES"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
-            }
-          }
-        },
-        "fa58053f8d014a83df0d24ebb3ce31372e3a3598fbc8f4c46b9913110dc6fb57": {
-          "added": 1718182466000,
-          "file": {
-            "name": "/tor-browser-android-aarch64-13.0.16.apk",
-            "sha256": "fa58053f8d014a83df0d24ebb3ce31372e3a3598fbc8f4c46b9913110dc6fb57",
-            "size": 106090137,
-            "ipfsCIDv1": "bafybeiabsl6luqwct3az5giepbppxqozcgbzdomww7iyfqcmfctj5lfl3m"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "115.2.1-release (13.0.16)",
-            "versionCode": 2016020059,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
-                "maxSdkVersion": 26
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VIDEO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_IMAGES"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
-            }
-          }
-        },
-        "012b7366961dabfd2711aa8721939c4093662ec619e5dc5bbffc41cfaa607227": {
-          "added": 1718182484000,
-          "file": {
-            "name": "/tor-browser-android-armv7-13.0.16.apk",
-            "sha256": "012b7366961dabfd2711aa8721939c4093662ec619e5dc5bbffc41cfaa607227",
-            "size": 98754243,
-            "ipfsCIDv1": "bafybeihjbmyls4euvso6yrp3ujyryrwrreeua7yzmzx6ut643i75prt66a"
-          },
-          "manifest": {
-            "nativecode": [
-              "armeabi-v7a"
-            ],
-            "versionName": "115.2.1-release (13.0.16)",
-            "versionCode": 2016020057,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
-                "maxSdkVersion": 26
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VIDEO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_IMAGES"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
               },
               {
                 "name": "android.permission.USE_FINGERPRINT"
