@@ -38,7 +38,7 @@
         "url": "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/repo"
       }
     ],
-    "timestamp": 1737700281000,
+    "timestamp": 1737740264000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -80,6 +80,11 @@
       "Navigation": {
         "name": {
           "en-US": "Navigation"
+        }
+      },
+      "Phone & SMS": {
+        "name": {
+          "en-US": "Phone & SMS"
         }
       },
       "Security": {
@@ -1819,6 +1824,336 @@
           "antiFeatures": {
             "NonFreeComp": {
               "en-US": "A proprietary Google GMS library getting pulled in somehow.  Some library that Haven uses must pull it in, it is not directly used in Haven."
+            }
+          }
+        }
+      }
+    },
+    "org.thoughtcrime.securesms": {
+      "metadata": {
+        "added": 1737740209000,
+        "categories": [
+          "Internet",
+          "Phone & SMS"
+        ],
+        "lastUpdated": 1737740209000,
+        "license": "AGPL-3.0-only",
+        "sourceCode": "https://github.com/signalapp/Signal-Android",
+        "translation": "https://explore.transifex.com/signalapp/",
+        "webSite": "https://signal.org/",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/org.thoughtcrime.securesms/en-US/phoneScreenshots/1-built-for-privacy.png",
+                "sha256": "ff9835412c4f3d1e17fcf1ab426f855c02aa27c09c38af39a6a9febe7fd82fee",
+                "size": 317435
+              },
+              {
+                "name": "/org.thoughtcrime.securesms/en-US/phoneScreenshots/2-disappearing-messages.png",
+                "sha256": "8df8cd4cff9842091898aa66440945d7427d634250550e0533fd9711c8bf0ba4",
+                "size": 248945
+              },
+              {
+                "name": "/org.thoughtcrime.securesms/en-US/phoneScreenshots/3-free-voice-and-video-calls.png",
+                "sha256": "301643812216daa998cb5541b71749ddc68ef9c807d7ba04aa18621c05d966cd",
+                "size": 1266284
+              },
+              {
+                "name": "/org.thoughtcrime.securesms/en-US/phoneScreenshots/4-stories.png",
+                "sha256": "b5c1ccc6f6b405f7b1f2f334b8ce0740c27a9599c850efc0e38dc14dee3f0ec6",
+                "size": 1334712
+              },
+              {
+                "name": "/org.thoughtcrime.securesms/en-US/phoneScreenshots/5-multimedia.png",
+                "sha256": "c7b043c3bc5f808259cfc7a8c88cc842524ac01e16bb94ba5d067acc1be766ed",
+                "size": 581569
+              },
+              {
+                "name": "/org.thoughtcrime.securesms/en-US/phoneScreenshots/6-group-chats.png",
+                "sha256": "6a3e4e67fc27c35fe0b9e646b33fa169518e4774d11b2c35906efd94bd6acc12",
+                "size": 683280
+              }
+            ]
+          }
+        },
+        "authorEmail": "support@guardianproject.info",
+        "authorName": "Signal Foundation",
+        "authorWebSite": "https://signalfoundation.org/",
+        "name": {
+          "en-US": "Signal Private Messenger"
+        },
+        "summary": {
+          "en-US": "Say \"hello\" to privacy."
+        },
+        "description": {
+          "en-US": "Signal is a messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private.\n\n* Send texts, voice messages, photos, videos, GIFs, and files for free. Signal uses your phone\u2019s data connection, so you avoid SMS and MMS fees.\n\n* Call your friends with crystal-clear encrypted voice and video calls. Group calls supported for up to 40 people.\n\n* Stay connected with group chats up to 1,000 people. Control who can post and manage group members with admin permission settings.\n\n* Share image, text, and video Stories that disappear after 24 hours. Privacy settings keep you in charge of exactly who can see each Story.\n\n* Signal is built for your privacy. We know nothing about you or who you\u2019re talking to. Our open source Signal Protocol means that we can\u2019t read your messages or listen to your calls. Neither can anyone else. No back doors, no data collection, no compromises.\n\n* Signal is independent and not for profit; a different kind of tech from a different kind of organization. As a 501c3 nonprofit we are supported by your donations, not by advertisers or investors.\n\n* For support, questions, or more information please visit https://support.signal.org/\n\nTo check out our source code, visit https://github.com/signalapp\n\nFollow us on Twitter @signalapp and Instagram @signal_app\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/org.thoughtcrime.securesms/en-US/icon_icAOQu7XxnQoTTcCg4zAI-EJQ3GdObMMV9lrs-46Z1E=.png",
+            "sha256": "89c00e42eed7c674284d3702838cc023e10943719d39b30c57d96bb3ee3a6751",
+            "size": 114288
+          }
+        },
+        "preferredSigner": "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26"
+      },
+      "versions": {
+        "911e690be35f48c1692a4725007baef4603b68eafe6121d5c5e5a5644df96ebb": {
+          "added": 1737740209000,
+          "file": {
+            "name": "/Signal-Android-website-prod-universal-release-7.30.2.apk",
+            "sha256": "911e690be35f48c1692a4725007baef4603b68eafe6121d5c5e5a5644df96ebb",
+            "size": 104007993,
+            "ipfsCIDv1": "bafybeiaur2wcknnrhqjxgi2wug77bzfidysgtyfgqrgmhpkxjtdjbzjcx4"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "7.30.2",
+            "versionCode": 150400,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "org.thoughtcrime.securesms.ACCESS_SECRETS"
+              },
+              {
+                "name": "android.permission.READ_PROFILE"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_NUMBERS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.NEARBY_WIFI_DEVICES"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_CALL_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.READ_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.WRITE_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.BROADCAST_STICKY"
+              },
+              {
+                "name": "android.permission.DISABLE_KEYGUARD"
+              },
+              {
+                "name": "android.permission.RAISED_THREAD_PRIORITY"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+              },
+              {
+                "name": "android.permission.MANAGE_OWN_CALLS"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_CAMERA"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_PHONE_CALL"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "org.thoughtcrime.securesms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.READ"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.WRITE"
+              },
+              {
+                "name": "com.htc.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.htc.launcher.permission.UPDATE_SHORTCUT"
+              },
+              {
+                "name": "com.sonyericsson.home.permission.BROADCAST_BADGE"
+              },
+              {
+                "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+              },
+              {
+                "name": "com.anddoes.launcher.permission.UPDATE_COUNT"
+              },
+              {
+                "name": "com.majeur.launcher.permission.UPDATE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_APP_BADGE"
+              },
+              {
+                "name": "com.oppo.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.oppo.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_READ"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_WRITE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "Signal uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
             }
           }
         }
