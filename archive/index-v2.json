@@ -38,7 +38,7 @@
         "url": "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/archive"
       }
     ],
-    "timestamp": 1737786551000,
+    "timestamp": 1737959392000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -498,6 +498,66 @@
                 "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
               ]
             }
+          }
+        }
+      }
+    },
+    "info.guardianproject.checkey": {
+      "metadata": {
+        "added": 1405123200000,
+        "categories": [
+          "Development",
+          "Guardian Project"
+        ],
+        "issueTracker": "https://gitlab.com/guardianproject/checkey/issues",
+        "lastUpdated": 1422403200000,
+        "license": "GPL-3.0-or-later",
+        "sourceCode": "https://gitlab.com/guardianproject/checkey",
+        "translation": "https://hosted.weblate.org/projects/guardianproject/checkey/",
+        "webSite": "https://dev.guardianproject.info/projects/checkey",
+        "authorEmail": "support@guardianproject.info",
+        "authorName": "Guardian Project",
+        "authorWebSite": "https://guardianproject.info",
+        "liberapay": "GuardianProject",
+        "openCollective": "GuardianProject",
+        "name": {
+          "en-US": "Checkey"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/info.guardianproject.checkey.1.png",
+            "sha256": "2e768304bc13b50fd392e210c2cf0015be690a42d05ee3e9d2b21f6bafbb63f7",
+            "size": 5572
+          }
+        },
+        "preferredSigner": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+      },
+      "versions": {
+        "a8e3c102d5279a3029d0eebdeda2ffdbe1f8a3493ea7dbdc31a11affc708ee57": {
+          "added": 1405123200000,
+          "file": {
+            "name": "/Checkey-0.1.apk",
+            "sha256": "a8e3c102d5279a3029d0eebdeda2ffdbe1f8a3493ea7dbdc31a11affc708ee57",
+            "size": 878679,
+            "ipfsCIDv1": "bafybeia2kg6h3zyimxf5cccy7hfvdk56ci7v5ljbk5h65chi3ex7tt6ww4"
+          },
+          "manifest": {
+            "versionName": "0.1",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 8,
+              "targetSdkVersion": 19
+            },
+            "signer": {
+              "sha256": [
+                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              }
+            ]
           }
         }
       }
@@ -6473,7 +6533,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/org.havenapp.main.213.png",
+            "name": "/icons/org.havenapp.main.2001.png",
             "sha256": "212324bb26e00b320bc733e6eec7de7b51431b2afaeba0a4f900cd5ac6a19d0c",
             "size": 2453
           }
@@ -6481,6 +6541,151 @@
         "preferredSigner": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
       },
       "versions": {
+        "70273f262b8490dd1fa7147501e911e72ef02c0d89259cb459c2347aabfbfa1d": {
+          "added": 1575676800000,
+          "file": {
+            "name": "/Haven-0.2.0-RC-1-release.apk",
+            "sha256": "70273f262b8490dd1fa7147501e911e72ef02c0d89259cb459c2347aabfbfa1d",
+            "size": 15881868,
+            "ipfsCIDv1": "bafybeiahpn3k6naogg55qhjvhx4zrlj2hdszffembewoyw4d2ivvb6liru"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86"
+            ],
+            "versionName": "0.2.0-RC-1",
+            "versionCode": 2001,
+            "usesSdk": {
+              "minSdkVersion": 16,
+              "targetSdkVersion": 29
+            },
+            "signer": {
+              "sha256": [
+                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "A proprietary Google GMS library getting pulled in somehow.  Some library that Haven uses must pull it in, it is not directly used in Haven."
+            }
+          }
+        },
+        "fd50c35b5cd56ea97d22a3c43e8b6209468c8f0b43df0d13d1c1b4b42559578b": {
+          "added": 1555459200000,
+          "file": {
+            "name": "/Haven-0.2.0-beta-5-signed-release.apk",
+            "sha256": "fd50c35b5cd56ea97d22a3c43e8b6209468c8f0b43df0d13d1c1b4b42559578b",
+            "size": 14373028,
+            "ipfsCIDv1": "bafybeidqlsj2mhh6iz3zbjclav755k2kjnfch2cd3zymzhiedkhidx4oua"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a",
+              "x86"
+            ],
+            "versionName": "0.2.0-beta-5-signed",
+            "versionCode": 214,
+            "usesSdk": {
+              "minSdkVersion": 16,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "A proprietary Google GMS library getting pulled in somehow.  Some library that Haven uses must pull it in, it is not directly used in Haven."
+            }
+          }
+        },
         "a40ae025f385bd68b43d9dc900f66d165212ea881679e2884bbf4b11e35e6fc8": {
           "added": 1551312000000,
           "file": {
@@ -13980,16 +14185,144 @@
         "name": {
           "en-US": "TorServices"
         },
-        "icon": {
-          "en-US": {
-            "name": "/icons/org.torproject.torservices.2004.png",
-            "sha256": "7cdfda6545d2cad415feee17c51c3e6dd83405c42aeb75c7aa5f851513703bf4",
-            "size": 4818
-          }
-        },
         "preferredSigner": "fdbd9538a76d4c39edce86e1f86709f8f0dacdf3841b9f116aa5021b342930d9"
       },
       "versions": {
+        "5fa45a28415e282adb5c0e4e637210f6c726a8f61910bc3fd512225dc8d95a71": {
+          "added": 1707858989000,
+          "file": {
+            "name": "/org.torproject.torservices_2013.apk",
+            "sha256": "5fa45a28415e282adb5c0e4e637210f6c726a8f61910bc3fd512225dc8d95a71",
+            "size": 6658281,
+            "ipfsCIDv1": "bafybeibgt645siqrnvjdcax7be2h3mdrrt3t5ylorqxmgmkrck5dyxtbdq"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "0.2.1",
+            "versionCode": 2013,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "fdbd9538a76d4c39edce86e1f86709f8f0dacdf3841b9f116aa5021b342930d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              }
+            ]
+          }
+        },
+        "a5fc38ae5e1449da854764cfccec02c17c67e196e3efb9e9ad52880889dd05a9": {
+          "added": 1707858987000,
+          "file": {
+            "name": "/org.torproject.torservices_2012.apk",
+            "sha256": "a5fc38ae5e1449da854764cfccec02c17c67e196e3efb9e9ad52880889dd05a9",
+            "size": 7342308,
+            "ipfsCIDv1": "bafybeigr2eyedcaam2la5f2rfpwxpy3eudsttahl5mlgykq2p7qk3ildem"
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "0.2.1",
+            "versionCode": 2012,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "fdbd9538a76d4c39edce86e1f86709f8f0dacdf3841b9f116aa5021b342930d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              }
+            ]
+          }
+        },
+        "1f4f1664ef86a9e4acbd351bf51f824e4788bc96ff812a63ebca6b544b5d9189": {
+          "added": 1707858986000,
+          "file": {
+            "name": "/org.torproject.torservices_2011.apk",
+            "sha256": "1f4f1664ef86a9e4acbd351bf51f824e4788bc96ff812a63ebca6b544b5d9189",
+            "size": 7129313,
+            "ipfsCIDv1": "bafybeig4uy3qxmgib76altjl356ckgg5f2uj5f7vyarvnvo567jqxi2774"
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "0.2.1",
+            "versionCode": 2011,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "fdbd9538a76d4c39edce86e1f86709f8f0dacdf3841b9f116aa5021b342930d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              }
+            ]
+          }
+        },
         "e004d5aeba721e565ad83a708c39b6a5d8680d53a3cf20fcf1a47747e53c99c6": {
           "added": 1620345600000,
           "file": {
@@ -15053,7 +15386,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/org.witness.sscphase1.40.png",
+            "name": "/icons/org.witness.sscphase1.4001.png",
             "sha256": "a31480405505300b92e7572965f62bded6a5c7583fb66181ae229c621b7a9a84",
             "size": 4933
           }
@@ -15061,6 +15394,55 @@
         "preferredSigner": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
       },
       "versions": {
+        "9f5c5b8570f3f423c818ce7eb66b8d4985233845dd43420c2d0351c51a560be1": {
+          "added": 1513900800000,
+          "file": {
+            "name": "/ObscuraCam-v4.0.0-beta-1.apk",
+            "sha256": "9f5c5b8570f3f423c818ce7eb66b8d4985233845dd43420c2d0351c51a560be1",
+            "size": 24355410,
+            "ipfsCIDv1": "bafybeidhnp3hinueuv2rmf57tp4ld27r5wuktw6ojc735tzshts3jxvoke"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi",
+              "armeabi-v7a",
+              "mips",
+              "mips64",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "4.0.0-beta-1",
+            "versionCode": 4001,
+            "usesSdk": {
+              "minSdkVersion": 16,
+              "targetSdkVersion": 25
+            },
+            "signer": {
+              "sha256": [
+                "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_MEDIA_STORAGE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.VIBRATE",
+                "maxSdkVersion": 18
+              }
+            ]
+          }
+        },
         "71992a2cfbb614f22f7a64f5c0cfe23550463f92d2728282c0092e07de19ff37": {
           "added": 1513900800000,
           "file": {

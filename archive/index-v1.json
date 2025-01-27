@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1737786551000,
+    "timestamp": 1737959392000,
     "version": 20002,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -139,6 +139,37 @@
       "authorEmail": "support@guardianproject.info",
       "authorName": "Guardian Project",
       "authorWebSite": "https://guardianproject.info",
+      "binaries": "https://guardianproject.info/releases/Checkey-%v.apk",
+      "categories": [
+        "Development",
+        "Guardian Project"
+      ],
+      "suggestedVersionName": "0.1.3",
+      "suggestedVersionCode": "103",
+      "issueTracker": "https://gitlab.com/guardianproject/checkey/issues",
+      "liberapay": "GuardianProject",
+      "license": "GPL-3.0-or-later",
+      "openCollective": "GuardianProject",
+      "sourceCode": "https://gitlab.com/guardianproject/checkey",
+      "translation": "https://hosted.weblate.org/projects/guardianproject/checkey/",
+      "webSite": "https://dev.guardianproject.info/projects/checkey",
+      "added": 1405123200000,
+      "icon": "info.guardianproject.checkey.1.png",
+      "packageName": "info.guardianproject.checkey",
+      "lastUpdated": 1422403200000,
+      "localized": {
+        "en-US": {
+          "name": "Checkey"
+        }
+      }
+    },
+    {
+      "allowedAPKSigningKeys": [
+        "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+      ],
+      "authorEmail": "support@guardianproject.info",
+      "authorName": "Guardian Project",
+      "authorWebSite": "https://guardianproject.info",
       "categories": [
         "Reading",
         "Guardian Project"
@@ -203,7 +234,7 @@
         "Guardian Project",
         "Security"
       ],
-      "suggestedVersionCode": "213",
+      "suggestedVersionCode": "2001",
       "description": "Haven is for people who need a way to protect their personal spaces\nand possessions without compromising their own privacy. It is an\nAndroid application that leverages on-device sensors to provide\nmonitoring and protection of physical spaces. Haven turns any Android\nphone into a motion, sound, vibration and light detector, watching\nfor unexpected guests and unwanted intruders. We designed Haven for\ninvestigative journalists, human rights defenders, and people at risk\nof forced disappearance to create a new kind of herd immunity. By\ncombining the array of sensors found in any smartphone, with the\nworld\u2019s most secure communications technologies, like Signal and Tor,\nHaven prevents the worst kind of people from silencing citizens\nwithout getting caught in the act.\n\nProject Team\n\nHaven was developed through a collaboration between Freedom of the\nPress Foundation and Guardian Project. Prototype funding was\ngenerously provided by FoPF, and donations to support continuing work\ncan be contributed through their site:\nhttps://freedom.press/donate-support-haven-open-source-project\n\nSafety through Sensors\n\nHaven only saves images and sound when triggered by motion or volume,\nand stores everything locally on the device. You can position the\ndevice\u2019s camera to capture visible motion, or set your phone\nsomewhere discreet to just listen for noises. Get secure\nnotifications of intrusion events instantly and access the logs\nremotely or anytime later.\n\nThe follow sensors are monitored for a measurable change, and then\nrecorded to an event log on the device:\n\n* Accelerometer: phone\u2019s motion and vibration\n* Camera: motion in the phone\u2019s visible surroundings from front or back camera\n* Microphone: noises in the enviroment\n* Light: change in light from ambient light sensor\n* Power: detect device being unplugged or power loss\n",
       "issueTracker": "https://github.com/guardianproject/haven/issues",
       "liberapay": "GuardianProject",
@@ -214,7 +245,7 @@
       "translation": "https://hosted.weblate.org/projects/guardianproject/haven/",
       "webSite": "https://guardianproject.github.io/haven",
       "added": 1513900800000,
-      "icon": "org.havenapp.main.213.png",
+      "icon": "org.havenapp.main.2001.png",
       "packageName": "org.havenapp.main",
       "lastUpdated": 1628812800000,
       "localized": {
@@ -296,7 +327,7 @@
         "Multimedia",
         "Security"
       ],
-      "suggestedVersionCode": "40",
+      "suggestedVersionCode": "4001",
       "issueTracker": "https://github.com/guardianproject/ObscuraCam/issues",
       "liberapay": "GuardianProject",
       "license": "GPL-3.0-or-later",
@@ -305,7 +336,7 @@
       "translation": "https://hosted.weblate.org/projects/guardianproject/obscuracam",
       "webSite": "https://guardianproject.info/apps/obscuracam",
       "added": 1376870400000,
-      "icon": "org.witness.sscphase1.40.png",
+      "icon": "org.witness.sscphase1.4001.png",
       "packageName": "org.witness.sscphase1",
       "lastUpdated": 1628812800000,
       "localized": {
@@ -638,14 +669,13 @@
       "categories": [
         "Security"
       ],
-      "suggestedVersionCode": "2004",
+      "suggestedVersionCode": "2013",
       "issueTracker": "https://gitlab.com/guardianproject/torservices/issues",
       "liberapay": "GuardianProject",
       "license": "GPL-3.0-or-later",
       "openCollective": "GuardianProject",
       "sourceCode": "https://gitlab.com/guardianproject/torservices",
       "added": 1620000000000,
-      "icon": "org.torproject.torservices.2004.png",
       "packageName": "org.torproject.torservices",
       "lastUpdated": 1708704959000,
       "localized": {
@@ -888,6 +918,28 @@
         "targetSdkVersion": 17,
         "versionCode": 1,
         "versionName": "1.0"
+      }
+    ],
+    "info.guardianproject.checkey": [
+      {
+        "added": 1405123200000,
+        "apkName": "Checkey-0.1.apk",
+        "hash": "a8e3c102d5279a3029d0eebdeda2ffdbe1f8a3493ea7dbdc31a11affc708ee57",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "packageName": "info.guardianproject.checkey",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 878679,
+        "targetSdkVersion": 19,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "0.1"
       }
     ],
     "info.guardianproject.courier": [
@@ -6832,6 +6884,151 @@
       }
     ],
     "org.havenapp.main": [
+      {
+        "added": 1575676800000,
+        "apkName": "Haven-0.2.0-RC-1-release.apk",
+        "hash": "70273f262b8490dd1fa7147501e911e72ef02c0d89259cb459c2347aabfbfa1d",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86"
+        ],
+        "packageName": "org.havenapp.main",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 15881868,
+        "targetSdkVersion": 29,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ]
+        ],
+        "versionCode": 2001,
+        "versionName": "0.2.0-RC-1"
+      },
+      {
+        "added": 1555459200000,
+        "apkName": "Haven-0.2.0-beta-5-signed-release.apk",
+        "hash": "fd50c35b5cd56ea97d22a3c43e8b6209468c8f0b43df0d13d1c1b4b42559578b",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi-v7a",
+          "x86"
+        ],
+        "packageName": "org.havenapp.main",
+        "sig": "d70ac6a02b53ebdd1354ea7af7b9ceee",
+        "signer": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a",
+        "size": 14373028,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ]
+        ],
+        "versionCode": 214,
+        "versionName": "0.2.0-beta-5-signed"
+      },
       {
         "added": 1551312000000,
         "apkName": "Haven-0.2.0-beta-4-release.apk",
@@ -14426,6 +14623,135 @@
     ],
     "org.torproject.torservices": [
       {
+        "added": 1707858989000,
+        "apkName": "org.torproject.torservices_2013.apk",
+        "hash": "5fa45a28415e282adb5c0e4e637210f6c726a8f61910bc3fd512225dc8d95a71",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "org.torproject.torservices",
+        "sig": "c9ee556015007c5f78b7e62329a4b427",
+        "signer": "fdbd9538a76d4c39edce86e1f86709f8f0dacdf3841b9f116aa5021b342930d9",
+        "size": 6658281,
+        "targetSdkVersion": 31,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ]
+        ],
+        "versionCode": 2013,
+        "versionName": "0.2.1"
+      },
+      {
+        "added": 1707858987000,
+        "apkName": "org.torproject.torservices_2012.apk",
+        "hash": "a5fc38ae5e1449da854764cfccec02c17c67e196e3efb9e9ad52880889dd05a9",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "x86_64"
+        ],
+        "packageName": "org.torproject.torservices",
+        "sig": "c9ee556015007c5f78b7e62329a4b427",
+        "signer": "fdbd9538a76d4c39edce86e1f86709f8f0dacdf3841b9f116aa5021b342930d9",
+        "size": 7342308,
+        "targetSdkVersion": 31,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ]
+        ],
+        "versionCode": 2012,
+        "versionName": "0.2.1"
+      },
+      {
+        "added": 1707858986000,
+        "apkName": "org.torproject.torservices_2011.apk",
+        "hash": "1f4f1664ef86a9e4acbd351bf51f824e4788bc96ff812a63ebca6b544b5d9189",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "x86"
+        ],
+        "packageName": "org.torproject.torservices",
+        "sig": "c9ee556015007c5f78b7e62329a4b427",
+        "signer": "fdbd9538a76d4c39edce86e1f86709f8f0dacdf3841b9f116aa5021b342930d9",
+        "size": 7129313,
+        "targetSdkVersion": 31,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ]
+        ],
+        "versionCode": 2011,
+        "versionName": "0.2.1"
+      },
+      {
         "added": 1620345600000,
         "apkName": "org.torproject.torservices_2004.apk",
         "hash": "e004d5aeba721e565ad83a708c39b6a5d8680d53a3cf20fcf1a47747e53c99c6",
@@ -15398,6 +15724,51 @@
       }
     ],
     "org.witness.sscphase1": [
+      {
+        "added": 1513900800000,
+        "apkName": "ObscuraCam-v4.0.0-beta-1.apk",
+        "hash": "9f5c5b8570f3f423c818ce7eb66b8d4985233845dd43420c2d0351c51a560be1",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "org.witness.sscphase1",
+        "sig": "a0eeebb161f946e3516945fae8a92a3e",
+        "signer": "d71620711b04dfa13216116fbc8a9f3e3409846b16ff2bacf43e1c5ef5a3ed6b",
+        "size": 24355410,
+        "targetSdkVersion": 25,
+        "uses-permission": [
+          [
+            "android.permission.READ_MEDIA_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            18
+          ]
+        ],
+        "versionCode": 4001,
+        "versionName": "4.0.0-beta-1"
+      },
       {
         "added": 1513900800000,
         "apkName": "ObscuraCam-v4.0.0.40-alpha-2.apk",
