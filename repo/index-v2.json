@@ -38,7 +38,7 @@
         "url": "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/repo"
       }
     ],
-    "timestamp": 1739169246000,
+    "timestamp": 1739255659000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -1659,7 +1659,7 @@
     },
     "org.thoughtcrime.securesms": {
       "metadata": {
-        "added": 1737740209000,
+        "added": 1738391540000,
         "categories": [
           "Internet",
           "Phone & SMS"
@@ -1982,6 +1982,12 @@
           "antiFeatures": {
             "NonFreeComp": {
               "en-US": "Signal uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
+            },
+            "NonFreeNet": {
+              "en-US": "Uses its own proprietary server as well as other proprietary cloud services.\n"
+            },
+            "TetheredNet": {
+              "en-US": "Tied to Signal Foundation's infrastructure.\n"
             }
           }
         },
@@ -2240,6 +2246,12 @@
           "antiFeatures": {
             "NonFreeComp": {
               "en-US": "Signal uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
+            },
+            "NonFreeNet": {
+              "en-US": "Uses its own proprietary server as well as other proprietary cloud services.\n"
+            },
+            "TetheredNet": {
+              "en-US": "Tied to Signal Foundation's infrastructure.\n"
             }
           }
         },
@@ -2498,6 +2510,12 @@
           "antiFeatures": {
             "NonFreeComp": {
               "en-US": "Signal uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
+            },
+            "NonFreeNet": {
+              "en-US": "Uses its own proprietary server as well as other proprietary cloud services.\n"
+            },
+            "TetheredNet": {
+              "en-US": "Tied to Signal Foundation's infrastructure.\n"
             }
           }
         }
@@ -3100,7 +3118,7 @@
     },
     "org.torproject.torbrowser": {
       "metadata": {
-        "added": 1727851447000,
+        "added": 1729666016000,
         "categories": [
           "Internet",
           "Security",
@@ -5199,7 +5217,7 @@
         "authorWebSite": "https://guardianproject.info/",
         "liberapay": "GuardianProject",
         "name": {
-          "en-US": "ProofMode: Verified Witnessing"
+          "en-US": "ProofMode: Verified Visuals"
         },
         "summary": {
           "af": "Draai jou foto's en video's in veilige, onderteken visuele bewyse",
@@ -5255,7 +5273,7 @@
           "vi": "Bi\u1ebfn c\u00e1c b\u1ee9c \u1ea3nh v\u00e0 video c\u1ee7a b\u1ea1n v\u00e0o, b\u1eb1ng ch\u1ee9ng tr\u1ef1c quan k\u00fd an to\u00e0n"
         },
         "description": {
-          "en-US": "\nProofMode is light, minimal \"reboot\" of our full encrypted, verified secure camera app, CameraV (https://guardianproject.info/apps/camerav). Our hope was to create a lightweight, almost invisible utility, that you can run all of the time on your phone, that automatically extra digital proof data to all photos and videos you take. This data can then be easily shared through a \"Share Proof\" share action, to anyone you choose.\n\nProofMode is an open-source project: https://github.com/guardianproject/proofmode\n\nGoals\n\n* Run all of the time in the background without noticeable battery, storage or network impact\n* Provide a no-setup-required, automatic new user experience that works without requiring training\n* Use strong cryptography for strong identity and verification features, but not encryption\n* Produce \"proof\" data formats that can be easily parse, imported by existing tools (CSV)\n* Do not modify the original media files; all proof metadata storied in separate file\n* Support both full \"proof\" data generation, as well as more simple sha1/sha256 hash and PGP signature of media files\n* Do not require a persistent identity or account generation\n\nContributions\n\n* Some icons were used under the APL 2.0 license from the Google Material Design Icon library: https://material.io/icons/\n* The App Intro library is used under the APL 2.0 license: https://github.com/paolorotolo/AppIntro\n* Spongy Castle uses the same adaptation of the MIT X11 License as Bouncy Castle.: https://rtyley.github.io/spongycastle/\n\nNOTICE: Work on ProofMode is active and underway, however there has not yet been a full technical, security, or legal audit. The proofmode metadata and cryptographic chain-of-custody have not yet been tested in court or other legal proceedings.\n"
+          "en-US": "\nProofMode is light, minimal \"reboot\" of our full encrypted, verified secure camera app, CameraV (https://guardianproject.info/apps/camerav). Our hope was to create a lightweight, almost invisible utility, that you can run all of the time on your phone, that automatically extra digital proof data to all photos and videos you take. This data can then be easily shared through a \"Share Proof\" share action, to anyone you choose.\n\nProofMode is an open-source project. Learn more at https://proofmode.org\n\nGoals\n\n* Run all of the time in the background without noticeable battery, storage or network impact\n* Provide a no-setup-required, automatic new user experience that works without requiring training\n* Use strong cryptography for strong identity and verification features, but not encryption\n* Produce \"proof\" data formats that can be easily parse, imported by existing tools (CSV)\n* Do not modify the original media files; all proof metadata storied in separate file\n* Support both full \"proof\" data generation, as well as more simple sha1/sha256 hash and PGP signature of media files\n* Do not require a persistent identity or account generation\n\nContributions\n\n* Some icons were used under the APL 2.0 license from the Google Material Design Icon library: https://material.io/icons/\n* The App Intro library is used under the APL 2.0 license: https://github.com/paolorotolo/AppIntro\n* Spongy Castle uses the same adaptation of the MIT X11 License as Bouncy Castle.: https://rtyley.github.io/spongycastle/\n\nNOTICE: Work on ProofMode is active and underway, however there has not yet been a full technical, security, or legal audit. The proofmode metadata and cryptographic chain-of-custody have not yet been tested in court or other legal proceedings.\n"
         },
         "icon": {
           "en-US": {

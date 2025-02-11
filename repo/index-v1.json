@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1739169246000,
+    "timestamp": 1739255659000,
     "version": 20002,
     "maxage": 14,
     "name": "Guardian Project",
@@ -1384,7 +1384,7 @@
       "issueTracker": "https://github.com/guardianproject/proofmode/issues",
       "liberapay": "GuardianProject",
       "license": "GPL-3.0-or-later",
-      "name": "ProofMode: Verified Witnessing",
+      "name": "ProofMode: Verified Visuals",
       "sourceCode": "https://github.com/guardianproject/proofmode",
       "added": 1596672000000,
       "packageName": "org.witness.proofmode",
@@ -1424,7 +1424,7 @@
           "summary": "\u039c\u03b5\u03c4\u03b1\u03c4\u03c1\u03ad\u03c8\u03c4\u03b5 \u03c4\u03b9\u03c2 \u03c6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03c4\u03b1 \u03b2\u03af\u03bd\u03c4\u03b5\u03cc \u03c3\u03b1\u03c2 \u03c3\u03b5 \u03b1\u03c3\u03c6\u03b1\u03bb\u03ae, \u03c5\u03c0\u03ad\u03b3\u03c1\u03b1\u03c8\u03b5 \u03bf\u03c0\u03c4\u03b9\u03ba\u03ae \u03b1\u03c0\u03cc\u03b4\u03b5\u03b9\u03be\u03b7"
         },
         "en-US": {
-          "description": "\nProofMode is light, minimal \"reboot\" of our full encrypted, verified secure camera app, CameraV (https://guardianproject.info/apps/camerav). Our hope was to create a lightweight, almost invisible utility, that you can run all of the time on your phone, that automatically extra digital proof data to all photos and videos you take. This data can then be easily shared through a \"Share Proof\" share action, to anyone you choose.\n\nProofMode is an open-source project: https://github.com/guardianproject/proofmode\n\nGoals\n\n* Run all of the time in the background without noticeable battery, storage or network impact\n* Provide a no-setup-required, automatic new user experience that works without requiring training\n* Use strong cryptography for strong identity and verification features, but not encryption\n* Produce \"proof\" data formats that can be easily parse, imported by existing tools (CSV)\n* Do not modify the original media files; all proof metadata storied in separate file\n* Support both full \"proof\" data generation, as well as more simple sha1/sha256 hash and PGP signature of media files\n* Do not require a persistent identity or account generation\n\nContributions\n\n* Some icons were used under the APL 2.0 license from the Google Material Design Icon library: https://material.io/icons/\n* The App Intro library is used under the APL 2.0 license: https://github.com/paolorotolo/AppIntro\n* Spongy Castle uses the same adaptation of the MIT X11 License as Bouncy Castle.: https://rtyley.github.io/spongycastle/\n\nNOTICE: Work on ProofMode is active and underway, however there has not yet been a full technical, security, or legal audit. The proofmode metadata and cryptographic chain-of-custody have not yet been tested in court or other legal proceedings.\n",
+          "description": "\nProofMode is light, minimal \"reboot\" of our full encrypted, verified secure camera app, CameraV (https://guardianproject.info/apps/camerav). Our hope was to create a lightweight, almost invisible utility, that you can run all of the time on your phone, that automatically extra digital proof data to all photos and videos you take. This data can then be easily shared through a \"Share Proof\" share action, to anyone you choose.\n\nProofMode is an open-source project. Learn more at https://proofmode.org\n\nGoals\n\n* Run all of the time in the background without noticeable battery, storage or network impact\n* Provide a no-setup-required, automatic new user experience that works without requiring training\n* Use strong cryptography for strong identity and verification features, but not encryption\n* Produce \"proof\" data formats that can be easily parse, imported by existing tools (CSV)\n* Do not modify the original media files; all proof metadata storied in separate file\n* Support both full \"proof\" data generation, as well as more simple sha1/sha256 hash and PGP signature of media files\n* Do not require a persistent identity or account generation\n\nContributions\n\n* Some icons were used under the APL 2.0 license from the Google Material Design Icon library: https://material.io/icons/\n* The App Intro library is used under the APL 2.0 license: https://github.com/paolorotolo/AppIntro\n* Spongy Castle uses the same adaptation of the MIT X11 License as Bouncy Castle.: https://rtyley.github.io/spongycastle/\n\nNOTICE: Work on ProofMode is active and underway, however there has not yet been a full technical, security, or legal audit. The proofmode metadata and cryptographic chain-of-custody have not yet been tested in court or other legal proceedings.\n",
           "featureGraphic": "featureGraphic_Xnp5ZwkQQrhE9z1k9r3JC7UHBmI2vuKd0hkwd8ZfurA=.png",
           "icon": "icon_6RTVSw3nNVHiIFpKNQnU5AsvXJldXRF9AdLP7FWWCO4=.png",
           "phoneScreenshots": [
@@ -1839,7 +1839,9 @@
         "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26"
       ],
       "antiFeatures": [
-        "NonFreeComp"
+        "NonFreeComp",
+        "NonFreeNet",
+        "TetheredNet"
       ],
       "authorEmail": "support@guardianproject.info",
       "authorName": "Signal Foundation",
@@ -1853,7 +1855,7 @@
       "sourceCode": "https://github.com/signalapp/Signal-Android",
       "translation": "https://explore.transifex.com/signalapp/",
       "webSite": "https://signal.org/",
-      "added": 1737740209000,
+      "added": 1738391540000,
       "packageName": "org.thoughtcrime.securesms",
       "lastUpdated": 1738996423000,
       "localized": {
@@ -1898,7 +1900,7 @@
       "name": "Tor Browser for Android",
       "sourceCode": "https://gitweb.torproject.org/tor-browser.git",
       "summary": "Experience real private browsing without tracking, surveillance, or censorship.",
-      "added": 1727851447000,
+      "added": 1729666016000,
       "packageName": "org.torproject.torbrowser",
       "lastUpdated": 1738996492000,
       "localized": {
