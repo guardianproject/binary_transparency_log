@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1741329718000,
+    "timestamp": 1741340889000,
     "version": 20002,
     "maxage": 14,
     "name": "Guardian Project",
@@ -279,6 +279,41 @@
       "localized": {
         "en-US": {
           "name": "C\u00edrculo"
+        }
+      }
+    },
+    {
+      "allowedAPKSigningKeys": [
+        "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
+      ],
+      "antiFeatures": [
+        "NonFreeComp"
+      ],
+      "authorEmail": "android-marketplace-notices@mozilla.com",
+      "authorName": "Mozilla",
+      "categories": [
+        "Internet"
+      ],
+      "suggestedVersionCode": "390581822",
+      "issueTracker": "https://bugzilla.mozilla.org/",
+      "license": "MPL-2.0",
+      "sourceCode": "https://hg.mozilla.org/mozilla-central/",
+      "webSite": "https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/",
+      "added": 1741340805000,
+      "packageName": "org.mozilla.klar",
+      "lastUpdated": 1741340805000,
+      "localized": {
+        "en-US": {
+          "description": "Browse like no one\u2019s watching. The new Firefox Klar automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads.\n\n\u201cPrivate browsing\u201d on most browsers isn\u2019t comprehensive or easy to use. Klar is next-level privacy that\u2019s free, always on and always on your side \u2014 because it\u2019s backed by Mozilla, the non-profit that fights for your rights on the Web.\n\nAUTOMATIC PRIVACY\n\u2022 Blocks a wide range of common Web trackers without any settings to set\n\u2022 Easily erases your history \u2014 no passwords, no cookies, no trackers\n\nBROWSE FASTER\n\u2022 By removing trackers and ads, Web pages may require less data and load faster\n\nMADE BY MOZILLA\n\u2022 We believe everyone should have control over their lives online. That\u2019s what we\u2019ve been fighting for since 1998.\n",
+          "featureGraphic": "featureGraphic_AD8dhxb0YNRZG6zJXVOaoD03VqKBehNCKy4k7bZHu_4=.png",
+          "icon": "icon_4ukz7aAUvnJnuWYSI9ZwJbrNbB4t4JPF0Dgxy3t3xoY=.png",
+          "name": "Firefox Klar: No Fuss Browser",
+          "phoneScreenshots": [
+            "1.png",
+            "2.png",
+            "3.png"
+          ],
+          "summary": "Effortless, companion browser for your super quick, private searches."
         }
       }
     },
@@ -2468,6 +2503,145 @@
         ],
         "versionCode": 21101,
         "versionName": "0.2.1-beta-1"
+      }
+    ],
+    "org.mozilla.klar": [
+      {
+        "added": 1741340805000,
+        "apkName": "org.mozilla.klar_390581822.apk",
+        "hash": "4a5576611218a3b69c4a0faf295b5c4cb3d650ad3fb9a780e11fc002ab726ab6",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "org.mozilla.klar",
+        "sig": "ee26ef669f39d8ee1945d36297f907de",
+        "signer": "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc",
+        "size": 100147176,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "org.mozilla.klar.permission.RECEIVE_DOWNLOAD_BROADCAST",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "org.mozilla.klar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ]
+        ],
+        "versionCode": 390581822,
+        "versionName": "136.0"
       }
     ],
     "org.thoughtcrime.securesms": [
