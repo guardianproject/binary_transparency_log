@@ -42,7 +42,7 @@
         "url": "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/archive"
       }
     ],
-    "timestamp": 1750315580000,
+    "timestamp": 1750320729000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -12676,7 +12676,7 @@
         ],
         "changelog": "https://github.com/guardianproject/orbot/releases",
         "issueTracker": "https://github.com/guardianproject/orbot/issues",
-        "lastUpdated": 1707858981000,
+        "lastUpdated": 1750320720000,
         "license": "BSD-3-Clause",
         "sourceCode": "https://github.com/guardianproject/orbot",
         "translation": "https://hosted.weblate.org/projects/guardianproject/orbot",
@@ -12695,6 +12695,118 @@
         "preferredSigner": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
       },
       "versions": {
+        "a047b98fcc4723bc43e99b42cf246a31e82412229300d37287dc2fb5c9afe885": {
+          "added": 1677834692000,
+          "file": {
+            "name": "/Orbot-16.6.4-RC-1-tor.0.4.7.11-fullperm-universal-release.apk",
+            "sha256": "a047b98fcc4723bc43e99b42cf246a31e82412229300d37287dc2fb5c9afe885",
+            "size": 39240514,
+            "ipfsCIDv1": "bafybeierbovxrxubuhzzkgggdngnx42ql4luyipi2iof7lzq2cffuqac74"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "16.6.4-RC-1-tor.0.4.7.11",
+            "versionCode": 1664300100,
+            "usesSdk": {
+              "minSdkVersion": 16,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 18
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 18
+              }
+            ]
+          }
+        },
+        "61f8b7c8c9fbe8a81c284bfeeebfae40b8c59da95532bd71fc889bfd64168886": {
+          "added": 1668580198000,
+          "file": {
+            "name": "/Orbot-16.6.3-BETA-1-tor.0.4.7.10-fullperm-universal-release.apk",
+            "sha256": "61f8b7c8c9fbe8a81c284bfeeebfae40b8c59da95532bd71fc889bfd64168886",
+            "size": 38946447,
+            "ipfsCIDv1": "bafybeicjdkkegp2fuuocxr7oalbvtgmfw7jdw54mtdilvngttquog24lji"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "16.6.3-BETA-1-tor.0.4.7.10",
+            "versionCode": 1663200100,
+            "usesSdk": {
+              "minSdkVersion": 16,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 18
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 18
+              }
+            ]
+          }
+        },
         "5988d15946b41ac06a430e835358616ffbbb869bf519f002e1f80ffb060efa3a": {
           "added": 1652140800000,
           "file": {
@@ -25219,7 +25331,7 @@
           "Guardian Project"
         ],
         "issueTracker": "https://github.com/guardianproject/proofmode-android/issues",
-        "lastUpdated": 1741116126000,
+        "lastUpdated": 1750320726000,
         "license": "GPL-3.0-or-later",
         "sourceCode": "https://github.com/guardianproject/proofmode-android",
         "authorEmail": "support@guardianproject.info",
@@ -25232,6 +25344,198 @@
         "preferredSigner": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
       },
       "versions": {
+        "6a767470946cc11159e010341c1f3bc88e8e7b8790ed3a267732501b4e12cec3": {
+          "added": 1750320726000,
+          "file": {
+            "name": "/ProofMode-2.6.0-RC-2-artwork-universal-release.apk",
+            "sha256": "6a767470946cc11159e010341c1f3bc88e8e7b8790ed3a267732501b4e12cec3",
+            "size": 49981927,
+            "ipfsCIDv1": "bafybeidclgi6mxjwrc2y2jewlwyqdgypgzzcc4wg3sobgy2fuojwqxm3wq"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi",
+              "armeabi-v7a",
+              "mips",
+              "mips64",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.6.0-RC-2",
+            "versionCode": 260302,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_MEDIA_LOCATION"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "org.witness.proofmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "ProofMode uses a number of proprietary Google Play Services libraries, such as Play Integrity (SafetyNet), FusionLocationProvider and others, to provide extra assurances about the provenance of media files generated on an Android device.\n"
+            }
+          }
+        },
+        "dbfcab0679fc4f212bd4dea13b7e6f19ceb692ea3f9b9129274b2acf695ba621": {
+          "added": 1741116126000,
+          "file": {
+            "name": "/proofmode-latest.apk",
+            "sha256": "dbfcab0679fc4f212bd4dea13b7e6f19ceb692ea3f9b9129274b2acf695ba621",
+            "size": 43504200,
+            "ipfsCIDv1": "bafybeig7nwogybhdcoiaivbs2phkdhiineby4iybthvsmzzk4caueawt5e"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi",
+              "armeabi-v7a",
+              "mips",
+              "mips64",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.5.0-RC-1",
+            "versionCode": 250301,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_MEDIA_LOCATION"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "org.witness.proofmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "ProofMode uses a number of proprietary Google Play Services libraries, such as Play Integrity (SafetyNet), FusionLocationProvider and others, to provide extra assurances about the provenance of media files generated on an Android device.\n"
+            }
+          }
+        },
         "b08711cd3a1a05a29e0b487e9518d2c107f2594d2707fa4c645bae9a87dbbcbf": {
           "added": 1707858985000,
           "file": {

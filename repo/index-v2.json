@@ -42,7 +42,7 @@
         "url": "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/repo"
       }
     ],
-    "timestamp": 1750315657000,
+    "timestamp": 1750320731000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -2991,7 +2991,7 @@
         ],
         "changelog": "https://github.com/guardianproject/orbot/releases",
         "issueTracker": "https://github.com/guardianproject/orbot/issues",
-        "lastUpdated": 1707858981000,
+        "lastUpdated": 1750320720000,
         "license": "BSD-3-Clause",
         "sourceCode": "https://github.com/guardianproject/orbot",
         "translation": "https://hosted.weblate.org/projects/guardianproject/orbot",
@@ -3368,6 +3368,147 @@
         "preferredSigner": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
       },
       "versions": {
+        "579c45fb89be4fa1a6d24c7cd19a5034e49c5fa4c4760ba2720fec3b1438691c": {
+          "added": 1750320712000,
+          "file": {
+            "name": "/Orbot-17.5.0-RC-1-tor-0.4.8.16-fullperm-arm64-v8a-release.apk",
+            "sha256": "579c45fb89be4fa1a6d24c7cd19a5034e49c5fa4c4760ba2720fec3b1438691c",
+            "size": 25401193,
+            "ipfsCIDv1": "bafybeidwuwu4oi56c32izmzxo4vo4ptvhjt3okxmlh66332tf4ykpa5wsa"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "17.5.0-RC-1-tor-0.4.8.16",
+            "versionCode": 1750300102,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "org.torproject.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "c99a735e51080fcd4e8ae1cd5321a50ae5013eb4163f9840c664e7e9cdb0863b": {
+          "added": 1750320720000,
+          "file": {
+            "name": "/Orbot-17.5.0-RC-1-tor-0.4.8.16-fullperm-universal-release.apk",
+            "sha256": "c99a735e51080fcd4e8ae1cd5321a50ae5013eb4163f9840c664e7e9cdb0863b",
+            "size": 57357204,
+            "ipfsCIDv1": "bafybeigrpbugqdnsvkuo42iuhiw3cxpyyxf2sta33aw7jyjye5vriivjyi"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "17.5.0-RC-1-tor-0.4.8.16",
+            "versionCode": 1750300100,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "org.torproject.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "41e742c77c7c374245ee44f1ef58a250840db876576ac9780690aaa358e7ece1": {
           "added": 1707858981000,
           "file": {
@@ -3484,118 +3625,6 @@
               },
               {
                 "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 18
-              }
-            ]
-          }
-        },
-        "a047b98fcc4723bc43e99b42cf246a31e82412229300d37287dc2fb5c9afe885": {
-          "added": 1677834692000,
-          "file": {
-            "name": "/Orbot-16.6.4-RC-1-tor.0.4.7.11-fullperm-universal-release.apk",
-            "sha256": "a047b98fcc4723bc43e99b42cf246a31e82412229300d37287dc2fb5c9afe885",
-            "size": 39240514,
-            "ipfsCIDv1": "bafybeierbovxrxubuhzzkgggdngnx42ql4luyipi2iof7lzq2cffuqac74"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "16.6.4-RC-1-tor.0.4.7.11",
-            "versionCode": 1664300100,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 31
-            },
-            "signer": {
-              "sha256": [
-                "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 18
-              },
-              {
-                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 18
-              }
-            ]
-          }
-        },
-        "61f8b7c8c9fbe8a81c284bfeeebfae40b8c59da95532bd71fc889bfd64168886": {
-          "added": 1668580198000,
-          "file": {
-            "name": "/Orbot-16.6.3-BETA-1-tor.0.4.7.10-fullperm-universal-release.apk",
-            "sha256": "61f8b7c8c9fbe8a81c284bfeeebfae40b8c59da95532bd71fc889bfd64168886",
-            "size": 38946447,
-            "ipfsCIDv1": "bafybeicjdkkegp2fuuocxr7oalbvtgmfw7jdw54mtdilvngttquog24lji"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "16.6.3-BETA-1-tor.0.4.7.10",
-            "versionCode": 1663200100,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 31
-            },
-            "signer": {
-              "sha256": [
-                "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 18
-              },
-              {
-                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
               },
               {
                 "name": "android.permission.READ_EXTERNAL_STORAGE",
@@ -5606,7 +5635,7 @@
           "Guardian Project"
         ],
         "issueTracker": "https://github.com/guardianproject/proofmode-android/issues",
-        "lastUpdated": 1741116126000,
+        "lastUpdated": 1750320726000,
         "license": "GPL-3.0-or-later",
         "sourceCode": "https://github.com/guardianproject/proofmode-android",
         "featureGraphic": {
@@ -5775,26 +5804,20 @@
         "preferredSigner": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
       },
       "versions": {
-        "dbfcab0679fc4f212bd4dea13b7e6f19ceb692ea3f9b9129274b2acf695ba621": {
-          "added": 1741116126000,
+        "ce9af21ace23426246e78075bbbce8bdb62c6f7a9f8e007466d0eb2857137cb3": {
+          "added": 1750320723000,
           "file": {
-            "name": "/proofmode-latest.apk",
-            "sha256": "dbfcab0679fc4f212bd4dea13b7e6f19ceb692ea3f9b9129274b2acf695ba621",
-            "size": 43504200,
-            "ipfsCIDv1": "bafybeig7nwogybhdcoiaivbs2phkdhiineby4iybthvsmzzk4caueawt5e"
+            "name": "/ProofMode-2.6.0-RC-2-artwork-arm64-v8a-release.apk",
+            "sha256": "ce9af21ace23426246e78075bbbce8bdb62c6f7a9f8e007466d0eb2857137cb3",
+            "size": 37921990,
+            "ipfsCIDv1": "bafybeienwsqbawt2ghf2n6bf3ijpylapml6ujeysaoaoyn6hq2g3n3atfe"
           },
           "manifest": {
             "nativecode": [
-              "arm64-v8a",
-              "armeabi",
-              "armeabi-v7a",
-              "mips",
-              "mips64",
-              "x86",
-              "x86_64"
+              "arm64-v8a"
             ],
-            "versionName": "2.5.0-RC-1",
-            "versionCode": 250301,
+            "versionName": "2.6.0-RC-2",
+            "versionCode": 260302002,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 34
