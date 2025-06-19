@@ -42,7 +42,7 @@
         "url": "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/repo"
       }
     ],
-    "timestamp": 1750320731000,
+    "timestamp": 1750324989000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -5804,20 +5804,26 @@
         "preferredSigner": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
       },
       "versions": {
-        "ce9af21ace23426246e78075bbbce8bdb62c6f7a9f8e007466d0eb2857137cb3": {
-          "added": 1750320723000,
+        "6a767470946cc11159e010341c1f3bc88e8e7b8790ed3a267732501b4e12cec3": {
+          "added": 1750320726000,
           "file": {
-            "name": "/ProofMode-2.6.0-RC-2-artwork-arm64-v8a-release.apk",
-            "sha256": "ce9af21ace23426246e78075bbbce8bdb62c6f7a9f8e007466d0eb2857137cb3",
-            "size": 37921990,
-            "ipfsCIDv1": "bafybeienwsqbawt2ghf2n6bf3ijpylapml6ujeysaoaoyn6hq2g3n3atfe"
+            "name": "/ProofMode-2.6.0-RC-2-artwork-universal-release.apk",
+            "sha256": "6a767470946cc11159e010341c1f3bc88e8e7b8790ed3a267732501b4e12cec3",
+            "size": 49981927,
+            "ipfsCIDv1": "bafybeidclgi6mxjwrc2y2jewlwyqdgypgzzcc4wg3sobgy2fuojwqxm3wq"
           },
           "manifest": {
             "nativecode": [
-              "arm64-v8a"
+              "arm64-v8a",
+              "armeabi",
+              "armeabi-v7a",
+              "mips",
+              "mips64",
+              "x86",
+              "x86_64"
             ],
             "versionName": "2.6.0-RC-2",
-            "versionCode": 260302002,
+            "versionCode": 260302,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 34
