@@ -21,6 +21,25 @@
         "url": "https://guardianproject.info/fdroid/repo"
       },
       {
+        "url": "https://guardianproject.gitlab.io/fdroid-repo/fdroid/repo",
+        "countryCode": "US"
+      },
+      {
+        "url": "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/repo"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/repo",
+        "countryCode": "US"
+      },
+      {
+        "url": "https://s3.amazonaws.com/guardianproject/fdroid/repo",
+        "countryCode": "US"
+      },
+      {
+        "url": "https://s3.dualstack.us-east-1.amazonaws.com/guardianproject/fdroid/repo",
+        "countryCode": "US"
+      },
+      {
         "url": "https://objectstorage.eu-amsterdam-1.oraclecloud.com/n/axdsgxwpq5rg/b/guardianproject/o/fdroid/repo",
         "countryCode": "NL"
       },
@@ -34,7 +53,7 @@
         "url": "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/repo"
       }
     ],
-    "timestamp": 1758527249000,
+    "timestamp": 1758811759000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -63,6 +82,16 @@
         },
         "name": {
           "en-US": "Guardian Project"
+        }
+      },
+      "Browser": {
+        "name": {
+          "en-US": "Browser"
+        }
+      },
+      "Connectivity": {
+        "name": {
+          "en-US": "Connectivity"
         }
       },
       "Development": {
@@ -1667,7 +1696,7 @@
           "Internet"
         ],
         "issueTracker": "https://bugzilla.mozilla.org/",
-        "lastUpdated": 1758097209000,
+        "lastUpdated": 1758696885000,
         "license": "MPL-2.0",
         "sourceCode": "https://hg.mozilla.org/mozilla-central/",
         "webSite": "https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/",
@@ -1720,6 +1749,135 @@
         "preferredSigner": "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
       },
       "versions": {
+        "ae493ae735792193542d929b210145cea698366338af8a572c5297f2c1a11e96": {
+          "added": 1758696885000,
+          "file": {
+            "name": "/org.mozilla.klar_392651504.apk",
+            "sha256": "ae493ae735792193542d929b210145cea698366338af8a572c5297f2c1a11e96",
+            "size": 103765269,
+            "ipfsCIDv1": "bafybeig6obxcjx6furkmzolmiwdr2zqy7fxc3jtos75qwr6yw4n23yzguu"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "143.0.2",
+            "versionCode": 392651504,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "org.mozilla.klar.permission.RECEIVE_DOWNLOAD_BROADCAST"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.mozilla.klar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "Firefox Klar uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
+            }
+          }
+        },
         "3d3821ea98a285195a5a557cc8ff0f1eef5854d06de0cb6bbff45c4e0e81d23b": {
           "added": 1758097209000,
           "file": {
@@ -1863,135 +2021,6 @@
             ],
             "versionName": "142.0.1",
             "versionCode": 392390326,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 36
-            },
-            "signer": {
-              "sha256": [
-                "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.ACCESS_COARSE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_FINE_LOCATION"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "org.mozilla.klar.permission.RECEIVE_DOWNLOAD_BROADCAST"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "org.mozilla.klar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "Firefox Klar uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
-            }
-          }
-        },
-        "32eea7b524364b628ab4891955e37fdac7ed2b7231bf388f7e1cff3277164ddf": {
-          "added": 1755672649000,
-          "file": {
-            "name": "/org.mozilla.klar_392232002.apk",
-            "sha256": "32eea7b524364b628ab4891955e37fdac7ed2b7231bf388f7e1cff3277164ddf",
-            "size": 102546647,
-            "ipfsCIDv1": "bafybeigkg4y2ksn4gpcn3gdcqz522kcwev2gklitluuwb4q6fm7vww6eza"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "142.0",
-            "versionCode": 392232002,
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 36
@@ -3822,7 +3851,7 @@
           "am": "Orbot is a free proxy app that empowers other apps to use the internet more securely. Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world. Tor is free software and an open network that helps you defend against a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security known as traffic analysis.\n\n*** SAMSUNG GALAXY USERS ***\nOn some devices, a Samsung app is listening on the same network port that Orbot needs. Download 'SockStat' from Google Play. Look for the app on port 9050. Force stop and disable that app. You can also try to change Orbot's \"Tor SOCKS\" setting under the Debug section to 9051 or AUTO. You can see the fix in this video: https://www.youtube.com/watch?v=yK-nK4F67_g\n*****\n\nOrbot is the only app that creates a truly private internet connection. As the New York Times writes, \u201cwhen a communication arrives from Tor, you can never know where or whom it\u2019s from.\u201d Tor won the 2012 Electronic Frontier Foundation (EFF) Pioneer Award.\n\n\u2605 ACCEPT NO SUBSTITUTES: Orbot is the safest way to use the Internet on Android. Period. Orbot bounces your encrypted traffic several times through computers around the world, instead of connecting you directly like VPNs and proxies. This process takes a little longer, but the strongest privacy and identity protection available is worth the wait.\n\u2605 PRIVATE WEB SURFING: Use with Orfox, the most anonymous way to access any website, even if it\u2019s normally blocked, monitored, or on the hidden web. Get Orfox: https://play.google.com/store/apps/details?id=info.guardianproject.orfox\n\u2605 PRIVATE CHAT MESSAGING: Use ChatSecure with Orbot to chat confidentially with anyone, anywhere for free. Get ChatSecure: https://goo.gl/O3FfS\n\u2605 PRIVACY FOR APPS: Any installed app can use Tor if it has a proxy feature, using the settings found here: https://goo.gl/2OA1y Use Orbot with Twitter, or try private web searching with DuckDuckGo: https://goo.gl/lgh1p\n\u2605 PRIVACY FOR EVERYONE: Tor can help you confidentially research a competitor, get around the Facebook block at school, or circumvent a firewall to watch sports at work.\n\u2605 PRIVACY MADE EASY: Check out our fun, interactive walkthrough: https://guardianproject.info/howto/browsefreely\n\u2605 IT\u2019S OFFICIAL: This is the official version of the Tor onion routing service for Android.\n\n***We Love Feedback***\n\u2605 ABOUT US: Guardian Project is a group of developers that make secure mobile apps and open-source code for a better tomorrow.\n\u2605 OPEN-SOURCE: Orbot is free software. Take a look at our source code, or join the community to make it better: https://gitweb.torproject.org/orbot.git\n\u2605 MESSAGE US: Are we missing your favorite feature? Found an annoying bug? We\u2019d love to hear from you! Send us an email: support@guardianproject.info\n\n***Disclaimer***\nThe Guardian Project makes apps that are designed to protect your security and anonymity. The protocols that we use are widely regarded as the state of the art in security technology. While we are constantly upgrading our software to combat the latest threats and eliminate bugs, no technology is 100% foolproof. For maximum security and anonymity users must utilize best practices to keep themselves safe.  You can find a good introductory guide to these topics at https://securityinabox.org\n",
           "ar": "Orbot\n\u0623\u0648\u0631\u0628\u0648\u062a \u0647\u0648 VPN \u0648\u0648\u0633\u064a\u0637 \u0645\u062c\u0627\u0646\u064a \u064a\u0633\u0645\u062d \u0644\u0628\u0642\u064a\u0629 \u0627\u0644\u0628\u0631\u0627\u0645\u062c \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0627\u0646\u062a\u0631\u0646\u062a \u0628\u0623\u0645\u0627\u0646. \u0623\u0648\u0631\u0628\u0648\u062a \u064a\u0633\u062a\u062e\u062f\u0645 \u0634\u0628\u0643\u0629 \u062a\u0648\u0631 \u0644\u062a\u0634\u0641\u064a\u0631 \u0627\u0644\u0627\u062a\u0635\u0627\u0644 \u0628\u0627\u0644\u0627\u0646\u062a\u0631\u0646\u062a \u0648 \u0625\u062e\u0641\u0627\u0621 \u0645\u0635\u062f\u0631\u0647. \u062a\u0648\u0631 \u0634\u0628\u0643\u0629 \u0648 \u0628\u0631\u0646\u0627\u0645\u062c \u0645\u062c\u0627\u0646\u064a \u062a\u0633\u0627\u0639\u062f \u0639\u0644\u0649 \u0627\u0644\u062a\u0635\u062f\u064a \u0644\u0645\u062d\u0627\u0648\u0644\u0627\u062a \u0627\u0644\u062a\u062c\u0633\u0633 \u0648 \u0627\u0644\u0645\u0631\u0627\u0642\u0628\u0629 \u0648 \u0627\u0644\u062a\u0639\u0642\u0628 \u0648 \u0627\u0644\u062a\u064a \u062a\u0647\u062f\u062f \u0627\u0644\u0623\u0645\u0646 \u0627\u0644\u0634\u062e\u0635\u064a \u0648 \u0623\u0645\u0646 \u0627\u0644\u0634\u0631\u0643\u0627\u062a \u0648 \u0623\u0633\u0631\u0627\u0631 \u0627\u0644\u0639\u0645\u0644 \u0648 \u0627\u0644\u062a\u062c\u0627\u0631\u0629.\n\n\u0623\u0648\u0631\u0628\u0648\u062a \u0647\u0648 \u0627\u0644\u0628\u0631\u0646\u0627\u0645\u062c \u0627\u0644\u0648\u062d\u064a\u062f \u0627\u0644\u0630\u064a \u064a\u0642\u0648\u0645 \u0628\u0625\u0646\u0634\u0627\u0621 \u0625\u062a\u0635\u0627\u0644 \u0622\u0645\u0646 \u0628\u0634\u0628\u0643\u0629 \u0627\u0644\u0623\u0646\u062a\u0631\u0646\u064a\u062a\u060c \u0643\u0645\u0627 \u0643\u062a\u0628\u062a \u0635\u062d\u064a\u0641\u0629 \u0646\u064a\u0648\u064a\u0648\u0631\u0643 \u062a\u0627\u064a\u0645\u0632 \u0641\u064a \u0625\u062d\u062f\u0649 \u0645\u0642\u0627\u0644\u0627\u062a\u0647\u0627 \" \u0639\u0646\u062f\u0645\u0627 \u064a\u0631\u062f\u0643 \u0625\u062a\u0635\u0627\u0644 \u0645\u0646 \u0637\u0631\u0641 \u062a\u0648\u0631\u060c \u0644\u0646 \u062a\u0639\u0644\u0645 \u0623\u0628\u062f\u0627 \u0645\u0645\u0646 \u0623\u0648 \u0645\u0646 \u0623\u064a\u0646 \u0623\u062a\u062a\".\n\n\u0641\u0627\u0632 \u062a\u0648\u0631 \u0628\u062c\u0627\u0626\u0632\u0629 \u0645\u0624\u0633\u0633\u0629 \u0627\u0644\u062d\u062f\u0648\u062f \u0627\u0644\u0631\u0642\u0645\u064a\u0629 (EFF) 2012 \u062c\u0627\u0626\u0632\u0629 \u0627\u0644\u0631\u064a\u0627\u062f\u0629.\n\n\u2605 \u0628\u062f\u0648\u0646 \u0645\u0646\u0627\u0632\u0639: \u0623\u0648\u0631\u0628\u0648\u062a \u0647\u064a \u0627\u0644\u0637\u0631\u064a\u0642\u0629 \u0627\u0644\u0623\u0643\u062b\u0631 \u0623\u0645\u0627\u0646\u064b\u0627 \u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0625\u0646\u062a\u0631\u0646\u062a \u0639\u0644\u0649 \u0627\u0644\u0623\u0646\u062f\u0631\u0648\u064a\u062f. \u0641\u062a\u0631\u0629. \u064a\u0631\u062a\u062f Orbot \u062d\u0631\u0643\u0629 \u0627\u0644\u0645\u0631\u0648\u0631 \u0627\u0644\u0645\u0634\u0641\u0631\u0629 \u0639\u062f\u0629 \u0645\u0631\u0627\u062a \u0639\u0628\u0631 \u0623\u062c\u0647\u0632\u0629 \u0627\u0644\u0643\u0645\u0628\u064a\u0648\u062a\u0631 \u062d\u0648\u0644 \u0627\u0644\u0639\u0627\u0644\u0645\u060c \u0628\u062f\u0644\u0627\u064b \u0645\u0646 \u062a\u0648\u0635\u064a\u0644\u0643 \u0645\u0628\u0627\u0634\u0631\u0629\u064b \u0645\u062b\u0644 VPNs \u0648\u0627\u0644\u0648\u0633\u0637\u0627\u0621. \u062a\u0633\u062a\u063a\u0631\u0642 \u0647\u0630\u0647 \u0627\u0644\u0639\u0645\u0644\u064a\u0629 \u0648\u0642\u062a\u064b\u0627 \u0623\u0637\u0648\u0644 \u0642\u0644\u064a\u0644\u0627\u064b\u060c \u0648\u0644\u0643\u0646 \u0623\u0642\u0648\u0649 \u062d\u0645\u0627\u064a\u0629 \u0644\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0648\u0627\u0644\u0647\u0648\u064a\u0629 \u0627\u0644\u0645\u062a\u0627\u062d\u0629 \u062a\u0633\u062a\u062d\u0642 \u0627\u0644\u0627\u0646\u062a\u0638\u0627\u0631.\n\u2605 \u062e\u0635\u0648\u0635\u064a\u0629 \u0627\u0644\u062a\u0637\u0628\u064a\u0642\u0627\u062a: \u064a\u0645\u0643\u0646 \u062a\u0648\u062c\u064a\u0647 \u0623\u064a \u062a\u0637\u0628\u064a\u0642 \u0639\u0628\u0631 \u062a\u0648\u0631 \u0639\u0628\u0631 \u0645\u064a\u0632\u0629 Orbot VPN\n\u2605 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0644\u0644\u062c\u0645\u064a\u0639: \u064a\u0645\u0646\u0639 Orbot \u0623\u064a \u0634\u062e\u0635 \u064a\u0631\u0627\u0642\u0628 \u0627\u062a\u0635\u0627\u0644\u0643 \u0645\u0646 \u0645\u0639\u0631\u0641\u0629 \u0627\u0644\u062a\u0637\u0628\u064a\u0642\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0633\u062a\u062e\u062f\u0645\u0647\u0627 \u0623\u0648 \u0645\u0648\u0627\u0642\u0639 \u0627\u0644\u0648\u064a\u0628 \u0627\u0644\u062a\u064a \u062a\u0632\u0648\u0631\u0647\u0627. \u0643\u0644 \u0645\u0627 \u064a\u0645\u0643\u0646 \u0644\u0623\u064a \u0634\u062e\u0635 \u064a\u0631\u0627\u0642\u0628 \u062d\u0631\u0643\u0629 \u0645\u0631\u0648\u0631 \u0627\u0644\u0634\u0628\u0643\u0629 \u0623\u0646 \u064a\u0631\u0627\u0647 \u0647\u0648 \u0623\u0646\u0643 \u062a\u0633\u062a\u062e\u062f\u0645 \u062a\u0648\u0631.\n\n***\u0646\u062d\u0646 \u0646\u062d\u0628 \u0627\u0644\u0627\u0646\u0637\u0628\u0627\u0639\u0627\u062a***\n\u2605 \u0627\u0639\u0631\u0641 \u0627\u0644\u0645\u0632\u064a\u062f: \u062a\u0639\u0631\u0641 \u0639\u0644\u0649 \u0627\u0644\u0645\u0632\u064a\u062f \u062d\u0648\u0644 Orbot \u0648\u0627\u0646\u0636\u0645 \u0625\u0644\u0649 https://orbot.app\n\u2605 \u0645\u0646 \u0646\u062d\u0646: Guardian Project \u0647\u064a \u0645\u062c\u0645\u0648\u0639\u0629 \u0645\u0646 \u0627\u0644\u0645\u0637\u0648\u0631\u064a\u0646 \u0627\u0644\u0630\u064a\u0646 \u064a\u0635\u0646\u0639\u0648\u0646 \u062a\u0637\u0628\u064a\u0642\u0627\u062a \u062c\u0648\u0627\u0644 \u0622\u0645\u0646\u0629 \u0648\u0634\u0641\u0631\u0629 \u0645\u0641\u062a\u0648\u062d\u0629 \u0627\u0644\u0645\u0635\u062f\u0631 \u0644\u063a\u062f \u0623\u0641\u0636\u0644.\n\u2605 \u0627\u0644\u0645\u0635\u062f\u0631 \u0627\u0644\u0645\u0641\u062a\u0648\u062d: Orbot \u0647\u0648 \u0628\u0631\u0646\u0627\u0645\u062c \u0645\u062c\u0627\u0646\u064a. \u0623\u0644\u0642 \u0646\u0638\u0631\u0629 \u0639\u0644\u0649 \u0627\u0644\u0643\u0648\u062f \u0627\u0644\u0645\u0635\u062f\u0631\u064a \u0627\u0644\u062e\u0627\u0635 \u0628\u0646\u0627\u060c \u0623\u0648 \u0627\u0646\u0636\u0645 \u0625\u0644\u0649 \u0627\u0644\u0645\u062c\u062a\u0645\u0639 \u0644\u062a\u062d\u0633\u064a\u0646\u0647: https://github.com/guardianproject/orbot\n\u2605 \u0631\u0633\u0627\u0644\u0629 \u0644\u0646\u0627: \u0647\u0644 \u0646\u0641\u062a\u0642\u062f \u0627\u0644\u0645\u064a\u0632\u0629 \u0627\u0644\u0645\u0641\u0636\u0644\u0629 \u0644\u062f\u064a\u0643\u061f \u0648\u062c\u062f\u062a \u062e\u0637\u0623 \u0645\u0632\u0639\u062c\u061f \u064a\u0633\u0639\u062f\u0646\u0627 \u0623\u0646 \u0646\u0633\u0645\u0639 \u0645\u0646\u0643! \u0623\u0631\u0633\u0644 \u0644\u0646\u0627 \u0628\u0631\u064a\u062f\u064b\u0627 \u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u064b\u0627: support@guardianproject.info\n\n***\u0625\u062e\u0644\u0627\u0621 \u0627\u0644\u0645\u0633\u0624\u0648\u0644\u064a\u0629***\n\u062a\u0635\u0646\u0639 Guardian Project \u062a\u0637\u0628\u064a\u0642\u0627\u062a \u0645\u0635\u0645\u0645\u0629 \u0644\u062d\u0645\u0627\u064a\u0629 \u0623\u0645\u0646\u0643 \u0648\u0625\u062e\u0641\u0627\u0621 \u0647\u0648\u064a\u062a\u0643. \u062a\u0639\u062a\u0628\u0631 \u0627\u0644\u0628\u0631\u0648\u062a\u0648\u0643\u0648\u0644\u0627\u062a \u0627\u0644\u062a\u064a \u0646\u0633\u062a\u062e\u062f\u0645\u0647\u0627 \u0639\u0644\u0649 \u0646\u0637\u0627\u0642 \u0648\u0627\u0633\u0639 \u0639\u0644\u0649 \u0623\u0646\u0647\u0627 \u0623\u062d\u062f\u062b \u0645\u0627 \u062a\u0648\u0635\u0644\u062a \u0625\u0644\u064a\u0647 \u0627\u0644\u062a\u0643\u0646\u0648\u0644\u0648\u062c\u064a\u0627 \u0627\u0644\u0623\u0645\u0646\u064a\u0629. \u0628\u064a\u0646\u0645\u0627 \u0646\u0642\u0648\u0645 \u0628\u0627\u0633\u062a\u0645\u0631\u0627\u0631 \u0628\u062a\u0631\u0642\u064a\u0629 \u0628\u0631\u0627\u0645\u062c\u0646\u0627 \u0644\u0645\u0643\u0627\u0641\u062d\u0629 \u0623\u062d\u062f\u062b \u0627\u0644\u062a\u0647\u062f\u064a\u062f\u0627\u062a \u0648\u0627\u0644\u0642\u0636\u0627\u0621 \u0639\u0644\u0649 \u0627\u0644\u0623\u062e\u0637\u0627\u0621\u060c \u0644\u0627 \u062a\u0648\u062c\u062f \u062a\u0642\u0646\u064a\u0629 \u0645\u0636\u0645\u0648\u0646\u0629 \u0628\u0646\u0633\u0628\u0629 100\u066a. \u0644\u062a\u062d\u0642\u064a\u0642 \u0623\u0642\u0635\u0649 \u0642\u062f\u0631 \u0645\u0646 \u0627\u0644\u0623\u0645\u0627\u0646 \u0648\u0625\u062e\u0641\u0627\u0621 \u0627\u0644\u0647\u0648\u064a\u0629\u060c \u064a\u062c\u0628 \u0639\u0644\u0649 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645\u064a\u0646 \u0627\u0644\u0627\u0633\u062a\u0641\u0627\u062f\u0629 \u0645\u0646 \u0623\u0641\u0636\u0644 \u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0627\u062a \u0644\u0644\u062d\u0641\u0627\u0638 \u0639\u0644\u0649 \u0633\u0644\u0627\u0645\u062a\u0647\u0645. \u064a\u0645\u0643\u0646\u0643 \u0627\u0644\u0639\u062b\u0648\u0631 \u0639\u0644\u0649 \u062f\u0644\u064a\u0644 \u062a\u0645\u0647\u064a\u062f\u064a \u062c\u064a\u062f \u0644\u0647\u0630\u0647 \u0627\u0644\u0645\u0648\u0636\u0648\u0639\u0627\u062a \u0639\u0644\u0649 https://securityinabox.org\n",
           "bg": "Orbot is a free proxy app that empowers other apps to use the internet more securely. Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world. Tor is free software and an open network that helps you defend against a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security known as traffic analysis.\n\n*** SAMSUNG GALAXY USERS ***\nOn some devices, a Samsung app is listening on the same network port that Orbot needs. Download 'SockStat' from Google Play. Look for the app on port 9050. Force stop and disable that app. You can also try to change Orbot's \"Tor SOCKS\" setting under the Debug section to 9051 or AUTO. You can see the fix in this video: https://www.youtube.com/watch?v=yK-nK4F67_g\n*****\n\nOrbot is the only app that creates a truly private internet connection. As the New York Times writes, \u201cwhen a communication arrives from Tor, you can never know where or whom it\u2019s from.\u201d Tor won the 2012 Electronic Frontier Foundation (EFF) Pioneer Award.\n\n\u2605 ACCEPT NO SUBSTITUTES: Orbot is the safest way to use the Internet on Android. Period. Orbot bounces your encrypted traffic several times through computers around the world, instead of connecting you directly like VPNs and proxies. This process takes a little longer, but the strongest privacy and identity protection available is worth the wait.\n\u2605 PRIVATE WEB SURFING: Use with Orfox, the most anonymous way to access any website, even if it\u2019s normally blocked, monitored, or on the hidden web. Get Orfox: https://play.google.com/store/apps/details?id=info.guardianproject.orfox\n\u2605 PRIVATE CHAT MESSAGING: Use ChatSecure with Orbot to chat confidentially with anyone, anywhere for free. Get ChatSecure: https://goo.gl/O3FfS\n\u2605 PRIVACY FOR APPS: Any installed app can use Tor if it has a proxy feature, using the settings found here: https://goo.gl/2OA1y Use Orbot with Twitter, or try private web searching with DuckDuckGo: https://goo.gl/lgh1p\n\u2605 PRIVACY FOR EVERYONE: Tor can help you confidentially research a competitor, get around the Facebook block at school, or circumvent a firewall to watch sports at work.\n\u2605 PRIVACY MADE EASY: Check out our fun, interactive walkthrough: https://guardianproject.info/howto/browsefreely\n\u2605 IT\u2019S OFFICIAL: This is the official version of the Tor onion routing service for Android.\n\n***We Love Feedback***\n\u2605 ABOUT US: Guardian Project is a group of developers that make secure mobile apps and open-source code for a better tomorrow.\n\u2605 OPEN-SOURCE: Orbot is free software. Take a look at our source code, or join the community to make it better: https://gitweb.torproject.org/orbot.git\n\u2605 MESSAGE US: Are we missing your favorite feature? Found an annoying bug? We\u2019d love to hear from you! Send us an email: support@guardianproject.info\n\n***Disclaimer***\nThe Guardian Project makes apps that are designed to protect your security and anonymity. The protocols that we use are widely regarded as the state of the art in security technology. While we are constantly upgrading our software to combat the latest threats and eliminate bugs, no technology is 100% foolproof. For maximum security and anonymity users must utilize best practices to keep themselves safe.  You can find a good introductory guide to these topics at https://securityinabox.org\n",
-          "ca": "L'Orbot \u00e9s una aplicaci\u00f3 lliure i gratu\u00efta de servidors intermediaris que permet a altres aplicacions utilitzar l'internet de manera m\u00e9s segura. L'Orbot fa servir el Tor per a xifrar el tr\u00e0nsit d'internet i aix\u00ed l'oculta rebotant-lo per una s\u00e8rie d'ordinadors d'arreu del m\u00f3n. El Tor \u00e9s programari lliure, i una xarxa oberta que us ajuda a defensar-vos contra una manera de vigil\u00e0ncia de la xarxa anomenada an\u00e0lisi de tr\u00e0nsit, que amena\u00e7a la llibertat personal i la privadesa, les activitats i relacions confidencials i la seguretat de l'estat.\n\nL'Orbot \u00e9s l'\u00fanica aplicaci\u00f3 que crea una connexi\u00f3 realment privada a internet. Com escriuen al New York Times, \u00abquan arriba una comunicaci\u00f3 pel Tor, mai no podeu saber d'on o de qui prov\u00e9\u00bb.\n\nEl Tor va guanyar l'any 2012 el Premi Pioner de l'Electronic Frontier Foundation (EFF).\n\n\u2605 NO ACCEPTEU CAP SUBSTITUT: L'Orbot \u00e9s la manera m\u00e9s segura de fer servir l'internet a l'Android. Punt. L'Orbot rebota el vostre tr\u00e0nsit xifrat diverses vegades per ordinadors d'arreu del m\u00f3n, en compte de connectar-vos directament, com faria una VPN o un servidor intermediari. Aquest proc\u00e9s triga una mica m\u00e9s, per\u00f2 la privadesa m\u00e9s robusta i la protecci\u00f3 de la identitat que proporciona paga la pena l'espera.\n\u2605 PRIVADESA PER A LES APLICACIONS: Qualsevol aplicaci\u00f3 es pot fer passar pel Tor mitjan\u00e7ant la funcionalitat VPN de l'Orbot.\n\u2605 PRIVADESA PER A TOTHOM: L'Orbot evita que qui estigui observant la vostra connexi\u00f3 s\u00e0piga quines aplicacions utilitzeu o quins llocs web visiteu. Tot el que podr\u00e0 veure qui estigui rastrejant el tr\u00e0nsit de la vostra xarxa \u00e9s que esteu fent servir el Tor.\n\n***Ens encanten els comentaris***\n\u2605 M\u00c9S INFORMACI\u00d3: Obteniu m\u00e9s informaci\u00f3 sobre l'Orbot i involucreu-vos-hi a https://orbot.app\n\u2605 QUANT A NOSALTRES: El Guardian Project \u00e9s un grup de desenvolupadors que fan aplicacions m\u00f2bils segures i de codi font obert per a millorar el dem\u00e0.\n\u2605 CODI OBERT: L'Orbot \u00e9s programari lliure. Doneu una ullada al codi font, o uniu-vos a la comunitat per a millorar-lo: https://github.com/guardianproject/orbot\n\u2605 ENVIEU-NOS MISSATGES: Trobeu a faltar alguna caracter\u00edstica? Heu trobat cap error? Ens encantaria que ens ho f\u00e9reu arribar! Envieu-nos un correu electr\u00f2nic a: support@guardianproject.info\n\n***Av\u00eds legal***\nEl Guardian Project fa aplicacions pensades per a protegir la vostra seguretat i anonimat. Els protocols que utilitzem es consideren \u00e0mpliament comprovats al m\u00f3n de la seguretat tecnol\u00f2gica. Tot i que estem constantment actualitzant el nostre programari per a combatre les \u00faltimes amenaces i eliminar errors, cap tecnologia \u00e9s 100% segura. Per a una seguretat i anonimat m\u00e0xims, els usuaris han de fer servir les millors pr\u00e0ctiques per a mantenir-se segurs. Podeu trobar una bona guia d'introducci\u00f3 a aquests temes a https://securityinabox.org\n",
+          "ca": "L'Orbot \u00e9s una aplicaci\u00f3 lliure i gratu\u00efta de servidors intermediaris i xarxes privades virtuals (VPN) que permet a altres aplicacions utilitzar l'internet de manera m\u00e9s segura. L'Orbot fa servir el Tor per a xifrar el tr\u00e0nsit d'internet i aix\u00ed l'oculta rebotant-lo per una s\u00e8rie d'ordinadors d'arreu del m\u00f3n. El Tor \u00e9s programari lliure, i una xarxa oberta que us ajuda a defensar-vos contra una manera de vigil\u00e0ncia de la xarxa anomenada an\u00e0lisi de tr\u00e0nsit, que amena\u00e7a la llibertat personal i la privadesa, les activitats i relacions confidencials i la seguretat de l'estat.\n\nL'Orbot \u00e9s l'\u00fanica aplicaci\u00f3 que crea una connexi\u00f3 realment privada a internet. Com escriuen al New York Times, \u00abquan arriba una comunicaci\u00f3 pel Tor, mai no podeu saber d'on o de qui prov\u00e9\u00bb.\n\nEl Tor va guanyar l'any 2012 el Premi Pioner de l'Electronic Frontier Foundation (EFF).\n\n\u2605 NO ACCEPTEU CAP SUBSTITUT: L'Orbot \u00e9s la manera m\u00e9s segura de fer servir l'internet a l'Android. Punt. L'Orbot rebota el vostre tr\u00e0nsit xifrat diverses vegades per ordinadors d'arreu del m\u00f3n, en compte de connectar-vos directament, com farien altres VPN o servidors intermediaris. Aquest proc\u00e9s triga una mica m\u00e9s, per\u00f2 la privadesa m\u00e9s robusta i la protecci\u00f3 de la identitat que proporciona paga la pena l'espera.\n\u2605 PRIVADESA PER A LES APLICACIONS: Qualsevol aplicaci\u00f3 es pot fer passar pel Tor mitjan\u00e7ant la funcionalitat VPN de l'Orbot.\n\u2605 PRIVADESA PER A TOTHOM: L'Orbot evita que qui estigui observant la vostra connexi\u00f3 s\u00e0piga quines aplicacions utilitzeu o quins llocs web visiteu. Tot el que podr\u00e0 veure qui estigui rastrejant el tr\u00e0nsit de la vostra xarxa \u00e9s que esteu fent servir el Tor.\n\n***Ens encanten els comentaris***\n\u2605 M\u00c9S INFORMACI\u00d3: Obteniu m\u00e9s informaci\u00f3 sobre l'Orbot i involucreu-vos-hi a https://orbot.app\n\u2605 QUANT A NOSALTRES: El Guardian Project \u00e9s un grup de desenvolupadors que fan aplicacions m\u00f2bils segures i de codi font obert per a millorar el dem\u00e0.\n\u2605 CODI OBERT: L'Orbot \u00e9s programari lliure. Doneu una ullada al codi font, o uniu-vos a la comunitat per a millorar-lo: https://github.com/guardianproject/orbot\n\u2605 ENVIEU-NOS MISSATGES: Trobeu a faltar alguna caracter\u00edstica? Heu trobat cap error? Ens encantaria que ens ho f\u00e9reu arribar! Envieu-nos un correu electr\u00f2nic a: support@guardianproject.info\n\n***Av\u00eds legal***\nEl Guardian Project fa aplicacions pensades per a protegir la vostra seguretat i anonimat. Els protocols que utilitzem es consideren \u00e0mpliament comprovats al m\u00f3n de la seguretat tecnol\u00f2gica. Tot i que estem constantment actualitzant el nostre programari per a combatre les \u00faltimes amenaces i eliminar errors, cap tecnologia \u00e9s 100% segura. Per a una seguretat i anonimat m\u00e0xims, els usuaris han de fer servir les millors pr\u00e0ctiques per a mantenir-se segurs. Podeu trobar una bona guia d'introducci\u00f3 a aquests temes a https://securityinabox.org\n",
           "cs-CZ": "Orbot je bezplatn\u00e1 proxy aplikace, kter\u00e1 d\u00e1v\u00e1 mo\u017enost jin\u00fdm aplikac\u00edm vyu\u017e\u00edvat internet bezpe\u010dn\u011bji. Orbot pou\u017e\u00edv\u00e1 Tor k \u0161ifrov\u00e1n\u00ed va\u0161eho internetov\u00e9ho provozu a potom ho skryje sm\u011brov\u00e1n\u00edm skrze n\u011bkolik po\u010d\u00edta\u010d\u016f rozm\u00edst\u011bn\u00fdch po cel\u00e9m sv\u011bt\u011b. Tor je bezplatn\u00fd software a otev\u0159en\u00e1 s\u00ed\u0165, kter\u00e1 v\u00e1m pom\u00e1h\u00e1 chr\u00e1nit se p\u0159ed s\u00ed\u0165ov\u00fdm dohledem/monitorov\u00e1n\u00edm, kter\u00e9 ohro\u017euje osobn\u00ed svobodu a soukrom\u00ed, soukrom\u00e9 obchodn\u00ed aktivity a vztahy. Chr\u00e1n\u00ed p\u0159ed anal\u00fdzou provozu.\n\n*** SAMSUNG GALAXY U\u017dIVATEL\u00c9 ***\nNa n\u011bkter\u00fdch za\u0159\u00edzen\u00edch naslouch\u00e1 aplikace Samsung na stejn\u00e9m s\u00ed\u0165ov\u00e9m portu, kter\u00fd pot\u0159ebuje Orbot. St\u00e1hn\u011bte si 'SockStat' z Google Play. Pod\u00edvejte se na aplikaci naslouchaj\u00edc\u00ed na portu 9050. Vynu\u0165te jej\u00ed zastaven\u00ed a vypn\u011bte jej\u00ed spou\u0161t\u011bn\u00ed. Tak\u00e9 m\u016f\u017eete zkusit zm\u011bnit \"Tor SOCKS\" nastaven\u00ed Orbota pod sekc\u00ed Debug/lad\u011bn\u00ed na port 9051 nebo AUTO. Opravu m\u016f\u017eete vid\u011bt v tomto videu: https://www.youtube.com/watch?v=yK-nK4F67_g\n*****\n\nOrbot je jedin\u00e1 aplikace, kter\u00e1 vytv\u00e1\u0159\u00ed skute\u010dn\u011b soukrom\u00e9 internetov\u00e9 p\u0159ipojen\u00ed. Napsaly o tom i New York Times, \u201cjakmile komunikace p\u0159ijde ze s\u00edt\u011b Tor, nem\u016f\u017eete nikdy v\u011bd\u011bt, od koho je.\u201d Tor vyhr\u00e1l cenu 2012 Electronic Frontier Foundation (EFF) Pioneer Award.\n\n\u2605 NESOUHLASTE S N\u00c1HRA\u017dKAMI: Orbot je nejbezpe\u010dn\u011bj\u0161\u00ed cestou jak pou\u017e\u00edvat internet na Androidu. Te\u010dka. Orbot p\u0159esm\u011brov\u00e1v\u00e1 va\u0161e \u0161ifrovan\u00e1 data n\u011bkolikr\u00e1t skrze po\u010d\u00edta\u010de po cel\u00e9m sv\u011bt\u011b, m\u00edsto toho, aby v\u00e1s p\u0159ipojil p\u0159\u00edmo jako to d\u011blaj\u00ed b\u011b\u017en\u00e9 VPN a proxy. Tento proces trv\u00e1 del\u0161\u00ed dobu, ale nejvy\u0161\u0161\u00ed dostupn\u00e9 soukrom\u00ed a ochrana identity stoj\u00ed za \u010dek\u00e1n\u00ed.\n\u2605 SOUKROM\u00c9 WEBOV\u00c9 SURFOV\u00c1N\u00cd: Pou\u017eijte z\u00e1rove\u0148 s Orfoxem, co\u017e je nejanonymn\u011bj\u0161\u00ed zp\u016fsob p\u0159\u00edstupu k webov\u00fdm str\u00e1nk\u00e1m, i kdy\u017e jsou b\u011b\u017en\u011b blokov\u00e1ny, monitorov\u00e1ny a nebo jde o hidden web. Z\u00edskejte Orfox: https://play.google.com/store/apps/details?id=info.guardianproject.orfox\n\u2605 SOUKROM\u00dd CHAT P\u0158ES MESSENGER: Pou\u017eijte ChatSecure s Orbotem pro chatov\u00e1n\u00ed bez obav s k\u00fdmkoli, kdekoli a zdarma. Z\u00edskejte ChatSecure: https://goo.gl/O3FfS\n\u2605 SOUKROM\u00cd PRO APLIKACE: Jak\u00e1koli nainstalovan\u00e1 aplikace podporuj\u00edc\u00ed proxy, m\u016f\u017ee pou\u017e\u00edvat Tor, pokud vyu\u017eijte nastaven\u00ed uveden\u00e1 zde: https://goo.gl/2OA1y Pou\u017eijte Orbot s Twitterem, nebo zkuste soukrom\u00e9 webov\u00e9 vyhled\u00e1v\u00e1n\u00ed s DuckDuckGo: https://goo.gl/lgh1p\n\u2605 SOUKROM\u00cd PRO KA\u017dD\u00c9HO: Tor v\u00e1m m\u016f\u017ee pomoci prov\u00e1d\u011bt soukrom\u00fd pr\u016fzkum konkurence, obej\u00edt blokov\u00e1n\u00ed Facebooku ve \u0161kole, a nebo obej\u00edt firewall pro sledov\u00e1n\u00ed sportu v pr\u00e1ci.\n\u2605 SOUKROM\u00cd SNADNO: Pod\u00edvejte se na na\u0161eho zaj\u00edmav\u00e9ho a interaktivn\u00edho pr\u016fvodce: https://guardianproject.info/howto/browsefreely\n\u2605 JE TO OFICI\u00c1LN\u00cd: Toto je ofici\u00e1ln\u00ed Android verze slu\u017eby pro cibulov\u00e9 sm\u011brov\u00e1n\u00ed/Tor onion routing.\n\n***Milujeme zp\u011btnou vazbu***\n\u2605 O N\u00c1S: Guardian Project je skupina v\u00fdvoj\u00e1\u0159\u016f, kte\u0159\u00ed vytv\u00e1\u0159\u00ed bezpe\u010dn\u00e9 mobiln\u00ed aplikace a otev\u0159en\u00fd zdrojov\u00fd k\u00f3d pro lep\u0161\u00ed budoucnost.\n\u2605 OPEN-SOURCE: Orbot je bezplatn\u00fd software. Pod\u00edvejte se na n\u00e1\u0161 zdrojov\u00fd k\u00f3d nebo se p\u0159ipojte ke komunit\u011b abyste ji vylep\u0161ili: https://gitweb.torproject.org/orbot.git\n\u2605 ZA\u0160LETE N\u00c1M ZPR\u00c1VU: Chyb\u00ed v\u00e1m n\u011bjak\u00e1 funkce? Na\u0161li jste otravnou chybu? Moc r\u00e1di si p\u0159e\u010dteme va\u0161i zpr\u00e1vu! Po\u0161lete n\u00e1m e-mail na: support@guardianproject.info\n\n***Z\u0159eknut\u00ed se odpov\u011bdnosti***\nThe Guardian Project vytv\u00e1\u0159\u00ed aplikace, kter\u00e9 jsou navr\u017eeny k ochran\u011b va\u0161\u00ed bezpe\u010dnosti a anonymity. Protokoly, kter\u00e9 pou\u017e\u00edv\u00e1me, jsou \u0161iroce pova\u017eov\u00e1ny za nejmodern\u011bj\u0161\u00ed v r\u00e1mci bezpe\u010dnostn\u00ed technologie. St\u00e1le aktualizujeme n\u00e1\u0161 software aby byl chr\u00e1n\u011bn p\u0159ed nov\u00fdmi riziky a odstra\u0148ujeme chyby, \u017e\u00e1dn\u00e1 technologie v\u0161ak nen\u00ed 100% spolehliv\u00e1. Pro maxim\u00e1ln\u00ed zabezpe\u010den\u00ed a anonymitu mus\u00ed u\u017eivatel\u00e9 pou\u017e\u00edvat osv\u011bd\u010den\u00e9 postupy, aby byli v bezpe\u010d\u00ed. Dobr\u00e9ho \u00favodn\u00edho pr\u016fvodce t\u011bmito t\u00e9maty najdete na adrese https://securityinabox.org\n",
           "de-DE": "Orbot ist eine freie Vermittlungsanwendung, die andere Programme in die Lage versetzt, das Internet sicherer zu nutzen. Orbot verwendet Tor, um den Datenaustausch im Internet zu verschl\u00fcsseln, und verbirgt ihn dann, indem er \u00fcber eine Reihe Computer rund um die Welt geleitet wird. Tor ist ein freies Programm und ein offenes Netzwerk, das dabei hilft, sich gegen Formen der \u00dcberwachung zu wehren, die pers\u00f6nliche Freiheiten, Privatsph\u00e4re, vertrauliche Gesch\u00e4ftsaktvit\u00e4ten und -partnerschaften bedrohen, sowie gegen staatliche geheimdienstliche Datenverkehrsanalysen.\n\nOrbot ist die einzige Anwendung, die eine wirklich vertrauliche Internetverbindung herstellt. Wie die New York Times schreibt, \u201ewenn Verbindungen \u00fcber Tor eintreffen, wei\u00df man nie, von wem oder woher sie kommt.\u201c \n\nTor bekam 2012 den Pioneer-Award der Electronic Frontier Foundation (EFF).\n\n\u2605 TRAUE KEINEM ERSATZ: Orbot ist der sicherste Weg, um das Internet mit Android zu nutzen. Orbot leitet den verschl\u00fcsselten Verkehr mehrmals durch Rechner auf der ganzen Welt, statt eine Direktverbindung (wie z.B. \u00fcber VPNs und Proxys) zu nutzen. Dieser Vorgang dauert ein wenig l\u00e4nger, aber der st\u00e4rkste Privatsph\u00e4re- und Identit\u00e4tsschutz ist das Warten wert.\n\u2605 DATENSCHUTZ F\u00dcR APPS: Jede App kann mittels Orbot VPN \u00fcber Tor geleitet werden.\n\u2605 DATENSCHUTZ F\u00dcR ALLE: Orbot verhindert, dass irgendjemand deine Verbindung beobachtet, um herauszufinden, welche Apps du verwendest oder welche Websites du besuchst. Alles was jemand, der deinen Datenverkehr \u00fcberwacht, sehen kann ist, dass du Tor verwendest.\n\n***Wir lieben R\u00fcckmeldungen***\n\u2605 MEHR ERFAHREN: Erfahre mehr \u00fcber Orbot und beteilige dich daran auf https://orbot.app\n\u2605 \u00dcBER UNS: Das Guardian Project ist eine Gruppe von Entwicklern, die sichere mobile Apps und quelloffenen Code f\u00fcr eine bessere Zukunft erstellen.\n\u2605 QUELLOFFEN: Orbot ist freie Software. Wirf einen Blick auf den Quellcode oder werde Teil der Community, um ihn zu verbessern: https://gitweb.torproject.org/orbot.git\n\u2605 KONTAKT: Haben wir eine Funktion vergessen? Hast du einen Fehler gefunden? Wir w\u00fcrden uns freuen, von dir zu h\u00f6ren! Sende eine E-Mail an support@guardianproject.info\n\n***Haftungsausschluss***\nDas Guardian Project erstellt Apps, um Sicherheit und Anonymit\u00e4t zu sch\u00fctzen. Die Protokolle gelten als neuster Stand der Sicherheitstechnologie. Unsere Software wird st\u00e4ndig aktualisiert, um den aktuellsten Bedrohungen zu begegnen und Fehler zu beheben, aber keine Technik ist 100% narrensicher. Nutzer m\u00fcssen sich f\u00fcr einen umfassenden Schutz selbst Kenntnisse aneignen.  Eine gute Anleitung zu diesen Themen findest du auf https://securityinabox.org\n",
           "el-GR": "\u03a4\u03bf Orbot \u03b5\u03af\u03bd\u03b1\u03b9 \u03bc\u03b9\u03b1 \u03b4\u03c9\u03c1\u03b5\u03ac\u03bd \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ae \u03b4\u03b9\u03b1\u03ba\u03bf\u03bc\u03b9\u03c3\u03c4\u03ae \u03bc\u03b5\u03c3\u03bf\u03bb\u03ac\u03b2\u03b7\u03c3\u03b7\u03c2 \u03c0\u03bf\u03c5 \u03b4\u03af\u03bd\u03b5\u03b9 \u03c4\u03b7 \u03b4\u03c5\u03bd\u03b1\u03c4\u03cc\u03c4\u03b7\u03c4\u03b1 \u03c3\u03b5 \u03ac\u03bb\u03bb\u03b5\u03c2 \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ad\u03c2 \u03bd\u03b1 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03bf\u03cd\u03bd \u03c4\u03bf \u03b4\u03b9\u03b1\u03b4\u03af\u03ba\u03c4\u03c5\u03bf \u03bc\u03b5 \u03bc\u03b5\u03b3\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03b7 \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1. \u03a4\u03bf Orbot \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03b5\u03af \u03c4\u03bf Tor \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03ba\u03c1\u03c5\u03c0\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03ae\u03c3\u03b5\u03b9 \u03c4\u03b7\u03bd \u03ba\u03c5\u03ba\u03bb\u03bf\u03c6\u03bf\u03c1\u03af\u03b1 \u03c3\u03b1\u03c2 \u03c3\u03c4\u03bf \u0394\u03b9\u03b1\u03b4\u03af\u03ba\u03c4\u03c5\u03bf \u03ba\u03b1\u03b9 \u03c3\u03c4\u03b7 \u03c3\u03c5\u03bd\u03ad\u03c7\u03b5\u03b9\u03b1 \u03c4\u03bf \u03ba\u03c1\u03cd\u03b2\u03b5\u03b9 \u03b1\u03bd\u03b1\u03c0\u03b7\u03b4\u03ce\u03bd\u03c4\u03b1\u03c2 \u03bc\u03ad\u03c3\u03b1 \u03b1\u03c0\u03cc \u03bc\u03b9\u03b1 \u03c3\u03b5\u03b9\u03c1\u03ac \u03c5\u03c0\u03bf\u03bb\u03bf\u03b3\u03b9\u03c3\u03c4\u03ce\u03bd \u03c3\u03b5 \u03cc\u03bb\u03bf \u03c4\u03bf\u03bd \u03ba\u03cc\u03c3\u03bc\u03bf. \u03a4\u03bf Tor \u03b5\u03af\u03bd\u03b1\u03b9 \u03b4\u03c9\u03c1\u03b5\u03ac\u03bd \u03bb\u03bf\u03b3\u03b9\u03c3\u03bc\u03b9\u03ba\u03cc \u03ba\u03b1\u03b9 \u03ad\u03bd\u03b1 \u03b1\u03bd\u03bf\u03b9\u03c7\u03c4\u03cc \u03b4\u03af\u03ba\u03c4\u03c5\u03bf \u03c0\u03bf\u03c5 \u03c3\u03b1\u03c2 \u03b2\u03bf\u03b7\u03b8\u03ac \u03bd\u03b1 \u03b1\u03bc\u03c5\u03bd\u03b8\u03b5\u03af\u03c4\u03b5 \u03b5\u03bd\u03ac\u03bd\u03c4\u03b9\u03b1 \u03c3\u03b5 \u03bc\u03b9\u03b1 \u03bc\u03bf\u03c1\u03c6\u03ae \u03b5\u03c0\u03b9\u03c4\u03ae\u03c1\u03b7\u03c3\u03b7\u03c2 \u03b4\u03b9\u03ba\u03c4\u03cd\u03bf\u03c5 \u03c0\u03bf\u03c5 \u03b1\u03c0\u03b5\u03b9\u03bb\u03b5\u03af \u03c4\u03b7\u03bd \u03c0\u03c1\u03bf\u03c3\u03c9\u03c0\u03b9\u03ba\u03ae \u03b5\u03bb\u03b5\u03c5\u03b8\u03b5\u03c1\u03af\u03b1 \u03ba\u03b1\u03b9 \u03b9\u03b4\u03b9\u03c9\u03c4\u03b9\u03ba\u03cc\u03c4\u03b7\u03c4\u03b1, \u03c4\u03b9\u03c2 \u03b5\u03bc\u03c0\u03b9\u03c3\u03c4\u03b5\u03c5\u03c4\u03b9\u03ba\u03ad\u03c2 \u03b5\u03c0\u03b9\u03c7\u03b5\u03b9\u03c1\u03b7\u03bc\u03b1\u03c4\u03b9\u03ba\u03ad\u03c2 \u03b4\u03c1\u03b1\u03c3\u03c4\u03b7\u03c1\u03b9\u03cc\u03c4\u03b7\u03c4\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03c3\u03c7\u03ad\u03c3\u03b5\u03b9\u03c2 \u03ba\u03b1\u03b9 \u03c4\u03b7\u03bd \u03ba\u03c1\u03b1\u03c4\u03b9\u03ba\u03ae \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1, \u03b3\u03bd\u03c9\u03c3\u03c4\u03ae \u03c9\u03c2 \u03b1\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u03ba\u03c5\u03ba\u03bb\u03bf\u03c6\u03bf\u03c1\u03af\u03b1\u03c2.\n\n*****\n\u03a4\u03bf Orbot \u03b5\u03af\u03bd\u03b1\u03b9 \u03b7 \u03bc\u03cc\u03bd\u03b7 \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ae \u03c0\u03bf\u03c5 \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03b5\u03af \u03bc\u03b9\u03b1 \u03c0\u03c1\u03b1\u03b3\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac \u03b9\u03b4\u03b9\u03c9\u03c4\u03b9\u03ba\u03ae \u03c3\u03cd\u03bd\u03b4\u03b5\u03c3\u03b7 \u03c3\u03c4\u03bf \u03b4\u03b9\u03b1\u03b4\u03af\u03ba\u03c4\u03c5\u03bf. \u038c\u03c0\u03c9\u03c2 \u03b3\u03c1\u03ac\u03c6\u03bf\u03c5\u03bd \u03bf\u03b9 New York Times, \u00ab\u03cc\u03c4\u03b1\u03bd \u03c6\u03c4\u03ac\u03bd\u03b5\u03b9 \u03bc\u03b9\u03b1 \u03b5\u03c0\u03b9\u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03af\u03b1 \u03b1\u03c0\u03cc \u03c4\u03bf Tor, \u03b4\u03b5\u03bd \u03bc\u03c0\u03bf\u03c1\u03b5\u03af\u03c2 \u03c0\u03bf\u03c4\u03ad \u03bd\u03b1 \u03be\u03ad\u03c1\u03b5\u03b9\u03c2 \u03b1\u03c0\u03cc \u03c0\u03bf\u03cd \u03ae \u03b1\u03c0\u03cc \u03c0\u03bf\u03b9\u03bf\u03bd \u03c0\u03c1\u03bf\u03ad\u03c1\u03c7\u03b5\u03c4\u03b1\u03b9\u00bb. \u03a4\u03bf Tor \u03ba\u03ad\u03c1\u03b4\u03b9\u03c3\u03b5 \u03c4\u03bf 2012 Electronic Frontier Foundation (EFF) Pioneer Award.\n\n\u2605 \u0391\u03a0\u039f\u03a1\u03a1\u0397\u03a4\u039f \u0393\u0399\u0391 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3: \u039f\u03c0\u03bf\u03b9\u03b1\u03b4\u03ae\u03c0\u03bf\u03c4\u03b5 \u03b5\u03b3\u03ba\u03b1\u03c4\u03b5\u03c3\u03c4\u03b7\u03bc\u03ad\u03bd\u03b7 \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ae \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03ae\u03c3\u03b5\u03b9 \u03c4\u03bf Tor \u03b5\u03ac\u03bd \u03b4\u03b9\u03b1\u03b8\u03ad\u03c4\u03b5\u03b9 \u03b4\u03c5\u03bd\u03b1\u03c4\u03cc\u03c4\u03b7\u03c4\u03b1 \u03b4\u03b9\u03b1\u03ba\u03bf\u03bc\u03b9\u03c3\u03c4\u03ae \u03bc\u03b5\u03c3\u03bf\u03bb\u03ac\u03b2\u03b7\u03c3\u03b7\u03c2, \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03ce\u03bd\u03c4\u03b1\u03c2 \u03c4\u03b9\u03c2 \u03c1\u03c5\u03b8\u03bc\u03af\u03c3\u03b5\u03b9\u03c2 \u03c0\u03bf\u03c5 \u03b2\u03c1\u03af\u03c3\u03ba\u03bf\u03bd\u03c4\u03b1\u03b9 \u03b5\u03b4\u03ce: https://goo.gl/2OA1y. \u03a7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03ae\u03c3\u03c4\u03b5 \u03c4\u03bf Orbot \u03bc\u03b5 \u03c4\u03bf Twitter \u03ae \u03b4\u03bf\u03ba\u03b9\u03bc\u03ac\u03c3\u03c4\u03b5 \u03b9\u03b4\u03b9\u03c9\u03c4\u03b9\u03ba\u03ae \u03b1\u03bd\u03b1\u03b6\u03ae\u03c4\u03b7\u03c3\u03b7 \u03c3\u03c4\u03bf\u03bd \u03b9\u03c3\u03c4\u03cc \u03bc\u03b5 \u03c4\u03bf DuckDuckGo: https://goo.gl/lgh1p\n\u2605 \u0391\u03a0\u039f\u03a1\u03a1\u0397\u03a4\u039f \u0393\u0399\u0391 \u039f\u039b\u039f\u03a5\u03a3: \u03a4\u03bf Tor \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03c3\u03b1\u03c2 \u03b2\u03bf\u03b7\u03b8\u03ae\u03c3\u03b5\u03b9 \u03bd\u03b1 \u03b5\u03c1\u03b5\u03c5\u03bd\u03ae\u03c3\u03b5\u03c4\u03b5 \u03b5\u03bc\u03c0\u03b9\u03c3\u03c4\u03b5\u03c5\u03c4\u03b9\u03ba\u03ac \u03ad\u03bd\u03b1\u03bd \u03b1\u03bd\u03c4\u03b1\u03b3\u03c9\u03bd\u03b9\u03c3\u03c4\u03ae, \u03bd\u03b1 \u03be\u03b5\u03c0\u03b5\u03c1\u03ac\u03c3\u03b5\u03c4\u03b5 \u03c4\u03bf \u03bc\u03c0\u03bb\u03bf\u03ba \u03c4\u03bf\u03c5 Facebook \u03c3\u03c4\u03bf \u03c3\u03c7\u03bf\u03bb\u03b5\u03af\u03bf \u03ae \u03bd\u03b1 \u03c0\u03b1\u03c1\u03b1\u03ba\u03ac\u03bc\u03c8\u03b5\u03c4\u03b5 \u03ad\u03bd\u03b1 \u03c4\u03b5\u03af\u03c7\u03bf\u03c2 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c3\u03af\u03b1\u03c2 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c0\u03b1\u03c1\u03b1\u03ba\u03bf\u03bb\u03bf\u03c5\u03b8\u03ae\u03c3\u03b5\u03c4\u03b5 \u03b1\u03b8\u03bb\u03ae\u03bc\u03b1\u03c4\u03b1 \u03c3\u03c4\u03b7 \u03b4\u03bf\u03c5\u03bb\u03b5\u03b9\u03ac.\n\u2605 \u0395\u03a5\u039a\u039f\u039b\u0397 \u0399\u0394\u0399\u03a9\u03a4\u0399\u039a\u039f\u03a4\u0397\u03a4\u0391: \u03a1\u03af\u03be\u03c4\u03b5 \u03bc\u03b9\u03b1 \u03bc\u03b1\u03c4\u03b9\u03ac \u03c3\u03c4\u03b7 \u03bc\u03bf\u03bd\u03b1\u03b4\u03b9\u03ba\u03ae, \u03b4\u03b9\u03b1\u03b4\u03c1\u03b1\u03c3\u03c4\u03b9\u03ba\u03ae \u03c0\u03bf\u03c1\u03b5\u03af\u03b1 \u03bc\u03b1\u03c2: https://guardianproject.info/howto/browsefreely\n\u2605 \u0395\u0399\u039d\u0391\u0399 \u0395\u03a0\u0399\u03a3\u0397\u039c\u039f: \u0391\u03c5\u03c4\u03ae \u03b5\u03af\u03bd\u03b1\u03b9 \u03b7 \u03b5\u03c0\u03af\u03c3\u03b7\u03bc\u03b7 \u03ad\u03ba\u03b4\u03bf\u03c3\u03b7 \u03c4\u03b7\u03c2 \u03c5\u03c0\u03b7\u03c1\u03b5\u03c3\u03af\u03b1\u03c2 \u03b4\u03c1\u03bf\u03bc\u03bf\u03bb\u03cc\u03b3\u03b7\u03c3\u03b7\u03c2 Tor onion \u03b3\u03b9\u03b1 Android.\n\n***\u039b\u03b1\u03c4\u03c1\u03b5\u03cd\u03bf\u03c5\u03bc\u03b5 \u03c4\u03b1 \u03c3\u03c7\u03cc\u03bb\u03b9\u03b1***\n\u2605 \u03a3\u03a7\u0395\u03a4\u0399\u039a\u0391 \u039c\u0395 \u0395\u039c\u0391\u03a3: \u03a4\u03bf Guardian Project \u03b5\u03af\u03bd\u03b1\u03b9 \u03bc\u03b9\u03b1 \u03bf\u03bc\u03ac\u03b4\u03b1 \u03c0\u03c1\u03bf\u03b3\u03c1\u03b1\u03bc\u03bc\u03b1\u03c4\u03b9\u03c3\u03c4\u03ce\u03bd \u03c0\u03bf\u03c5 \u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03ac\u03b6\u03bf\u03c5\u03bd \u03b1\u03c3\u03c6\u03b1\u03bb\u03b5\u03af\u03c2 \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ad\u03c2 \u03b3\u03b9\u03b1 \u03ba\u03b9\u03bd\u03b7\u03c4\u03ac \u03ba\u03b1\u03b9 \u03b1\u03bd\u03bf\u03b9\u03c7\u03c4\u03bf\u03cd \u03ba\u03ce\u03b4\u03b9\u03ba\u03b1 \u03b3\u03b9\u03b1 \u03ad\u03bd\u03b1 \u03ba\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03bf \u03b1\u03cd\u03c1\u03b9\u03bf.\n\u2605 \u0395\u039b\u0395\u03a5\u0398\u0395\u03a1\u039f \u039b\u039f\u0393\u0399\u03a3\u039c\u0399\u039a\u039f: \u03a4\u03bf Orbot \u03b5\u03af\u03bd\u03b1\u03b9 \u03b4\u03c9\u03c1\u03b5\u03ac\u03bd \u03bb\u03bf\u03b3\u03b9\u03c3\u03bc\u03b9\u03ba\u03cc. \u03a1\u03af\u03be\u03c4\u03b5 \u03bc\u03b9\u03b1 \u03bc\u03b1\u03c4\u03b9\u03ac \u03c3\u03c4\u03bf\u03bd \u03c0\u03b7\u03b3\u03b1\u03af\u03bf \u03ba\u03ce\u03b4\u03b9\u03ba\u03b1 \u03bc\u03b1\u03c2 \u03ae \u03b5\u03b3\u03b3\u03c1\u03b1\u03c6\u03b5\u03af\u03c4\u03b5 \u03c3\u03c4\u03b7\u03bd \u03ba\u03bf\u03b9\u03bd\u03cc\u03c4\u03b7\u03c4\u03b1 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c4\u03bf\u03bd \u03b2\u03b5\u03bb\u03c4\u03b9\u03ce\u03c3\u03b5\u03c4\u03b5: https://gitweb.torproject.org/orbot.git\n\u2605 \u03a3\u03a4\u0395\u0399\u039b\u03a4\u0395 \u039c\u0391\u03a3 \u039c\u0397\u039d\u03a5\u039c\u0391: \u03a3\u03b1\u03c2 \u03bb\u03b5\u03af\u03c0\u03b5\u03b9 \u03c4\u03bf \u03b1\u03b3\u03b1\u03c0\u03b7\u03bc\u03ad\u03bd\u03bf \u03c3\u03b1\u03c2 \u03c7\u03b1\u03c1\u03b1\u03ba\u03c4\u03b7\u03c1\u03b9\u03c3\u03c4\u03b9\u03ba\u03cc; \u0392\u03c1\u03ae\u03ba\u03b1\u03c4\u03b5 \u03ad\u03bd\u03b1 \u03b5\u03bd\u03bf\u03c7\u03bb\u03b7\u03c4\u03b9\u03ba\u03cc \u03c3\u03c6\u03ac\u03bb\u03bc\u03b1; \u0398\u03b1 \u03b8\u03ad\u03bb\u03b1\u03bc\u03b5 \u03bd\u03b1 \u03b1\u03ba\u03bf\u03cd\u03c3\u03bf\u03c5\u03bc\u03b5 \u03bd\u03ad\u03b1 \u03c3\u03b1\u03c2! \u03a3\u03c4\u03b5\u03af\u03bb\u03c4\u03b5 \u03bc\u03b1\u03c2 \u03ad\u03bd\u03b1 \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1 \u03c3\u03c4\u03bf email: support@guardianproject.info\n\n***\u0391\u03c0\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03b5\u03c5\u03b8\u03c5\u03bd\u03ce\u03bd***\n\u03a4\u03bf Guardian Project \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03b5\u03af \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ad\u03c2 \u03c0\u03bf\u03c5 \u03ad\u03c7\u03bf\u03c5\u03bd \u03c3\u03c7\u03b5\u03b4\u03b9\u03b1\u03c3\u03c4\u03b5\u03af \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03cd\u03bf\u03c5\u03bd \u03c4\u03b7\u03bd \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03c4\u03b7\u03bd \u03b1\u03bd\u03c9\u03bd\u03c5\u03bc\u03af\u03b1 \u03c3\u03b1\u03c2. \u03a4\u03b1 \u03c0\u03c1\u03c9\u03c4\u03cc\u03ba\u03bf\u03bb\u03bb\u03b1 \u03c0\u03bf\u03c5 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03bf\u03cd\u03bc\u03b5 \u03b8\u03b5\u03c9\u03c1\u03bf\u03cd\u03bd\u03c4\u03b1\u03b9 \u03b5\u03c5\u03c1\u03ad\u03c9\u03c2 \u03c9\u03c2 \u03b7 \u03c4\u03b5\u03bb\u03b5\u03c5\u03c4\u03b1\u03af\u03b1 \u03bb\u03ad\u03be\u03b7 \u03c4\u03b7\u03c2 \u03c4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03af\u03b1\u03c2 \u03ba\u03b1\u03b9 \u03b1\u03c3\u03c6\u03b1\u03bb\u03b5\u03af\u03b1\u03c2. \u0395\u03bd\u03ce \u03b1\u03bd\u03b1\u03b2\u03b1\u03b8\u03bc\u03af\u03b6\u03bf\u03c5\u03bc\u03b5 \u03c3\u03c5\u03bd\u03b5\u03c7\u03ce\u03c2 \u03c4\u03bf \u03bb\u03bf\u03b3\u03b9\u03c3\u03bc\u03b9\u03ba\u03cc \u03bc\u03b1\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03ba\u03b1\u03c4\u03b1\u03c0\u03bf\u03bb\u03ad\u03bc\u03b7\u03c3\u03b7 \u03c4\u03c9\u03bd \u03c0\u03b9\u03bf \u03c0\u03c1\u03cc\u03c3\u03c6\u03b1\u03c4\u03c9\u03bd \u03b1\u03c0\u03b5\u03b9\u03bb\u03ce\u03bd \u03ba\u03b1\u03b9 \u03c4\u03b7\u03bd \u03b5\u03be\u03ac\u03bb\u03b5\u03b9\u03c8\u03b7 \u03c3\u03c6\u03b1\u03bb\u03bc\u03ac\u03c4\u03c9\u03bd, \u03ba\u03b1\u03bc\u03af\u03b1 \u03c4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03af\u03b1 \u03b4\u03b5\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 100% \u03b1\u03bb\u03ac\u03bd\u03b8\u03b1\u03c3\u03c4\u03b7. \u0393\u03b9\u03b1 \u03bc\u03ad\u03b3\u03b9\u03c3\u03c4\u03b7 \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03b1\u03bd\u03c9\u03bd\u03c5\u03bc\u03af\u03b1, \u03bf\u03b9 \u03c7\u03c1\u03ae\u03c3\u03c4\u03b5\u03c2 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03bf\u03cd\u03bd \u03b2\u03ad\u03bb\u03c4\u03b9\u03c3\u03c4\u03b5\u03c2 \u03c0\u03c1\u03b1\u03ba\u03c4\u03b9\u03ba\u03ad\u03c2 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c0\u03b1\u03c1\u03b1\u03bc\u03b5\u03af\u03bd\u03bf\u03c5\u03bd \u03b1\u03c3\u03c6\u03b1\u03bb\u03b5\u03af\u03c2. \u039c\u03c0\u03bf\u03c1\u03b5\u03af\u03c4\u03b5 \u03bd\u03b1 \u03b2\u03c1\u03b5\u03af\u03c4\u03b5 \u03ad\u03bd\u03b1\u03bd \u03ba\u03b1\u03bb\u03cc \u03b5\u03b9\u03c3\u03b1\u03b3\u03c9\u03b3\u03b9\u03ba\u03cc \u03bf\u03b4\u03b7\u03b3\u03cc \u03b3\u03b9\u03b1 \u03b1\u03c5\u03c4\u03ac \u03c4\u03b1 \u03b8\u03ad\u03bc\u03b1\u03c4\u03b1 \u03c3\u03c4\u03b7 \u03b4\u03b9\u03b5\u03cd\u03b8\u03c5\u03bd\u03c3\u03b7 https://securityinabox.org\n",
@@ -3836,7 +3865,7 @@
           "hr": "Orbot is a free proxy app that empowers other apps to use the internet more securely. Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world. Tor is free software and an open network that helps you defend against a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security known as traffic analysis.\n\n*** SAMSUNG GALAXY USERS ***\nOn some devices, a Samsung app is listening on the same network port that Orbot needs. Download 'SockStat' from Google Play. Look for the app on port 9050. Force stop and disable that app. You can also try to change Orbot's \"Tor SOCKS\" setting under the Debug section to 9051 or AUTO. You can see the fix in this video: https://www.youtube.com/watch?v=yK-nK4F67_g\n*****\n\nOrbot is the only app that creates a truly private internet connection. As the New York Times writes, \u201cwhen a communication arrives from Tor, you can never know where or whom it\u2019s from.\u201d Tor won the 2012 Electronic Frontier Foundation (EFF) Pioneer Award.\n\n\u2605 ACCEPT NO SUBSTITUTES: Orbot is the safest way to use the Internet on Android. Period. Orbot bounces your encrypted traffic several times through computers around the world, instead of connecting you directly like VPNs and proxies. This process takes a little longer, but the strongest privacy and identity protection available is worth the wait.\n\u2605 PRIVATE WEB SURFING: Use with Orfox, the most anonymous way to access any website, even if it\u2019s normally blocked, monitored, or on the hidden web. Get Orfox: https://play.google.com/store/apps/details?id=info.guardianproject.orfox\n\u2605 PRIVATE CHAT MESSAGING: Use ChatSecure with Orbot to chat confidentially with anyone, anywhere for free. Get ChatSecure: https://goo.gl/O3FfS\n\u2605 PRIVACY FOR APPS: Any installed app can use Tor if it has a proxy feature, using the settings found here: https://goo.gl/2OA1y Use Orbot with Twitter, or try private web searching with DuckDuckGo: https://goo.gl/lgh1p\n\u2605 PRIVACY FOR EVERYONE: Tor can help you confidentially research a competitor, get around the Facebook block at school, or circumvent a firewall to watch sports at work.\n\u2605 PRIVACY MADE EASY: Check out our fun, interactive walkthrough: https://guardianproject.info/howto/browsefreely\n\u2605 IT\u2019S OFFICIAL: This is the official version of the Tor onion routing service for Android.\n\n***We Love Feedback***\n\u2605 ABOUT US: Guardian Project is a group of developers that make secure mobile apps and open-source code for a better tomorrow.\n\u2605 OPEN-SOURCE: Orbot is free software. Take a look at our source code, or join the community to make it better: https://gitweb.torproject.org/orbot.git\n\u2605 MESSAGE US: Are we missing your favorite feature? Found an annoying bug? We\u2019d love to hear from you! Send us an email: support@guardianproject.info\n\n***Disclaimer***\nThe Guardian Project makes apps that are designed to protect your security and anonymity. The protocols that we use are widely regarded as the state of the art in security technology. While we are constantly upgrading our software to combat the latest threats and eliminate bugs, no technology is 100% foolproof. For maximum security and anonymity users must utilize best practices to keep themselves safe.  You can find a good introductory guide to these topics at https://securityinabox.org\n",
           "hu-HU": "Orbot is a free proxy app that empowers other apps to use the internet more securely. Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world. Tor is free software and an open network that helps you defend against a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security known as traffic analysis.\n\n*** SAMSUNG GALAXY USERS ***\nOn some devices, a Samsung app is listening on the same network port that Orbot needs. Download 'SockStat' from Google Play. Look for the app on port 9050. Force stop and disable that app. You can also try to change Orbot's \"Tor SOCKS\" setting under the Debug section to 9051 or AUTO. You can see the fix in this video: https://www.youtube.com/watch?v=yK-nK4F67_g\n*****\n\nOrbot is the only app that creates a truly private internet connection. As the New York Times writes, \u201cwhen a communication arrives from Tor, you can never know where or whom it\u2019s from.\u201d Tor won the 2012 Electronic Frontier Foundation (EFF) Pioneer Award.\n\n\u2605 ACCEPT NO SUBSTITUTES: Orbot is the safest way to use the Internet on Android. Period. Orbot bounces your encrypted traffic several times through computers around the world, instead of connecting you directly like VPNs and proxies. This process takes a little longer, but the strongest privacy and identity protection available is worth the wait.\n\u2605 PRIVATE WEB SURFING: Use with Orfox, the most anonymous way to access any website, even if it\u2019s normally blocked, monitored, or on the hidden web. Get Orfox: https://play.google.com/store/apps/details?id=info.guardianproject.orfox\n\u2605 PRIVATE CHAT MESSAGING: Use ChatSecure with Orbot to chat confidentially with anyone, anywhere for free. Get ChatSecure: https://goo.gl/O3FfS\n\u2605 PRIVACY FOR APPS: Any installed app can use Tor if it has a proxy feature, using the settings found here: https://goo.gl/2OA1y Use Orbot with Twitter, or try private web searching with DuckDuckGo: https://goo.gl/lgh1p\n\u2605 PRIVACY FOR EVERYONE: Tor can help you confidentially research a competitor, get around the Facebook block at school, or circumvent a firewall to watch sports at work.\n\u2605 PRIVACY MADE EASY: Check out our fun, interactive walkthrough: https://guardianproject.info/howto/browsefreely\n\u2605 IT\u2019S OFFICIAL: This is the official version of the Tor onion routing service for Android.\n\n***We Love Feedback***\n\u2605 ABOUT US: Guardian Project is a group of developers that make secure mobile apps and open-source code for a better tomorrow.\n\u2605 OPEN-SOURCE: Orbot is free software. Take a look at our source code, or join the community to make it better: https://gitweb.torproject.org/orbot.git\n\u2605 MESSAGE US: Are we missing your favorite feature? Found an annoying bug? We\u2019d love to hear from you! Send us an email: support@guardianproject.info\n\n***Disclaimer***\nThe Guardian Project makes apps that are designed to protect your security and anonymity. The protocols that we use are widely regarded as the state of the art in security technology. While we are constantly upgrading our software to combat the latest threats and eliminate bugs, no technology is 100% foolproof. For maximum security and anonymity users must utilize best practices to keep themselves safe.  You can find a good introductory guide to these topics at https://securityinabox.org\n",
           "id": "Orbot adalah aplikasi proxy gratis yang memberdayakan aplikasi lain untuk menggunakan internet dengan lebih aman. Orbot menggunakan Tor untuk mengenkripsi lalu lintas Internet Anda dan kemudian menyembunyikannya dengan memantul melalui serangkaian komputer di seluruh dunia. Tor adalah perangkat lunak gratis dan jaringan terbuka yang membantu Anda mempertahankan diri dari bentuk pengawasan jaringan yang mengancam kebebasan dan privasi pribadi, aktivitas dan hubungan bisnis rahasia, dan keamanan negara yang dikenal sebagai analisis lalu lintas.\n\nOrbot adalah satu-satunya aplikasi yang menciptakan koneksi internet yang benar-benar pribadi. Seperti yang ditulis oleh New York Times, \"ketika komunikasi datang dari Tor, Anda tidak akan pernah tahu dari mana atau dari siapa asalnya.\"\n\nTor memenangkan Penghargaan Pionir Electronic Frontier Foundation (EFF) 2012.\n\n\u2605 TIDAK MENERIMA PENGGANTI: Orbot adalah cara teraman untuk menggunakan Internet di Android. Titik. Orbot memantulkan lalu lintas terenkripsi Anda beberapa kali melalui komputer-komputer di seluruh dunia, alih-alih menghubungkan Anda secara langsung seperti VPN dan proxy. Proses ini membutuhkan waktu sedikit lebih lama, tetapi privasi terkuat dan perlindungan identitas yang tersedia sepadan dengan penantiannya.\n\u2605 PRIVASI UNTUK APLIKASI: Aplikasi apa pun yang terinstal dapat menggunakan Tor melalui fitur VPN Orbot, atau jika memiliki fitur proxy, menggunakan pengaturan yang ditemukan di sini: https://goo.gl/2OA1y Gunakan Orbot dengan Twitter, atau coba pencarian web pribadi dengan DuckDuckGo: https://goo.gl/lgh1p\n\u2605 PRIVASI UNTUK SEMUA ORANG: Orbot mencegah seseorang yang mengawasi koneksi Anda untuk mengetahui aplikasi apa yang Anda gunakan atau situs web yang Anda kunjungi. Yang bisa dilihat oleh siapa pun yang memantau lalu lintas jaringan Anda adalah bahwa Anda menggunakan Tor.\n\n***Kami menyukai umpan balik***\n\u2605 TENTANG KAMI: Guardian Project adalah sekelompok pengembang yang membuat aplikasi seluler yang aman dan kode sumber terbuka untuk hari esok yang lebih baik.\n\u2605 OPEN-SUMBER: Orbot adalah perangkat lunak gratis. Lihatlah kode sumber kami, atau bergabunglah dengan komunitas untuk membuatnya lebih baik: https://github.com/guardianproject/orbot\n\u2605 PESAN KAMI: Apakah kami kehilangan fitur favorit Anda? Menemukan bug yang mengganggu? Kami ingin sekali mendengar dari Anda! Kirimkan email kepada kami: support@guardianproject.info\n\n***Disclaimer***\nGuardian Project membuat aplikasi yang dirancang untuk melindungi keamanan dan anonimitas Anda. Protokol yang kami gunakan secara luas dianggap sebagai yang terbaik dalam teknologi keamanan. Meskipun kami terus meningkatkan perangkat lunak kami untuk memerangi ancaman terbaru dan menghilangkan bug, tidak ada teknologi yang 100% sangat mudah. Untuk keamanan maksimum dan anonimitas, pengguna harus memanfaatkan praktik terbaik untuk menjaga diri mereka tetap aman.  Anda bisa menemukan panduan pengantar yang bagus untuk topik-topik ini di https://securityinabox.org\n",
-          "it-IT": "Orbot \u00e8 un'app proxy libera che consente ad altre app di usare internet in modo pi\u00f9 sicuro. Orbot usa Tor per crittografare il tuo traffico internet e poi lo nasconde rimbalzando attraverso una serie di computer in tutto il mondo. Tor \u00e8 un software libero e una rete aperta che ti aiuta a difenderti da una forma di sorveglianza della rete che minaccia la libert\u00e0 personale e la privacy, le attivit\u00e0 commerciali, le relazioni riservate e la sicurezza dello Stato, nota come analisi del traffico.\n\nOrbot \u00e8 l'unica app che crea una connessione internet veramente privata. Come scrive il New York Times, \"quando arriva una comunicazione da Tor, non si pu\u00f2 mai sapere da dove o da chi provenga\".\n\nTor ha vinto il Pioneer Award della Electronic Frontier Foundation (EFF) del 2012.\n\n\u2605 NON ACCETTARE SOSTITUTI: Orbot \u00e8 il modo pi\u00f9 sicuro di usare internet su Android. Punto. Orbot rimbalza pi\u00f9 volte il tuo traffico crittografato attraverso computer di tutto il mondo, invece di connetterti direttamente come le VPN e i proxy. Questo processo richiede un po' pi\u00f9 di tempo, ma la pi\u00f9 robusta protezione disponibile per privacy e identit\u00e0 vale l'attesa.\n\u2605 PRIVACY PER LE APP: qualsiasi app pu\u00f2 essere instradata via Tor usando la funzionalit\u00e0 VPN di Orbot\n\u2605 PRIVACY PER TUTTI: Orbot evita che qualsiasi persona stia monitorando la tua connessione possa scoprire quali app usi o siti visiti. Tutto ci\u00f2 che pu\u00f2 vedere \u00e8 che stai usando Tor.\n\n***Apprezziamo la tua opinione***\n\u2605 MAGGIORI INFORMAZIONI: leggi altro riguardo Orbot e partecipa su https://orbot.app\n\u2605 CHI SIAMO: Guardian Project \u00e8 un gruppo di sviluppatori che realizza app mobili sicure e codice open-source per un futuro migliore.\n\u2605 OPEN-SOURCE: Orbot \u00e8 un software libero. Dai un'occhiata al nostro codice sorgente o unisciti alla comunit\u00e0 per migliorarlo: https://github.com/guardianproject/orbot\n\u2605 SCRIVICI: manca la tua funzionalit\u00e0 preferita? Hai trovato un errore fastidioso? Faccelo sapere! Inviaci una mail: support@guardianproject.info\n\n***Clausola di esonero da responsabilit\u00e0***\nGuardian Project crea app progettate per proteggere la tua sicurezza e l'anonimato. I protocolli che utilizziamo sono ampiamente considerati come lo stato dell'arte nella tecnologia di sicurezza. Sebbene aggiorniamo costantemente il nostro software per combattere le ultime minacce ed eliminare errori, nessuna tecnologia \u00e8 sicura al 100%. Per la massima sicurezza e anonimato, gli utenti devono attenersi alle migliori pratiche per mantenersi al sicuro. Puoi trovare una buona guida introduttiva riguardo questi argomenti su https://securityinabox.org\n",
+          "it-IT": "Orbot \u00e8 un'app VPN e proxy libera che consente ad altre app di usare internet in modo pi\u00f9 sicuro. Orbot usa Tor per crittografare il tuo traffico internet e poi lo nasconde rimbalzando attraverso una serie di computer in tutto il mondo. Tor \u00e8 un software libero e una rete aperta che ti aiuta a difenderti da una forma di sorveglianza della rete che minaccia la libert\u00e0 personale e la privacy, le attivit\u00e0 commerciali, le relazioni riservate e la sicurezza dello Stato, nota come analisi del traffico.\n\nOrbot \u00e8 l'unica app che crea una connessione internet veramente privata. Come scrive il New York Times, \"quando arriva una comunicazione da Tor, non si pu\u00f2 mai sapere da dove o da chi provenga\".\n\nTor ha vinto il Pioneer Award della Electronic Frontier Foundation (EFF) del 2012.\n\n\u2605 NON ACCETTARE SOSTITUTI: Orbot \u00e8 il modo pi\u00f9 sicuro di usare internet su Android. Punto. Orbot rimbalza pi\u00f9 volte il tuo traffico crittografato attraverso computer di tutto il mondo, invece di connetterti direttamente come le altre VPN e i proxy. Questo processo richiede un po' pi\u00f9 di tempo, ma la pi\u00f9 robusta protezione disponibile per privacy e identit\u00e0 vale l'attesa.\n\u2605 PRIVACY PER LE APP: qualsiasi app pu\u00f2 essere instradata via Tor usando la funzionalit\u00e0 VPN di Orbot\n\u2605 PRIVACY PER TUTTI: Orbot evita che qualsiasi persona stia monitorando la tua connessione possa scoprire quali app usi o siti visiti. Tutto ci\u00f2 che pu\u00f2 vedere \u00e8 che stai usando Tor.\n\n***Apprezziamo la tua opinione***\n\u2605 MAGGIORI INFORMAZIONI: leggi altro riguardo Orbot e partecipa su https://orbot.app\n\u2605 CHI SIAMO: Guardian Project \u00e8 un gruppo di sviluppatori che realizza app mobili sicure e codice open-source per un futuro migliore.\n\u2605 OPEN-SOURCE: Orbot \u00e8 un software libero. Dai un'occhiata al nostro codice sorgente o unisciti alla comunit\u00e0 per migliorarlo: https://github.com/guardianproject/orbot\n\u2605 SCRIVICI: manca la tua funzionalit\u00e0 preferita? Hai trovato un errore fastidioso? Faccelo sapere! Inviaci una mail: support@guardianproject.info\n\n***Clausola di esonero da responsabilit\u00e0***\nGuardian Project crea app progettate per proteggere la tua sicurezza e l'anonimato. I protocolli che utilizziamo sono ampiamente considerati come lo stato dell'arte nella tecnologia di sicurezza. Sebbene aggiorniamo costantemente il nostro software per combattere le ultime minacce ed eliminare errori, nessuna tecnologia \u00e8 sicura al 100%. Per la massima sicurezza e anonimato, gli utenti devono attenersi alle migliori pratiche per mantenersi al sicuro. Puoi trovare una buona guida introduttiva riguardo questi argomenti su https://securityinabox.org\n",
           "ja-JP": "Orbot \u306f\u3001\u4ed6\u306e\u30a2\u30d7\u30ea\u304c\u3088\u308a\u5b89\u5168\u306b\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u3092\u4f7f\u7528\u3067\u304d\u308b\u3088\u3046\u306b\u3059\u308b\u7121\u6599\u306e VPN \u3068\u30d7\u30ed\u30ad\u30b7\u30a2\u30d7\u30ea\u3067\u3059\u3002Orbot \u306f Tor \u3092\u4f7f\u3063\u3066\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30c8\u30e9\u30d5\u30a3\u30c3\u30af\u3092\u6697\u53f7\u5316\u3057\u3001\u4e16\u754c\u4e2d\u306e\u4e00\u9023\u306e\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u3092\u7d4c\u7531\u3057\u3066\u305d\u308c\u3092\u96a0\u3057\u307e\u3059\u3002Tor \u306f\u3001\u500b\u4eba\u306e\u81ea\u7531\u3084\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u3001\u6a5f\u5bc6\u6027\u306e\u9ad8\u3044\u30d3\u30b8\u30cd\u30b9\u6d3b\u52d5\u3084\u4eba\u9593\u95a2\u4fc2\u3001\u30c8\u30e9\u30d5\u30a3\u30c3\u30af\u5206\u6790\u3068\u547c\u3070\u308c\u308b\u56fd\u5bb6\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3092\u8105\u304b\u3059\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u76e3\u8996\u306e\u4e00\u7a2e\u306b\u5bfe\u3059\u308b\u9632\u5fa1\u3092\u652f\u63f4\u3059\u308b\u30d5\u30ea\u30fc\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u304a\u3088\u3073\u30aa\u30fc\u30d7\u30f3\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u3067\u3059\u3002\n\nOrbot \u306f\u3001\u672c\u5f53\u306b\u30d7\u30e9\u30a4\u30d9\u30fc\u30c8\u306a\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u63a5\u7d9a\u3092\u4f5c\u6210\u3059\u308b\u552f\u4e00\u306e\u30a2\u30d7\u30ea\u3067\u3059\u3002New York Times \u304c\u66f8\u3044\u3066\u3044\u308b\u3088\u3046\u306b\u3001\u300cTor \u304b\u3089\u901a\u4fe1\u304c\u5c4a\u3044\u3066\u3082\u3001\u3069\u3053\u306e\u8ab0\u304b\u3089\u306e\u901a\u4fe1\u304b\u308f\u304b\u308a\u307e\u305b\u3093\u300d\u3002\n\nTor \u306f2012\u5e74\u306b\u96fb\u5b50\u30d5\u30ed\u30f3\u30c6\u30a3\u30a2\u8ca1\u56e3 (EFF) \u30d1\u30a4\u30aa\u30cb\u30a2\u8cde\u3092\u53d7\u8cde\u3057\u307e\u3057\u305f\u3002\n\n\u2605 \u4ee3\u66ff\u54c1\u306a\u3057: Orbot \u306f Android \u3067\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u3092\u4f7f\u7528\u3059\u308b\u975e\u5e38\u306b\u5b89\u5168\u306a\u65b9\u6cd5\u3067\u3059\u3002\u65ad\u8a00\u3057\u307e\u3059\u3002Orbot \u306f\u3001\u4ed6\u306e VPN \u3084\u30d7\u30ed\u30ad\u30b7\u306e\u3088\u3046\u306b\u30e6\u30fc\u30b6\u30fc\u3092\u76f4\u63a5\u63a5\u7d9a\u3059\u308b\u306e\u3067\u306f\u306a\u304f\u3001\u4e16\u754c\u4e2d\u306e\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc\u3092\u901a\u3058\u3066\u6697\u53f7\u5316\u3055\u308c\u305f\u30c8\u30e9\u30d5\u30a3\u30c3\u30af\u3092\u4f55\u5ea6\u3082\u30d0\u30a6\u30f3\u30b9\u3057\u307e\u3059\u3002\u3053\u306e\u30d7\u30ed\u30bb\u30b9\u306b\u306f\u5c11\u3057\u6642\u9593\u304c\u304b\u304b\u308a\u307e\u3059\u304c\u3001\u5229\u7528\u53ef\u80fd\u306a\u6700\u5f37\u306e\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u3068 ID \u4fdd\u8b77\u306f\u5f85\u3064\u4fa1\u5024\u304c\u3042\u308a\u307e\u3059\u3002\n\u2605 \u30a2\u30d7\u30ea\u306e\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc: Orbot VPN \u6a5f\u80fd\u3092\u4f7f\u7528\u3057\u3066\u3001\u3059\u3079\u3066\u306e\u30a2\u30d7\u30ea\u3092 Tor \u7d4c\u7531\u3067\u30eb\u30fc\u30c6\u30a3\u30f3\u30b0\u3067\u304d\u307e\u3059\u3002\n\u2605 \u3059\u3079\u3066\u306e\u4eba\u306e\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc: Orbot \u306f\u3001\u30e6\u30fc\u30b6\u30fc\u304c\u4f7f\u7528\u3057\u3066\u3044\u308b\u30a2\u30d7\u30ea\u3084\u30a2\u30af\u30bb\u30b9\u3057\u3066\u3044\u308b\u30a6\u30a7\u30d6\u30b5\u30a4\u30c8\u3092\u3001\u63a5\u7d9a\u3092\u76e3\u8996\u3057\u3066\u3044\u308b\u4eba\u306b\u77e5\u3089\u308c\u306a\u3044\u3088\u3046\u306b\u3057\u307e\u3059\u3002\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u30c8\u30e9\u30d5\u30a3\u30c3\u30af\u3092\u76e3\u8996\u3057\u3066\u3044\u308b\u4eba\u306b\u308f\u304b\u308b\u306e\u306f\u3001Tor \u3092\u4f7f\u3063\u3066\u3044\u308b\u3053\u3068\u3060\u3051\u3067\u3059\u3002\n\n***\u79c1\u305f\u3061\u306f\u30d5\u30a3\u30fc\u30c9\u30d0\u30c3\u30af\u304c\u5927\u597d\u304d\u3067\u3059***\n\u2605 \u8a73\u7d30: Orbot \u306e\u8a73\u7d30\u306b\u3064\u304d\u307e\u3057\u3066\u306f\u3001https://orbot.app/ja/ \u3092\u3054\u89a7\u304f\u3060\u3055\u3044\u3002\n\u2605 \u79c1\u305f\u3061\u306b\u3064\u3044\u3066: Guardian Project \u306f\u3001\u3088\u308a\u826f\u3044\u660e\u65e5\u306e\u305f\u3081\u306b\u5b89\u5168\u306a\u30e2\u30d0\u30a4\u30eb\u30a2\u30d7\u30ea\u3068\u30aa\u30fc\u30d7\u30f3\u30bd\u30fc\u30b9\u30b3\u30fc\u30c9\u3092\u4f5c\u308b\u958b\u767a\u8005\u306e\u30b0\u30eb\u30fc\u30d7\u3067\u3059\u3002\n\u2605 \u30aa\u30fc\u30d7\u30f3\u30bd\u30fc\u30b9: Orbot \u306f\u30d5\u30ea\u30fc\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3067\u3059\u3002\u30bd\u30fc\u30b9\u30b3\u30fc\u30c9\u3092\u898b\u308b\u304b\u3001\u30b3\u30df\u30e5\u30cb\u30c6\u30a3\u306b\u53c2\u52a0\u3057\u3066\u6539\u5584\u3057\u3066\u304f\u3060\u3055\u3044\u3002https://github.com/guardianproject/orbot\n\u2605 \u30e1\u30c3\u30bb\u30fc\u30b8:\u304a\u6c17\u306b\u5165\u308a\u306e\u6a5f\u80fd\u306f\u3042\u308a\u307e\u3059\u304b\uff1f\u5384\u4ecb\u306a\u30d0\u30b0\u3092\u898b\u3064\u3051\u307e\u3057\u305f\u304b\uff1f\u305c\u3072 support@guardianproject.info \u307e\u3067\u3054\u9023\u7d61\u304f\u3060\u3055\u3044!\n\n***\u514d\u8cac\u4e8b\u9805***\nGuardian Project \u306f\u3001\u30e6\u30fc\u30b6\u30fc\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3068\u533f\u540d\u6027\u3092\u4fdd\u8b77\u3059\u308b\u3088\u3046\u306b\u8a2d\u8a08\u3055\u308c\u305f\u30a2\u30d7\u30ea\u3092\u958b\u767a\u3057\u3066\u3044\u307e\u3059\u3002\u79c1\u305f\u3061\u304c\u4f7f\u7528\u3059\u308b\u30d7\u30ed\u30c8\u30b3\u30eb\u306f\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u6280\u8853\u306e\u6700\u5148\u7aef\u3068\u5e83\u304f\u898b\u306a\u3055\u308c\u3066\u3044\u307e\u3059\u3002\u6700\u65b0\u306e\u8105\u5a01\u306b\u5bfe\u51e6\u3057\u3001\u30d0\u30b0\u3092\u6392\u9664\u3059\u308b\u305f\u3081\u306b\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3092\u5e38\u306b\u30a2\u30c3\u30d7\u30b0\u30ec\u30fc\u30c9\u3057\u3066\u3044\u307e\u3059\u304c\u3001100%\u5b8c\u74a7\u306a\u6280\u8853\u306f\u3042\u308a\u307e\u305b\u3093\u3002\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3068\u533f\u540d\u6027\u3092\u6700\u5927\u9650\u306b\u9ad8\u3081\u308b\u306b\u306f\u3001\u30e6\u30fc\u30b6\u30fc\u306f\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u3092\u6d3b\u7528\u3057\u3066\u5b89\u5168\u3092\u78ba\u4fdd\u3059\u308b\u5fc5\u8981\u304c\u3042\u308a\u307e\u3059\u3002\u3053\u308c\u3089\u306e\u30c8\u30d4\u30c3\u30af\u306e\u5165\u9580\u30ac\u30a4\u30c9\u306f\u3001https://securityinabox.org \u306b\u3042\u308a\u307e\u3059\u3002\n",
           "ko-KR": "Orbot\uc740 \ub2e4\ub978 \uc571\uc774 \uc778\ud130\ub137\uc744 \ub354 \uc548\uc804\ud558\uac8c \uc0ac\uc6a9\ud560 \uc218 \uc788\ub3c4\ub85d \ud574 \uc8fc\ub294 \ubb34\ub8cc \ud504\ub85d\uc2dc \uc571\uc774\uc5d0\uc694. Orbot\uc740 \uc778\ud130\ub137 \ud2b8\ub798\ud53d\uc744 \uc554\ud638\ud654\ud558\uae30 \uc704\ud574 Tor\ub97c \uc0ac\uc6a9\ud558\uc5ec \uc804 \uc138\uacc4 \uc77c\ub828\uc758 \ucef4\ud4e8\ud130\ub97c \ud1b5\ud574 \uc778\ud130\ub137 \ud2b8\ub798\ud53d\uc744 \uc228\uaca8\uc918\uc694. Tor\ub294 \uac1c\uc778\uc758 \uc790\uc720\uc640 \uc0ac\uc0dd\ud65c, \uae30\ubc00 \ube44\uc988\ub2c8\uc2a4 \ud65c\ub3d9 \uad00\uacc4, \ud2b8\ub798\ud53d \ubd84\uc11d\uc774\ub77c\uace0 \uc54c\ub824\uc9c4 \uad6d\uac00 \ubcf4\uc548\uc744 \uc704\ud611\ud558\ub294 \ub124\ud2b8\uc6cc\ud06c \uac10\uc2dc \ud615\ud0dc\ub85c\ubd80\ud130 \ubc29\uc5b4\ud560 \uc218 \uc788\ub3c4\ub85d \ub3c4\uc640\uc8fc\ub294 \uc790\uc720 \uc18c\ud504\ud2b8\uc6e8\uc5b4\uc774\uc790 \uac1c\ubc29\ud615 \ub124\ud2b8\uc6cc\ud06c\uc608\uc694.\n\nOrbot\uc740 \uc9c4\uc815\uc73c\ub85c \uac1c\uc778\uc801\uc778 \uc778\ud130\ub137 \uc5f0\uacb0\uc744 \ub9cc\ub4dc\ub294 \uc720\uc77c\ud55c \uc571\uc774\uc5d0\uc694. \ub274\uc695 \ud0c0\uc784\uc988\uc5d0 \ub530\ub974\uba74, \"Tor\uc5d0\uc11c \ub3c4\ucc29\ud55c \ud1b5\uc2e0\uc740 \uc5b4\ub514\uc5d0\uc11c, \ub204\uad6c\ub85c\ubd80\ud130 \uc628 \uac83\uc778\uc9c0 \uacb0\ucf54 \uc54c \uc218 \uc5c6\uc5b4\uc694.\" \n\nTor\ub294 2012\ub144\ub3c4 \uc804\uc790 \ud504\ub7f0\ud2f0\uc5b4 \uc7ac\ub2e8 \uac1c\ucc99\uc790\uc0c1\uc744 \uc218\uc0c1\ud588\uc5b4\uc694.\n\n\u2605 \ub300\uccb4 \ubd88\uac00: Orbot\uc740 \uc548\ub4dc\ub85c\uc774\ub4dc\uc5d0\uc11c \uc778\ud130\ub137\uc744 \uc0ac\uc6a9\ud558\ub294 \uac00\uc7a5 \uc548\uc804\ud55c \ubc29\ubc95\uc774\uc5d0\uc694. \uc774\ubcf4\ub2e4 \ub354 \uc88b\uc740 \uc571\uc740 \uc5c6\uc5b4\uc694. Orbot\uc740 VPN\uc774\ub098 \ud504\ub85d\uc2dc\ucc98\ub7fc \uc9c1\uc811 \uc5f0\uacb0\ud558\ub294 \ub300\uc2e0 \uc804 \uc138\uacc4\uc758 \ucef4\ud4e8\ud130\ub97c \ud1b5\ud574 \uc554\ud638\ud654\ub41c \ud2b8\ub798\ud53d\uc744 \uc5ec\ub7ec \ubc88 \uac70\uccd0\uac00\uac8c \ud574\uc694. \uc774 \uacfc\uc815\uc740 \uc870\uae08 \ub354 \uac78\ub9ac\uc9c0\ub9cc, \ud604\uc874\ud558\ub294 \uac00\uc7a5 \uac15\ub825\ud55c \uac1c\uc778\uc815\ubcf4 \ubc0f \uc2e0\uc6d0 \ubcf4\ud638 \uae30\ub2a5\uc744 \uc704\ud574\uc11c\ub77c\uba74 \uae30\ub2e4\ub9b4 \uac00\uce58\uac00 \uc788\ub2e4\uace0 \ud560 \uc218 \uc788\uc9c0\uc694.\n\u2605 \uc571\uc744 \uc704\ud55c \uac1c\uc778\uc815\ubcf4 \ubcf4\ud638: Orbot VPN \uae30\ub2a5\uc744 \ud1b5\ud574 \ubaa8\ub4e0 \uc571\uc744 Tor\ub85c \ub77c\uc6b0\ud305\ud560 \uc218 \uc788\uc5b4\uc694\n\u2605 \ubaa8\ub450\ub97c \uc704\ud55c \uac1c\uc778\uc815\ubcf4 \ubcf4\ud638: Orbot\uc740 \uc0ac\uc6a9\uc790\uac00 \uc5b4\ub5a4 \uc571\uc744 \uc0ac\uc6a9\ud558\uace0 \uc788\ub294\uc9c0 \ub610\ub294 \uc5b4\ub5a4 \uc6f9\uc0ac\uc774\ud2b8\ub97c \ubc29\ubb38\ud558\uace0 \uc788\ub294\uc9c0 \uc54c\ub824\uc9c0\ub294 \uac83\uc744 \ubc29\uc9c0\ud574\uc694. \ub124\ud2b8\uc6cc\ud06c \ud2b8\ub798\ud53d\uc744 \ubaa8\ub2c8\ud130\ub9c1\ud558\ub294 \uc0ac\ub78c\uc774 \ubcfc \uc218 \uc788\ub294 \uac83\uc774\ub77c\uace0\ub294 \uc0ac\uc6a9\uc790\uac00 Tor\ub97c \uc0ac\uc6a9\ud558\uace0 \uc788\ub2e4\ub294 \uc0ac\uc2e4\ubfd0\uc774\uc9c0\uc694.\n\n***\ud53c\ub4dc\ubc31***\n\u2605 \uc790\uc138\ud55c \ub0b4\uc6a9: Orbot\uc5d0 \ub300\ud574 \uc790\uc138\ud788 \uc54c\uc544\ubcf4\uace0 https://orbot.app\uc5d0\uc11c \ucc38\uc5ec\ud558\uc138\uc694.\n\u2605 \uc870\uc9c1 \uc815\ubcf4: \uac00\ub514\uc5b8 \ud504\ub85c\uc81d\ud2b8\ub294 \ub354 \ub098\uc740 \ubbf8\ub798\ub97c \uc704\ud574 \uc548\uc804\ud55c \ubaa8\ubc14\uc77c \uc571\uacfc \uc624\ud508\uc18c\uc2a4 \ucf54\ub4dc\ub97c \ub9cc\ub4dc\ub294 \uac1c\ubc1c\uc790 \uadf8\ub8f9\uc774\uc5d0\uc694.\n\u2605 \uc624\ud508\uc18c\uc2a4: Orbot\uc740 \uc790\uc720 \uc18c\ud504\ud2b8\uc6e8\uc5b4\uc608\uc694. \uc18c\uc2a4 \ucf54\ub4dc\ub97c \ubcf4\uac70\ub098 \uac1c\uc120\ud558\ub824\uba74 \ucee4\ubba4\ub2c8\ud2f0\uc5d0 \uac00\uc785\ud558\uc138\uc694: https://github.com/guardianproject/orbot\n\u2605 \uc5f0\ub77d\ucc98: \uc790\uc8fc \uc0ac\uc6a9\ud558\ub294 \uae30\ub2a5\uc774 \uc5c6\ub098\uc694? \uc131\uac00\uc2e0 \ubc84\uadf8\ub97c \ubc1c\uacac\ud558\uc168\ub098\uc694? \uc8fc\uc800\ud558\uc9c0 \ub9d0\uace0 \uc5f0\ub77d\uc8fc\uc138\uc694! \uc774\uba54\uc77c \uc8fc\uc18c: support@guardianproject.info\n\n***\uba74\ucc45 \uc870\ud56d***\n\uac00\ub514\uc5b8 \ud504\ub85c\uc81d\ud2b8\ub294 \ubcf4\uc548\uacfc \uc775\uba85\uc131\uc744 \ubcf4\ud638\ud558\ub3c4\ub85d \uc124\uacc4\ub41c \uc571\uc744 \ub9cc\ub4e4\uace0 \uc788\uc5b4\uc694. \ud504\ub85c\ud1a0\ucf5c \uc0ac\uc6a9\uc740 \ubcf4\uc548 \uae30\uc220\uc758 \ucd5c\ucca8\ub2e8\uc73c\ub85c \ub110\ub9ac \uc5ec\uaca8\uc9c0\uace0 \uc788\uc5b4\uc694. \ucd5c\uc2e0 \uc704\ud611\uc5d0 \ub9de\uc11c \uc2f8\uc6b0\uace0 \ubc84\uadf8\ub97c \uc81c\uac70\ud558\uae30 \uc704\ud574 \uc9c0\uc18d\uc801\uc73c\ub85c \uc18c\ud504\ud2b8\uc6e8\uc5b4\ub97c \uc5c5\uadf8\ub808\uc774\ub4dc\ud558\uace0 \uc788\uc9c0\ub9cc, \uc5b4\ub5a4 \uae30\uc220\ub3c4 100% \uc644\ubcbd\ud558\uc9c0\ub294 \uc54a\uc544\uc694. \ucd5c\ub300\ud55c\uc758 \ubcf4\uc548\uacfc \uc775\uba85\uc131\uc744 \ud1b5\ud574 \uc790\uc2e0\uc744 \uc548\uc804\ud558\uac8c \uc9c0\ud0a4\ub824\uba74 \ubaa8\ubc94 \uc0ac\ub840\ub97c \ucc38\uc870\ud574\uc57c \ud574\uc694.  \uc774\ub7ec\ud55c \uc8fc\uc81c\uc5d0 \ub300\ud55c \uc88b\uc740 \uc785\ubb38 \uac00\uc774\ub4dc\ub294 https://securityinabox.org \uc5d0\uc11c \ucc3e\uc744 \uc218 \uc788\uc5b4\uc694\n",
           "lt": "\u201eOrbot\u201c yra nemokama \u012fgaliotojo serverio programa, kuri leid\u017eia kitoms programoms saugiau naudotis internetu. \u201eOrbot\u201c naudoja \u201eTor\u201c, kad u\u017e\u0161ifruot\u0173 j\u016bs\u0173 interneto sraut\u0105 ir pasl\u0117pt\u0173 j\u012f per kelis kompiuterius visame pasaulyje. \u201eTor\u201c yra nemokama programin\u0117 \u012franga ir atviras tinklas, padedantis apsisaugoti nuo tinklo steb\u0117jimo, kelian\u010dio gr\u0117sm\u0119 asmens laisvei ir privatumui, konfidencialiai verslo veiklai ir santykiams bei valstyb\u0117s saugumui, vadinamo srauto analize.\n\n\u201eOrbot\u201c yra vienintel\u0117 programa, sukurianti tikrai privat\u0173 interneto ry\u0161\u012f. Kaip ra\u0161o laikra\u0161tis \u201eNew York Times\u201c, \u201ekai i\u0161 \u201eTor\u201c atkeliauja prane\u0161imas, niekada negalite su\u017einoti, i\u0161 kur ar kam jis siun\u010diamas\u201c.\n\n2012 m. \u201eTor\u201c peln\u0117 \u201eElectronic Frontier Foundation\u201c (EFF) pionieriaus apdovanojim\u0105.\n\n\u2605 NEPRIIMKITE JOKI\u0172 PAKAITAL\u0172: \u201eOrbot\u201c yra saugiausias b\u016bdas naudotis internetu \u201eAndroid\u201c sistemoje. Laikotarpis. \u201eOrbot\u201c kelis kartus perduoda u\u017e\u0161ifruot\u0105 sraut\u0105 per kompiuterius visame pasaulyje, u\u017euot jung\u0119sis tiesiogiai, kaip VPN ir \u012fgaliotieji serveriai. \u0160is procesas u\u017etrunka \u0161iek tiek ilgiau, ta\u010diau verta palaukti, kol bus u\u017etikrinta patikimiausia privatumo ir tapatyb\u0117s apsauga.\n\u2605 APLINKYBI\u0172 privatumas: bet kuri \u012fdiegta programa gali naudoti \u201eTor\u201c per \u201eOrbot VPN\u201c funkcij\u0105 arba, jei ji turi \u012fgaliotojo serverio funkcij\u0105, naudodama \u010dia esan\u010dius nustatymus: https://goo.gl/2OA1y Naudokite \u201eOrbot\u201c su \u201eTwitter\u201c arba i\u0161bandykite priva\u010di\u0105 paie\u0161k\u0105 internete su \u201eDuckDuckGo\u201c: https://goo.gl/lgh1p.\n\u2605 PRIVATUMAS VISIEMS: \u201eOrbot\u201c neleid\u017eia kam nors, stebin\u010diam j\u016bs\u0173 ry\u0161\u012f, su\u017einoti, kokias program\u0117les naudojate ar kokiose svetain\u0117se lankot\u0117s. Viskas, k\u0105 gali matyti bet kas, stebintis j\u016bs\u0173 tinklo sraut\u0105, yra tai, kad naudojate \u201eTor\u201c.\n\n***Mums patinka atsiliepimai***\n\u2605 APIE MUS: \u201eGuardian Project\u201c yra k\u016br\u0117j\u0173 grup\u0117, kurianti saugias mobili\u0105sias program\u0117les ir atvirojo kodo kod\u0105 geresniam rytojui.\n\u2605 ATVIRAS KODAS: \u201eOrbot\u201c yra laisva programin\u0117 \u012franga. Per\u017ei\u016br\u0117kite m\u016bs\u0173 pirmin\u012f kod\u0105 arba prisijunkite prie bendruomen\u0117s ir tobulinkite j\u012f: https://github.com/guardianproject/orbot\n\u2605 PARA\u0160YKITE MUMS: Ar tr\u016bksta j\u016bs\u0173 m\u0117gstamiausios funkcijos? Radote erzinan\u010di\u0105 klaid\u0105? Nor\u0117tume i\u0161girsti j\u016bs\u0173 nuomon\u0119! Si\u0173skite mums el. lai\u0161k\u0105: support@guardianproject.info\n\n***Atsakomyb\u0117s apribojimas***\n\u201eGuardian Project\u201c kuria program\u0117les, skirtas j\u016bs\u0173 saugumui ir anonimi\u0161kumui apsaugoti. M\u016bs\u0173 naudojami protokolai pla\u010diai laikomi moderniausiomis saugumo technologijomis. Nors nuolat atnaujiname savo programin\u0119 \u012frang\u0105, siekdami kovoti su naujausiomis gr\u0117sm\u0117mis ir pa\u0161alinti klaidas, jokia technologija n\u0117ra 100 % patikima. Siekdami maksimalaus saugumo ir anonimi\u0161kumo, naudotojai turi naudoti geriausi\u0105 praktik\u0105, kad b\u016bt\u0173 saug\u016bs.  Ger\u0105 \u012fvadin\u012f vadov\u0105 \u0161iomis temomis galite rasti adresu https://securityinabox.org\n",
@@ -4181,31 +4210,34 @@
       "metadata": {
         "added": 1729666016000,
         "categories": [
-          "Internet",
           "Security",
+          "Browser",
+          "Connectivity",
+          "Navigation",
           "Guardian Project"
         ],
         "issueTracker": "https://gitlab.torproject.org/tpo/applications/tor-browser/issues",
         "lastUpdated": 1758097278000,
         "license": "MPL-2.0",
-        "sourceCode": "https://gitweb.torproject.org/tor-browser.git",
+        "sourceCode": "https://gitlab.torproject.org/tpo/applications/tor-browser.git",
+        "translation": "https://hosted.weblate.org/projects/tor/tor-browser/",
         "screenshots": {
           "phone": {
             "en-US": [
               {
                 "name": "/org.torproject.torbrowser/en-US/phoneScreenshots/screenshot0.png",
-                "sha256": "216cf40aaa5529654e3abcfb2ddc6c68e1eb0e91c03ddf9966db719ebc64fe39",
-                "size": 49403
+                "sha256": "26098e9ca05ef1507755fb4f31f92c5bc3714ae165ecf3ff9eef6cec3ff92224",
+                "size": 77701
               },
               {
                 "name": "/org.torproject.torbrowser/en-US/phoneScreenshots/screenshot1.png",
-                "sha256": "216cf40aaa5529654e3abcfb2ddc6c68e1eb0e91c03ddf9966db719ebc64fe39",
-                "size": 49403
+                "sha256": "6690935d5a6286d30c7d31d401017807e4bb0412b329966f1d511f751b1af3f2",
+                "size": 82140
               },
               {
                 "name": "/org.torproject.torbrowser/en-US/phoneScreenshots/screenshot2.png",
-                "sha256": "d1b5fe88b06b86f273be569c392c7d717d1dac6e346aa9bf0ce3376d37840cfa",
-                "size": 46227
+                "sha256": "538f4a8169428dd5c7de33877aa6a0999dceb5ca3fa7bfddabfa49fc757fcdb2",
+                "size": 52924
               },
               {
                 "name": "/org.torproject.torbrowser/en-US/phoneScreenshots/screenshot3.png",
@@ -4238,16 +4270,13 @@
         "authorEmail": "frontdesk@torproject.org",
         "authorName": "The Tor Project",
         "authorWebSite": "https://www.torproject.org/",
-        "bitcoin": "1JADsmDFX9d2TXis63S9F9L8eDAXwJmnWE",
-        "litecoin": "LNAifc8nfjtDJ8azRPiancbZSBftPzhfzb",
+        "bitcoin": "bc1qtt04zfgjxg7lpqhk9vk8hnmnwf88ucwww5arsd",
+        "litecoin": "MTQBNhAP58vpWKsns4ZFUDoh5NK7XECVrs",
         "name": {
           "en-US": "Tor Browser for Android"
         },
         "summary": {
-          "en-US": "Experience real private browsing without tracking, surveillance, or censorship."
-        },
-        "description": {
-          "en-US": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n"
+          "en-US": "Protect yourself against tracking, surveillance, and censorship"
         },
         "donate": [
           "https://donate.torproject.org/"
@@ -5324,27 +5353,30 @@
       "metadata": {
         "added": 1728543001000,
         "categories": [
-          "Internet",
           "Security",
+          "Browser",
+          "Connectivity",
+          "Navigation",
           "Guardian Project"
         ],
         "issueTracker": "https://gitlab.torproject.org/tpo/applications/tor-browser/issues",
-        "lastUpdated": 1756795945000,
+        "lastUpdated": 1758612587000,
         "license": "MPL-2.0",
-        "sourceCode": "https://gitweb.torproject.org/tor-browser.git",
+        "sourceCode": "https://gitlab.torproject.org/tpo/applications/tor-browser.git",
+        "translation": "https://hosted.weblate.org/projects/tor/tor-browser/",
         "authorEmail": "frontdesk@torproject.org",
         "authorName": "The Tor Project",
         "authorWebSite": "https://www.torproject.org/",
-        "bitcoin": "1JADsmDFX9d2TXis63S9F9L8eDAXwJmnWE",
-        "litecoin": "LNAifc8nfjtDJ8azRPiancbZSBftPzhfzb",
+        "bitcoin": "bc1qtt04zfgjxg7lpqhk9vk8hnmnwf88ucwww5arsd",
+        "litecoin": "MTQBNhAP58vpWKsns4ZFUDoh5NK7XECVrs",
         "name": {
           "en-US": "Tor Browser for Android (Alpha)"
         },
         "summary": {
-          "en-US": "Experience real private browsing without tracking, surveillance, or censorship"
+          "en-US": "Testing version to try our latest features"
         },
         "description": {
-          "en-US": "Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world\u2019s strongest tool for privacy and freedom online.\n\nBLOCK TRACKERS\nTor Browser isolates each website you visit so third-party trackers and ads can\u2019t follow you. Any cookies automatically clear when you\u2019re done browsing.\n\nDEFEND AGAINST SURVEILLANCE\nTor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you\u2019re using Tor.\n\nRESIST FINGERPRINTING\nTor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.\n\nMULTI-LAYERED ENCRYPTION\nWhen you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:\n\nBROWSE FREELY\nWith Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.\n\nTHIS APP IS MADE POSSIBLE BY DONORS LIKE YOU\nTor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp\n\nLearn more about Tor Browser for Android:\n- Need help? Visit https://support.torproject.org. The manual is coming soon.\n- Learn more about what\u2019s happening at Tor: https://blog.torproject.org\n- Follow the Tor Project on Twitter: https://twitter.com/torproject\n\nABOUT THE TOR PROJECT\nThe Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project\u2019s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.\n"
+          "en-US": "This is the Tor Browser Alpha. This version is only for testing.\nThanks for helping us test! https://community.torproject.org/user-research/become-tester/\n"
         },
         "donate": [
           "https://donate.torproject.org/"
@@ -5359,20 +5391,20 @@
         "preferredSigner": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1"
       },
       "versions": {
-        "decd5a19ae3c5f72497529b9aa2c4089d652d59ac0f80c1c7d81707f9445670f": {
-          "added": 1756795945000,
+        "b327193dffb9ba9246cf8067c01a7a210cf0d687a447fa33f5139b8ba3e119a0": {
+          "added": 1758612587000,
           "file": {
-            "name": "/tor-browser-android-x86_64-15.0a2.apk",
-            "sha256": "decd5a19ae3c5f72497529b9aa2c4089d652d59ac0f80c1c7d81707f9445670f",
-            "size": 110013407,
-            "ipfsCIDv1": "bafybeihzfmetkisjy7bjzp3cu4ux3jl4wwqwibc2gwmdwkjwqquiunpr7q"
+            "name": "/tor-browser-android-x86_64-15.0a3.apk",
+            "sha256": "b327193dffb9ba9246cf8067c01a7a210cf0d687a447fa33f5139b8ba3e119a0",
+            "size": 110033887,
+            "ipfsCIDv1": "bafybeifq6ytr3tpixdhltkfqq3526obc5p3lejnoglvbtht33nfaoaeeze"
           },
           "manifest": {
             "nativecode": [
               "x86_64"
             ],
-            "versionName": "15.0a2 (140.2.0esr)",
-            "versionCode": 2016111406,
+            "versionName": "15.0a3 (140.3.0esr)",
+            "versionCode": 2016115094,
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 35
@@ -5489,20 +5521,20 @@
             }
           }
         },
-        "af1803bb1c1043b7a0c1ebadb10459b55ff4b5283c4c79f0e3b40e463cea867c": {
-          "added": 1756795926000,
+        "727a81829b98f636ee7741b70c730b69960906e66de89b56eca1c164f0beff94": {
+          "added": 1758612568000,
           "file": {
-            "name": "/tor-browser-android-x86-15.0a2.apk",
-            "sha256": "af1803bb1c1043b7a0c1ebadb10459b55ff4b5283c4c79f0e3b40e463cea867c",
-            "size": 112884649,
-            "ipfsCIDv1": "bafybeieqbtz3am4fv7ni7qfj4q6izodojew7j46ti47uu5xkg73turnyfq"
+            "name": "/tor-browser-android-x86-15.0a3.apk",
+            "sha256": "727a81829b98f636ee7741b70c730b69960906e66de89b56eca1c164f0beff94",
+            "size": 112905129,
+            "ipfsCIDv1": "bafybeieksqed7kcwknafdg5vjk3obt6f4kqfshbjuod24e2y6zpbx3b2zq"
           },
           "manifest": {
             "nativecode": [
               "x86"
             ],
-            "versionName": "15.0a2 (140.2.0esr)",
-            "versionCode": 2016111404,
+            "versionName": "15.0a3 (140.3.0esr)",
+            "versionCode": 2016115092,
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 35
@@ -5619,20 +5651,20 @@
             }
           }
         },
-        "b51698aea239e88bc740c1cf2782a19e8a0013d0542c1b6546d55977191a285d": {
-          "added": 1756795888000,
+        "2028f9610da0ec3524edc04013362b3dd1946decb957f3221c619aa22a50118f": {
+          "added": 1758612529000,
           "file": {
-            "name": "/tor-browser-android-aarch64-15.0a2.apk",
-            "sha256": "b51698aea239e88bc740c1cf2782a19e8a0013d0542c1b6546d55977191a285d",
-            "size": 108809346,
-            "ipfsCIDv1": "bafybeifslrrgv6nnlzdbkin6by2eilmvsbjcpkt7jandebbssmvtrwpdb4"
+            "name": "/tor-browser-android-aarch64-15.0a3.apk",
+            "sha256": "2028f9610da0ec3524edc04013362b3dd1946decb957f3221c619aa22a50118f",
+            "size": 108825730,
+            "ipfsCIDv1": "bafybeiag5khb3eqqzhholo5qo242qarf73bq3xbj3gcnlkyljxd25fcayq"
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "15.0a2 (140.2.0esr)",
-            "versionCode": 2016111402,
+            "versionName": "15.0a3 (140.3.0esr)",
+            "versionCode": 2016115090,
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 35
@@ -5749,20 +5781,20 @@
             }
           }
         },
-        "3e6c9aa4e314e2667b84aacc31f12ca786035946e6363239bf3b0a632b7102af": {
-          "added": 1756795907000,
+        "429f368c48a30849760ff18a17271b52100c2c2185241f234eb18e26e462fc7c": {
+          "added": 1758612548000,
           "file": {
-            "name": "/tor-browser-android-armv7-15.0a2.apk",
-            "sha256": "3e6c9aa4e314e2667b84aacc31f12ca786035946e6363239bf3b0a632b7102af",
-            "size": 106409128,
-            "ipfsCIDv1": "bafybeibgxo33d7va7gfaftlg2qo5dcddjnct725cgera7oimy6nmovimqy"
+            "name": "/tor-browser-android-armv7-15.0a3.apk",
+            "sha256": "429f368c48a30849760ff18a17271b52100c2c2185241f234eb18e26e462fc7c",
+            "size": 106437800,
+            "ipfsCIDv1": "bafybeidnzpxql3zw5no6wjq7jkdqc7o6symd35on342uyzxicxfl5xk2pe"
           },
           "manifest": {
             "nativecode": [
               "armeabi-v7a"
             ],
-            "versionName": "15.0a2 (140.2.0esr)",
-            "versionCode": 2016111400,
+            "versionName": "15.0a3 (140.3.0esr)",
+            "versionCode": 2016115088,
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 35
