@@ -47,7 +47,7 @@
         "countryCode": "US"
       }
     ],
-    "timestamp": 1763448581000,
+    "timestamp": 1763535177000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -1690,7 +1690,7 @@
           "Internet"
         ],
         "issueTracker": "https://bugzilla.mozilla.org/",
-        "lastUpdated": 1762930317000,
+        "lastUpdated": 1763534953000,
         "license": "MPL-2.0",
         "sourceCode": "https://hg.mozilla.org/mozilla-central/",
         "webSite": "https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/",
@@ -1743,6 +1743,135 @@
         "preferredSigner": "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
       },
       "versions": {
+        "772d34a30cb2b90a6e352bcb22497fe3e8b40d05ed7bf3f1e5d8629ebc6a0019": {
+          "added": 1763534953000,
+          "file": {
+            "name": "/org.mozilla.klar_393220448.apk",
+            "sha256": "772d34a30cb2b90a6e352bcb22497fe3e8b40d05ed7bf3f1e5d8629ebc6a0019",
+            "size": 104424158,
+            "ipfsCIDv1": "bafybeiakfiw6sp5ayn7afjsilqb36v74aqezjyvwlgpl36mbuz4aots6le"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "145.0.1",
+            "versionCode": 393220448,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "org.mozilla.klar.permission.RECEIVE_DOWNLOAD_BROADCAST"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.mozilla.klar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "Firefox Klar uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
+            }
+          }
+        },
         "4df21438027daa94cbb0fe630875f440e97f0e1bca0bdac4ccf49c75b2a68d42": {
           "added": 1762930317000,
           "file": {
@@ -2000,135 +2129,6 @@
               "en-US": "Firefox Klar uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
             }
           }
-        },
-        "3741180108add635758142c2fc453889466d8e392b04b320368f66ea558af200": {
-          "added": 1761122045000,
-          "file": {
-            "name": "/org.mozilla.klar_392931514.apk",
-            "sha256": "3741180108add635758142c2fc453889466d8e392b04b320368f66ea558af200",
-            "size": 103696016,
-            "ipfsCIDv1": "bafybeibjhcokrc2mh42ely4osjplmj63u6f5oc6efxjaxqihsnorpascvm"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "144.0.1",
-            "versionCode": 392931514,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 36
-            },
-            "signer": {
-              "sha256": [
-                "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.ACCESS_COARSE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_FINE_LOCATION"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "org.mozilla.klar.permission.RECEIVE_DOWNLOAD_BROADCAST"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "org.mozilla.klar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "Firefox Klar uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
-            }
-          }
         }
       }
     },
@@ -2139,7 +2139,7 @@
           "Internet",
           "Phone & SMS"
         ],
-        "lastUpdated": 1763189496000,
+        "lastUpdated": 1763534946000,
         "license": "AGPL-3.0-only",
         "sourceCode": "https://github.com/signalapp/Signal-Android",
         "translation": "https://explore.transifex.com/signalapp/",
@@ -2202,6 +2202,273 @@
         "preferredSigner": "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26"
       },
       "versions": {
+        "643fa9213126fe80098eda16b026ffc194a8b92ba2883436cbf46f1fa646610b": {
+          "added": 1763534946000,
+          "file": {
+            "name": "/Signal-Android-website-prod-universal-release-7.65.3.apk",
+            "sha256": "643fa9213126fe80098eda16b026ffc194a8b92ba2883436cbf46f1fa646610b",
+            "size": 163140299,
+            "ipfsCIDv1": "bafybeievkhs7hqwbjr2t5t3jzr7kxue4ki7p22xv54safyfvz6m2smo4eq"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "7.65.3",
+            "versionCode": 161800,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "org.thoughtcrime.securesms.ACCESS_SECRETS"
+              },
+              {
+                "name": "android.permission.READ_PROFILE"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_NUMBERS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.NEARBY_WIFI_DEVICES"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_CALL_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.READ_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.WRITE_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.BROADCAST_STICKY"
+              },
+              {
+                "name": "android.permission.DISABLE_KEYGUARD"
+              },
+              {
+                "name": "android.permission.RAISED_THREAD_PRIORITY"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+              },
+              {
+                "name": "android.permission.MANAGE_OWN_CALLS"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_CAMERA"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_PHONE_CALL"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "org.thoughtcrime.securesms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.READ"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.WRITE"
+              },
+              {
+                "name": "com.htc.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.htc.launcher.permission.UPDATE_SHORTCUT"
+              },
+              {
+                "name": "com.sonyericsson.home.permission.BROADCAST_BADGE"
+              },
+              {
+                "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+              },
+              {
+                "name": "com.anddoes.launcher.permission.UPDATE_COUNT"
+              },
+              {
+                "name": "com.majeur.launcher.permission.UPDATE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_APP_BADGE"
+              },
+              {
+                "name": "com.oppo.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.oppo.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_READ"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_WRITE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "Signal uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
+            },
+            "NonFreeNet": {
+              "en-US": "Uses its own proprietary server as well as other proprietary cloud services.\n"
+            },
+            "TetheredNet": {
+              "en-US": "Tied to Signal Foundation's infrastructure.\n"
+            }
+          }
+        },
         "0c0a83fcef3f057a233362ebd053464b04f1a2e0ba8b5f70362debad8631bb6d": {
           "added": 1763189496000,
           "file": {
@@ -2735,273 +3002,6 @@
               "en-US": "Tied to Signal Foundation's infrastructure.\n"
             }
           }
-        },
-        "0e8d1003d8cbfb897c112bc6095fc26643ebd9952ab2858d63052a2e426c2961": {
-          "added": 1761807206000,
-          "file": {
-            "name": "/Signal-Android-website-prod-universal-release-7.62.3.apk",
-            "sha256": "0e8d1003d8cbfb897c112bc6095fc26643ebd9952ab2858d63052a2e426c2961",
-            "size": 107639370,
-            "ipfsCIDv1": "bafybeihldwj6geyrsg5kr3vurgj7ubdqk7wiox2bpsdhrwsosxziwwb2ku"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "7.62.3",
-            "versionCode": 160700,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "org.thoughtcrime.securesms.ACCESS_SECRETS"
-              },
-              {
-                "name": "android.permission.READ_PROFILE"
-              },
-              {
-                "name": "android.permission.READ_CONTACTS"
-              },
-              {
-                "name": "android.permission.WRITE_CONTACTS"
-              },
-              {
-                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
-              },
-              {
-                "name": "android.permission.READ_PHONE_STATE"
-              },
-              {
-                "name": "android.permission.READ_PHONE_NUMBERS"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.ACCESS_COARSE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_FINE_LOCATION"
-              },
-              {
-                "name": "android.permission.NEARBY_WIFI_DEVICES"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.READ_CALL_STATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.GET_ACCOUNTS"
-              },
-              {
-                "name": "android.permission.READ_SYNC_SETTINGS"
-              },
-              {
-                "name": "android.permission.WRITE_SYNC_SETTINGS"
-              },
-              {
-                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
-              },
-              {
-                "name": "android.permission.USE_CREDENTIALS"
-              },
-              {
-                "name": "android.permission.INSTALL_SHORTCUT"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.CHANGE_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.BLUETOOTH"
-              },
-              {
-                "name": "android.permission.BROADCAST_STICKY"
-              },
-              {
-                "name": "android.permission.DISABLE_KEYGUARD"
-              },
-              {
-                "name": "android.permission.RAISED_THREAD_PRIORITY"
-              },
-              {
-                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
-              },
-              {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
-              },
-              {
-                "name": "android.permission.MANAGE_OWN_CALLS"
-              },
-              {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_IMAGES"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VIDEO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_CAMERA"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_PHONE_CALL"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "com.android.vending.BILLING"
-              },
-              {
-                "name": "org.thoughtcrime.securesms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "com.sec.android.provider.badge.permission.READ"
-              },
-              {
-                "name": "com.sec.android.provider.badge.permission.WRITE"
-              },
-              {
-                "name": "com.htc.launcher.permission.READ_SETTINGS"
-              },
-              {
-                "name": "com.htc.launcher.permission.UPDATE_SHORTCUT"
-              },
-              {
-                "name": "com.sonyericsson.home.permission.BROADCAST_BADGE"
-              },
-              {
-                "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
-              },
-              {
-                "name": "com.anddoes.launcher.permission.UPDATE_COUNT"
-              },
-              {
-                "name": "com.majeur.launcher.permission.UPDATE_BADGE"
-              },
-              {
-                "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
-              },
-              {
-                "name": "com.huawei.android.launcher.permission.READ_SETTINGS"
-              },
-              {
-                "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"
-              },
-              {
-                "name": "android.permission.READ_APP_BADGE"
-              },
-              {
-                "name": "com.oppo.launcher.permission.READ_SETTINGS"
-              },
-              {
-                "name": "com.oppo.launcher.permission.WRITE_SETTINGS"
-              },
-              {
-                "name": "me.everything.badger.permission.BADGE_COUNT_READ"
-              },
-              {
-                "name": "me.everything.badger.permission.BADGE_COUNT_WRITE"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "Signal uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
-            },
-            "NonFreeNet": {
-              "en-US": "Uses its own proprietary server as well as other proprietary cloud services.\n"
-            },
-            "TetheredNet": {
-              "en-US": "Tied to Signal Foundation's infrastructure.\n"
-            }
-          }
         }
       }
     },
@@ -3031,9 +3031,19 @@
           "phone": {
             "ar": [
               {
+                "name": "/org.torproject.android/ar/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "4460fd6aa63623672d0d688a38a6690584d86b7ed474d2bb5fd21354b0b150f0",
+                "size": 159860
+              },
+              {
                 "name": "/org.torproject.android/ar/phoneScreenshots/A-orbot_connected_1754320075644.png",
                 "sha256": "5b874bbd721992818d59e6d0f6b62fcfd0eedfc7626539102a581811a032d964",
                 "size": 96222
+              },
+              {
+                "name": "/org.torproject.android/ar/phoneScreenshots/B-choose-how.png",
+                "sha256": "7067505cb2f21b6622e2ff0276c0e3e1d602473df3b1134cf3cfa6dcb2e682b3",
+                "size": 153184
               },
               {
                 "name": "/org.torproject.android/ar/phoneScreenshots/B-choose-how_1754320071649.png",
@@ -3041,9 +3051,19 @@
                 "size": 146681
               },
               {
+                "name": "/org.torproject.android/ar/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "9b9057957bbcd43a3fc624eb8ed443873cac3944f4a7668d15cc61f17c73b3a9",
+                "size": 221009
+              },
+              {
                 "name": "/org.torproject.android/ar/phoneScreenshots/C-kindness_mode_screen_1754320079967.png",
                 "sha256": "c6fd8e15ecf63c5a71d84cf5abe69bb995a58cc5fe24ac3e2f54a179a87df0dc",
                 "size": 229775
+              },
+              {
+                "name": "/org.torproject.android/ar/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "4e5de654bd86b5839873bd87c70df4deb97841f40b1967d1745969146fd87640",
+                "size": 366420
               },
               {
                 "name": "/org.torproject.android/ar/phoneScreenshots/D-more_screen_1754320083985.png",
@@ -3051,16 +3071,196 @@
                 "size": 139772
               },
               {
+                "name": "/org.torproject.android/ar/phoneScreenshots/E-more_screen.png",
+                "sha256": "04b8d6f8adbd1686d97cade68c624d000ffd4eaa91eb03ed0b290a42ad2c04c7",
+                "size": 156902
+              },
+              {
                 "name": "/org.torproject.android/ar/phoneScreenshots/E-settings_screen_1754320087915.png",
                 "sha256": "79e4d3d764d8814ba7d2beb26b466b3288ebd66853a6adda3a15f70d65adb1d3",
                 "size": 243425
+              },
+              {
+                "name": "/org.torproject.android/ar/phoneScreenshots/F-settings_screen.png",
+                "sha256": "b70ed24e5a778a8bb078ab511c0cac4b89ff72ad22af100098171b2d642cd259",
+                "size": 305525
+              }
+            ],
+            "az": [
+              {
+                "name": "/org.torproject.android/az/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "4d30512c7334ccc5074ebd085a6f09bfbe4e0d525d8ee9c1e6ceb8af3f7fe0e4",
+                "size": 156860
+              },
+              {
+                "name": "/org.torproject.android/az/phoneScreenshots/B-choose-how.png",
+                "sha256": "51f882eafbe9b3d96c26ef262ad86fc6933d0b60cffe19e2e9d90197d799e3a4",
+                "size": 149878
+              },
+              {
+                "name": "/org.torproject.android/az/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "1cd2a5597af72e5b8e3e9a9ef4616c71491992d0ec6d07f063bff12d40925fa9",
+                "size": 201922
+              },
+              {
+                "name": "/org.torproject.android/az/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "05eb9cc2930a4fc1a4953f35c4d2dd903e5808a5677c16496353a3bd083e5cd9",
+                "size": 370852
+              },
+              {
+                "name": "/org.torproject.android/az/phoneScreenshots/E-more_screen.png",
+                "sha256": "11b490d91c437b7a6c2595bd39c0e1e5d404ebedc3c40ed101f4b424e96dfdcf",
+                "size": 160066
+              },
+              {
+                "name": "/org.torproject.android/az/phoneScreenshots/F-settings_screen.png",
+                "sha256": "56f7395e7180f0e8cc82ec41f14edd2300e4b9f011d965ac3f7d83e91c4ffbf1",
+                "size": 295402
+              }
+            ],
+            "bg": [
+              {
+                "name": "/org.torproject.android/bg/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "eb8aa5cfed0addd35990c68b72e4e4d50d5cc522b060207cc2f26c5d4b4656b3",
+                "size": 168341
+              },
+              {
+                "name": "/org.torproject.android/bg/phoneScreenshots/B-choose-how.png",
+                "sha256": "62549dc5b6790ee738f4c8b3b0f1647e95c2d8b84c4f9bad292f4f0e0e2154d0",
+                "size": 144052
+              },
+              {
+                "name": "/org.torproject.android/bg/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "49f13119ef0a6ccce796c637d560873a98d68b8334e89061525228459429eb47",
+                "size": 222164
+              },
+              {
+                "name": "/org.torproject.android/bg/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "984d1559360530e865a708e753db2cb982154a5025b97f10df4a950ef9dc5cea",
+                "size": 380570
+              },
+              {
+                "name": "/org.torproject.android/bg/phoneScreenshots/E-more_screen.png",
+                "sha256": "76080183bf2625a4fdc63683050c671e8fcd8fc5743ad0882cc76231588b1350",
+                "size": 159325
+              },
+              {
+                "name": "/org.torproject.android/bg/phoneScreenshots/F-settings_screen.png",
+                "sha256": "f47f493e1945bc1907f9a98ba6df449dda3df51f00c00978041c604850d0d08f",
+                "size": 278291
+              }
+            ],
+            "ca": [
+              {
+                "name": "/org.torproject.android/ca/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "29b3db09544c382994b79702cd68c2a7303d1551a7d90a80729d0ae52eff9607",
+                "size": 162858
+              },
+              {
+                "name": "/org.torproject.android/ca/phoneScreenshots/B-choose-how.png",
+                "sha256": "a41642c2e55d9de5c85672941327f92539c983d05ab676f7697b82c7fe629acf",
+                "size": 140848
+              },
+              {
+                "name": "/org.torproject.android/ca/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "a3ddda0343b8ac2aad4dce83719df484272d7b35d43f705875f1eddf1d9f741b",
+                "size": 199747
+              },
+              {
+                "name": "/org.torproject.android/ca/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "9d0956e1ddd855348424cbad4edce273fc4c84f2f0c9e45d84aac5e5f7fc382f",
+                "size": 361138
+              },
+              {
+                "name": "/org.torproject.android/ca/phoneScreenshots/E-more_screen.png",
+                "sha256": "cb5161762ae62b098e580e28849e93f83bf1742c539e8829e28a900109b64df7",
+                "size": 157380
+              },
+              {
+                "name": "/org.torproject.android/ca/phoneScreenshots/F-settings_screen.png",
+                "sha256": "abadfe3560ea2ef04becff2c7d8c67e062f910d7fb439757912bd81eb91d2b12",
+                "size": 291401
+              }
+            ],
+            "cs": [
+              {
+                "name": "/org.torproject.android/cs/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "5aa1fd0627cf87ffb8ba82bf03073d9b37ae2803b59be3546e443d14f743dd63",
+                "size": 159607
+              },
+              {
+                "name": "/org.torproject.android/cs/phoneScreenshots/B-choose-how.png",
+                "sha256": "349b78ae90351ea7faea3b0c571b798295562c6d735c00b71e1e51820dd01589",
+                "size": 146256
+              },
+              {
+                "name": "/org.torproject.android/cs/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "c3c729d44a9aabf9346996dbb2aa104b0bb61465429b2a6c857c16f368b998c2",
+                "size": 215353
+              },
+              {
+                "name": "/org.torproject.android/cs/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "fecf5229f189bfbd9b5107a427d805dda61f09f87e8ba1574555743310697a60",
+                "size": 355509
+              },
+              {
+                "name": "/org.torproject.android/cs/phoneScreenshots/E-more_screen.png",
+                "sha256": "8991037d039bfb1d068a63d3f115a16c2e5b54fac48c256ebf6221db6253583e",
+                "size": 156605
+              },
+              {
+                "name": "/org.torproject.android/cs/phoneScreenshots/F-settings_screen.png",
+                "sha256": "b0adc5e91ac5139df549392baa7dbf4f5077750ad6f0e6f31d1c0978c111b4a4",
+                "size": 284846
+              }
+            ],
+            "de": [
+              {
+                "name": "/org.torproject.android/de/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "e3f80d4488e2f8bfa4d1dc2b29a266dc54809984823226aab1347f200be2fa18",
+                "size": 162141
+              },
+              {
+                "name": "/org.torproject.android/de/phoneScreenshots/B-choose-how.png",
+                "sha256": "ebccad365869f1d6fa992d81c2cdb817eb01be4c5d974a99319bc318a8e41733",
+                "size": 149802
+              },
+              {
+                "name": "/org.torproject.android/de/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "8a284dc9d6588c798540eec75d529ac2e12bd7f9318b8c0d7957fc73f0d8012d",
+                "size": 216590
+              },
+              {
+                "name": "/org.torproject.android/de/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "ba70422441cf3eefb2368c905823ba3eda1b94eef6d99d82680be5ad06f08778",
+                "size": 366586
+              },
+              {
+                "name": "/org.torproject.android/de/phoneScreenshots/E-more_screen.png",
+                "sha256": "295926e7e675a1e4c816ea7b49de41b2d052ca684a4f86ae6f50ee26759fd2dd",
+                "size": 155443
+              },
+              {
+                "name": "/org.torproject.android/de/phoneScreenshots/F-settings_screen.png",
+                "sha256": "b661b986169e2403d08072a30c3675fb7a48e95fdde7b34bac8432d3082eed50",
+                "size": 293439
               }
             ],
             "de-DE": [
               {
+                "name": "/org.torproject.android/de-DE/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "fbfdbc5db784827d29bdbc35898b0846d189fbb2d754cde208188485e8e6f548",
+                "size": 162914
+              },
+              {
                 "name": "/org.torproject.android/de-DE/phoneScreenshots/A-orbot_connected_1754319976277.png",
                 "sha256": "0e886af538002af02a4c7d1699e46611127df1095bda5b8387c98bdc748e3b76",
                 "size": 99105
+              },
+              {
+                "name": "/org.torproject.android/de-DE/phoneScreenshots/B-choose-how.png",
+                "sha256": "0b665e1a1b51c6d14e41cf639f80426e874d93dff8152904ff1516ce02068827",
+                "size": 150617
               },
               {
                 "name": "/org.torproject.android/de-DE/phoneScreenshots/B-choose-how_1754319966647.png",
@@ -3068,9 +3268,19 @@
                 "size": 148191
               },
               {
+                "name": "/org.torproject.android/de-DE/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "39c565bff3d063f5213b6e740efcbd31d6ffdd5e6356b51399c02958a2b7b453",
+                "size": 217118
+              },
+              {
                 "name": "/org.torproject.android/de-DE/phoneScreenshots/C-kindness_mode_screen_1754319986630.png",
                 "sha256": "7c0d9c102805a30b55de52e7e7c30a9e4622505f46aa4ac5296d31b6a3a23fcf",
                 "size": 224867
+              },
+              {
+                "name": "/org.torproject.android/de-DE/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "897a6d0cd20f7d971682d309ac0ff6e0fe7aef408a0621af56e0a86916f31b76",
+                "size": 367382
               },
               {
                 "name": "/org.torproject.android/de-DE/phoneScreenshots/D-more_screen_1754319991392.png",
@@ -3078,9 +3288,51 @@
                 "size": 131822
               },
               {
+                "name": "/org.torproject.android/de-DE/phoneScreenshots/E-more_screen.png",
+                "sha256": "4ad93acfb2a149d49fa60968fd465a296ff24d7f934ff50fbe8b87b12477d29c",
+                "size": 156146
+              },
+              {
                 "name": "/org.torproject.android/de-DE/phoneScreenshots/E-settings_screen_1754319995208.png",
                 "sha256": "656e83494e6de952206d416f7a9de94c4abb198f3eab5625aec6dca02701373b",
                 "size": 241647
+              },
+              {
+                "name": "/org.torproject.android/de-DE/phoneScreenshots/F-settings_screen.png",
+                "sha256": "8838b38b582389febc022351b215cd3644e387a17d9d86a7cdf9f7e1168b750a",
+                "size": 294109
+              }
+            ],
+            "el": [
+              {
+                "name": "/org.torproject.android/el/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "63f5e5fe6961a30d9b37ed075fba872d5b73b4154180f8ee850534dee2e2de7c",
+                "size": 171980
+              },
+              {
+                "name": "/org.torproject.android/el/phoneScreenshots/B-choose-how.png",
+                "sha256": "10c8cd8ffc966ef9bce538b6a8eb9ed24736b5d2fb8bbddc9332da2f7b5f7485",
+                "size": 166898
+              },
+              {
+                "name": "/org.torproject.android/el/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "1e9fb2bee29d41ac3a22a5b767622fceb9081d49862586caa4c3db1ab33d0f95",
+                "size": 220879
+              },
+              {
+                "name": "/org.torproject.android/el/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "35f24061747fdf0f4669ff94f39107182cf2770a8b8b76d1517ea897f4379bc0",
+                "size": 395925
+              },
+              {
+                "name": "/org.torproject.android/el/phoneScreenshots/E-more_screen.png",
+                "sha256": "c804a80fea5e0bbd1a2e13653a0c48033b961d71b84b1857cf37360fd6d20313",
+                "size": 174815
+              },
+              {
+                "name": "/org.torproject.android/el/phoneScreenshots/F-settings_screen.png",
+                "sha256": "aad74d713621a7f3c5f53400729fbfa8ed50c98a655585ba653a1de598df29ed",
+                "size": 316191
               }
             ],
             "en-US": [
@@ -3090,9 +3342,19 @@
                 "size": 99065
               },
               {
+                "name": "/org.torproject.android/en-US/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "34d189c99987d2918d74839ba1731359fe341c1fe1f48c0e480a86fe80472c45",
+                "size": 155058
+              },
+              {
                 "name": "/org.torproject.android/en-US/phoneScreenshots/A-orbot_connected_1754319853695.png",
                 "sha256": "4e8271ce43abc187f5e19e52c29b65f71ee444ca41339e1cdb4ccfe7deb614e3",
                 "size": 98449
+              },
+              {
+                "name": "/org.torproject.android/en-US/phoneScreenshots/B-choose-how.png",
+                "sha256": "fa8bececac61804629c9431d01ebef13eaffcb0d8f97aa10f2d2f30f294494db",
+                "size": 132333
               },
               {
                 "name": "/org.torproject.android/en-US/phoneScreenshots/B-choose-how_1754319851766.png",
@@ -3100,9 +3362,19 @@
                 "size": 130365
               },
               {
+                "name": "/org.torproject.android/en-US/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "2e48136c5e612a2495475ae8a653945ad7b13f4530ae9a692c82308d9c89162e",
+                "size": 190430
+              },
+              {
                 "name": "/org.torproject.android/en-US/phoneScreenshots/C-kindness_mode_screen_1754319855290.png",
                 "sha256": "adaf4edc149f8561d7cbf762a9d16ddd3784e25be2b7db96051a1bbda5b2883b",
                 "size": 210632
+              },
+              {
+                "name": "/org.torproject.android/en-US/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "6f8c40748a150d86fc39e9dc9d270a7dd7974a5f1dca8cbd65df2a3bcbc62f34",
+                "size": 346412
               },
               {
                 "name": "/org.torproject.android/en-US/phoneScreenshots/D-more_screen_1754319856820.png",
@@ -3110,9 +3382,19 @@
                 "size": 135089
               },
               {
+                "name": "/org.torproject.android/en-US/phoneScreenshots/E-more_screen.png",
+                "sha256": "cfeeb80e7963f4f6b8c0c75669bc7d6e23bdab05a0bc6d38a7c76a7037fc68c2",
+                "size": 151973
+              },
+              {
                 "name": "/org.torproject.android/en-US/phoneScreenshots/E-settings_screen_1754319858456.png",
                 "sha256": "5e46f330c8a85518e3eb6c6545f0f210062d75622957ab65f2336065cd8efcd3",
                 "size": 229706
+              },
+              {
+                "name": "/org.torproject.android/en-US/phoneScreenshots/F-settings_screen.png",
+                "sha256": "f51835401669075b773b81f59b497be0fc2a624f05e2dbeaf0fe69c12f7fc324",
+                "size": 291422
               },
               {
                 "name": "/org.torproject.android/en-US/phoneScreenshots/Sf6DqKXDn7IKytyOvu1alsfUKZXnX1fywKDGWhGliOuREUnZ9onx6tF2yNhrtTYEAGkV.png",
@@ -3225,11 +3507,53 @@
                 "size": 26976
               }
             ],
+            "es": [
+              {
+                "name": "/org.torproject.android/es/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "e106465c85adde286d0cbbac4013b905c70edecfefcc2487aca6da05df15a0f5",
+                "size": 162757
+              },
+              {
+                "name": "/org.torproject.android/es/phoneScreenshots/B-choose-how.png",
+                "sha256": "8f97195728eb31ca0c8635d22c69670bf35d6de9b8df6cd4575122b6665ff061",
+                "size": 142206
+              },
+              {
+                "name": "/org.torproject.android/es/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "919126eb4ad769ee0c0462844130162e582d5d23e30d05383b1a4bc66259ef00",
+                "size": 218506
+              },
+              {
+                "name": "/org.torproject.android/es/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "6a611b7d681c061e0abbfec3cfdf5aa353d74d8adad7962ce859936b7f8164a9",
+                "size": 363579
+              },
+              {
+                "name": "/org.torproject.android/es/phoneScreenshots/E-more_screen.png",
+                "sha256": "7f39ffc2e1aaf5ca02f1bb3c8272be03273906e6bd3165ba37039869858c0df6",
+                "size": 160167
+              },
+              {
+                "name": "/org.torproject.android/es/phoneScreenshots/F-settings_screen.png",
+                "sha256": "68e1a08155d6d361198901ccc228495197fea2e01a57f040dcbe0e7f40f4fe7b",
+                "size": 292166
+              }
+            ],
             "es-MX": [
+              {
+                "name": "/org.torproject.android/es-MX/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "8defadc30341c66d5073103ca7ae3d847638d10e5ac49e249b5b7ccd6dbccfb9",
+                "size": 164607
+              },
               {
                 "name": "/org.torproject.android/es-MX/phoneScreenshots/A-orbot_connected_1754319928416.png",
                 "sha256": "233537e9b57cfee3d9e1c56250e5daa47eba300925cec01f767f4d23781fafdd",
                 "size": 104616
+              },
+              {
+                "name": "/org.torproject.android/es-MX/phoneScreenshots/B-choose-how.png",
+                "sha256": "9d9164186a72ebf4a78cda2527197f6e2da6e1392d7d04df642aca58a58d3844",
+                "size": 148198
               },
               {
                 "name": "/org.torproject.android/es-MX/phoneScreenshots/B-choose-how_1754319919280.png",
@@ -3237,9 +3561,19 @@
                 "size": 145946
               },
               {
+                "name": "/org.torproject.android/es-MX/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "076d7c9207adb0cf2149ec93fb310d12ecd11951fc40204d0ea6bc2d2b7f87b6",
+                "size": 215204
+              },
+              {
                 "name": "/org.torproject.android/es-MX/phoneScreenshots/C-kindness_mode_screen_1754319933982.png",
                 "sha256": "14704bf4f103ca6a5d33ba3ef115c153ffe3b8469eb88720e1a7aa354676c00f",
                 "size": 222133
+              },
+              {
+                "name": "/org.torproject.android/es-MX/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "1a7220a81e54d92bfb2bb7ac3484dfc05d1c6eb0192e61d41deee4351c78c4b0",
+                "size": 369819
               },
               {
                 "name": "/org.torproject.android/es-MX/phoneScreenshots/D-more_screen_1754319939769.png",
@@ -3247,16 +3581,80 @@
                 "size": 140819
               },
               {
+                "name": "/org.torproject.android/es-MX/phoneScreenshots/E-more_screen.png",
+                "sha256": "58577cbc92850b1a8487c98831a6be97b3ebdc4c55d559588ed16bc374ce9e6f",
+                "size": 158800
+              },
+              {
                 "name": "/org.torproject.android/es-MX/phoneScreenshots/E-settings_screen_1754319944434.png",
                 "sha256": "9bc15c8ef9a8accf81a02396473cd6d13cc94629dd9e9185ab5d45ddf05d7117",
                 "size": 239301
+              },
+              {
+                "name": "/org.torproject.android/es-MX/phoneScreenshots/F-settings_screen.png",
+                "sha256": "978c6dfc3f5aacda1c00615852309d45e50acc056e6e6e4fa1915abc08776738",
+                "size": 299752
+              }
+            ],
+            "es_CU": [
+              {
+                "name": "/org.torproject.android/es_CU/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "0dfd0f546ed45551a84a0578e534930778dccbd7a5b11530c845c65adf0397f8",
+                "size": 165831
+              },
+              {
+                "name": "/org.torproject.android/es_CU/phoneScreenshots/B-choose-how.png",
+                "sha256": "4b94ed49eee52319e936c41c8637c864096d7250bbbff6a797bd537de5cd822e",
+                "size": 147840
+              },
+              {
+                "name": "/org.torproject.android/es_CU/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "e466a2f747d26f0e1270d1f59c0628992d315265c9ca0f2c00281ecf2cc32574",
+                "size": 214398
+              },
+              {
+                "name": "/org.torproject.android/es_CU/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "b5e80e089b341ee8107c2fef3286048cb0f2d82022442e7d984fd5dcaa05dace",
+                "size": 367535
+              },
+              {
+                "name": "/org.torproject.android/es_CU/phoneScreenshots/E-more_screen.png",
+                "sha256": "4ec72f35df64991bcdde53c0cae1c61271f689807b936c59b1165a79a5f7a9ba",
+                "size": 156225
+              },
+              {
+                "name": "/org.torproject.android/es_CU/phoneScreenshots/F-settings_screen.png",
+                "sha256": "029a6a26c923a6ad2e06d4708d227868251e6fc7e820ce02d0ffb08d92a35b6d",
+                "size": 282197
+              }
+            ],
+            "et": [
+              {
+                "name": "/org.torproject.android/et/phoneScreenshots/B-choose-how.png",
+                "sha256": "26be30a61ba5625908c1f7a355d4851a3f301d0d20bd759e8fad84e521fc4dfc",
+                "size": 141159
+              },
+              {
+                "name": "/org.torproject.android/et/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "dcf61c1125816823d46243e922ed773fc1ca78dfa7d5e22bacd75b6a5a1b9d95",
+                "size": 199753
               }
             ],
             "fa": [
               {
+                "name": "/org.torproject.android/fa/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "29d704b3cdaba7cf129c2fe09b841e4fb7351a002312337d53f131bf067f3eb8",
+                "size": 161161
+              },
+              {
                 "name": "/org.torproject.android/fa/phoneScreenshots/A-orbot_connected_1754320017642.png",
                 "sha256": "2be8d133c480c8f85cc239d9d39f031dbc6aa0dbf1d968955d541ef53dcf3918",
                 "size": 100528
+              },
+              {
+                "name": "/org.torproject.android/fa/phoneScreenshots/B-choose-how.png",
+                "sha256": "8e0c16cbe16971962d75be92123036fcf2f4993e75fbb1e88c59e16ff9a547c3",
+                "size": 151266
               },
               {
                 "name": "/org.torproject.android/fa/phoneScreenshots/B-choose-how_1754320011765.png",
@@ -3264,9 +3662,19 @@
                 "size": 141933
               },
               {
+                "name": "/org.torproject.android/fa/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "229f41c121bfeba432fffa63e183058a478565d413317a71e4dbbb010790d664",
+                "size": 217644
+              },
+              {
                 "name": "/org.torproject.android/fa/phoneScreenshots/C-kindness_mode_screen_1754320026238.png",
                 "sha256": "18377fd4988139ac2d40a59329ae7af1f5b06deaf7297fb85dd756c4d9d1a9bd",
                 "size": 229446
+              },
+              {
+                "name": "/org.torproject.android/fa/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "fd38eb7fd7b4c562a56f6420f176c85ca3f569b6fd8bebd3562436fe0a3cdefb",
+                "size": 372036
               },
               {
                 "name": "/org.torproject.android/fa/phoneScreenshots/D-more_screen_1754320039522.png",
@@ -3274,9 +3682,19 @@
                 "size": 144040
               },
               {
+                "name": "/org.torproject.android/fa/phoneScreenshots/E-more_screen.png",
+                "sha256": "a6b97abd9a3f49e0f2c53e987ead336c456d89ac61b90aedd7aa6b7286c5d7c4",
+                "size": 162558
+              },
+              {
                 "name": "/org.torproject.android/fa/phoneScreenshots/E-settings_screen_1754320044754.png",
                 "sha256": "902d1c5c455f8995da6e191af261c9e4050307fd4d4b9633b2f4a35eac4add0c",
                 "size": 231090
+              },
+              {
+                "name": "/org.torproject.android/fa/phoneScreenshots/F-settings_screen.png",
+                "sha256": "f8f014e1055b0214297843d30322be252e386bd6fb5f2ad3149310b4b07a09a3",
+                "size": 314788
               },
               {
                 "name": "/org.torproject.android/fa/phoneScreenshots/Screenshot_\u06f2\u06f0\u06f2\u06f5\u06f0\u06f1\u06f1\u06f8-\u06f2\u06f0\u06f3\u06f7\u06f3\u06f1_\u0631\u0648\u0628\u0648\u062a \u067e\u06cc\u0627\u0632\u06cc.png",
@@ -3349,11 +3767,85 @@
                 "size": 148560
               }
             ],
+            "fi": [
+              {
+                "name": "/org.torproject.android/fi/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "6c45fecda65170f550429b8bedfcaecc4a88a86be7642ddcaf509d5cea6c63f2",
+                "size": 162571
+              },
+              {
+                "name": "/org.torproject.android/fi/phoneScreenshots/B-choose-how.png",
+                "sha256": "f0dd7db86a32b61d1b9bf1bf1c988d94b78f462b2ede7ec9d8f6c3fce179b876",
+                "size": 141068
+              },
+              {
+                "name": "/org.torproject.android/fi/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "08689091534a7d6ef314a69454f0a4ba7b7a765f4814fc751bdb2ac75c4b5753",
+                "size": 203155
+              },
+              {
+                "name": "/org.torproject.android/fi/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "9367d39b2729bc38369a109761ddfad042ab6cab402d6287a9084663b72e690b",
+                "size": 357085
+              },
+              {
+                "name": "/org.torproject.android/fi/phoneScreenshots/E-more_screen.png",
+                "sha256": "538fa030af8b491c3ce7c8bb1560881b738e9796fd17f2c72f6dca02223b23fb",
+                "size": 156462
+              },
+              {
+                "name": "/org.torproject.android/fi/phoneScreenshots/F-settings_screen.png",
+                "sha256": "b79abed02b72aa916e11f2ae0275a0c226ae818deef677a3df5f0e650f8f0c7d",
+                "size": 269827
+              }
+            ],
+            "fr": [
+              {
+                "name": "/org.torproject.android/fr/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "e5ed75e7cbcc48e649336d024dc95e360d2a8a62cc1e5ababc09b8e2c86e9b5d",
+                "size": 161251
+              },
+              {
+                "name": "/org.torproject.android/fr/phoneScreenshots/B-choose-how.png",
+                "sha256": "9137b9ddb0368a611aae0ee76830e112bd47054fb5e8b7703203bc1ce3206acc",
+                "size": 144804
+              },
+              {
+                "name": "/org.torproject.android/fr/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "835d5dddf0a616ee3eb94c1f8bb5a278eea5957fc420d7360a268ef7db962694",
+                "size": 201371
+              },
+              {
+                "name": "/org.torproject.android/fr/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "6421da8faf645a9646774e1814cc8e08fe1c1eb980701334ce9abfe4a04afb43",
+                "size": 359208
+              },
+              {
+                "name": "/org.torproject.android/fr/phoneScreenshots/E-more_screen.png",
+                "sha256": "fc8e650d4220e3f00b1750eda3f6ffe2427988038423b13f2db84eee569ef3d7",
+                "size": 157143
+              },
+              {
+                "name": "/org.torproject.android/fr/phoneScreenshots/F-settings_screen.png",
+                "sha256": "544ec360b8651a9707e64b7726d8e3907dbcd015944c332e4fcfde25ab845835",
+                "size": 290470
+              }
+            ],
             "fr-FR": [
+              {
+                "name": "/org.torproject.android/fr-FR/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "fef057bf6512ae38b0556ce36fec6bf9110abee9fb2e22b6472ee8c0454fde5a",
+                "size": 162148
+              },
               {
                 "name": "/org.torproject.android/fr-FR/phoneScreenshots/A-orbot_connected_1754319874519.png",
                 "sha256": "5d8d97886e0369eb35625c231475752c1de8009ce4a0074372f5f76bf1ac5338",
                 "size": 106411
+              },
+              {
+                "name": "/org.torproject.android/fr-FR/phoneScreenshots/B-choose-how.png",
+                "sha256": "0f0a1a220d7d59a590e64b1e409281ab60b8392acc986d8f025a5a13264a9105",
+                "size": 145631
               },
               {
                 "name": "/org.torproject.android/fr-FR/phoneScreenshots/B-choose-how_1754319869884.png",
@@ -3361,9 +3853,19 @@
                 "size": 150608
               },
               {
+                "name": "/org.torproject.android/fr-FR/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "e0502a78816609e5c108a0c542efc218b501aa38bf3f1db6ecd6ef8694b3c850",
+                "size": 201265
+              },
+              {
                 "name": "/org.torproject.android/fr-FR/phoneScreenshots/C-kindness_mode_screen_1754319885799.png",
                 "sha256": "da3e55519244f4cb9d9697c31f5cac751014ec34bd06a2c9e7867601b970f94f",
                 "size": 213988
+              },
+              {
+                "name": "/org.torproject.android/fr-FR/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "294d4f1bbed87c2ee780cc3613647c075a260363f68f7c8c8a14339ba3e2396c",
+                "size": 360078
               },
               {
                 "name": "/org.torproject.android/fr-FR/phoneScreenshots/D-more_screen_1754319896264.png",
@@ -3371,16 +3873,68 @@
                 "size": 136688
               },
               {
+                "name": "/org.torproject.android/fr-FR/phoneScreenshots/E-more_screen.png",
+                "sha256": "9921973d8a7c83e2c99aa67ee735b286bcc6f964efb923b1cff5eed57269e481",
+                "size": 157999
+              },
+              {
                 "name": "/org.torproject.android/fr-FR/phoneScreenshots/E-settings_screen_1754319901271.png",
                 "sha256": "ada6535c26180e5a745ff5ace477b759a718d3e252b85197eba62e5986982bac",
                 "size": 240587
+              },
+              {
+                "name": "/org.torproject.android/fr-FR/phoneScreenshots/F-settings_screen.png",
+                "sha256": "36327e8b0c7ed27794c5cff170b5117757508efdd5af2c65718078cddf442b83",
+                "size": 291368
+              }
+            ],
+            "ga": [
+              {
+                "name": "/org.torproject.android/ga/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "cda803fda661a21b5db1af4c553ceab231b2e335257066430e297bbd8369c3f8",
+                "size": 158789
+              },
+              {
+                "name": "/org.torproject.android/ga/phoneScreenshots/B-choose-how.png",
+                "sha256": "85c9eced5a649b535274aa1c7ea626c6a389ccd921c6dedc58438fda5896e13f",
+                "size": 147167
+              },
+              {
+                "name": "/org.torproject.android/ga/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "073abff939cee3b17a73cd9080dd58f4a1069e73b08e9ad3aac23d09b8569cbe",
+                "size": 191464
+              },
+              {
+                "name": "/org.torproject.android/ga/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "d41b27a1c097b9c20214dead3eab9244673b2b1a5016c7d248bfe89b33ccc323",
+                "size": 358685
+              },
+              {
+                "name": "/org.torproject.android/ga/phoneScreenshots/E-more_screen.png",
+                "sha256": "6d13b431e99b155204e6a28b8fb1d36eeabe0efcf59d02a48230c820647bae49",
+                "size": 155119
+              },
+              {
+                "name": "/org.torproject.android/ga/phoneScreenshots/F-settings_screen.png",
+                "sha256": "6679b7b3ffc0e118db2327bafa6d827fda32a3d1cc46bbad126c6ae81804ea02",
+                "size": 285092
               }
             ],
             "he": [
               {
+                "name": "/org.torproject.android/he/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "1997f95fc3ed1f2460faed8a82be4c4df7f39661e943aa772186353e92f9fc9d",
+                "size": 146408
+              },
+              {
                 "name": "/org.torproject.android/he/phoneScreenshots/A-orbot_connected_1754320116475.png",
                 "sha256": "699ee65307866edb43d33161d56f4683d55b2346eda7a2973732c982b726cb98",
                 "size": 85113
+              },
+              {
+                "name": "/org.torproject.android/he/phoneScreenshots/B-choose-how.png",
+                "sha256": "079b226adff716f8c548685ed21ac5d6908322efe7cc04d8b79fc54f9f91f6fc",
+                "size": 126231
               },
               {
                 "name": "/org.torproject.android/he/phoneScreenshots/B-choose-how_1754320111801.png",
@@ -3388,9 +3942,19 @@
                 "size": 118517
               },
               {
+                "name": "/org.torproject.android/he/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "5978e41f32713528978a222efd38b215fb7496ddddb2c3ae4ce14e71c118e133",
+                "size": 200764
+              },
+              {
                 "name": "/org.torproject.android/he/phoneScreenshots/C-kindness_mode_screen_1754320121789.png",
                 "sha256": "458e8986a2af1cc9c8622c9d3cfba349c3cddba7a754b0a26414a059996146f4",
                 "size": 197299
+              },
+              {
+                "name": "/org.torproject.android/he/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "828fde180f0ac478c19bba51dd75e1d329e8382663dcd009d2fc98fbdd83c2af",
+                "size": 337260
               },
               {
                 "name": "/org.torproject.android/he/phoneScreenshots/D-more_screen_1754320128391.png",
@@ -3398,16 +3962,36 @@
                 "size": 125438
               },
               {
+                "name": "/org.torproject.android/he/phoneScreenshots/E-more_screen.png",
+                "sha256": "0c64e63fabe54317727836aaffce64a0137a0c45568a67d772a7505550a737c7",
+                "size": 143658
+              },
+              {
                 "name": "/org.torproject.android/he/phoneScreenshots/E-settings_screen_1754320133189.png",
                 "sha256": "1463d088ce78c6fccaf54780e7360dc5faff9232e5b7adb31ab1f37d28e8fa1e",
                 "size": 205961
+              },
+              {
+                "name": "/org.torproject.android/he/phoneScreenshots/F-settings_screen.png",
+                "sha256": "54015d6eb8c0b1b472ef5d4cf95db6cd817bdf3c980178209a7e9c78fe40554f",
+                "size": 260494
               }
             ],
             "hi": [
               {
+                "name": "/org.torproject.android/hi/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "835160901a90a3fb0e47991eaaf1d0325a1805f93c28b11dbc1df96268d46d47",
+                "size": 159581
+              },
+              {
                 "name": "/org.torproject.android/hi/phoneScreenshots/A-orbot_connected_1754320333416.png",
                 "sha256": "d3854e4066e4264b766f5224318378eb7c47c721b34298fe31ef5fd260bd1d8d",
                 "size": 96099
+              },
+              {
+                "name": "/org.torproject.android/hi/phoneScreenshots/B-choose-how.png",
+                "sha256": "edeb3693f3ec97090b265420a5af581789e3fccf2b767b54905524fcdeed6a7f",
+                "size": 136155
               },
               {
                 "name": "/org.torproject.android/hi/phoneScreenshots/B-choose-how_1754320328067.png",
@@ -3415,9 +3999,19 @@
                 "size": 134810
               },
               {
+                "name": "/org.torproject.android/hi/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "dd902664c039658afc9422d5460fd5d31bc30ed8b403d9783489a0d95f6b6181",
+                "size": 205319
+              },
+              {
                 "name": "/org.torproject.android/hi/phoneScreenshots/C-kindness_mode_screen_1754320337448.png",
                 "sha256": "b7915bbb5beffcefef8af04a3b31ddf513c320a71e6b2b15736e0a7ecbc1d333",
                 "size": 219760
+              },
+              {
+                "name": "/org.torproject.android/hi/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "11d9f21b84f1eaaeaf6a5ac7f35cff1ffa3afd3dd8993afa48ec9102224e5088",
+                "size": 360948
               },
               {
                 "name": "/org.torproject.android/hi/phoneScreenshots/D-more_screen_1754320353555.png",
@@ -3425,9 +4019,19 @@
                 "size": 133782
               },
               {
+                "name": "/org.torproject.android/hi/phoneScreenshots/E-more_screen.png",
+                "sha256": "243e73ff2f8114bf16e828fdf2438d490a8c2ec24086c6a92beb736688faa405",
+                "size": 151735
+              },
+              {
                 "name": "/org.torproject.android/hi/phoneScreenshots/E-settings_screen_1754320357878.png",
                 "sha256": "0660c171e8a4f53fbd01aefd3f5aabf2b1be52bc78f257f4c1a9b21f8d0aae8e",
                 "size": 225728
+              },
+              {
+                "name": "/org.torproject.android/hi/phoneScreenshots/F-settings_screen.png",
+                "sha256": "c90318caa256bcc5dff94c88fb4caf4dec5843b998ddcfc5cf107d9245ade7db",
+                "size": 266787
               }
             ],
             "hi-IN": [
@@ -3457,11 +4061,85 @@
                 "size": 225728
               }
             ],
+            "id": [
+              {
+                "name": "/org.torproject.android/id/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "188117e67742b7599f6a75d0669eecc57f0ffadd6076f738cb547eac8eb2386f",
+                "size": 156569
+              },
+              {
+                "name": "/org.torproject.android/id/phoneScreenshots/B-choose-how.png",
+                "sha256": "69c781e4393ca74c1efcb7638d34b345b43f1356ebd8097e7d1795e9a6c50e3e",
+                "size": 141182
+              },
+              {
+                "name": "/org.torproject.android/id/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "7aea428512292e46292ead3c16dbdeae8d57215666a1c7c08a76b8d681efdab9",
+                "size": 206136
+              },
+              {
+                "name": "/org.torproject.android/id/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "17229ef5a2f81f215219bb93edb9adc3fd3f55028a6b598832b0cfa25c2bbed8",
+                "size": 365195
+              },
+              {
+                "name": "/org.torproject.android/id/phoneScreenshots/E-more_screen.png",
+                "sha256": "543e09798fabd83e624ce11f28e9e0da57660468a35a0b4c83ea63cc4e1d834a",
+                "size": 153248
+              },
+              {
+                "name": "/org.torproject.android/id/phoneScreenshots/F-settings_screen.png",
+                "sha256": "ba899c868fdb56cbe935f1ce3f86b38ed08239750a7cc5871ac12901e42edcbd",
+                "size": 267311
+              }
+            ],
+            "it": [
+              {
+                "name": "/org.torproject.android/it/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "591c0157f82c0c4398e8d029a8b1cd18d25796fc726ebe6ed0c2cbf3d83210aa",
+                "size": 159760
+              },
+              {
+                "name": "/org.torproject.android/it/phoneScreenshots/B-choose-how.png",
+                "sha256": "85b00033ce5f035236f2a1b8c8202c4659dc005c5a9fc310aa3a229971c2b5c8",
+                "size": 142665
+              },
+              {
+                "name": "/org.torproject.android/it/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "110f96362a57dc5dee0af2c638424dc347b89855ca50373bdf3c716c51dc3a79",
+                "size": 53458
+              },
+              {
+                "name": "/org.torproject.android/it/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "f90486b77f4a0e009fbca116c39a411217e5c31f0151c4f34b557da20ec8124c",
+                "size": 354670
+              },
+              {
+                "name": "/org.torproject.android/it/phoneScreenshots/E-more_screen.png",
+                "sha256": "422138290789e7d284ab6520fabbdcbf104d93318c3f2d06a9e82ff08c33b3e7",
+                "size": 156501
+              },
+              {
+                "name": "/org.torproject.android/it/phoneScreenshots/F-settings_screen.png",
+                "sha256": "7b987ea045ae3ef3de49bcc9a048b2cbfd42e5d1c6438a7be2d25162aa3a59c6",
+                "size": 287312
+              }
+            ],
             "ja": [
+              {
+                "name": "/org.torproject.android/ja/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "7e8424440c01d23d9b4c34ab1b33396310ac329929053889a460941d0b57a765",
+                "size": 175165
+              },
               {
                 "name": "/org.torproject.android/ja/phoneScreenshots/A-orbot_connected_1754320265646.png",
                 "sha256": "60dc60b8ce92efd6418937353754a0498d66b071ff11cb22cdd003f7932138a9",
                 "size": 113380
+              },
+              {
+                "name": "/org.torproject.android/ja/phoneScreenshots/B-choose-how.png",
+                "sha256": "daf6fec8cc786d904441f973a79c4aa044de53dfbc87681e7e1bebe81de022b7",
+                "size": 217358
               },
               {
                 "name": "/org.torproject.android/ja/phoneScreenshots/B-choose-how_1754320260268.png",
@@ -3469,9 +4147,19 @@
                 "size": 208907
               },
               {
+                "name": "/org.torproject.android/ja/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "002417e2f7199d5fb6a918b958af2dbc215ea0ad482ad773d23e8649e8024d0a",
+                "size": 220893
+              },
+              {
                 "name": "/org.torproject.android/ja/phoneScreenshots/C-kindness_mode_screen_1754320272998.png",
                 "sha256": "6c0808750c7d153fd206e0103c49a7a1a4d00c11085bc05f0986e8a5058f5c9d",
                 "size": 285310
+              },
+              {
+                "name": "/org.torproject.android/ja/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "1774055ce1b3a761d7920bf191173e0be1dc89132bb0d22b3afa6fba9887f3a2",
+                "size": 428868
               },
               {
                 "name": "/org.torproject.android/ja/phoneScreenshots/D-more_screen_1754320278518.png",
@@ -3479,9 +4167,19 @@
                 "size": 151210
               },
               {
+                "name": "/org.torproject.android/ja/phoneScreenshots/E-more_screen.png",
+                "sha256": "2ccbba0918c08dc2a1af810faa213bfd0f11ea841ba8e1f77a8731c28a17c2bd",
+                "size": 172030
+              },
+              {
                 "name": "/org.torproject.android/ja/phoneScreenshots/E-settings_screen_1754320289782.png",
                 "sha256": "6d1f08e9aeb341baa25fa2a1577d91130bad47b779037803c85254a783635899",
                 "size": 305044
+              },
+              {
+                "name": "/org.torproject.android/ja/phoneScreenshots/F-settings_screen.png",
+                "sha256": "fd1019a41f93beb08cc84e135aa0a56b59f1469e248267c9d3d179100f9eb81a",
+                "size": 312113
               }
             ],
             "ja-JP": [
@@ -3567,9 +4265,19 @@
             ],
             "ko-KR": [
               {
+                "name": "/org.torproject.android/ko-KR/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "b0152a5c53407cbd9d4ffbe49b6508262ddcfd05214c279db9b18a47eeda9b98",
+                "size": 148717
+              },
+              {
                 "name": "/org.torproject.android/ko-KR/phoneScreenshots/A-orbot_connected_1754320478057.png",
                 "sha256": "fc763dc49bf56f76514f8f8d2804e3326ecede15d7ad40c4643de8d2fb312e2f",
                 "size": 89647
+              },
+              {
+                "name": "/org.torproject.android/ko-KR/phoneScreenshots/B-choose-how.png",
+                "sha256": "9524f79e7455e9aacad7b9e2c7721b9f05a637aa68dcb653287b007efdcc3417",
+                "size": 129649
               },
               {
                 "name": "/org.torproject.android/ko-KR/phoneScreenshots/B-choose-how_1754320471873.png",
@@ -3577,9 +4285,19 @@
                 "size": 126219
               },
               {
+                "name": "/org.torproject.android/ko-KR/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "604e2bdef281844eb7dce345ad38f91f236afe07419a1b7e378652aa12e28763",
+                "size": 206275
+              },
+              {
                 "name": "/org.torproject.android/ko-KR/phoneScreenshots/C-kindness_mode_screen_1754320481209.png",
                 "sha256": "1878e4a50eac3628ddd22b0ef0f13637b2a43f81d534bce13c4ee18f24b5ae98",
                 "size": 207843
+              },
+              {
+                "name": "/org.torproject.android/ko-KR/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "19653a88a43c978d57bab7d075507b94e6326fa10f3e97b78a91fb9613653d58",
+                "size": 346693
               },
               {
                 "name": "/org.torproject.android/ko-KR/phoneScreenshots/D-more_screen_1754320490824.png",
@@ -3587,16 +4305,132 @@
                 "size": 128731
               },
               {
+                "name": "/org.torproject.android/ko-KR/phoneScreenshots/E-more_screen.png",
+                "sha256": "1b5e3884b62948e9b9949316a24361093b13fa6dfd384e65041fe9d9aed91667",
+                "size": 149531
+              },
+              {
                 "name": "/org.torproject.android/ko-KR/phoneScreenshots/E-settings_screen_1754320495374.png",
                 "sha256": "b915479a859ec5bcaba4871e2c4affe28d38926c3c7282689f99e3d926e853c2",
                 "size": 223581
+              },
+              {
+                "name": "/org.torproject.android/ko-KR/phoneScreenshots/F-settings_screen.png",
+                "sha256": "7046a75b0bc801ec14528a5c99328135466ab03595f35e142d6515ea99e3436f",
+                "size": 279302
+              }
+            ],
+            "lv": [
+              {
+                "name": "/org.torproject.android/lv/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "c58a458fe5801b151549b8f0eb482cc6bbf804ef757be56a3ffd00e0b73276c4",
+                "size": 162233
+              },
+              {
+                "name": "/org.torproject.android/lv/phoneScreenshots/B-choose-how.png",
+                "sha256": "808aaa452b17a8ecfae1ac53471d498e0429c28d2207b05e15444549ee01922a",
+                "size": 145612
+              },
+              {
+                "name": "/org.torproject.android/lv/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "662fff125a9b20873234aec447bea09fa7dae54fc3ea8e40e6d74fe934462e85",
+                "size": 203590
+              },
+              {
+                "name": "/org.torproject.android/lv/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "bc76be1fa2ba7452cf2d449e7e1a6de7dedfc40ff1bda33c31cb9f649771372c",
+                "size": 353598
+              },
+              {
+                "name": "/org.torproject.android/lv/phoneScreenshots/E-more_screen.png",
+                "sha256": "1f0f52beaf556429c1ff2bf4a17962d8ef170aa20f7550c755c91fe022fe42ba",
+                "size": 153246
+              },
+              {
+                "name": "/org.torproject.android/lv/phoneScreenshots/F-settings_screen.png",
+                "sha256": "fc40da1ab8c2a4dbf9fb410e603f949fa9280384ef3c05f031fc5a90e9dd045b",
+                "size": 273495
+              }
+            ],
+            "nb_NO": [
+              {
+                "name": "/org.torproject.android/nb_NO/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "ef906481b5ed39d9ee327c7ebbd24093bb2f9e8cef072ecfcf9a1b1483122068",
+                "size": 156054
+              },
+              {
+                "name": "/org.torproject.android/nb_NO/phoneScreenshots/B-choose-how.png",
+                "sha256": "6b84bd825940794f7bf4dd4c5135123c82ce45a9f6df0ff5de65f42a489efb50",
+                "size": 138122
+              },
+              {
+                "name": "/org.torproject.android/nb_NO/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "8f3718c56950cfd057fd67fc212e59dd9d149a202c4ac4cf96494ad8f44a0def",
+                "size": 200887
+              },
+              {
+                "name": "/org.torproject.android/nb_NO/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "6157f9847e40f171bdda9abd5bff0dd45c366eb53301afeae6add46770d38c9c",
+                "size": 347797
+              },
+              {
+                "name": "/org.torproject.android/nb_NO/phoneScreenshots/E-more_screen.png",
+                "sha256": "4b8d4f96b0fc46cd0be8eafda01911cda4561f6b7f23912577c525ff027460b1",
+                "size": 150004
+              },
+              {
+                "name": "/org.torproject.android/nb_NO/phoneScreenshots/F-settings_screen.png",
+                "sha256": "edaaeb0eab26e88b1ff6ed02272980e06f7cddacb17eeb11b3b44a4cd0e110da",
+                "size": 290621
+              }
+            ],
+            "pl": [
+              {
+                "name": "/org.torproject.android/pl/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "0d078b3ae0d6fc47f4416728e76bfe33ec97e62b24fd8b309e513dddabeace8a",
+                "size": 165336
+              },
+              {
+                "name": "/org.torproject.android/pl/phoneScreenshots/B-choose-how.png",
+                "sha256": "7b2814d0540c8863928cc7ecab3df61aea935806d532fcc369a38d3c8eb82839",
+                "size": 151606
+              },
+              {
+                "name": "/org.torproject.android/pl/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "3dbfd814a456b84893775f56b1e17d39b58a4a0fb8daf6ec07ee11b5af37457d",
+                "size": 217912
+              },
+              {
+                "name": "/org.torproject.android/pl/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "86b73b211eefee135140e11d4b09ed10824ec8b9624d7090321e6da948f31da7",
+                "size": 378559
+              },
+              {
+                "name": "/org.torproject.android/pl/phoneScreenshots/E-more_screen.png",
+                "sha256": "0e95b0d10b89069c4858a61ecc4d948bc959746e984a1727d9e1ee0d5bb67afe",
+                "size": 159250
+              },
+              {
+                "name": "/org.torproject.android/pl/phoneScreenshots/F-settings_screen.png",
+                "sha256": "b0dbf950875cc82834e93c7e7a0da6c77f275283de56bc10fab0b5b962434b9f",
+                "size": 319852
               }
             ],
             "pt": [
               {
+                "name": "/org.torproject.android/pt/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "f7cded9fe5230a3e7843be40a669baa350114e1c3df55567133946d12694d05a",
+                "size": 161823
+              },
+              {
                 "name": "/org.torproject.android/pt/phoneScreenshots/A-orbot_connected_1754320221251.png",
                 "sha256": "0125326e83ca3093664f5576ab5fe029311c9ae693fbc6c7fbebab31e8765821",
                 "size": 98375
+              },
+              {
+                "name": "/org.torproject.android/pt/phoneScreenshots/B-choose-how.png",
+                "sha256": "e6f2033fbc71bd0fb605d3658ff93e0ef8d93d2aa3ef0f4beb189682ecc8719d",
+                "size": 149557
               },
               {
                 "name": "/org.torproject.android/pt/phoneScreenshots/B-choose-how_1754320216206.png",
@@ -3604,9 +4438,19 @@
                 "size": 147554
               },
               {
+                "name": "/org.torproject.android/pt/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "525bd3d641cd63618d5d96061aa628594153ec1fd021f7649e83bbacd22594eb",
+                "size": 208464
+              },
+              {
                 "name": "/org.torproject.android/pt/phoneScreenshots/C-kindness_mode_screen_1754320225099.png",
                 "sha256": "d8fed45bde19c610b038a707808b22977097324ce4577a096930de69b1c87e97",
                 "size": 218123
+              },
+              {
+                "name": "/org.torproject.android/pt/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "b76ecda8b30e5e99ef6c6fef518fa0b68115ee5ffad1944e5811569e585b5696",
+                "size": 361299
               },
               {
                 "name": "/org.torproject.android/pt/phoneScreenshots/D-more_screen_1754320229636.png",
@@ -3614,9 +4458,19 @@
                 "size": 141931
               },
               {
+                "name": "/org.torproject.android/pt/phoneScreenshots/E-more_screen.png",
+                "sha256": "e48c45bfc3a36b8ecb559beed9f3ffbf9f29b5f719450d3e77b3eace844436ff",
+                "size": 162060
+              },
+              {
                 "name": "/org.torproject.android/pt/phoneScreenshots/E-settings_screen_1754320233469.png",
                 "sha256": "fa5e61dad153b48d3aa462e180f9cd459082eb99f5146db4930a2998391d3bb6",
                 "size": 240666
+              },
+              {
+                "name": "/org.torproject.android/pt/phoneScreenshots/F-settings_screen.png",
+                "sha256": "9800997190dfc762fd85206cf226d75ed011b3fbc95171b23848b9e9f3748b21",
+                "size": 287030
               }
             ],
             "pt-BR": [
@@ -3673,11 +4527,117 @@
                 "size": 240666
               }
             ],
+            "pt_BR": [
+              {
+                "name": "/org.torproject.android/pt_BR/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "5534b2f2b9801bd5fadcbc6a9b443d6aaa00c3727d3cedf2e0b3f2d186d0823f",
+                "size": 161884
+              },
+              {
+                "name": "/org.torproject.android/pt_BR/phoneScreenshots/B-choose-how.png",
+                "sha256": "4e0f0aa261e5a346aed78755f5ad424e3822d003857efd8d78725cf81f5bfcc3",
+                "size": 148690
+              },
+              {
+                "name": "/org.torproject.android/pt_BR/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "222927e063b4e3d6f7d2d7db883452332054b6d41b6009301f7d6c0b359b53a6",
+                "size": 208463
+              },
+              {
+                "name": "/org.torproject.android/pt_BR/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "26c33f854ca4f8791c594738ae79eb45362a7ef721849ac52fa1db50c449cf85",
+                "size": 361218
+              },
+              {
+                "name": "/org.torproject.android/pt_BR/phoneScreenshots/E-more_screen.png",
+                "sha256": "bcbdc0d747826805a00afa7fe88bc3d2f8dd66ceefd27079034f8160139d9beb",
+                "size": 161957
+              },
+              {
+                "name": "/org.torproject.android/pt_BR/phoneScreenshots/F-settings_screen.png",
+                "sha256": "ed45338fa230658becfa00244aba504afe30c9854887c2b84d26a1db06282aa3",
+                "size": 286951
+              }
+            ],
+            "pt_PT": [
+              {
+                "name": "/org.torproject.android/pt_PT/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "948f79fc0087f4306b072a3cefec73cad994f049b87607fd7f5838ccbeed2b82",
+                "size": 162254
+              },
+              {
+                "name": "/org.torproject.android/pt_PT/phoneScreenshots/B-choose-how.png",
+                "sha256": "5f5f38cf75951e99649c4c3bd6c9c13a729e02044afc6d0f79d6ed10efe56e39",
+                "size": 144661
+              },
+              {
+                "name": "/org.torproject.android/pt_PT/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "457027be3db8517622ec1093faeb92d88a4e9a5ec70120bbfe3fecc332be8187",
+                "size": 205823
+              },
+              {
+                "name": "/org.torproject.android/pt_PT/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "4a0bf7434d0699087213a6618023efad042d0528a8f1ed3605606533d7e20e93",
+                "size": 362760
+              },
+              {
+                "name": "/org.torproject.android/pt_PT/phoneScreenshots/E-more_screen.png",
+                "sha256": "e731167d228f51c5b871de4c4cac12d86705a749963044dd23baf4e2faa14f3e",
+                "size": 161161
+              },
+              {
+                "name": "/org.torproject.android/pt_PT/phoneScreenshots/F-settings_screen.png",
+                "sha256": "d505fe660c220181f87a1e00a9f6a579ce1429d8ab91085ec45ecce5739f2d6e",
+                "size": 297500
+              }
+            ],
+            "ro": [
+              {
+                "name": "/org.torproject.android/ro/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "b34b3b0064b3535a2b99adbc6d9107cd186f93f7065a8a62c77f14813a35c86d",
+                "size": 165238
+              },
+              {
+                "name": "/org.torproject.android/ro/phoneScreenshots/B-choose-how.png",
+                "sha256": "de6881bcdd512dd8a9926736918a44e1e560b157c406fd70e90218d777622c1f",
+                "size": 149037
+              },
+              {
+                "name": "/org.torproject.android/ro/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "46a9ff78ee78969cc1659c51a522bb2fa983ef50854870feb63c8db7f1bc33fc",
+                "size": 188372
+              },
+              {
+                "name": "/org.torproject.android/ro/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "3a177ce35a741d8f378589900fc185846451b4139a3dbf5ae48b6ef8ceba58ca",
+                "size": 360354
+              },
+              {
+                "name": "/org.torproject.android/ro/phoneScreenshots/E-more_screen.png",
+                "sha256": "a3516246e1f2568653319185102b24cacc95ab4b56fe15dbdbca9b1032da62a7",
+                "size": 154069
+              },
+              {
+                "name": "/org.torproject.android/ro/phoneScreenshots/F-settings_screen.png",
+                "sha256": "171bb78d10c10f77ebf447f2f66929d41424fd1d438332a69164d0be868feef7",
+                "size": 279354
+              }
+            ],
             "ru": [
+              {
+                "name": "/org.torproject.android/ru/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "311b89eae9408e3efc783be8441ac73f4d01c9ec2ab43844bd13dfcfc61f3fb0",
+                "size": 164780
+              },
               {
                 "name": "/org.torproject.android/ru/phoneScreenshots/A-orbot_connected_1754320391454.png",
                 "sha256": "3b54b177295e042608d732190b0c38a1784568d51c157f4952bd3fc06e9f9215",
                 "size": 105987
+              },
+              {
+                "name": "/org.torproject.android/ru/phoneScreenshots/B-choose-how.png",
+                "sha256": "f8671eb10390a46302ab861ef869c6604193b9a0d23c9d8f2842d3ae5385a91a",
+                "size": 150684
               },
               {
                 "name": "/org.torproject.android/ru/phoneScreenshots/B-choose-how_1754320386994.png",
@@ -3685,9 +4645,19 @@
                 "size": 148384
               },
               {
+                "name": "/org.torproject.android/ru/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "6fd040efe932ca797401993f987910c1f1634b18348bbccc9bfec76589f6c9f2",
+                "size": 226914
+              },
+              {
                 "name": "/org.torproject.android/ru/phoneScreenshots/C-kindness_mode_screen_1754320395746.png",
                 "sha256": "3b576db01ed3ebb494d383f0841ae67620681bc84f12270f9ad6b5f71eb42bea",
                 "size": 228397
+              },
+              {
+                "name": "/org.torproject.android/ru/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "8675d20c2bd5831a68fc4cbfcaf4760ddc996031ecf00172ddefedceec785127",
+                "size": 374828
               },
               {
                 "name": "/org.torproject.android/ru/phoneScreenshots/D-more_screen_1754320400285.png",
@@ -3695,9 +4665,19 @@
                 "size": 142891
               },
               {
+                "name": "/org.torproject.android/ru/phoneScreenshots/E-more_screen.png",
+                "sha256": "c1fd8d773c37b92b1d7441ead0ccd87690b86691ad9f14a9280e30ecc4b17e56",
+                "size": 157090
+              },
+              {
                 "name": "/org.torproject.android/ru/phoneScreenshots/E-settings_screen_1754320404839.png",
                 "sha256": "9207806526499fcb02b93350e95583d9a1929c96adcadd4bbd9b5c7252518bbf",
                 "size": 245049
+              },
+              {
+                "name": "/org.torproject.android/ru/phoneScreenshots/F-settings_screen.png",
+                "sha256": "9c152ceaf678b2f4ebcd891bf8941b4dee5373a8b5897debd9f5cbdf323fc2b2",
+                "size": 295265
               }
             ],
             "ru-RU": [
@@ -3727,11 +4707,205 @@
                 "size": 245049
               }
             ],
+            "sk": [
+              {
+                "name": "/org.torproject.android/sk/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "135143d166425efffcb6ae8d8cc299ddef6ad78deaa47dd90cb3b89336d6ec70",
+                "size": 161741
+              },
+              {
+                "name": "/org.torproject.android/sk/phoneScreenshots/B-choose-how.png",
+                "sha256": "feb44d90316a597ddf9215c98d56b2f75e48bb71a5f17bcbff5ecd7bccc31aa9",
+                "size": 148614
+              },
+              {
+                "name": "/org.torproject.android/sk/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "5e90412a366f4919863bf2557eeec73b2eed1c34fad6225272980cea4d58c202",
+                "size": 218182
+              },
+              {
+                "name": "/org.torproject.android/sk/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "9ba2df6b2956ef90f0fd78edd0f550a7d087bcce4785c4f8d2fe2880444f0fdb",
+                "size": 365948
+              },
+              {
+                "name": "/org.torproject.android/sk/phoneScreenshots/E-more_screen.png",
+                "sha256": "b1aa5dd53d81fe4904c8d688e1d36ef8b32f5f77f2e8ccb85e9b3e19aedba6af",
+                "size": 156819
+              },
+              {
+                "name": "/org.torproject.android/sk/phoneScreenshots/F-settings_screen.png",
+                "sha256": "e7ef28a32b3e4afd8eb3801116c1b4568584f91faec08296b15b037f79db6cd7",
+                "size": 295726
+              }
+            ],
+            "sl": [
+              {
+                "name": "/org.torproject.android/sl/phoneScreenshots/B-choose-how.png",
+                "sha256": "c4abc0d1a4ddeafbf981b8e34de2a2245e19b7806ef8a613f243e5ee2d44fe03",
+                "size": 142818
+              },
+              {
+                "name": "/org.torproject.android/sl/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "7f79d754d19f12b3513042333d5f6bf6bcb12690ca8e4ba5713e991f1a31c1bc",
+                "size": 221894
+              }
+            ],
+            "sq": [
+              {
+                "name": "/org.torproject.android/sq/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "7eee938a3fb11f9d7a8b3d67b4f98ef9f00af08b0d139d3480efa0354b0d5ef7",
+                "size": 156860
+              },
+              {
+                "name": "/org.torproject.android/sq/phoneScreenshots/B-choose-how.png",
+                "sha256": "7be53e32bd617a813731e44d4fc017c950d2f7b41a5fb9582045058922d88b9d",
+                "size": 133630
+              },
+              {
+                "name": "/org.torproject.android/sq/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "77dcc7099b64e8fc589157d675dd441018cd1f4ecc4ad372bf10f6d1cdbf7fd2",
+                "size": 214841
+              },
+              {
+                "name": "/org.torproject.android/sq/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "1b27e9158f70729001d1a0f00d1eeb2015c66b67a78360dbaafa78f141de9c52",
+                "size": 351666
+              },
+              {
+                "name": "/org.torproject.android/sq/phoneScreenshots/E-more_screen.png",
+                "sha256": "ce57828112eddb9da2356f2bba2699b84c488450f81c3f281f1360725acb2155",
+                "size": 157259
+              },
+              {
+                "name": "/org.torproject.android/sq/phoneScreenshots/F-settings_screen.png",
+                "sha256": "5689d1c3eff4f1c3e556f480927517cc2c2f24839002bb33c309c417f03865ff",
+                "size": 279039
+              }
+            ],
+            "sr": [
+              {
+                "name": "/org.torproject.android/sr/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "6e1f255ad67422ad29cfc31a9ff2cfd34cd96957c109b9f43675ed2b5a2ff828",
+                "size": 162267
+              },
+              {
+                "name": "/org.torproject.android/sr/phoneScreenshots/B-choose-how.png",
+                "sha256": "45fe36bd3ef461f19785c40116cb9168b8f762f37f779b95677573e0f8d0f04f",
+                "size": 149063
+              },
+              {
+                "name": "/org.torproject.android/sr/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "045cc46ffa84556e7c8691a6bfc48b86125fe3a18f57f991d260273680666dc9",
+                "size": 217158
+              },
+              {
+                "name": "/org.torproject.android/sr/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "8229eac307dab67e950189af10eeebfdbe747d801979dad75da7662d92c66377",
+                "size": 372979
+              },
+              {
+                "name": "/org.torproject.android/sr/phoneScreenshots/E-more_screen.png",
+                "sha256": "b321be997d5034567d782d550ecae12a4f38fa24c57e6508715ab4b216b4a095",
+                "size": 157047
+              },
+              {
+                "name": "/org.torproject.android/sr/phoneScreenshots/F-settings_screen.png",
+                "sha256": "b61728b7925cde2d3f20c9dfdb0756986b13541e820846a17c474e7a5ef574ea",
+                "size": 289747
+              }
+            ],
+            "sv": [
+              {
+                "name": "/org.torproject.android/sv/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "be9a44178766acb52f98015544decde434380782b5de5993e38dd30cf6f9c4ff",
+                "size": 155317
+              },
+              {
+                "name": "/org.torproject.android/sv/phoneScreenshots/B-choose-how.png",
+                "sha256": "af8cf6f082c06f362fed0e44ead3cd83b6b123367eb18ae24e075e38acd8291c",
+                "size": 140982
+              },
+              {
+                "name": "/org.torproject.android/sv/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "cd68828a3f98ec813d7abc82048c5f286c2eca01f41bca0163587c009ecf41f7",
+                "size": 204948
+              },
+              {
+                "name": "/org.torproject.android/sv/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "4816e3e34bec20100b1fe0d70112fe0abd8ef5b410a803ac44bce9ffdd2ad9a5",
+                "size": 351276
+              },
+              {
+                "name": "/org.torproject.android/sv/phoneScreenshots/E-more_screen.png",
+                "sha256": "666032f7358dfdb3d618cef8c0a44e53501274ba9137bfc78b89a27eedc69bc5",
+                "size": 154454
+              },
+              {
+                "name": "/org.torproject.android/sv/phoneScreenshots/F-settings_screen.png",
+                "sha256": "00bee069e4f8281fd074314da00435cea9dc274d2966ca886e3f54ceb93038cb",
+                "size": 298078
+              }
+            ],
+            "ta": [
+              {
+                "name": "/org.torproject.android/ta/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "eedf2d3fe848f0cc1631bfe4cc5a201194a5777cb9c8feb0d9715ffb031c98ec",
+                "size": 176949
+              },
+              {
+                "name": "/org.torproject.android/ta/phoneScreenshots/B-choose-how.png",
+                "sha256": "0df704c6ea08fe05d152cf6bb4f03c3f977623ad504fe43beb41a9c5c9c0a2ec",
+                "size": 225651
+              },
+              {
+                "name": "/org.torproject.android/ta/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "c572e693585dd8d281ffd548eddbe50ab52c8905d65b0b44da44c86ab04a2767",
+                "size": 224538
+              },
+              {
+                "name": "/org.torproject.android/ta/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "d07cf357ff99b5d2e07e12f73600937345abcf8e26a642080788417aed340d86",
+                "size": 461829
+              },
+              {
+                "name": "/org.torproject.android/ta/phoneScreenshots/E-more_screen.png",
+                "sha256": "f910b4743a8bc0fca62a37d3d0b9c1d184739181419e49678755d53ca2c9f0e2",
+                "size": 197773
+              },
+              {
+                "name": "/org.torproject.android/ta/phoneScreenshots/F-settings_screen.png",
+                "sha256": "eb1de6a11e2eb9b92db1e15f2307e0fe0ea314d872d3f777601b4f99b6ff8fbb",
+                "size": 348881
+              }
+            ],
+            "tk": [
+              {
+                "name": "/org.torproject.android/tk/phoneScreenshots/B-choose-how.png",
+                "sha256": "dd798d2ab27ac8c2ee1777b154ef644ee576ccb2bee290837654cc9c40bae7f4",
+                "size": 147263
+              },
+              {
+                "name": "/org.torproject.android/tk/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "aad07d60765d5f6072c554dd158ea18988d2f3e86530fe4e78842126077ef2a5",
+                "size": 199480
+              }
+            ],
             "tr": [
+              {
+                "name": "/org.torproject.android/tr/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "96bea3abbef5e77bfd40a72f613fe965b985dd8aeae86776c32c394964368089",
+                "size": 157083
+              },
               {
                 "name": "/org.torproject.android/tr/phoneScreenshots/A-orbot_connected_1754320167195.png",
                 "sha256": "6880dc8f17a75c602ed486203daf51d52f31922340e6d4063ab2792d9d24041d",
                 "size": 98175
+              },
+              {
+                "name": "/org.torproject.android/tr/phoneScreenshots/B-choose-how.png",
+                "sha256": "e220036678ec78c109181c43f083b3c54ddc75ed2fdee4283a2a1179255e2736",
+                "size": 139544
               },
               {
                 "name": "/org.torproject.android/tr/phoneScreenshots/B-choose-how_1754320161214.png",
@@ -3739,9 +4913,19 @@
                 "size": 137223
               },
               {
+                "name": "/org.torproject.android/tr/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "44da4c74c711c955ab27293b5dc587dcdc0259e3bba0d9c55c5805484c4b4fb5",
+                "size": 193851
+              },
+              {
                 "name": "/org.torproject.android/tr/phoneScreenshots/C-kindness_mode_screen_1754320177490.png",
                 "sha256": "e520ecd0d70ae3f19f42c5b93c3159e60dcde4747dd46cebb64030691f786120",
                 "size": 218311
+              },
+              {
+                "name": "/org.torproject.android/tr/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "d5a7dcc93c52f6ef0bed4a2fe0eb732b095887454ec68b2c0d520e3ee654c120",
+                "size": 363014
               },
               {
                 "name": "/org.torproject.android/tr/phoneScreenshots/D-more_screen_1754320182563.png",
@@ -3749,9 +4933,19 @@
                 "size": 138385
               },
               {
+                "name": "/org.torproject.android/tr/phoneScreenshots/E-more_screen.png",
+                "sha256": "e3f326df3f61dc2a37db27db67bcd277779133219e98feaa77b1e4d0cdde0c0a",
+                "size": 159585
+              },
+              {
                 "name": "/org.torproject.android/tr/phoneScreenshots/E-settings_screen_1754320188578.png",
                 "sha256": "424448fa451bda07096a0c72871d2e4fec670fde9e0f2bacb12609323ae1929d",
                 "size": 223883
+              },
+              {
+                "name": "/org.torproject.android/tr/phoneScreenshots/F-settings_screen.png",
+                "sha256": "1fd02e002d4557bbb9f5b61e1d8ca6ac5f8c6216e9fef2a1f44eb06685643638",
+                "size": 280855
               }
             ],
             "tr-TR": [
@@ -3779,6 +4973,97 @@
                 "name": "/org.torproject.android/tr-TR/phoneScreenshots/E-settings_screen_1754320188578.png",
                 "sha256": "424448fa451bda07096a0c72871d2e4fec670fde9e0f2bacb12609323ae1929d",
                 "size": 223883
+              }
+            ],
+            "uk": [
+              {
+                "name": "/org.torproject.android/uk/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "34b60b046d7dbc2724643aa223dd67742c9634c195c3ded4dd80f47a32a4e70d",
+                "size": 157863
+              },
+              {
+                "name": "/org.torproject.android/uk/phoneScreenshots/B-choose-how.png",
+                "sha256": "10e25087d81b26e0d17e94fd628867fd4e20636582528948518597e41497c27b",
+                "size": 153668
+              },
+              {
+                "name": "/org.torproject.android/uk/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "be4c00cc9bdb49a8a270286679806f4fc16896faed3bdfea9f0889476b8e2510",
+                "size": 225388
+              },
+              {
+                "name": "/org.torproject.android/uk/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "58dfb5684110f613f43120bc4d1921dfdbc7bbb2e6feacae89155e10a52b3882",
+                "size": 375738
+              },
+              {
+                "name": "/org.torproject.android/uk/phoneScreenshots/E-more_screen.png",
+                "sha256": "c5dbfe533b0a0e734793b9bf5468872695775dcd7a14512bc430652035bb299e",
+                "size": 159717
+              },
+              {
+                "name": "/org.torproject.android/uk/phoneScreenshots/F-settings_screen.png",
+                "sha256": "ff25a111aebab144c92af4d7d8f7021ff1a24b61d821692f49bfc6cebd2c8a41",
+                "size": 302937
+              }
+            ],
+            "vi": [
+              {
+                "name": "/org.torproject.android/vi/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "b39faab87f62d9ba73e679d8e7fd4a6164fadfe37668b4a79f7863852a68e370",
+                "size": 160772
+              },
+              {
+                "name": "/org.torproject.android/vi/phoneScreenshots/B-choose-how.png",
+                "sha256": "040c2c2e471ef69fd179da7aa75a99173404804526a0f9c2979ee9e98b7ef9f4",
+                "size": 153637
+              },
+              {
+                "name": "/org.torproject.android/vi/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "7a4ee41497bfeb9ba0d5418b54a0478875d5ab10474c3ee6d618808d34d5227d",
+                "size": 375778
+              },
+              {
+                "name": "/org.torproject.android/vi/phoneScreenshots/E-more_screen.png",
+                "sha256": "2582204b3405834d2b1c1e324632945a17e73ea34619f5c655d72c68ec703c05",
+                "size": 166237
+              },
+              {
+                "name": "/org.torproject.android/vi/phoneScreenshots/F-settings_screen.png",
+                "sha256": "c7d341318869d7a960b24cce6848bf7c9283241bc561ac35e78e5ae15a62b606",
+                "size": 317832
+              }
+            ],
+            "zh_Hans": [
+              {
+                "name": "/org.torproject.android/zh_Hans/phoneScreenshots/A-orbot_connected.png",
+                "sha256": "36e8dd36f0c5d2c0416d311e55290e74604fb7fbf918cd75260c43be093a9f75",
+                "size": 154228
+              },
+              {
+                "name": "/org.torproject.android/zh_Hans/phoneScreenshots/B-choose-how.png",
+                "sha256": "09fd639b8d5f45e100dd15678b0698d6cad3c1a4e81bb1038fb4886309e0890e",
+                "size": 158835
+              },
+              {
+                "name": "/org.torproject.android/zh_Hans/phoneScreenshots/C-Choose_Apps.png",
+                "sha256": "c0dd6114a7bdf19714c636baeacdcfb12f70b1f8367c3977872ecd460cd6912b",
+                "size": 228560
+              },
+              {
+                "name": "/org.torproject.android/zh_Hans/phoneScreenshots/D-kindness_mode_screen.png",
+                "sha256": "528e53033670abfa5bae119c94d7a37db11ab7b6fc1db8324de5409c870dc6bb",
+                "size": 359137
+              },
+              {
+                "name": "/org.torproject.android/zh_Hans/phoneScreenshots/E-more_screen.png",
+                "sha256": "c483f36d236422a582340b2700eb662d4e4c0f9391ea23f970a7916b857701bd",
+                "size": 155592
+              },
+              {
+                "name": "/org.torproject.android/zh_Hans/phoneScreenshots/F-settings_screen.png",
+                "sha256": "323f690b499ad66f2a4da2de50409f3481c3ad159527a01f133a6ab2f365cc7e",
+                "size": 299158
               }
             ]
           },
