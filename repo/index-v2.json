@@ -47,7 +47,7 @@
         "countryCode": "US"
       }
     ],
-    "timestamp": 1768287104000,
+    "timestamp": 1768373637000,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -1690,7 +1690,7 @@
           "Internet"
         ],
         "issueTracker": "https://bugzilla.mozilla.org/",
-        "lastUpdated": 1766127081000,
+        "lastUpdated": 1768373559000,
         "license": "MPL-2.0",
         "sourceCode": "https://hg.mozilla.org/mozilla-central/",
         "webSite": "https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/",
@@ -1743,6 +1743,135 @@
         "preferredSigner": "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
       },
       "versions": {
+        "8f642ddc4d337b17fd93b7f0600ab191041a59dd932619bb44274d11f20c5abe": {
+          "added": 1768373559000,
+          "file": {
+            "name": "/org.mozilla.klar_400060044.apk",
+            "sha256": "8f642ddc4d337b17fd93b7f0600ab191041a59dd932619bb44274d11f20c5abe",
+            "size": 107908157,
+            "ipfsCIDv1": "bafybeienpaqxina3r7vkjsz2gipwwmtoulkwglyhjydprtdtj4jzdi4hyi"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "147.0",
+            "versionCode": 400060044,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "org.mozilla.klar.permission.RECEIVE_DOWNLOAD_BROADCAST"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.mozilla.klar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "Firefox Klar uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
+            }
+          }
+        },
         "24a822f7cd67e12d29fa0a2023e8d2cca4a62c5b8e0ef75df40ec108eb613cfa": {
           "added": 1766127081000,
           "file": {
@@ -1886,135 +2015,6 @@
             ],
             "versionName": "146.0",
             "versionCode": 393360042,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 36
-            },
-            "signer": {
-              "sha256": [
-                "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.ACCESS_COARSE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_FINE_LOCATION"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "org.mozilla.klar.permission.RECEIVE_DOWNLOAD_BROADCAST"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "org.mozilla.klar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "Firefox Klar uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
-            }
-          }
-        },
-        "177d859363296732210c9748c59410f4da7392b12e9d7631d8a754cc5c43426f": {
-          "added": 1764139643000,
-          "file": {
-            "name": "/org.mozilla.klar_393281850.apk",
-            "sha256": "177d859363296732210c9748c59410f4da7392b12e9d7631d8a754cc5c43426f",
-            "size": 104403813,
-            "ipfsCIDv1": "bafybeigkt2dngn6vkjxvqrm6lnlmavxhqhskqltyzcpr563hqa4jkgljiq"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "145.0.2",
-            "versionCode": 393281850,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 36
@@ -5159,6 +5159,7 @@
           "bg": "\u041f\u043e\u0434\u043e\u0431\u0440\u0435\u0442\u0435 \u043f\u043e\u0432\u0435\u0440\u0438\u0442\u0435\u043b\u043d\u043e\u0441\u0442\u0442\u0430 \u0438 \u043f\u0440\u0435\u043e\u0434\u043e\u043b\u044f\u0432\u0430\u0439\u0442\u0435 \u0437\u0430\u0449\u0438\u0442\u043d\u0438 \u0441\u0442\u0435\u043d\u0438",
           "ca": "Milloreu la vostra privadesa i traspasseu els tallafocs.",
           "cs-CZ": "Vylep\u0161ete va\u0161e soukrom\u00ed, prorazit br\u00e1ny firewall a komunikovat bezpe\u010dn\u011b.",
+          "de": "Verbessere deine Privatsph\u00e4re und \u00fcberwinde Firewalls.",
           "de-DE": "Privatsph\u00e4re sch\u00fctzen und Firewalls durchbrechen.",
           "el-GR": "\u0392\u03b5\u03bb\u03c4\u03b9\u03ce\u03c3\u03c4\u03b5 \u03c4\u03b7\u03bd \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c3\u03af\u03b1 \u03c4\u03b7\u03c2 \u03b9\u03b4\u03b9\u03c9\u03c4\u03b9\u03ba\u03ae\u03c2 \u03b6\u03c9\u03ae\u03c2 \u03c3\u03b1\u03c2.",
           "en-US": "Enhance your privacy and break through firewalls.",
@@ -5201,6 +5202,7 @@
           "bg": "Orbot is a free proxy app that empowers other apps to use the internet more securely. Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world. Tor is free software and an open network that helps you defend against a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security known as traffic analysis.\n\n*** SAMSUNG GALAXY USERS ***\nOn some devices, a Samsung app is listening on the same network port that Orbot needs. Download 'SockStat' from Google Play. Look for the app on port 9050. Force stop and disable that app. You can also try to change Orbot's \"Tor SOCKS\" setting under the Debug section to 9051 or AUTO. You can see the fix in this video: https://www.youtube.com/watch?v=yK-nK4F67_g\n*****\n\nOrbot is the only app that creates a truly private internet connection. As the New York Times writes, \u201cwhen a communication arrives from Tor, you can never know where or whom it\u2019s from.\u201d Tor won the 2012 Electronic Frontier Foundation (EFF) Pioneer Award.\n\n\u2605 ACCEPT NO SUBSTITUTES: Orbot is the safest way to use the Internet on Android. Period. Orbot bounces your encrypted traffic several times through computers around the world, instead of connecting you directly like VPNs and proxies. This process takes a little longer, but the strongest privacy and identity protection available is worth the wait.\n\u2605 PRIVATE WEB SURFING: Use with Orfox, the most anonymous way to access any website, even if it\u2019s normally blocked, monitored, or on the hidden web. Get Orfox: https://play.google.com/store/apps/details?id=info.guardianproject.orfox\n\u2605 PRIVATE CHAT MESSAGING: Use ChatSecure with Orbot to chat confidentially with anyone, anywhere for free. Get ChatSecure: https://goo.gl/O3FfS\n\u2605 PRIVACY FOR APPS: Any installed app can use Tor if it has a proxy feature, using the settings found here: https://goo.gl/2OA1y Use Orbot with Twitter, or try private web searching with DuckDuckGo: https://goo.gl/lgh1p\n\u2605 PRIVACY FOR EVERYONE: Tor can help you confidentially research a competitor, get around the Facebook block at school, or circumvent a firewall to watch sports at work.\n\u2605 PRIVACY MADE EASY: Check out our fun, interactive walkthrough: https://guardianproject.info/howto/browsefreely\n\u2605 IT\u2019S OFFICIAL: This is the official version of the Tor onion routing service for Android.\n\n***We Love Feedback***\n\u2605 ABOUT US: Guardian Project is a group of developers that make secure mobile apps and open-source code for a better tomorrow.\n\u2605 OPEN-SOURCE: Orbot is free software. Take a look at our source code, or join the community to make it better: https://gitweb.torproject.org/orbot.git\n\u2605 MESSAGE US: Are we missing your favorite feature? Found an annoying bug? We\u2019d love to hear from you! Send us an email: support@guardianproject.info\n\n***Disclaimer***\nThe Guardian Project makes apps that are designed to protect your security and anonymity. The protocols that we use are widely regarded as the state of the art in security technology. While we are constantly upgrading our software to combat the latest threats and eliminate bugs, no technology is 100% foolproof. For maximum security and anonymity users must utilize best practices to keep themselves safe.  You can find a good introductory guide to these topics at https://securityinabox.org\n",
           "ca": "L'Orbot \u00e9s una aplicaci\u00f3 lliure i gratu\u00efta de servidors intermediaris i xarxes privades virtuals (VPN) que permet a altres aplicacions utilitzar l'internet de manera m\u00e9s segura. L'Orbot fa servir el Tor per a xifrar el tr\u00e0nsit d'internet i aix\u00ed l'oculta rebotant-lo per una s\u00e8rie d'ordinadors d'arreu del m\u00f3n. El Tor \u00e9s programari lliure, i una xarxa oberta que us ajuda a defensar-vos contra una manera de vigil\u00e0ncia de la xarxa anomenada an\u00e0lisi de tr\u00e0nsit, que amena\u00e7a la llibertat personal i la privadesa, les activitats i relacions confidencials i la seguretat de l'estat.\n\nL'Orbot \u00e9s l'\u00fanica aplicaci\u00f3 que crea una connexi\u00f3 realment privada a internet. Com escriuen al New York Times, \u00abquan arriba una comunicaci\u00f3 pel Tor, mai no podeu saber d'on o de qui prov\u00e9\u00bb.\n\nEl Tor va guanyar l'any 2012 el Premi Pioner de l'Electronic Frontier Foundation (EFF).\n\n\u2605 NO ACCEPTEU CAP SUBSTITUT: L'Orbot \u00e9s la manera m\u00e9s segura de fer servir l'internet a l'Android. Punt. L'Orbot rebota el vostre tr\u00e0nsit xifrat diverses vegades per ordinadors d'arreu del m\u00f3n, en compte de connectar-vos directament, com farien altres VPN o servidors intermediaris. Aquest proc\u00e9s triga una mica m\u00e9s, per\u00f2 la privadesa m\u00e9s robusta i la protecci\u00f3 de la identitat que proporciona paga la pena l'espera.\n\u2605 PRIVADESA PER A LES APLICACIONS: Qualsevol aplicaci\u00f3 es pot fer passar pel Tor mitjan\u00e7ant la funcionalitat VPN de l'Orbot.\n\u2605 PRIVADESA PER A TOTHOM: L'Orbot evita que qui estigui observant la vostra connexi\u00f3 s\u00e0piga quines aplicacions utilitzeu o quins llocs web visiteu. Tot el que podr\u00e0 veure qui estigui rastrejant el tr\u00e0nsit de la vostra xarxa \u00e9s que esteu fent servir el Tor.\n\n***Ens encanten els comentaris***\n\u2605 M\u00c9S INFORMACI\u00d3: Obteniu m\u00e9s informaci\u00f3 sobre l'Orbot i involucreu-vos-hi a https://orbot.app\n\u2605 QUANT A NOSALTRES: El Guardian Project \u00e9s un grup de desenvolupadors que fan aplicacions m\u00f2bils segures i de codi font obert per a millorar el dem\u00e0.\n\u2605 CODI OBERT: L'Orbot \u00e9s programari lliure. Doneu una ullada al codi font, o uniu-vos a la comunitat per a millorar-lo: https://github.com/guardianproject/orbot\n\u2605 ENVIEU-NOS MISSATGES: Trobeu a faltar alguna caracter\u00edstica? Heu trobat cap error? Ens encantaria que ens ho f\u00e9reu arribar! Envieu-nos un correu electr\u00f2nic a: support@guardianproject.info\n\n***Av\u00eds legal***\nEl Guardian Project fa aplicacions pensades per a protegir la vostra seguretat i anonimat. Els protocols que utilitzem es consideren \u00e0mpliament comprovats al m\u00f3n de la seguretat tecnol\u00f2gica. Tot i que estem constantment actualitzant el nostre programari per a combatre les \u00faltimes amenaces i eliminar errors, cap tecnologia \u00e9s 100% segura. Per a una seguretat i anonimat m\u00e0xims, els usuaris han de fer servir les millors pr\u00e0ctiques per a mantenir-se segurs. Podeu trobar una bona guia d'introducci\u00f3 a aquests temes a https://securityinabox.org\n",
           "cs-CZ": "Orbot je bezplatn\u00e1 proxy aplikace, kter\u00e1 d\u00e1v\u00e1 mo\u017enost jin\u00fdm aplikac\u00edm vyu\u017e\u00edvat internet bezpe\u010dn\u011bji. Orbot pou\u017e\u00edv\u00e1 Tor k \u0161ifrov\u00e1n\u00ed va\u0161eho internetov\u00e9ho provozu a potom ho skryje sm\u011brov\u00e1n\u00edm skrze n\u011bkolik po\u010d\u00edta\u010d\u016f rozm\u00edst\u011bn\u00fdch po cel\u00e9m sv\u011bt\u011b. Tor je bezplatn\u00fd software a otev\u0159en\u00e1 s\u00ed\u0165, kter\u00e1 v\u00e1m pom\u00e1h\u00e1 chr\u00e1nit se p\u0159ed s\u00ed\u0165ov\u00fdm dohledem/monitorov\u00e1n\u00edm, kter\u00e9 ohro\u017euje osobn\u00ed svobodu a soukrom\u00ed, soukrom\u00e9 obchodn\u00ed aktivity a vztahy. Chr\u00e1n\u00ed p\u0159ed anal\u00fdzou provozu.\n\n*** SAMSUNG GALAXY U\u017dIVATEL\u00c9 ***\nNa n\u011bkter\u00fdch za\u0159\u00edzen\u00edch naslouch\u00e1 aplikace Samsung na stejn\u00e9m s\u00ed\u0165ov\u00e9m portu, kter\u00fd pot\u0159ebuje Orbot. St\u00e1hn\u011bte si 'SockStat' z Google Play. Pod\u00edvejte se na aplikaci naslouchaj\u00edc\u00ed na portu 9050. Vynu\u0165te jej\u00ed zastaven\u00ed a vypn\u011bte jej\u00ed spou\u0161t\u011bn\u00ed. Tak\u00e9 m\u016f\u017eete zkusit zm\u011bnit \"Tor SOCKS\" nastaven\u00ed Orbota pod sekc\u00ed Debug/lad\u011bn\u00ed na port 9051 nebo AUTO. Opravu m\u016f\u017eete vid\u011bt v tomto videu: https://www.youtube.com/watch?v=yK-nK4F67_g\n*****\n\nOrbot je jedin\u00e1 aplikace, kter\u00e1 vytv\u00e1\u0159\u00ed skute\u010dn\u011b soukrom\u00e9 internetov\u00e9 p\u0159ipojen\u00ed. Napsaly o tom i New York Times, \u201cjakmile komunikace p\u0159ijde ze s\u00edt\u011b Tor, nem\u016f\u017eete nikdy v\u011bd\u011bt, od koho je.\u201d Tor vyhr\u00e1l cenu 2012 Electronic Frontier Foundation (EFF) Pioneer Award.\n\n\u2605 NESOUHLASTE S N\u00c1HRA\u017dKAMI: Orbot je nejbezpe\u010dn\u011bj\u0161\u00ed cestou jak pou\u017e\u00edvat internet na Androidu. Te\u010dka. Orbot p\u0159esm\u011brov\u00e1v\u00e1 va\u0161e \u0161ifrovan\u00e1 data n\u011bkolikr\u00e1t skrze po\u010d\u00edta\u010de po cel\u00e9m sv\u011bt\u011b, m\u00edsto toho, aby v\u00e1s p\u0159ipojil p\u0159\u00edmo jako to d\u011blaj\u00ed b\u011b\u017en\u00e9 VPN a proxy. Tento proces trv\u00e1 del\u0161\u00ed dobu, ale nejvy\u0161\u0161\u00ed dostupn\u00e9 soukrom\u00ed a ochrana identity stoj\u00ed za \u010dek\u00e1n\u00ed.\n\u2605 SOUKROM\u00c9 WEBOV\u00c9 SURFOV\u00c1N\u00cd: Pou\u017eijte z\u00e1rove\u0148 s Orfoxem, co\u017e je nejanonymn\u011bj\u0161\u00ed zp\u016fsob p\u0159\u00edstupu k webov\u00fdm str\u00e1nk\u00e1m, i kdy\u017e jsou b\u011b\u017en\u011b blokov\u00e1ny, monitorov\u00e1ny a nebo jde o hidden web. Z\u00edskejte Orfox: https://play.google.com/store/apps/details?id=info.guardianproject.orfox\n\u2605 SOUKROM\u00dd CHAT P\u0158ES MESSENGER: Pou\u017eijte ChatSecure s Orbotem pro chatov\u00e1n\u00ed bez obav s k\u00fdmkoli, kdekoli a zdarma. Z\u00edskejte ChatSecure: https://goo.gl/O3FfS\n\u2605 SOUKROM\u00cd PRO APLIKACE: Jak\u00e1koli nainstalovan\u00e1 aplikace podporuj\u00edc\u00ed proxy, m\u016f\u017ee pou\u017e\u00edvat Tor, pokud vyu\u017eijte nastaven\u00ed uveden\u00e1 zde: https://goo.gl/2OA1y Pou\u017eijte Orbot s Twitterem, nebo zkuste soukrom\u00e9 webov\u00e9 vyhled\u00e1v\u00e1n\u00ed s DuckDuckGo: https://goo.gl/lgh1p\n\u2605 SOUKROM\u00cd PRO KA\u017dD\u00c9HO: Tor v\u00e1m m\u016f\u017ee pomoci prov\u00e1d\u011bt soukrom\u00fd pr\u016fzkum konkurence, obej\u00edt blokov\u00e1n\u00ed Facebooku ve \u0161kole, a nebo obej\u00edt firewall pro sledov\u00e1n\u00ed sportu v pr\u00e1ci.\n\u2605 SOUKROM\u00cd SNADNO: Pod\u00edvejte se na na\u0161eho zaj\u00edmav\u00e9ho a interaktivn\u00edho pr\u016fvodce: https://guardianproject.info/howto/browsefreely\n\u2605 JE TO OFICI\u00c1LN\u00cd: Toto je ofici\u00e1ln\u00ed Android verze slu\u017eby pro cibulov\u00e9 sm\u011brov\u00e1n\u00ed/Tor onion routing.\n\n***Milujeme zp\u011btnou vazbu***\n\u2605 O N\u00c1S: Guardian Project je skupina v\u00fdvoj\u00e1\u0159\u016f, kte\u0159\u00ed vytv\u00e1\u0159\u00ed bezpe\u010dn\u00e9 mobiln\u00ed aplikace a otev\u0159en\u00fd zdrojov\u00fd k\u00f3d pro lep\u0161\u00ed budoucnost.\n\u2605 OPEN-SOURCE: Orbot je bezplatn\u00fd software. Pod\u00edvejte se na n\u00e1\u0161 zdrojov\u00fd k\u00f3d nebo se p\u0159ipojte ke komunit\u011b abyste ji vylep\u0161ili: https://gitweb.torproject.org/orbot.git\n\u2605 ZA\u0160LETE N\u00c1M ZPR\u00c1VU: Chyb\u00ed v\u00e1m n\u011bjak\u00e1 funkce? Na\u0161li jste otravnou chybu? Moc r\u00e1di si p\u0159e\u010dteme va\u0161i zpr\u00e1vu! Po\u0161lete n\u00e1m e-mail na: support@guardianproject.info\n\n***Z\u0159eknut\u00ed se odpov\u011bdnosti***\nThe Guardian Project vytv\u00e1\u0159\u00ed aplikace, kter\u00e9 jsou navr\u017eeny k ochran\u011b va\u0161\u00ed bezpe\u010dnosti a anonymity. Protokoly, kter\u00e9 pou\u017e\u00edv\u00e1me, jsou \u0161iroce pova\u017eov\u00e1ny za nejmodern\u011bj\u0161\u00ed v r\u00e1mci bezpe\u010dnostn\u00ed technologie. St\u00e1le aktualizujeme n\u00e1\u0161 software aby byl chr\u00e1n\u011bn p\u0159ed nov\u00fdmi riziky a odstra\u0148ujeme chyby, \u017e\u00e1dn\u00e1 technologie v\u0161ak nen\u00ed 100% spolehliv\u00e1. Pro maxim\u00e1ln\u00ed zabezpe\u010den\u00ed a anonymitu mus\u00ed u\u017eivatel\u00e9 pou\u017e\u00edvat osv\u011bd\u010den\u00e9 postupy, aby byli v bezpe\u010d\u00ed. Dobr\u00e9ho \u00favodn\u00edho pr\u016fvodce t\u011bmito t\u00e9maty najdete na adrese https://securityinabox.org\n",
+          "de": "Orbot ist eine freie Vermittlungsanwendung, die andere Programme in die Lage versetzt, das Internet sicherer zu nutzen. Orbot verwendet Tor, um den Datenaustausch im Internet zu verschl\u00fcsseln, und verbirgt ihn dann, indem er \u00fcber eine Reihe Computer rund um die Welt geleitet wird. Tor ist ein freies Programm und ein offenes Netzwerk, das dabei hilft, sich gegen Formen der \u00dcberwachung zu wehren, die pers\u00f6nliche Freiheiten, Privatsph\u00e4re, vertrauliche Gesch\u00e4ftsaktvit\u00e4ten und -partnerschaften bedrohen, sowie gegen staatliche geheimdienstliche Datenverkehrsanalysen.\n\nOrbot ist die einzige Anwendung, die eine wirklich vertrauliche Internetverbindung herstellt. Wie die New York Times schreibt, \u201ewenn Verbindungen \u00fcber Tor eintreffen, wei\u00df man nie, von wem oder woher sie kommt.\u201c \n\nTor bekam 2012 den Pioneer-Award der Electronic Frontier Foundation (EFF).\n\n\u2605 TRAUE KEINEM ERSATZ: Orbot ist der sicherste Weg, um das Internet mit Android zu nutzen. Orbot leitet den verschl\u00fcsselten Verkehr mehrmals durch Rechner auf der ganzen Welt, statt eine Direktverbindung (wie z.B. \u00fcber VPNs und Proxys) zu nutzen. Dieser Vorgang dauert ein wenig l\u00e4nger, aber der st\u00e4rkste Privatsph\u00e4re- und Identit\u00e4tsschutz ist das Warten wert.\n\u2605 DATENSCHUTZ F\u00dcR APPS: Jede App kann mittels Orbot VPN \u00fcber Tor geleitet werden.\n\u2605 DATENSCHUTZ F\u00dcR ALLE: Orbot verhindert, dass irgendjemand deine Verbindung beobachtet, um herauszufinden, welche Apps du verwendest oder welche Websites du besuchst. Alles was jemand, der deinen Datenverkehr \u00fcberwacht, sehen kann ist, dass du Tor verwendest.\n\n***Wir freuen uns \u00fcber R\u00fcckmeldungen***\n\u2605 MEHR ERFAHREN: Erfahre mehr \u00fcber Orbot und beteilige dich daran auf https://orbot.app\n\u2605 \u00dcBER UNS: Das Guardian Project ist eine Gruppe von Entwicklern, die sichere mobile Apps und quelloffenen Code f\u00fcr eine bessere Zukunft erstellen.\n\u2605 QUELLOFFEN: Orbot ist freie Software. Wirf einen Blick auf den Quellcode oder werde Teil der Community, um ihn zu verbessern: https://github.com/guardianproject/orbot\n\u2605 KONTAKT: Haben wir eine Funktion vergessen? Hast du einen Fehler gefunden? Wir w\u00fcrden uns freuen, von dir zu h\u00f6ren! Sende eine E-Mail an support@guardianproject.info\n\n***Haftungsausschluss***\nDas Guardian Project erstellt Apps, um Sicherheit und Anonymit\u00e4t zu sch\u00fctzen. Die Protokolle gelten als neuster Stand der Sicherheitstechnologie. Unsere Software wird st\u00e4ndig aktualisiert, um den aktuellsten Bedrohungen zu begegnen und Fehler zu beheben, aber keine Technik ist 100% narrensicher. Nutzer m\u00fcssen sich f\u00fcr einen umfassenden Schutz selbst Kenntnisse aneignen.  Eine gute Anleitung zu diesen Themen findest du auf https://securityinabox.org\n",
           "de-DE": "Orbot ist eine freie Vermittlungsanwendung, die andere Programme in die Lage versetzt, das Internet sicherer zu nutzen. Orbot verwendet Tor, um den Datenaustausch im Internet zu verschl\u00fcsseln, und verbirgt ihn dann, indem er \u00fcber eine Reihe Computer rund um die Welt geleitet wird. Tor ist ein freies Programm und ein offenes Netzwerk, das dabei hilft, sich gegen Formen der \u00dcberwachung zu wehren, die pers\u00f6nliche Freiheiten, Privatsph\u00e4re, vertrauliche Gesch\u00e4ftsaktvit\u00e4ten und -partnerschaften bedrohen, sowie gegen staatliche geheimdienstliche Datenverkehrsanalysen.\n\nOrbot ist die einzige Anwendung, die eine wirklich vertrauliche Internetverbindung herstellt. Wie die New York Times schreibt, \u201ewenn Verbindungen \u00fcber Tor eintreffen, wei\u00df man nie, von wem oder woher sie kommt.\u201c \n\nTor bekam 2012 den Pioneer-Award der Electronic Frontier Foundation (EFF).\n\n\u2605 TRAUE KEINEM ERSATZ: Orbot ist der sicherste Weg, um das Internet mit Android zu nutzen. Orbot leitet den verschl\u00fcsselten Verkehr mehrmals durch Rechner auf der ganzen Welt, statt eine Direktverbindung (wie z.B. \u00fcber VPNs und Proxys) zu nutzen. Dieser Vorgang dauert ein wenig l\u00e4nger, aber der st\u00e4rkste Privatsph\u00e4re- und Identit\u00e4tsschutz ist das Warten wert.\n\u2605 DATENSCHUTZ F\u00dcR APPS: Jede App kann mittels Orbot VPN \u00fcber Tor geleitet werden.\n\u2605 DATENSCHUTZ F\u00dcR ALLE: Orbot verhindert, dass irgendjemand deine Verbindung beobachtet, um herauszufinden, welche Apps du verwendest oder welche Websites du besuchst. Alles was jemand, der deinen Datenverkehr \u00fcberwacht, sehen kann ist, dass du Tor verwendest.\n\n***Wir lieben R\u00fcckmeldungen***\n\u2605 MEHR ERFAHREN: Erfahre mehr \u00fcber Orbot und beteilige dich daran auf https://orbot.app\n\u2605 \u00dcBER UNS: Das Guardian Project ist eine Gruppe von Entwicklern, die sichere mobile Apps und quelloffenen Code f\u00fcr eine bessere Zukunft erstellen.\n\u2605 QUELLOFFEN: Orbot ist freie Software. Wirf einen Blick auf den Quellcode oder werde Teil der Community, um ihn zu verbessern: https://gitweb.torproject.org/orbot.git\n\u2605 KONTAKT: Haben wir eine Funktion vergessen? Hast du einen Fehler gefunden? Wir w\u00fcrden uns freuen, von dir zu h\u00f6ren! Sende eine E-Mail an support@guardianproject.info\n\n***Haftungsausschluss***\nDas Guardian Project erstellt Apps, um Sicherheit und Anonymit\u00e4t zu sch\u00fctzen. Die Protokolle gelten als neuster Stand der Sicherheitstechnologie. Unsere Software wird st\u00e4ndig aktualisiert, um den aktuellsten Bedrohungen zu begegnen und Fehler zu beheben, aber keine Technik ist 100% narrensicher. Nutzer m\u00fcssen sich f\u00fcr einen umfassenden Schutz selbst Kenntnisse aneignen.  Eine gute Anleitung zu diesen Themen findest du auf https://securityinabox.org\n",
           "el-GR": "\u03a4\u03bf Orbot \u03b5\u03af\u03bd\u03b1\u03b9 \u03bc\u03b9\u03b1 \u03b4\u03c9\u03c1\u03b5\u03ac\u03bd \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ae \u03b4\u03b9\u03b1\u03ba\u03bf\u03bc\u03b9\u03c3\u03c4\u03ae \u03bc\u03b5\u03c3\u03bf\u03bb\u03ac\u03b2\u03b7\u03c3\u03b7\u03c2 \u03c0\u03bf\u03c5 \u03b4\u03af\u03bd\u03b5\u03b9 \u03c4\u03b7 \u03b4\u03c5\u03bd\u03b1\u03c4\u03cc\u03c4\u03b7\u03c4\u03b1 \u03c3\u03b5 \u03ac\u03bb\u03bb\u03b5\u03c2 \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ad\u03c2 \u03bd\u03b1 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03bf\u03cd\u03bd \u03c4\u03bf \u03b4\u03b9\u03b1\u03b4\u03af\u03ba\u03c4\u03c5\u03bf \u03bc\u03b5 \u03bc\u03b5\u03b3\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03b7 \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1. \u03a4\u03bf Orbot \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03b5\u03af \u03c4\u03bf Tor \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03ba\u03c1\u03c5\u03c0\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03ae\u03c3\u03b5\u03b9 \u03c4\u03b7\u03bd \u03ba\u03c5\u03ba\u03bb\u03bf\u03c6\u03bf\u03c1\u03af\u03b1 \u03c3\u03b1\u03c2 \u03c3\u03c4\u03bf \u0394\u03b9\u03b1\u03b4\u03af\u03ba\u03c4\u03c5\u03bf \u03ba\u03b1\u03b9 \u03c3\u03c4\u03b7 \u03c3\u03c5\u03bd\u03ad\u03c7\u03b5\u03b9\u03b1 \u03c4\u03bf \u03ba\u03c1\u03cd\u03b2\u03b5\u03b9 \u03b1\u03bd\u03b1\u03c0\u03b7\u03b4\u03ce\u03bd\u03c4\u03b1\u03c2 \u03bc\u03ad\u03c3\u03b1 \u03b1\u03c0\u03cc \u03bc\u03b9\u03b1 \u03c3\u03b5\u03b9\u03c1\u03ac \u03c5\u03c0\u03bf\u03bb\u03bf\u03b3\u03b9\u03c3\u03c4\u03ce\u03bd \u03c3\u03b5 \u03cc\u03bb\u03bf \u03c4\u03bf\u03bd \u03ba\u03cc\u03c3\u03bc\u03bf. \u03a4\u03bf Tor \u03b5\u03af\u03bd\u03b1\u03b9 \u03b4\u03c9\u03c1\u03b5\u03ac\u03bd \u03bb\u03bf\u03b3\u03b9\u03c3\u03bc\u03b9\u03ba\u03cc \u03ba\u03b1\u03b9 \u03ad\u03bd\u03b1 \u03b1\u03bd\u03bf\u03b9\u03c7\u03c4\u03cc \u03b4\u03af\u03ba\u03c4\u03c5\u03bf \u03c0\u03bf\u03c5 \u03c3\u03b1\u03c2 \u03b2\u03bf\u03b7\u03b8\u03ac \u03bd\u03b1 \u03b1\u03bc\u03c5\u03bd\u03b8\u03b5\u03af\u03c4\u03b5 \u03b5\u03bd\u03ac\u03bd\u03c4\u03b9\u03b1 \u03c3\u03b5 \u03bc\u03b9\u03b1 \u03bc\u03bf\u03c1\u03c6\u03ae \u03b5\u03c0\u03b9\u03c4\u03ae\u03c1\u03b7\u03c3\u03b7\u03c2 \u03b4\u03b9\u03ba\u03c4\u03cd\u03bf\u03c5 \u03c0\u03bf\u03c5 \u03b1\u03c0\u03b5\u03b9\u03bb\u03b5\u03af \u03c4\u03b7\u03bd \u03c0\u03c1\u03bf\u03c3\u03c9\u03c0\u03b9\u03ba\u03ae \u03b5\u03bb\u03b5\u03c5\u03b8\u03b5\u03c1\u03af\u03b1 \u03ba\u03b1\u03b9 \u03b9\u03b4\u03b9\u03c9\u03c4\u03b9\u03ba\u03cc\u03c4\u03b7\u03c4\u03b1, \u03c4\u03b9\u03c2 \u03b5\u03bc\u03c0\u03b9\u03c3\u03c4\u03b5\u03c5\u03c4\u03b9\u03ba\u03ad\u03c2 \u03b5\u03c0\u03b9\u03c7\u03b5\u03b9\u03c1\u03b7\u03bc\u03b1\u03c4\u03b9\u03ba\u03ad\u03c2 \u03b4\u03c1\u03b1\u03c3\u03c4\u03b7\u03c1\u03b9\u03cc\u03c4\u03b7\u03c4\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03c3\u03c7\u03ad\u03c3\u03b5\u03b9\u03c2 \u03ba\u03b1\u03b9 \u03c4\u03b7\u03bd \u03ba\u03c1\u03b1\u03c4\u03b9\u03ba\u03ae \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1, \u03b3\u03bd\u03c9\u03c3\u03c4\u03ae \u03c9\u03c2 \u03b1\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u03ba\u03c5\u03ba\u03bb\u03bf\u03c6\u03bf\u03c1\u03af\u03b1\u03c2.\n\n*****\n\u03a4\u03bf Orbot \u03b5\u03af\u03bd\u03b1\u03b9 \u03b7 \u03bc\u03cc\u03bd\u03b7 \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ae \u03c0\u03bf\u03c5 \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03b5\u03af \u03bc\u03b9\u03b1 \u03c0\u03c1\u03b1\u03b3\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac \u03b9\u03b4\u03b9\u03c9\u03c4\u03b9\u03ba\u03ae \u03c3\u03cd\u03bd\u03b4\u03b5\u03c3\u03b7 \u03c3\u03c4\u03bf \u03b4\u03b9\u03b1\u03b4\u03af\u03ba\u03c4\u03c5\u03bf. \u038c\u03c0\u03c9\u03c2 \u03b3\u03c1\u03ac\u03c6\u03bf\u03c5\u03bd \u03bf\u03b9 New York Times, \u00ab\u03cc\u03c4\u03b1\u03bd \u03c6\u03c4\u03ac\u03bd\u03b5\u03b9 \u03bc\u03b9\u03b1 \u03b5\u03c0\u03b9\u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03af\u03b1 \u03b1\u03c0\u03cc \u03c4\u03bf Tor, \u03b4\u03b5\u03bd \u03bc\u03c0\u03bf\u03c1\u03b5\u03af\u03c2 \u03c0\u03bf\u03c4\u03ad \u03bd\u03b1 \u03be\u03ad\u03c1\u03b5\u03b9\u03c2 \u03b1\u03c0\u03cc \u03c0\u03bf\u03cd \u03ae \u03b1\u03c0\u03cc \u03c0\u03bf\u03b9\u03bf\u03bd \u03c0\u03c1\u03bf\u03ad\u03c1\u03c7\u03b5\u03c4\u03b1\u03b9\u00bb. \u03a4\u03bf Tor \u03ba\u03ad\u03c1\u03b4\u03b9\u03c3\u03b5 \u03c4\u03bf 2012 Electronic Frontier Foundation (EFF) Pioneer Award.\n\n\u2605 \u0391\u03a0\u039f\u03a1\u03a1\u0397\u03a4\u039f \u0393\u0399\u0391 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3: \u039f\u03c0\u03bf\u03b9\u03b1\u03b4\u03ae\u03c0\u03bf\u03c4\u03b5 \u03b5\u03b3\u03ba\u03b1\u03c4\u03b5\u03c3\u03c4\u03b7\u03bc\u03ad\u03bd\u03b7 \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ae \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03ae\u03c3\u03b5\u03b9 \u03c4\u03bf Tor \u03b5\u03ac\u03bd \u03b4\u03b9\u03b1\u03b8\u03ad\u03c4\u03b5\u03b9 \u03b4\u03c5\u03bd\u03b1\u03c4\u03cc\u03c4\u03b7\u03c4\u03b1 \u03b4\u03b9\u03b1\u03ba\u03bf\u03bc\u03b9\u03c3\u03c4\u03ae \u03bc\u03b5\u03c3\u03bf\u03bb\u03ac\u03b2\u03b7\u03c3\u03b7\u03c2, \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03ce\u03bd\u03c4\u03b1\u03c2 \u03c4\u03b9\u03c2 \u03c1\u03c5\u03b8\u03bc\u03af\u03c3\u03b5\u03b9\u03c2 \u03c0\u03bf\u03c5 \u03b2\u03c1\u03af\u03c3\u03ba\u03bf\u03bd\u03c4\u03b1\u03b9 \u03b5\u03b4\u03ce: https://goo.gl/2OA1y. \u03a7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03ae\u03c3\u03c4\u03b5 \u03c4\u03bf Orbot \u03bc\u03b5 \u03c4\u03bf Twitter \u03ae \u03b4\u03bf\u03ba\u03b9\u03bc\u03ac\u03c3\u03c4\u03b5 \u03b9\u03b4\u03b9\u03c9\u03c4\u03b9\u03ba\u03ae \u03b1\u03bd\u03b1\u03b6\u03ae\u03c4\u03b7\u03c3\u03b7 \u03c3\u03c4\u03bf\u03bd \u03b9\u03c3\u03c4\u03cc \u03bc\u03b5 \u03c4\u03bf DuckDuckGo: https://goo.gl/lgh1p\n\u2605 \u0391\u03a0\u039f\u03a1\u03a1\u0397\u03a4\u039f \u0393\u0399\u0391 \u039f\u039b\u039f\u03a5\u03a3: \u03a4\u03bf Tor \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03c3\u03b1\u03c2 \u03b2\u03bf\u03b7\u03b8\u03ae\u03c3\u03b5\u03b9 \u03bd\u03b1 \u03b5\u03c1\u03b5\u03c5\u03bd\u03ae\u03c3\u03b5\u03c4\u03b5 \u03b5\u03bc\u03c0\u03b9\u03c3\u03c4\u03b5\u03c5\u03c4\u03b9\u03ba\u03ac \u03ad\u03bd\u03b1\u03bd \u03b1\u03bd\u03c4\u03b1\u03b3\u03c9\u03bd\u03b9\u03c3\u03c4\u03ae, \u03bd\u03b1 \u03be\u03b5\u03c0\u03b5\u03c1\u03ac\u03c3\u03b5\u03c4\u03b5 \u03c4\u03bf \u03bc\u03c0\u03bb\u03bf\u03ba \u03c4\u03bf\u03c5 Facebook \u03c3\u03c4\u03bf \u03c3\u03c7\u03bf\u03bb\u03b5\u03af\u03bf \u03ae \u03bd\u03b1 \u03c0\u03b1\u03c1\u03b1\u03ba\u03ac\u03bc\u03c8\u03b5\u03c4\u03b5 \u03ad\u03bd\u03b1 \u03c4\u03b5\u03af\u03c7\u03bf\u03c2 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c3\u03af\u03b1\u03c2 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c0\u03b1\u03c1\u03b1\u03ba\u03bf\u03bb\u03bf\u03c5\u03b8\u03ae\u03c3\u03b5\u03c4\u03b5 \u03b1\u03b8\u03bb\u03ae\u03bc\u03b1\u03c4\u03b1 \u03c3\u03c4\u03b7 \u03b4\u03bf\u03c5\u03bb\u03b5\u03b9\u03ac.\n\u2605 \u0395\u03a5\u039a\u039f\u039b\u0397 \u0399\u0394\u0399\u03a9\u03a4\u0399\u039a\u039f\u03a4\u0397\u03a4\u0391: \u03a1\u03af\u03be\u03c4\u03b5 \u03bc\u03b9\u03b1 \u03bc\u03b1\u03c4\u03b9\u03ac \u03c3\u03c4\u03b7 \u03bc\u03bf\u03bd\u03b1\u03b4\u03b9\u03ba\u03ae, \u03b4\u03b9\u03b1\u03b4\u03c1\u03b1\u03c3\u03c4\u03b9\u03ba\u03ae \u03c0\u03bf\u03c1\u03b5\u03af\u03b1 \u03bc\u03b1\u03c2: https://guardianproject.info/howto/browsefreely\n\u2605 \u0395\u0399\u039d\u0391\u0399 \u0395\u03a0\u0399\u03a3\u0397\u039c\u039f: \u0391\u03c5\u03c4\u03ae \u03b5\u03af\u03bd\u03b1\u03b9 \u03b7 \u03b5\u03c0\u03af\u03c3\u03b7\u03bc\u03b7 \u03ad\u03ba\u03b4\u03bf\u03c3\u03b7 \u03c4\u03b7\u03c2 \u03c5\u03c0\u03b7\u03c1\u03b5\u03c3\u03af\u03b1\u03c2 \u03b4\u03c1\u03bf\u03bc\u03bf\u03bb\u03cc\u03b3\u03b7\u03c3\u03b7\u03c2 Tor onion \u03b3\u03b9\u03b1 Android.\n\n***\u039b\u03b1\u03c4\u03c1\u03b5\u03cd\u03bf\u03c5\u03bc\u03b5 \u03c4\u03b1 \u03c3\u03c7\u03cc\u03bb\u03b9\u03b1***\n\u2605 \u03a3\u03a7\u0395\u03a4\u0399\u039a\u0391 \u039c\u0395 \u0395\u039c\u0391\u03a3: \u03a4\u03bf Guardian Project \u03b5\u03af\u03bd\u03b1\u03b9 \u03bc\u03b9\u03b1 \u03bf\u03bc\u03ac\u03b4\u03b1 \u03c0\u03c1\u03bf\u03b3\u03c1\u03b1\u03bc\u03bc\u03b1\u03c4\u03b9\u03c3\u03c4\u03ce\u03bd \u03c0\u03bf\u03c5 \u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03ac\u03b6\u03bf\u03c5\u03bd \u03b1\u03c3\u03c6\u03b1\u03bb\u03b5\u03af\u03c2 \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ad\u03c2 \u03b3\u03b9\u03b1 \u03ba\u03b9\u03bd\u03b7\u03c4\u03ac \u03ba\u03b1\u03b9 \u03b1\u03bd\u03bf\u03b9\u03c7\u03c4\u03bf\u03cd \u03ba\u03ce\u03b4\u03b9\u03ba\u03b1 \u03b3\u03b9\u03b1 \u03ad\u03bd\u03b1 \u03ba\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03bf \u03b1\u03cd\u03c1\u03b9\u03bf.\n\u2605 \u0395\u039b\u0395\u03a5\u0398\u0395\u03a1\u039f \u039b\u039f\u0393\u0399\u03a3\u039c\u0399\u039a\u039f: \u03a4\u03bf Orbot \u03b5\u03af\u03bd\u03b1\u03b9 \u03b4\u03c9\u03c1\u03b5\u03ac\u03bd \u03bb\u03bf\u03b3\u03b9\u03c3\u03bc\u03b9\u03ba\u03cc. \u03a1\u03af\u03be\u03c4\u03b5 \u03bc\u03b9\u03b1 \u03bc\u03b1\u03c4\u03b9\u03ac \u03c3\u03c4\u03bf\u03bd \u03c0\u03b7\u03b3\u03b1\u03af\u03bf \u03ba\u03ce\u03b4\u03b9\u03ba\u03b1 \u03bc\u03b1\u03c2 \u03ae \u03b5\u03b3\u03b3\u03c1\u03b1\u03c6\u03b5\u03af\u03c4\u03b5 \u03c3\u03c4\u03b7\u03bd \u03ba\u03bf\u03b9\u03bd\u03cc\u03c4\u03b7\u03c4\u03b1 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c4\u03bf\u03bd \u03b2\u03b5\u03bb\u03c4\u03b9\u03ce\u03c3\u03b5\u03c4\u03b5: https://gitweb.torproject.org/orbot.git\n\u2605 \u03a3\u03a4\u0395\u0399\u039b\u03a4\u0395 \u039c\u0391\u03a3 \u039c\u0397\u039d\u03a5\u039c\u0391: \u03a3\u03b1\u03c2 \u03bb\u03b5\u03af\u03c0\u03b5\u03b9 \u03c4\u03bf \u03b1\u03b3\u03b1\u03c0\u03b7\u03bc\u03ad\u03bd\u03bf \u03c3\u03b1\u03c2 \u03c7\u03b1\u03c1\u03b1\u03ba\u03c4\u03b7\u03c1\u03b9\u03c3\u03c4\u03b9\u03ba\u03cc; \u0392\u03c1\u03ae\u03ba\u03b1\u03c4\u03b5 \u03ad\u03bd\u03b1 \u03b5\u03bd\u03bf\u03c7\u03bb\u03b7\u03c4\u03b9\u03ba\u03cc \u03c3\u03c6\u03ac\u03bb\u03bc\u03b1; \u0398\u03b1 \u03b8\u03ad\u03bb\u03b1\u03bc\u03b5 \u03bd\u03b1 \u03b1\u03ba\u03bf\u03cd\u03c3\u03bf\u03c5\u03bc\u03b5 \u03bd\u03ad\u03b1 \u03c3\u03b1\u03c2! \u03a3\u03c4\u03b5\u03af\u03bb\u03c4\u03b5 \u03bc\u03b1\u03c2 \u03ad\u03bd\u03b1 \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1 \u03c3\u03c4\u03bf email: support@guardianproject.info\n\n***\u0391\u03c0\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03b5\u03c5\u03b8\u03c5\u03bd\u03ce\u03bd***\n\u03a4\u03bf Guardian Project \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03b5\u03af \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ad\u03c2 \u03c0\u03bf\u03c5 \u03ad\u03c7\u03bf\u03c5\u03bd \u03c3\u03c7\u03b5\u03b4\u03b9\u03b1\u03c3\u03c4\u03b5\u03af \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03cd\u03bf\u03c5\u03bd \u03c4\u03b7\u03bd \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03c4\u03b7\u03bd \u03b1\u03bd\u03c9\u03bd\u03c5\u03bc\u03af\u03b1 \u03c3\u03b1\u03c2. \u03a4\u03b1 \u03c0\u03c1\u03c9\u03c4\u03cc\u03ba\u03bf\u03bb\u03bb\u03b1 \u03c0\u03bf\u03c5 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03bf\u03cd\u03bc\u03b5 \u03b8\u03b5\u03c9\u03c1\u03bf\u03cd\u03bd\u03c4\u03b1\u03b9 \u03b5\u03c5\u03c1\u03ad\u03c9\u03c2 \u03c9\u03c2 \u03b7 \u03c4\u03b5\u03bb\u03b5\u03c5\u03c4\u03b1\u03af\u03b1 \u03bb\u03ad\u03be\u03b7 \u03c4\u03b7\u03c2 \u03c4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03af\u03b1\u03c2 \u03ba\u03b1\u03b9 \u03b1\u03c3\u03c6\u03b1\u03bb\u03b5\u03af\u03b1\u03c2. \u0395\u03bd\u03ce \u03b1\u03bd\u03b1\u03b2\u03b1\u03b8\u03bc\u03af\u03b6\u03bf\u03c5\u03bc\u03b5 \u03c3\u03c5\u03bd\u03b5\u03c7\u03ce\u03c2 \u03c4\u03bf \u03bb\u03bf\u03b3\u03b9\u03c3\u03bc\u03b9\u03ba\u03cc \u03bc\u03b1\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03ba\u03b1\u03c4\u03b1\u03c0\u03bf\u03bb\u03ad\u03bc\u03b7\u03c3\u03b7 \u03c4\u03c9\u03bd \u03c0\u03b9\u03bf \u03c0\u03c1\u03cc\u03c3\u03c6\u03b1\u03c4\u03c9\u03bd \u03b1\u03c0\u03b5\u03b9\u03bb\u03ce\u03bd \u03ba\u03b1\u03b9 \u03c4\u03b7\u03bd \u03b5\u03be\u03ac\u03bb\u03b5\u03b9\u03c8\u03b7 \u03c3\u03c6\u03b1\u03bb\u03bc\u03ac\u03c4\u03c9\u03bd, \u03ba\u03b1\u03bc\u03af\u03b1 \u03c4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03af\u03b1 \u03b4\u03b5\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 100% \u03b1\u03bb\u03ac\u03bd\u03b8\u03b1\u03c3\u03c4\u03b7. \u0393\u03b9\u03b1 \u03bc\u03ad\u03b3\u03b9\u03c3\u03c4\u03b7 \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03b1\u03bd\u03c9\u03bd\u03c5\u03bc\u03af\u03b1, \u03bf\u03b9 \u03c7\u03c1\u03ae\u03c3\u03c4\u03b5\u03c2 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03bf\u03cd\u03bd \u03b2\u03ad\u03bb\u03c4\u03b9\u03c3\u03c4\u03b5\u03c2 \u03c0\u03c1\u03b1\u03ba\u03c4\u03b9\u03ba\u03ad\u03c2 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c0\u03b1\u03c1\u03b1\u03bc\u03b5\u03af\u03bd\u03bf\u03c5\u03bd \u03b1\u03c3\u03c6\u03b1\u03bb\u03b5\u03af\u03c2. \u039c\u03c0\u03bf\u03c1\u03b5\u03af\u03c4\u03b5 \u03bd\u03b1 \u03b2\u03c1\u03b5\u03af\u03c4\u03b5 \u03ad\u03bd\u03b1\u03bd \u03ba\u03b1\u03bb\u03cc \u03b5\u03b9\u03c3\u03b1\u03b3\u03c9\u03b3\u03b9\u03ba\u03cc \u03bf\u03b4\u03b7\u03b3\u03cc \u03b3\u03b9\u03b1 \u03b1\u03c5\u03c4\u03ac \u03c4\u03b1 \u03b8\u03ad\u03bc\u03b1\u03c4\u03b1 \u03c3\u03c4\u03b7 \u03b4\u03b9\u03b5\u03cd\u03b8\u03c5\u03bd\u03c3\u03b7 https://securityinabox.org\n",
           "en-US": "Orbot is a free VPN and proxy app that empowers other apps to use the internet more securely. Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world. Tor is free software and an open network that helps you defend against a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security known as traffic analysis.\n\nOrbot is the only app that creates a truly private internet connection. As the New York Times writes, \u201cwhen a communication arrives from Tor, you can never know where or whom it\u2019s from.\u201d \n\nTor won the 2012 Electronic Frontier Foundation (EFF) Pioneer Award.\n\n\u2605 ACCEPT NO SUBSTITUTES: Orbot is the safest way to use the Internet on Android. Period. Orbot bounces your encrypted traffic several times through computers around the world, instead of connecting you directly like other VPNs and proxies. This process takes a little longer, but the strongest privacy and identity protection available is worth the wait.\n\u2605 PRIVACY FOR APPS: Any app can be routed over Tor via the Orbot VPN feature\n\u2605 PRIVACY FOR EVERYONE: Orbot prevents someone watching your connection from knowing what apps you are using or websites you visit. All anyone monitoring your network traffic can see is that you're using Tor.\n\n***We Love Feedback***\n\u2605 LEARN MORE: Learn more about Orbot and get involved at https://orbot.app\n\u2605 ABOUT US: Guardian Project is a group of developers that make secure mobile apps and open-source code for a better tomorrow.\n\u2605 OPEN-SOURCE: Orbot is free software. Take a look at our source code, or join the community to make it better: https://github.com/guardianproject/orbot\n\u2605 MESSAGE US: Are we missing your favorite feature? Found an annoying bug? We\u2019d love to hear from you! Send us an email: support@guardianproject.info\n\n***Disclaimer***\nGuardian Project makes apps that are designed to protect your security and anonymity. The protocols that we use are widely regarded as the state of the art in security technology. While we are constantly upgrading our software to combat the latest threats and eliminate bugs, no technology is 100% foolproof. For maximum security and anonymity users must utilize best practices to keep themselves safe.  You can find a good introductory guide to these topics at https://securityinabox.org\n",
@@ -5566,7 +5568,7 @@
           "Guardian Project"
         ],
         "issueTracker": "https://gitlab.torproject.org/tpo/applications/tor-browser/issues",
-        "lastUpdated": 1765349308000,
+        "lastUpdated": 1768373631000,
         "license": "MPL-2.0",
         "sourceCode": "https://gitlab.torproject.org/tpo/applications/tor-browser.git",
         "translation": "https://hosted.weblate.org/projects/tor/tor-browser/",
@@ -5640,6 +5642,526 @@
         "preferredSigner": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
       },
       "versions": {
+        "ae28fab3f5e4395ed94b8e256e9c3cc5f0b7e1a2b80619bb7b27c952cc7a834c": {
+          "added": 1768373631000,
+          "file": {
+            "name": "/tor-browser-android-x86_64-15.0.4.apk",
+            "sha256": "ae28fab3f5e4395ed94b8e256e9c3cc5f0b7e1a2b80619bb7b27c952cc7a834c",
+            "size": 112379094,
+            "ipfsCIDv1": "bafybeie24ssa5srpbmenktuilx5n6hjvqr6ly7et6aauq4zth3ihzj2gla"
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "15.0.4 (140.7.0esr)",
+            "versionCode": 2016137510,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+                "maxSdkVersion": 26
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
+              },
+              {
+                "name": "com.adjust.preinstall.READ_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "org.torproject.torbrowser.permission.RECEIVE_DOWNLOAD_BROADCAST"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
+            }
+          }
+        },
+        "c16e60447b56fd7a23bec0737a441c93ed496ac4671889c42f14114658d647ac": {
+          "added": 1768373612000,
+          "file": {
+            "name": "/tor-browser-android-x86-15.0.4.apk",
+            "sha256": "c16e60447b56fd7a23bec0737a441c93ed496ac4671889c42f14114658d647ac",
+            "size": 113800352,
+            "ipfsCIDv1": "bafybeiha6hstgupb2ffxxlsnmwpm5dxtokkmkgyf3gjco3b4nlridqchc4"
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "15.0.4 (140.7.0esr)",
+            "versionCode": 2016137508,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+                "maxSdkVersion": 26
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
+              },
+              {
+                "name": "com.adjust.preinstall.READ_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "org.torproject.torbrowser.permission.RECEIVE_DOWNLOAD_BROADCAST"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
+            }
+          }
+        },
+        "0141076081d419354537f69960ea084386aff368e6d9683d2e2f8ca305b4257e": {
+          "added": 1768373577000,
+          "file": {
+            "name": "/tor-browser-android-aarch64-15.0.4.apk",
+            "sha256": "0141076081d419354537f69960ea084386aff368e6d9683d2e2f8ca305b4257e",
+            "size": 111072633,
+            "ipfsCIDv1": "bafybeihztx2lsfbtc4zci6tpauvcfhr4mltrjmnmywu4egvhlmzamdcl3i"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "15.0.4 (140.7.0esr)",
+            "versionCode": 2016137506,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+                "maxSdkVersion": 26
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
+              },
+              {
+                "name": "com.adjust.preinstall.READ_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "org.torproject.torbrowser.permission.RECEIVE_DOWNLOAD_BROADCAST"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
+            }
+          }
+        },
+        "a18a722bc84fb6238264b7e4d8b570dab9dfc2d8f7f711b2edb7104d06e24349": {
+          "added": 1768373594000,
+          "file": {
+            "name": "/tor-browser-android-armv7-15.0.4.apk",
+            "sha256": "a18a722bc84fb6238264b7e4d8b570dab9dfc2d8f7f711b2edb7104d06e24349",
+            "size": 108692895,
+            "ipfsCIDv1": "bafybeidfhb5mklc6eyvalhylxxqqtlkrplalfwem5okeyb75bwqqenxgia"
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "15.0.4 (140.7.0esr)",
+            "versionCode": 2016137504,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+                "maxSdkVersion": 26
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
+              },
+              {
+                "name": "com.adjust.preinstall.READ_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "org.torproject.torbrowser.permission.RECEIVE_DOWNLOAD_BROADCAST"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
+            }
+          }
+        },
         "f3a4817f089b9b3a3e4999a4f5629ab1c5e1adeb19e2a11f993f4a92b6a25353": {
           "added": 1765349308000,
           "file": {
@@ -6044,526 +6566,6 @@
             ],
             "versionName": "15.0.3 (140.6.0esr)",
             "versionCode": 2016130752,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
-                "maxSdkVersion": 26
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
-              },
-              {
-                "name": "com.adjust.preinstall.READ_PERMISSION"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "org.torproject.torbrowser.permission.RECEIVE_DOWNLOAD_BROADCAST"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
-            }
-          }
-        },
-        "efa1914b9b28c6c633e0e852dd244b1c94ed8e137ae72791663ce30d632557f4": {
-          "added": 1763621461000,
-          "file": {
-            "name": "/tor-browser-android-x86_64-15.0.2.apk",
-            "sha256": "efa1914b9b28c6c633e0e852dd244b1c94ed8e137ae72791663ce30d632557f4",
-            "size": 112178667,
-            "ipfsCIDv1": "bafybeiffxfrpudaolbznltejl4pgwsamn7bbd74rglbtdji3hegcdc35u4"
-          },
-          "manifest": {
-            "nativecode": [
-              "x86_64"
-            ],
-            "versionName": "15.0.2 (140.5.0esr)",
-            "versionCode": 2016125790,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
-                "maxSdkVersion": 26
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
-              },
-              {
-                "name": "com.adjust.preinstall.READ_PERMISSION"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "org.torproject.torbrowser.permission.RECEIVE_DOWNLOAD_BROADCAST"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
-            }
-          }
-        },
-        "c40691005fdb4fac898678c021f0e012c3c31447f5102cf219beb587b9829db9": {
-          "added": 1763621443000,
-          "file": {
-            "name": "/tor-browser-android-x86-15.0.2.apk",
-            "sha256": "c40691005fdb4fac898678c021f0e012c3c31447f5102cf219beb587b9829db9",
-            "size": 113550773,
-            "ipfsCIDv1": "bafybeihn4kabcwdkr3rdhyiuvkswi3ogi7ctuucvbclj7hzy2hpvksi5em"
-          },
-          "manifest": {
-            "nativecode": [
-              "x86"
-            ],
-            "versionName": "15.0.2 (140.5.0esr)",
-            "versionCode": 2016125788,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
-                "maxSdkVersion": 26
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
-              },
-              {
-                "name": "com.adjust.preinstall.READ_PERMISSION"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "org.torproject.torbrowser.permission.RECEIVE_DOWNLOAD_BROADCAST"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
-            }
-          }
-        },
-        "a5d708cce474817e3616cb7a48fc38f1373d030ea221383e556c07e0f5ca505a": {
-          "added": 1763621407000,
-          "file": {
-            "name": "/tor-browser-android-aarch64-15.0.2.apk",
-            "sha256": "a5d708cce474817e3616cb7a48fc38f1373d030ea221383e556c07e0f5ca505a",
-            "size": 110900878,
-            "ipfsCIDv1": "bafybeigwnc3makcj5d3q3uezc2fynfmn4ddx26bst62b562tgx54nzzyhy"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "15.0.2 (140.5.0esr)",
-            "versionCode": 2016125786,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
-                "maxSdkVersion": 26
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
-              },
-              {
-                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
-              },
-              {
-                "name": "com.adjust.preinstall.READ_PERMISSION"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "org.torproject.torbrowser.permission.RECEIVE_DOWNLOAD_BROADCAST"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "android.permission.HIGH_SAMPLING_RATE_SENSORS"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              }
-            ],
-            "usesPermissionSdk23": [
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "In order to support WebAuthn, Firefox includes a proprietary Google library.  The Tor Browser build disables WebAuthn via an build setting from upstream, but apparently the proprietary binary still gets included. https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41161"
-            }
-          }
-        },
-        "ddfbafa1470ead62a8e1bdbb1d2499337bd3102095a5076de9b1adc524dae865": {
-          "added": 1763621425000,
-          "file": {
-            "name": "/tor-browser-android-armv7-15.0.2.apk",
-            "sha256": "ddfbafa1470ead62a8e1bdbb1d2499337bd3102095a5076de9b1adc524dae865",
-            "size": 108533428,
-            "ipfsCIDv1": "bafybeidouid4wp4xbogctpqmgq2m6hq3xkngaozmyjpz5lfxytq23jbv6m"
-          },
-          "manifest": {
-            "nativecode": [
-              "armeabi-v7a"
-            ],
-            "versionName": "15.0.2 (140.5.0esr)",
-            "versionCode": 2016125784,
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 35
