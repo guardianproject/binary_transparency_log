@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1769496577000,
+    "timestamp": 1769582737000,
     "version": 20002,
     "maxage": 14,
     "name": "Guardian Project",
@@ -295,14 +295,14 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionCode": "400161128",
+      "suggestedVersionCode": "400261940",
       "issueTracker": "https://bugzilla.mozilla.org/",
       "license": "MPL-2.0",
       "sourceCode": "https://hg.mozilla.org/mozilla-central/",
       "webSite": "https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/",
       "added": 1753944571000,
       "packageName": "org.mozilla.klar",
-      "lastUpdated": 1768632577000,
+      "lastUpdated": 1769582730000,
       "localized": {
         "en-US": {
           "description": "Browse like no one\u2019s watching. The new Firefox Klar automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads.\n\n\u201cPrivate browsing\u201d on most browsers isn\u2019t comprehensive or easy to use. Klar is next-level privacy that\u2019s free, always on and always on your side \u2014 because it\u2019s backed by Mozilla, the non-profit that fights for your rights on the Web.\n\nAUTOMATIC PRIVACY\n\u2022 Blocks a wide range of common Web trackers without any settings to set\n\u2022 Easily erases your history \u2014 no passwords, no cookies, no trackers\n\nBROWSE FASTER\n\u2022 By removing trackers and ads, Web pages may require less data and load faster\n\nMADE BY MOZILLA\n\u2022 We believe everyone should have control over their lives online. That\u2019s what we\u2019ve been fighting for since 1998.\n",
@@ -706,7 +706,7 @@
         "Internet"
       ],
       "changelog": "https://github.com/guardianproject/orbot/releases",
-      "suggestedVersionCode": "1780300200",
+      "suggestedVersionCode": "1780300300",
       "donate": "https://www.torproject.org/donate/donate.html.en",
       "issueTracker": "https://github.com/guardianproject/orbot/issues",
       "liberapay": "GuardianProject",
@@ -3015,6 +3015,151 @@
     ],
     "org.mozilla.klar": [
       {
+        "added": 1769582730000,
+        "apkName": "org.mozilla.klar_400261940.apk",
+        "hash": "3d10273e126743e531f611a17e211d376b0dd2b9849514b5b75124ddbdf00344",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "org.mozilla.klar",
+        "sig": "ee26ef669f39d8ee1945d36297f907de",
+        "signer": "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc",
+        "size": 107850813,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "org.mozilla.klar.permission.RECEIVE_DOWNLOAD_BROADCAST",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "org.mozilla.klar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ]
+        ],
+        "versionCode": 400261940,
+        "versionName": "147.0.2"
+      },
+      {
         "added": 1768632577000,
         "apkName": "org.mozilla.klar_400161128.apk",
         "hash": "ef69ed7a6f032c1267bfe785adfdd98f504c08cc32ff267da51a96242a2e7a5d",
@@ -3303,151 +3448,6 @@
         ],
         "versionCode": 400060044,
         "versionName": "147.0"
-      },
-      {
-        "added": 1766127081000,
-        "apkName": "org.mozilla.klar_393511652.apk",
-        "hash": "24a822f7cd67e12d29fa0a2023e8d2cca4a62c5b8e0ef75df40ec108eb613cfa",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "org.mozilla.klar",
-        "sig": "ee26ef669f39d8ee1945d36297f907de",
-        "signer": "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc",
-        "size": 104765173,
-        "targetSdkVersion": 36,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            28
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "com.android.launcher.permission.INSTALL_SHORTCUT",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
-            null
-          ],
-          [
-            "android.permission.QUERY_ALL_PACKAGES",
-            null
-          ],
-          [
-            "android.permission.ACCESS_COARSE_LOCATION",
-            null
-          ],
-          [
-            "android.permission.ACCESS_FINE_LOCATION",
-            null
-          ],
-          [
-            "android.permission.RECORD_AUDIO",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
-            null
-          ],
-          [
-            "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN",
-            null
-          ],
-          [
-            "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
-            null
-          ],
-          [
-            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
-            null
-          ],
-          [
-            "org.mozilla.klar.permission.RECEIVE_DOWNLOAD_BROADCAST",
-            null
-          ],
-          [
-            "android.permission.USE_BIOMETRIC",
-            null
-          ],
-          [
-            "android.permission.USE_FINGERPRINT",
-            null
-          ],
-          [
-            "android.permission.HIGH_SAMPLING_RATE_SENSORS",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.MODIFY_AUDIO_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "org.mozilla.klar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "uses-permission-sdk-23": [
-          [
-            "android.permission.REQUEST_INSTALL_PACKAGES",
-            null
-          ],
-          [
-            "android.permission.USE_FINGERPRINT",
-            null
-          ]
-        ],
-        "versionCode": 393511652,
-        "versionName": "146.0.1"
       }
     ],
     "org.thoughtcrime.securesms": [
@@ -4422,7 +4422,7 @@
       {
         "added": 1769496570000,
         "apkName": "orbot-latest.apk",
-        "hash": "a9ce34935297934f5388c0c5bc54e3b35a18bd3aee8f2ceb7afb58bb27109032",
+        "hash": "6e5955ffbfad9524466e26526d0ebb7d45cbeb322ba0caa89c49d13a2ce6f94a",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -4434,7 +4434,7 @@
         "packageName": "org.torproject.android",
         "sig": "8bd7e51b479aeba908ff46ada3305a29",
         "signer": "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b",
-        "size": 127835948,
+        "size": 127837932,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -4498,8 +4498,8 @@
             null
           ]
         ],
-        "versionCode": 1780300200,
-        "versionName": "17.8.0-RC-2-tor-0.4.8.21-1-gbfc43bcdb"
+        "versionCode": 1780300300,
+        "versionName": "17.8.0-RC-3-tor-0.4.8.21-1-g1f9323281"
       },
       {
         "added": 1750320712000,
