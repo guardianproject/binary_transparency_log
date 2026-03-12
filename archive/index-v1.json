@@ -1,12 +1,18 @@
 {
   "repo": {
-    "timestamp": 1773298027000,
-    "version": 20002,
+    "timestamp": 1773354188019,
+    "version": 30000,
     "maxage": 14,
     "name": "Guardian Project Archive",
     "icon": "guardianproject.png",
     "description": "The official repository of The Guardian Project apps for use with the F-Droid\nclient. This contains older versions of applications from the main repository.\n",
     "address": "https://guardianproject.info/fdroid/archive",
+    "dnsA": [
+      "185.199.108.133",
+      "185.199.109.133",
+      "185.199.110.133",
+      "185.199.111.133"
+    ],
     "mirrors": [
       "https://s3.amazonaws.com/guardianproject/fdroid/archive",
       "https://s3.dualstack.us-east-1.amazonaws.com/guardianproject/fdroid/archive",
@@ -15,6 +21,12 @@
       "https://guardianproject.gitlab.io/fdroid-repo/fdroid/archive",
       "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/archive",
       "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/archive"
+    ],
+    "dnsAAAA": [
+      "2606:50c0:8000::154",
+      "2606:50c0:8001::154",
+      "2606:50c0:8002::154",
+      "2606:50c0:8003::154"
     ]
   },
   "requests": {
@@ -7447,7 +7459,6 @@
         "added": 1513900800000,
         "apkName": "Haven-0.1.0-beta-3-release.apk",
         "features": [
-          "android.hardware.camera",
           "android.hardware.camera.autofocus"
         ],
         "hash": "6c79473bbe3fffcd7327f0ef770a31d19552b967f30f4622e8b7facbad449ab6",
