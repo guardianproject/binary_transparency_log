@@ -14,52 +14,106 @@
       }
     },
     "address": "https://guardianproject.info/fdroid/repo",
-    "dnsA": [
-      "185.199.108.133",
-      "185.199.109.133",
-      "185.199.110.133",
-      "185.199.111.133"
-    ],
-    "dnsAAAA": [
-      "2606:50c0:8000::154",
-      "2606:50c0:8001::154",
-      "2606:50c0:8002::154",
-      "2606:50c0:8003::154"
-    ],
     "mirrors": [
       {
         "countryCode": "US",
         "isPrimary": true,
-        "url": "https://guardianproject.info/fdroid/repo"
+        "url": "https://guardianproject.info/fdroid/repo",
+        "dnsA": [
+          "204.19.241.151"
+        ]
       },
       {
         "url": "https://s3.amazonaws.com/guardianproject/fdroid/repo",
-        "countryCode": "US"
+        "countryCode": "US",
+        "dnsA": [
+          "16.15.199.131",
+          "52.216.27.54",
+          "52.216.32.16",
+          "52.216.38.144",
+          "52.216.76.118",
+          "52.216.92.29",
+          "52.217.204.8",
+          "54.231.233.152"
+        ]
       },
       {
         "url": "https://s3.dualstack.us-east-1.amazonaws.com/guardianproject/fdroid/repo",
-        "countryCode": "US"
+        "countryCode": "US",
+        "dnsA": [
+          "16.15.181.195",
+          "16.15.183.201",
+          "16.15.207.192",
+          "16.182.108.112",
+          "16.182.99.240",
+          "3.5.12.195",
+          "52.216.40.248",
+          "54.231.203.8"
+        ],
+        "dnsAAAA": [
+          "2600:1f60:8020::100f:cfba",
+          "2600:1f60:8020::100f:cfc3",
+          "2600:1f60:8060::100f:b77c",
+          "2600:1f60:8060::100f:b7e6",
+          "2600:1f60:80c0:1::100f:d4ec",
+          "2600:1f60:80c0::100f:bf21",
+          "2600:1f60:80c0::100f:bf95",
+          "2600:1f60:80c0::100f:bfaf"
+        ]
       },
       {
         "url": "https://objectstorage.eu-amsterdam-1.oraclecloud.com/n/axdsgxwpq5rg/b/guardianproject/o/fdroid/repo",
-        "countryCode": "NL"
+        "countryCode": "NL",
+        "dnsA": [
+          "134.70.104.1"
+        ]
       },
       {
         "url": "https://www.gpdroid.org/fdroid/repo",
-        "countryCode": "UK"
+        "countryCode": "UK",
+        "dnsA": [
+          "188.40.186.213"
+        ],
+        "dnsAAAA": [
+          "2a01:4f8:231:4494::15"
+        ]
       },
       {
-        "url": "https://guardianproject.gitlab.io/fdroid-repo/fdroid/repo"
+        "url": "https://guardianproject.gitlab.io/fdroid-repo/fdroid/repo",
+        "dnsA": [
+          "35.185.44.232"
+        ],
+        "dnsAAAA": [
+          "2600:1901:0:7b8a::"
+        ]
       },
       {
-        "url": "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/repo"
+        "url": "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/repo",
+        "dnsA": [
+          "172.65.251.78"
+        ],
+        "dnsAAAA": [
+          "2606:4700:90:0:f22e:fbec:5bed:a9b9"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/repo",
-        "countryCode": "US"
+        "countryCode": "US",
+        "dnsA": [
+          "185.199.108.133",
+          "185.199.109.133",
+          "185.199.110.133",
+          "185.199.111.133"
+        ],
+        "dnsAAAA": [
+          "2606:50c0:8000::154",
+          "2606:50c0:8001::154",
+          "2606:50c0:8002::154",
+          "2606:50c0:8003::154"
+        ]
       }
     ],
-    "timestamp": 1773470893350,
+    "timestamp": 1773558217015,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -2146,7 +2200,7 @@
     },
     "org.thoughtcrime.securesms": {
       "metadata": {
-        "added": 1753944560000,
+        "added": 1769237413000,
         "categories": [
           "Internet",
           "Phone & SMS"
@@ -5617,7 +5671,7 @@
     },
     "org.torproject.torbrowser": {
       "metadata": {
-        "added": 1744872508000,
+        "added": 1760597346000,
         "categories": [
           "Security",
           "Browser",
@@ -6744,7 +6798,7 @@
     },
     "org.torproject.torbrowser_alpha": {
       "metadata": {
-        "added": 1753944590000,
+        "added": 1765954201000,
         "categories": [
           "Security",
           "Browser",
