@@ -27,38 +27,38 @@
         "url": "https://s3.amazonaws.com/guardianproject/fdroid/repo",
         "countryCode": "US",
         "dnsA": [
-          "16.15.191.44",
-          "16.15.195.248",
-          "16.15.207.184",
-          "16.182.74.168",
-          "16.182.96.200",
-          "52.216.58.104",
-          "52.216.62.120",
-          "54.231.128.144"
+          "16.15.218.188",
+          "16.15.236.185",
+          "16.182.70.232",
+          "16.182.96.208",
+          "52.216.49.176",
+          "52.217.131.200",
+          "52.217.173.120",
+          "52.217.226.208"
         ]
       },
       {
         "url": "https://s3.dualstack.us-east-1.amazonaws.com/guardianproject/fdroid/repo",
         "countryCode": "US",
         "dnsA": [
-          "16.15.183.139",
-          "16.15.183.216",
-          "3.5.0.83",
-          "52.216.206.77",
-          "52.217.173.224",
-          "52.217.207.96",
-          "52.217.230.168",
-          "52.217.71.222"
+          "16.15.179.38",
+          "16.15.183.179",
+          "16.15.193.129",
+          "16.15.236.239",
+          "16.182.66.64",
+          "16.182.68.200",
+          "52.217.118.136",
+          "54.231.128.136"
         ],
         "dnsAAAA": [
-          "2600:1f60:8020:1::100f:e467",
-          "2600:1f60:8080:1::100f:ec9f",
-          "2600:1f60:8080::100f:c71e",
-          "2600:1f60:80a0::100f:dabc",
-          "2600:1f60:80a0::100f:df4c",
-          "2600:1f60:80a0::100f:df61",
-          "2600:1f60:80c0::100f:bcc7",
-          "2600:1f60:80c0::100f:bfc8"
+          "2600:1f60:8020::100f:cfeb",
+          "2600:1f60:8020::100f:cfef",
+          "2600:1f60:8060:1::100f:fd7f",
+          "2600:1f60:8080::100f:c77b",
+          "2600:1f60:80a0::100f:df80",
+          "2600:1f60:80c0::100f:bb44",
+          "2600:1f60:80c0::100f:bf21",
+          "2600:1f60:80c0::100f:bf44"
         ]
       },
       {
@@ -113,7 +113,7 @@
         ]
       }
     ],
-    "timestamp": 1774421393188,
+    "timestamp": 1774514269544,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -2205,7 +2205,7 @@
           "Internet",
           "Phone & SMS"
         ],
-        "lastUpdated": 1773995812911,
+        "lastUpdated": 1774514236215,
         "license": "AGPL-3.0-only",
         "sourceCode": "https://github.com/signalapp/Signal-Android",
         "translation": "https://explore.transifex.com/signalapp/",
@@ -2268,6 +2268,285 @@
         "preferredSigner": "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26"
       },
       "versions": {
+        "53bd8309c68a6c5f92366c09f94ac1b7780a4094280326129440a9241e3db9ae": {
+          "added": 1774514236215,
+          "file": {
+            "name": "/Signal-Android-website-prod-universal-release-8.4.1.apk",
+            "sha256": "53bd8309c68a6c5f92366c09f94ac1b7780a4094280326129440a9241e3db9ae",
+            "size": 117171339,
+            "ipfsCIDv1": "bafybeiecqy6vmrf5aavfzgc7xdv5c7brc4joq5lgexgdwmacludjlmddle"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "8.4.1",
+            "versionCode": 167001,
+            "features": [
+              {
+                "name": "android.hardware.camera"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "org.thoughtcrime.securesms.ACCESS_SECRETS"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.BROADCAST_STICKY"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.DISABLE_KEYGUARD"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_CAMERA"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_PHONE_CALL"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MANAGE_OWN_CALLS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.NEARBY_WIFI_DEVICES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RAISED_THREAD_PRIORITY"
+              },
+              {
+                "name": "android.permission.READ_CALL_STATE"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.READ_PHONE_NUMBERS"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_PROFILE"
+              },
+              {
+                "name": "android.permission.READ_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.WRITE_SYNC_SETTINGS"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.REORDER_TASKS"
+              },
+              {
+                "name": "org.thoughtcrime.securesms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.READ"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.WRITE"
+              },
+              {
+                "name": "com.htc.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.htc.launcher.permission.UPDATE_SHORTCUT"
+              },
+              {
+                "name": "com.sonyericsson.home.permission.BROADCAST_BADGE"
+              },
+              {
+                "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+              },
+              {
+                "name": "com.anddoes.launcher.permission.UPDATE_COUNT"
+              },
+              {
+                "name": "com.majeur.launcher.permission.UPDATE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_APP_BADGE"
+              },
+              {
+                "name": "com.oppo.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.oppo.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_READ"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_WRITE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "Signal uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
+            },
+            "NonFreeNet": {
+              "en-US": "Uses its own proprietary server as well as other proprietary cloud services.\n"
+            },
+            "TetheredNet": {
+              "en-US": "Tied to Signal Foundation's infrastructure.\n"
+            }
+          }
+        },
         "c312e9621ce9e826ee3aa3e9c31279fb4ae9e50875f012e13aaed3030361c28e": {
           "added": 1773995812911,
           "file": {
@@ -2561,282 +2840,6 @@
             ],
             "versionName": "8.2.2",
             "versionCode": 166301,
-            "features": [
-              {
-                "name": "android.hardware.camera"
-              }
-            ],
-            "usesSdk": {
-              "minSdkVersion": 23,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
-              },
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
-              },
-              {
-                "name": "org.thoughtcrime.securesms.ACCESS_SECRETS"
-              },
-              {
-                "name": "android.permission.ACCESS_COARSE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_FINE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
-              },
-              {
-                "name": "android.permission.BLUETOOTH"
-              },
-              {
-                "name": "android.permission.BROADCAST_STICKY"
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.CHANGE_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.DISABLE_KEYGUARD"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_CAMERA"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_PHONE_CALL"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING"
-              },
-              {
-                "name": "android.permission.GET_ACCOUNTS"
-              },
-              {
-                "name": "android.permission.INSTALL_SHORTCUT"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.MANAGE_OWN_CALLS"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.NEARBY_WIFI_DEVICES"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.RAISED_THREAD_PRIORITY"
-              },
-              {
-                "name": "android.permission.READ_CALL_STATE"
-              },
-              {
-                "name": "android.permission.READ_CONTACTS"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_IMAGES"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VIDEO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
-              },
-              {
-                "name": "android.permission.READ_PHONE_NUMBERS"
-              },
-              {
-                "name": "android.permission.READ_PHONE_STATE"
-              },
-              {
-                "name": "android.permission.READ_PROFILE"
-              },
-              {
-                "name": "android.permission.READ_SYNC_SETTINGS"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
-              },
-              {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.USE_CREDENTIALS"
-              },
-              {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.WRITE_CONTACTS"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.WRITE_SYNC_SETTINGS"
-              },
-              {
-                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "com.google.android.c2dm.permission.RECEIVE"
-              },
-              {
-                "name": "com.android.vending.BILLING"
-              },
-              {
-                "name": "android.permission.REORDER_TASKS"
-              },
-              {
-                "name": "org.thoughtcrime.securesms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "com.sec.android.provider.badge.permission.READ"
-              },
-              {
-                "name": "com.sec.android.provider.badge.permission.WRITE"
-              },
-              {
-                "name": "com.htc.launcher.permission.READ_SETTINGS"
-              },
-              {
-                "name": "com.htc.launcher.permission.UPDATE_SHORTCUT"
-              },
-              {
-                "name": "com.sonyericsson.home.permission.BROADCAST_BADGE"
-              },
-              {
-                "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
-              },
-              {
-                "name": "com.anddoes.launcher.permission.UPDATE_COUNT"
-              },
-              {
-                "name": "com.majeur.launcher.permission.UPDATE_BADGE"
-              },
-              {
-                "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
-              },
-              {
-                "name": "com.huawei.android.launcher.permission.READ_SETTINGS"
-              },
-              {
-                "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"
-              },
-              {
-                "name": "android.permission.READ_APP_BADGE"
-              },
-              {
-                "name": "com.oppo.launcher.permission.READ_SETTINGS"
-              },
-              {
-                "name": "com.oppo.launcher.permission.WRITE_SETTINGS"
-              },
-              {
-                "name": "me.everything.badger.permission.BADGE_COUNT_READ"
-              },
-              {
-                "name": "me.everything.badger.permission.BADGE_COUNT_WRITE"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "Signal uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
-            },
-            "NonFreeNet": {
-              "en-US": "Uses its own proprietary server as well as other proprietary cloud services.\n"
-            },
-            "TetheredNet": {
-              "en-US": "Tied to Signal Foundation's infrastructure.\n"
-            }
-          }
-        },
-        "9b85c677409446443403b7469b16d555dbccf8f71618eb97229ec751c40c8fc2": {
-          "added": 1772094962000,
-          "file": {
-            "name": "/Signal-Android-website-prod-universal-release-8.0.4.apk",
-            "sha256": "9b85c677409446443403b7469b16d555dbccf8f71618eb97229ec751c40c8fc2",
-            "size": 110661985,
-            "ipfsCIDv1": "bafybeifgz47rt6cxinddxafqdorrjysrxhr7tzco4gemlbl5ur5dkumiqe"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "8.0.4",
-            "versionCode": 165601,
             "features": [
               {
                 "name": "android.hardware.camera"
