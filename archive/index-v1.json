@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1781246751555,
+    "timestamp": 1781771208510,
     "version": 30000,
     "maxage": 14,
     "name": "Guardian Project Archive",
@@ -11,7 +11,10 @@
       "https://s3.amazonaws.com/guardianproject/fdroid/archive",
       "https://s3.dualstack.us-east-1.amazonaws.com/guardianproject/fdroid/archive",
       "https://objectstorage.eu-amsterdam-1.oraclecloud.com/n/axdsgxwpq5rg/b/guardianproject/o/fdroid/archive",
-      "https://www.gpdroid.org/fdroid/archive"
+      "https://www.gpdroid.org/fdroid/archive",
+      "https://guardianproject.gitlab.io/fdroid-repo/fdroid/archive",
+      "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/archive",
+      "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/archive"
     ]
   },
   "requests": {
@@ -202,14 +205,14 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionCode": "401332306",
+      "suggestedVersionCode": "401451648",
       "issueTracker": "https://bugzilla.mozilla.org/",
       "license": "MPL-2.0",
       "sourceCode": "https://hg.mozilla.org/mozilla-central/",
       "webSite": "https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/",
       "added": 1753944571000,
       "packageName": "org.mozilla.klar",
-      "lastUpdated": 1781075527389,
+      "lastUpdated": 1781771096397,
       "localized": {
         "en-US": {
           "name": "Firefox Klar"
@@ -582,14 +585,14 @@
         "Internet",
         "Phone & SMS"
       ],
-      "suggestedVersionCode": "169202",
+      "suggestedVersionCode": "169701",
       "license": "AGPL-3.0-only",
       "sourceCode": "https://github.com/signalapp/Signal-Android",
       "translation": "https://explore.transifex.com/signalapp/",
       "webSite": "https://signal.org/",
       "added": 1769237413000,
       "packageName": "org.thoughtcrime.securesms",
-      "lastUpdated": 1781161215110,
+      "lastUpdated": 1781771096397,
       "localized": {
         "en-US": {
           "name": "Signal"
@@ -674,7 +677,7 @@
         "Navigation",
         "Guardian Project"
       ],
-      "suggestedVersionCode": "2016159606",
+      "suggestedVersionCode": "2016161742",
       "donate": "https://donate.torproject.org/",
       "issueTracker": "https://gitlab.torproject.org/tpo/applications/tor-browser/issues",
       "license": "MPL-2.0",
@@ -684,7 +687,7 @@
       "translation": "https://hosted.weblate.org/projects/tor/tor-browser/",
       "added": 1760597346000,
       "packageName": "org.torproject.torbrowser",
-      "lastUpdated": 1780643001792
+      "lastUpdated": 1781771096397
     },
     {
       "allowedAPKSigningKeys": [
@@ -7505,6 +7508,151 @@
     ],
     "org.mozilla.klar": [
       {
+        "added": 1779865373556,
+        "apkName": "org.mozilla.klar_401451648.apk",
+        "hash": "8ae11b0c8942dca96e6e5d956b19e9b749d5315a2a2af92d617c3eb7856303be",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "org.mozilla.klar",
+        "sig": "ee26ef669f39d8ee1945d36297f907de",
+        "signer": "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc",
+        "size": 111075646,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "org.mozilla.klar.permission.RECEIVE_DOWNLOAD_BROADCAST",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "org.mozilla.klar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ]
+        ],
+        "versionCode": 401451648,
+        "versionName": "151.0.2"
+      },
+      {
         "added": 1779346527327,
         "apkName": "org.mozilla.klar_401332306.apk",
         "hash": "734ed8edc43459c867ce0cb9cadd4974e593e526fe5d84186f6fc0ede52d71f2",
@@ -12291,6 +12439,343 @@
       }
     ],
     "org.thoughtcrime.securesms": [
+      {
+        "added": 1780383349995,
+        "apkName": "Signal-Android-website-prod-universal-release-8.12.4.apk",
+        "features": [
+          "android.hardware.camera"
+        ],
+        "hash": "274f2ac483a3559ad2773d2529671481ea70207ad32cf2aa58202f5938bf3adc",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "org.thoughtcrime.securesms",
+        "sig": "4685187b2fceb9e4d3946ae7fffb5fe6",
+        "signer": "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26",
+        "size": 114913564,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION",
+            null
+          ],
+          [
+            "org.thoughtcrime.securesms.ACCESS_SECRETS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NOTIFICATION_POLICY",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.AUTHENTICATE_ACCOUNTS",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.BROADCAST_STICKY",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.DISABLE_KEYGUARD",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_PHONE_CALL",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING",
+            null
+          ],
+          [
+            "android.permission.GET_ACCOUNTS",
+            null
+          ],
+          [
+            "android.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.MANAGE_OWN_CALLS",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.NEARBY_WIFI_DEVICES",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.RAISED_THREAD_PRIORITY",
+            null
+          ],
+          [
+            "android.permission.READ_CALL_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_IMAGES",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_NUMBERS",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_PROFILE",
+            null
+          ],
+          [
+            "android.permission.READ_SYNC_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_CREDENTIALS",
+            null
+          ],
+          [
+            "android.permission.USE_FULL_SCREEN_INTENT",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.WRITE_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.WRITE_SYNC_SETTINGS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_CONNECT",
+            null
+          ],
+          [
+            "org.thoughtcrime.securesms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.REORDER_TASKS",
+            null
+          ],
+          [
+            "com.sec.android.provider.badge.permission.READ",
+            null
+          ],
+          [
+            "com.sec.android.provider.badge.permission.WRITE",
+            null
+          ],
+          [
+            "com.htc.launcher.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "com.htc.launcher.permission.UPDATE_SHORTCUT",
+            null
+          ],
+          [
+            "com.sonyericsson.home.permission.BROADCAST_BADGE",
+            null
+          ],
+          [
+            "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+            null
+          ],
+          [
+            "com.anddoes.launcher.permission.UPDATE_COUNT",
+            null
+          ],
+          [
+            "com.majeur.launcher.permission.UPDATE_BADGE",
+            null
+          ],
+          [
+            "com.huawei.android.launcher.permission.CHANGE_BADGE",
+            null
+          ],
+          [
+            "com.huawei.android.launcher.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.READ_APP_BADGE",
+            null
+          ],
+          [
+            "com.oppo.launcher.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "com.oppo.launcher.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "me.everything.badger.permission.BADGE_COUNT_READ",
+            null
+          ],
+          [
+            "me.everything.badger.permission.BADGE_COUNT_WRITE",
+            null
+          ]
+        ],
+        "versionCode": 169701,
+        "versionName": "8.12.4"
+      },
       {
         "added": 1779865373556,
         "apkName": "Signal-Android-website-prod-universal-release-8.11.5.apk",
@@ -20150,6 +20635,586 @@
     ],
     "org.torproject.torbrowser": [
       {
+        "added": 1779346527327,
+        "apkName": "tor-browser-android-x86_64-15.0.14.apk",
+        "hash": "ded952909edcb4657c7b9d8fd36d3e129a6f20689b0cd0edb376d1b35ad25c54",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "x86_64"
+        ],
+        "packageName": "org.torproject.torbrowser",
+        "sig": "31e36334f34e126a0e0d1efd29b84fb2",
+        "signer": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8",
+        "size": 112436623,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            26
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+            null
+          ],
+          [
+            "com.adjust.preinstall.READ_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "org.torproject.torbrowser.permission.RECEIVE_DOWNLOAD_BROADCAST",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2016161742,
+        "versionName": "15.0.14 (140.11.0esr)"
+      },
+      {
+        "added": 1779346527327,
+        "apkName": "tor-browser-android-x86-15.0.14.apk",
+        "hash": "b0f86d752427dda2b49f741a2802e192688a09502aa54a78b35864d9b00cb9de",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "x86"
+        ],
+        "packageName": "org.torproject.torbrowser",
+        "sig": "31e36334f34e126a0e0d1efd29b84fb2",
+        "signer": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8",
+        "size": 113796441,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            26
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+            null
+          ],
+          [
+            "com.adjust.preinstall.READ_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "org.torproject.torbrowser.permission.RECEIVE_DOWNLOAD_BROADCAST",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2016161740,
+        "versionName": "15.0.14 (140.11.0esr)"
+      },
+      {
+        "added": 1779346527327,
+        "apkName": "tor-browser-android-aarch64-15.0.14.apk",
+        "hash": "79a6627c546cdbc8b1890cd241bb85f251fc287cfddba76293846a08dd562d23",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "org.torproject.torbrowser",
+        "sig": "31e36334f34e126a0e0d1efd29b84fb2",
+        "signer": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8",
+        "size": 111040050,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            26
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+            null
+          ],
+          [
+            "com.adjust.preinstall.READ_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "org.torproject.torbrowser.permission.RECEIVE_DOWNLOAD_BROADCAST",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2016161738,
+        "versionName": "15.0.14 (140.11.0esr)"
+      },
+      {
+        "added": 1779346527327,
+        "apkName": "tor-browser-android-armv7-15.0.14.apk",
+        "hash": "f5ed9860b16f03205176758e5bf37ff2ba06b88acfaf5aa014003615935020c8",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "org.torproject.torbrowser",
+        "sig": "31e36334f34e126a0e0d1efd29b84fb2",
+        "signer": "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8",
+        "size": 108766808,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            26
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+            null
+          ],
+          [
+            "com.adjust.preinstall.READ_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "org.torproject.torbrowser.permission.RECEIVE_DOWNLOAD_BROADCAST",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "org.torproject.torbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2016161736,
+        "versionName": "15.0.14 (140.11.0esr)"
+      },
+      {
         "added": 1778223790931,
         "apkName": "tor-browser-android-x86_64-15.0.13.apk",
         "hash": "4188a692220ddac619ed596eaa18095215760ee4b69a76a970f2ed11605322f1",
@@ -26694,6 +27759,304 @@
           ]
         ],
         "versionCode": 2016159402,
+        "versionName": "16.0a6 (150.0a1)"
+      },
+      {
+        "added": 1778185687407,
+        "apkName": "tor-browser-android-aarch64-16.0a6.apk",
+        "hash": "7891b8b5dd4ae99469cef331a344be7cb529a3a4358ad5c423243230e9fab280",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "org.torproject.torbrowser_alpha",
+        "sig": "779dcbfee750f281e0a8574e05216e04",
+        "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
+        "size": 115098526,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            26
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+            null
+          ],
+          [
+            "com.adjust.preinstall.READ_PERMISSION",
+            null
+          ],
+          [
+            "org.torproject.torbrowser_alpha.permission.PROFILER_INTERNAL",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "org.torproject.torbrowser_alpha.permission.RECEIVE_DOWNLOAD_BROADCAST",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "org.torproject.torbrowser_alpha.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2016159402,
+        "versionName": "16.0a6 (150.0a1)"
+      },
+      {
+        "added": 1778185687407,
+        "apkName": "tor-browser-android-armv7-16.0a6.apk",
+        "hash": "a2f03e91f9560c26caa63f7df4d859dcb8bf84bd98d10eb3364701769d2df859",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "org.torproject.torbrowser_alpha",
+        "sig": "779dcbfee750f281e0a8574e05216e04",
+        "signer": "15f760b41acbe4783e667102c9f67119be2af62fab07763f9d57f01e5e1074e1",
+        "size": 113812416,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            26
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN",
+            null
+          ],
+          [
+            "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+            null
+          ],
+          [
+            "com.adjust.preinstall.READ_PERMISSION",
+            null
+          ],
+          [
+            "org.torproject.torbrowser_alpha.permission.PROFILER_INTERNAL",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "org.torproject.torbrowser_alpha.permission.RECEIVE_DOWNLOAD_BROADCAST",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "org.torproject.torbrowser_alpha.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2016159400,
         "versionName": "16.0a6 (150.0a1)"
       },
       {
