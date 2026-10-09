@@ -18,36 +18,102 @@
       {
         "countryCode": "US",
         "isPrimary": true,
-        "url": "https://guardianproject.info/fdroid/repo"
+        "url": "https://guardianproject.info/fdroid/repo",
+        "dnsA": [
+          "204.19.241.160"
+        ]
       },
       {
         "url": "https://s3.amazonaws.com/guardianproject/fdroid/repo",
-        "countryCode": "US"
+        "countryCode": "US",
+        "dnsA": [
+          "16.15.199.145",
+          "16.15.207.225",
+          "16.15.245.162",
+          "16.15.246.22",
+          "16.182.101.120",
+          "52.217.164.96",
+          "52.217.235.232",
+          "54.231.167.88"
+        ]
       },
       {
         "url": "https://s3.dualstack.us-east-1.amazonaws.com/guardianproject/fdroid/repo",
-        "countryCode": "US"
+        "countryCode": "US",
+        "dnsA": [
+          "16.15.183.30",
+          "16.15.212.201",
+          "16.15.228.121",
+          "16.15.244.135",
+          "16.15.244.67",
+          "52.216.53.40",
+          "52.217.227.184",
+          "52.217.81.6"
+        ],
+        "dnsAAAA": [
+          "2600:1f60:8080::100f:c71e",
+          "2600:1f60:80a0:1::100f:f45f",
+          "2600:1f60:80a0:1::100f:f533",
+          "2600:1f60:80a0:1::100f:f5d5",
+          "2600:1f60:80a0:1::100f:f64a",
+          "2600:1f60:80c0:1::100f:d512",
+          "2600:1f60:80c0:1::100f:d792",
+          "2600:1f61:80a0::100f:a0a2"
+        ]
       },
       {
         "url": "https://objectstorage.eu-amsterdam-1.oraclecloud.com/n/axdsgxwpq5rg/b/guardianproject/o/fdroid/repo",
-        "countryCode": "NL"
+        "countryCode": "NL",
+        "dnsA": [
+          "134.70.104.1"
+        ]
       },
       {
         "url": "https://www.gpdroid.org/fdroid/repo",
-        "countryCode": "DE"
+        "countryCode": "DE",
+        "dnsA": [
+          "188.40.186.213"
+        ],
+        "dnsAAAA": [
+          "2a01:4f8:231:4494::15"
+        ]
       },
       {
-        "url": "https://guardianproject.gitlab.io/fdroid-repo/fdroid/repo"
+        "url": "https://guardianproject.gitlab.io/fdroid-repo/fdroid/repo",
+        "dnsA": [
+          "35.185.44.232"
+        ],
+        "dnsAAAA": [
+          "2600:1901:0:7b8a::"
+        ]
       },
       {
-        "url": "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/repo"
+        "url": "https://gitlab.com/guardianproject/fdroid-repo/-/raw/master/fdroid/repo",
+        "dnsA": [
+          "172.65.251.78"
+        ],
+        "dnsAAAA": [
+          "2606:4700:90:0:f22e:fbec:5bed:a9b9"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/guardianproject/fdroid-repo/master/fdroid/repo",
-        "countryCode": "US"
+        "countryCode": "US",
+        "dnsA": [
+          "185.199.108.133",
+          "185.199.109.133",
+          "185.199.110.133",
+          "185.199.111.133"
+        ],
+        "dnsAAAA": [
+          "2606:50c0:8000::154",
+          "2606:50c0:8001::154",
+          "2606:50c0:8002::154",
+          "2606:50c0:8003::154"
+        ]
       }
     ],
-    "timestamp": 1791540225219,
+    "timestamp": 1791541172292,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -1685,7 +1751,7 @@
     },
     "org.mozilla.klar": {
       "metadata": {
-        "added": 1753944571000,
+        "added": 1768373559000,
         "categories": [
           "Internet"
         ],
@@ -2000,12 +2066,141 @@
               "en-US": "Firefox Klar uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
             }
           }
+        },
+        "c17cde5ad349bdb57aa145a3d6201691398cde99714a10b5b53c0c211c4fbacc": {
+          "added": 1790146660105,
+          "file": {
+            "name": "/org.mozilla.klar_402641610.apk",
+            "sha256": "c17cde5ad349bdb57aa145a3d6201691398cde99714a10b5b53c0c211c4fbacc",
+            "size": 113727893,
+            "ipfsCIDv1": "bafybeih4367ot4zkj6pmm5imvcmrd54xe6pbg5cwacxijjtqylz6esfqfi"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "156.0.1",
+            "versionCode": 402641610,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_LOCAL_NETWORK"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "org.mozilla.klar.permission.RECEIVE_DOWNLOAD_BROADCAST"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.mozilla.klar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "Firefox Klar uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
+            }
+          }
         }
       }
     },
     "org.thoughtcrime.securesms": {
       "metadata": {
-        "added": 1772094962000,
+        "added": 1785308911571,
         "categories": [
           "Internet",
           "Phone & SMS"
@@ -2364,6 +2559,280 @@
             ],
             "versionName": "8.28.4",
             "versionCode": 175501,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "org.thoughtcrime.securesms.ACCESS_SECRETS"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.BROADCAST_STICKY"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.DISABLE_KEYGUARD"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_CAMERA"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_PHONE_CALL"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MANAGE_OWN_CALLS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.NEARBY_WIFI_DEVICES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RAISED_THREAD_PRIORITY"
+              },
+              {
+                "name": "android.permission.READ_CALL_STATE"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.READ_PHONE_NUMBERS"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_PROFILE"
+              },
+              {
+                "name": "android.permission.READ_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.WRITE_SYNC_SETTINGS"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "org.thoughtcrime.securesms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.READ"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.WRITE"
+              },
+              {
+                "name": "com.htc.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.htc.launcher.permission.UPDATE_SHORTCUT"
+              },
+              {
+                "name": "com.sonyericsson.home.permission.BROADCAST_BADGE"
+              },
+              {
+                "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+              },
+              {
+                "name": "com.anddoes.launcher.permission.UPDATE_COUNT"
+              },
+              {
+                "name": "com.majeur.launcher.permission.UPDATE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_APP_BADGE"
+              },
+              {
+                "name": "com.oppo.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.oppo.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_READ"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_WRITE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "Signal uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
+            },
+            "NonFreeNet": {
+              "en-US": "Uses its own proprietary server as well as other proprietary cloud services.\n"
+            },
+            "TetheredNet": {
+              "en-US": "Tied to Signal Foundation's infrastructure.\n"
+            }
+          }
+        },
+        "46cd670d2019db589a6a5aa0b5c70758ba8f4d1b1014c184b3f7678dada1dde5": {
+          "added": 1789115581526,
+          "file": {
+            "name": "/Signal-Android-website-prod-universal-release-8.26.4.apk",
+            "sha256": "46cd670d2019db589a6a5aa0b5c70758ba8f4d1b1014c184b3f7678dada1dde5",
+            "size": 122423430,
+            "ipfsCIDv1": "bafybeiaw63rytxfa73c5rijzig5kkjw2meox7q7foc42k3wwggg2ifj2qa"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "8.26.4",
+            "versionCode": 174801,
             "usesSdk": {
               "minSdkVersion": 23,
               "targetSdkVersion": 36
@@ -5208,7 +5677,7 @@
     },
     "org.torproject.torbrowser": {
       "metadata": {
-        "added": 1768373577000,
+        "added": 1787122643506,
         "categories": [
           "Security",
           "Browser",
@@ -6335,7 +6804,7 @@
     },
     "org.torproject.torbrowser_alpha": {
       "metadata": {
-        "added": 1765954201000,
+        "added": 1787986457684,
         "categories": [
           "Security",
           "Browser",
