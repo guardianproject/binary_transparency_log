@@ -27,38 +27,38 @@
         "url": "https://s3.amazonaws.com/guardianproject/fdroid/archive",
         "countryCode": "US",
         "dnsA": [
-          "16.15.213.100",
-          "16.15.223.46",
-          "16.15.238.231",
-          "16.15.246.129",
-          "16.15.254.101",
-          "52.216.28.222",
-          "52.216.60.16",
-          "52.217.192.184"
+          "16.15.207.79",
+          "16.15.212.46",
+          "16.15.245.75",
+          "16.182.68.184",
+          "52.217.125.96",
+          "52.217.194.160",
+          "52.217.71.102",
+          "54.231.226.128"
         ]
       },
       {
         "url": "https://s3.dualstack.us-east-1.amazonaws.com/guardianproject/fdroid/archive",
         "countryCode": "US",
         "dnsA": [
-          "16.15.199.179",
-          "16.15.236.113",
-          "16.15.245.199",
-          "16.15.246.13",
-          "16.15.255.17",
-          "16.182.34.88",
-          "52.217.135.200",
-          "52.217.226.248"
+          "16.15.213.162",
+          "16.15.228.162",
+          "16.15.229.170",
+          "16.15.236.171",
+          "16.15.245.102",
+          "16.182.64.72",
+          "54.231.130.40",
+          "54.231.164.248"
         ],
         "dnsAAAA": [
-          "2600:1f60:8060:1::100f:fc40",
-          "2600:1f60:8060:1::100f:fd22",
-          "2600:1f60:80c0:1::100f:d42c",
-          "2600:1f60:80c0:1::100f:d4ad",
-          "2600:1f60:80c0:1::100f:d4b5",
-          "2600:1f60:80c0:1::100f:d649",
-          "2600:1f61:80c1::100f:a520",
-          "2600:1f61:80c2::100f:a614"
+          "2600:1f60:8060:1::100f:fccb",
+          "2600:1f60:8060::100f:b7c9",
+          "2600:1f60:80a0:1::100f:f59a",
+          "2600:1f60:80a0:1::100f:f5e2",
+          "2600:1f60:80c0:1::100f:d52d",
+          "2600:1f61:8023::100f:af28",
+          "2600:1f61:80a3::100f:a34f",
+          "2600:1f61:80c2::100f:a6e8"
         ]
       },
       {
@@ -113,7 +113,7 @@
         ]
       }
     ],
-    "timestamp": 1794296047817,
+    "timestamp": 1794379937242,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -7228,7 +7228,7 @@
           "Internet"
         ],
         "issueTracker": "https://bugzilla.mozilla.org/",
-        "lastUpdated": 1793773688694,
+        "lastUpdated": 1794379925120,
         "license": "MPL-2.0",
         "sourceCode": "https://hg.mozilla.org/mozilla-central/",
         "webSite": "https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/",
@@ -7240,6 +7240,135 @@
         "preferredSigner": "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
       },
       "versions": {
+        "187e3fcd3a7d2bbe26a7a96e526f5d68dbd938800cf405847624d2acbf9a924c": {
+          "added": 1792654866976,
+          "file": {
+            "name": "/org.mozilla.klar_402940254.apk",
+            "sha256": "187e3fcd3a7d2bbe26a7a96e526f5d68dbd938800cf405847624d2acbf9a924c",
+            "size": 114661965,
+            "ipfsCIDv1": "bafybeievoekpru6ozyf6epm3c35pelw3qwaz4cdl3csfohhmqwpgaa4xji"
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "158.0.2",
+            "versionCode": 402940254,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "6203a473be36d64ee37f87fa500edbc79eab930610ab9b9fa4ca7d5c1f1b4ffc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_LOCAL_NETWORK"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN"
+              },
+              {
+                "name": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "org.mozilla.klar.permission.RECEIVE_DOWNLOAD_BROADCAST"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "org.mozilla.klar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeComp": {
+              "en-US": "Firefox Klar uses a number of proprietary Google Play Services libraries, such as Google In-App Payments, Firebase Cloud Messaging and others.\n"
+            }
+          }
+        },
         "9e00484b20a056c86a762b036b24e50e5dcc7c377cb9065b4daa24fe01a7d2f2": {
           "added": 1792566200852,
           "file": {
