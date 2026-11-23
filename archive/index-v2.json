@@ -27,38 +27,38 @@
         "url": "https://s3.amazonaws.com/guardianproject/fdroid/archive",
         "countryCode": "US",
         "dnsA": [
-          "16.15.156.229",
-          "16.15.207.239",
-          "16.15.228.209",
-          "52.216.59.160",
-          "52.217.118.208",
-          "52.217.131.88",
-          "52.217.206.16",
-          "52.217.227.48"
+          "16.15.157.113",
+          "16.15.199.105",
+          "16.15.207.21",
+          "16.15.214.76",
+          "52.216.53.104",
+          "52.216.63.64",
+          "52.217.133.24",
+          "54.231.135.208"
         ]
       },
       {
         "url": "https://s3.dualstack.us-east-1.amazonaws.com/guardianproject/fdroid/archive",
         "countryCode": "US",
         "dnsA": [
-          "16.15.160.243",
-          "16.15.166.176",
-          "16.15.175.163",
-          "16.15.183.30",
-          "16.15.236.133",
-          "16.15.254.135",
-          "16.15.255.219",
-          "52.217.204.80"
+          "16.15.236.159",
+          "16.15.246.193",
+          "52.216.200.85",
+          "52.216.38.32",
+          "52.217.116.168",
+          "52.217.123.48",
+          "52.217.137.176",
+          "54.231.136.88"
         ],
         "dnsAAAA": [
-          "2600:1f60:8020:1::100f:e409",
-          "2600:1f60:8060:1::100f:fc42",
-          "2600:1f60:8060:1::100f:fd07",
-          "2600:1f60:8060:1::100f:fdf9",
-          "2600:1f60:8080:1::100f:eee8",
-          "2600:1f60:80a0:1::100f:f42d",
-          "2600:1f60:80a0:1::100f:f5d2",
-          "2600:1f61:80c2::100f:a6b8"
+          "2600:1f60:8020:1::100f:e4f2",
+          "2600:1f60:8060:1::100f:fe5c",
+          "2600:1f60:8080::100f:c741",
+          "2600:1f60:80c0:1::100f:d49f",
+          "2600:1f60:80c0:1::100f:d67a",
+          "2600:1f60:80c0::100f:bf79",
+          "2600:1f61:80a3::100f:a331",
+          "2600:1f61:80a3::100f:a3c4"
         ]
       },
       {
@@ -113,7 +113,7 @@
         ]
       }
     ],
-    "timestamp": 1795415309591,
+    "timestamp": 1795425591601,
     "antiFeatures": {
       "NonFreeComp": {
         "description": {
@@ -2298,14 +2298,36 @@
         ],
         "icon": {
           "en-US": {
-            "name": "/icons/info.guardianproject.orfox.4.png",
-            "sha256": "bafb08c7e5acc9120c7edd4054a82750d8fa3a0dea57d0e4233b09d882a47666",
-            "size": 2321
+            "name": "/icons/info.guardianproject.orfox.17.png",
+            "sha256": "ad2988d671f26c032ac23a34383525a0ddd1ef3d38c0818ba201b4656f83d261",
+            "size": 3045
           }
         },
         "preferredSigner": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
       },
       "versions": {
+        "c43a52e31e0ecc00d12998a1676a4d3a30fdf1774aa81611b2f3ff5f75300f42": {
+          "added": 1596672000000,
+          "file": {
+            "name": "/Orfox-Final-RIP-v17.apk",
+            "sha256": "c43a52e31e0ecc00d12998a1676a4d3a30fdf1774aa81611b2f3ff5f75300f42",
+            "size": 1602513,
+            "ipfsCIDv1": "bafybeicv5ew7qbbrayfywyvuplv6ld55fldomlbpt2vbms5trutpp37knm"
+          },
+          "manifest": {
+            "versionName": "Orfox-Final-RIP",
+            "versionCode": 17,
+            "usesSdk": {
+              "minSdkVersion": 15,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
+              ]
+            }
+          }
+        },
         "d43032e79c7c31cabb194b8c1c4b14fbf73dd2cfda958ba415879ddf2f38ace2": {
           "added": 1480636800000,
           "file": {
@@ -25065,203 +25087,11 @@
         "authorWebSite": "https://proofmode.org/",
         "liberapay": "GuardianProject",
         "name": {
-          "en-US": "ProofMode: Verified Visuals"
+          "en-US": "Proofmode: Verified Visuals"
         },
         "preferredSigner": "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
       },
       "versions": {
-        "dbfcab0679fc4f212bd4dea13b7e6f19ceb692ea3f9b9129274b2acf695ba621": {
-          "added": 1741116126000,
-          "file": {
-            "name": "/proofmode-latest.apk",
-            "sha256": "dbfcab0679fc4f212bd4dea13b7e6f19ceb692ea3f9b9129274b2acf695ba621",
-            "size": 43504200,
-            "ipfsCIDv1": "bafybeig7nwogybhdcoiaivbs2phkdhiineby4iybthvsmzzk4caueawt5e"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi",
-              "armeabi-v7a",
-              "mips",
-              "mips64",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "2.5.0-RC-1",
-            "versionCode": 250301,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.READ_MEDIA_IMAGES"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VIDEO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.ACCESS_MEDIA_LOCATION"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "android.permission.ACCESS_COARSE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_FINE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_PHONE_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.GET_ACCOUNTS"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "org.witness.proofmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "ProofMode uses a number of proprietary Google Play Services libraries, such as Play Integrity (SafetyNet), FusionLocationProvider and others, to provide extra assurances about the provenance of media files generated on an Android device.\n"
-            }
-          }
-        },
-        "b08711cd3a1a05a29e0b487e9518d2c107f2594d2707fa4c645bae9a87dbbcbf": {
-          "added": 1707858985000,
-          "file": {
-            "name": "/ProofMode-2.2.0-RC-2-artwork-universal-release.apk",
-            "sha256": "b08711cd3a1a05a29e0b487e9518d2c107f2594d2707fa4c645bae9a87dbbcbf",
-            "size": 49883162,
-            "ipfsCIDv1": "bafybeicjlskanerc34idviunmyiuuilxsd7nrb3q3ssgdlutlqcvyyd2va"
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi",
-              "armeabi-v7a",
-              "mips",
-              "mips64",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "2.2.0-RC-2",
-            "versionCode": 220302,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.READ_MEDIA_IMAGES"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VIDEO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.ACCESS_MEDIA_LOCATION"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "android.permission.ACCESS_COARSE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_FINE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_PHONE_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.GET_ACCOUNTS"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "org.witness.proofmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeComp": {
-              "en-US": "ProofMode uses a number of proprietary Google Play Services libraries, such as Play Integrity (SafetyNet), FusionLocationProvider and others, to provide extra assurances about the provenance of media files generated on an Android device.\n"
-            }
-          }
-        },
         "807eba786ba8578b8252a7adf47f3ea19cc2959b805086f25b942052ab29fd1c": {
           "added": 1684963277000,
           "file": {
